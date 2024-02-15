@@ -1,0 +1,44 @@
+# @Author: Roni Laukkarinen
+# @Date:   2023-02-15 17:39:37
+# @Last Modified by:   Roni Laukkarinen
+# @Last Modified time: 2023-03-03 20:00:35
+name: JS
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    name: Test JS
+    runs-on: ubuntu-20.04
+
+    steps:
+    - name: Checkout the repository
+      uses: actions/checkout@v3
+
+    - name: Read .nvmrc
+      run: echo ::set-output name=NVMRC::$(cat .nvmrc)
+      id: nvm
+
+    - name: Setup node
+      uses: actions/setup-node@v1
+      with:
+        node-version: '${{ steps.nvm.outputs.NVMRC }}'
+
+    - name: Install packages
+      run: |
+        rm package.json
+        wget https://raw.githubusercontent.com/digitoimistodude/devpackages/master/package.json
+        sed -i 's/PROJECTNAME/air-light/g' package.json
+        npm i
+
+    - name: Install air-light related packages
+      run: |
+        npm i airbnb-browser-shims@^3.3.0 --save
+        npm i moveto@^1.8.2 --save
+        npm i reframe.js@^4.0.0 --save
+
+    - name: Run eslint
+      run: |
+        npm ci
+        npm link eslint --ignore-scripts
+        npx eslint .
