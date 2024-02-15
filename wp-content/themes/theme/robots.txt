@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /
+Sitemap: https://web.org/page-sitemap.xml // TODO: Change sitemap url

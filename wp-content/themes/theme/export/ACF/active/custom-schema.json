@@ -1,0 +1,62 @@
+[
+  {
+    "key": "group_6343f0403060b",
+    "title": "Custom Schema",
+    "fields": [
+      {
+        "key": "field_6343f041e3acf",
+        "label": "Custom schema",
+        "name": "custom_schema",
+        "type": "textarea",
+        "instructions": "This will add a custom schema in head of the page,\r\nAccepted schema type is <b>JSON-LD<\/b>\r\nTest your schema before submitting it -> <a href=\"https:\/\/search.google.com\/test\/rich-results\">Google Test Schema<\/a>",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "",
+        "maxlength": "",
+        "rows": "",
+        "placeholder": "",
+        "new_lines": ""
+      }
+    ],
+    "location": [
+      [
+        {
+          "param": "post_type",
+          "operator": "==",
+          "value": "post"
+        },
+        {
+          "param": "current_user_role",
+          "operator": "==",
+          "value": "administrator"
+        }
+      ],
+      [
+        {
+          "param": "post_type",
+          "operator": "==",
+          "value": "page"
+        },
+        {
+          "param": "current_user_role",
+          "operator": "==",
+          "value": "administrator"
+        }
+      ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0
+  }
+]

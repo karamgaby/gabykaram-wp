@@ -1,0 +1,32 @@
+@import './mixins/media-breakpoints';
+
+@mixin placeholder($color, $font-size, $font) {
+  &::-webkit-input-placeholder {
+    font-size: $font-size;
+    color: $color;
+    font-family: $font;
+  }
+  &:-moz-placeholder {
+    font-size: $font-size;
+    color: $color;
+    font-family: $font;
+  }
+  &::-moz-placeholder {
+    font-size: $font-size;
+    color: $color;
+    font-family: $font;
+  }
+  &:-ms-input-placeholder {
+    font-size: $font-size;
+    color: $color;
+    font-family: $font;
+  }
+}
+@mixin lineClamp($line: 1) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: #{$line}; /* number of lines to show */
+  line-clamp: #{$line};
+  -webkit-box-orient: vertical;
+}

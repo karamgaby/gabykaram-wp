@@ -1,0 +1,33 @@
+$base_spacing: 4px;
+$spacers: (
+  0: 0,
+  4: $base_spacing * 1,
+  8: $base_spacing * 2,
+  12: $base_spacing * 3,
+  16: $base_spacing * 4,
+  24: $base_spacing * 6,
+  32: $base_spacing * 8,
+  40: $base_spacing * 10,
+  48: $base_spacing * 12,
+  56: $base_spacing * 14,
+  64: $base_spacing * 16,
+  80: $base_spacing * 20,
+  96: $base_spacing * 24,
+  128: $base_spacing * 32,
+  160: $base_spacing * 40,
+);
+$grid-gutter-width: 2rem;
+$link-color: inherit;
+$link-hover-color: inherit;
+$enable-negative-margins: true;
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+  xxxl: 1600px,
+);
+$modal-md: 676px;
+$hr-opacity: 1;

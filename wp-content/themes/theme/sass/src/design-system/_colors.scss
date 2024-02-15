@@ -1,0 +1,13 @@
+@each $color, $values in $colors {
+  @each $color_type, $value in $values {
+    .ps-color-#{'' + $color}-#{'' + $color-type} {
+      color: $value;
+    }
+    .ps-fill-#{'' + $color}-#{'' + $color-type} {
+      fill: $value;
+    }
+    .ps-background-#{'' + $color}-#{'' + $color-type} {
+      background-color: $value;
+    }
+  }
+}

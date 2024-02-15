@@ -1,0 +1,109 @@
+.ps-input {
+  $selectors: input, select, textarea;
+  #{$selectors} {
+    border: 1px solid #bcbbcb !important;
+    border-radius: 4px !important;
+    font-family: 'Roboto' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    color: getColor(text, primary) !important;
+    &::placeholder {
+      color: getColor(text, disabled) !important;
+    }
+    &:focus,
+    &:focus-visible {
+      border: 1px solid #6ca6e8 !important;
+      box-shadow: 0px 0px 0px 4px rgba(13, 110, 253, 0.25) !important;
+      outline: none !important;
+    }
+  }
+  &.ps-input-size-large {
+    #{$selectors} {
+      font-size: 24px !important;
+      line-height: 32px !important;
+      padding: 11px 32px !important;
+    }
+  }
+  &.ps-input-size-medium {
+    #{$selectors} {
+      font-size: 18px !important;
+      line-height: 20px !important;
+      padding: 17px 24px !important;
+    }
+  }
+  .ps-input-message {
+    display: none !important;
+    @include ps-typography(helper_text);
+  }
+  &.ps-input-has-icon {
+    &.ps-input-icon-position-left {
+      #{$selectors} {
+        padding-left: 42px !important;
+      }
+      .ps-input-icon-wrapper {
+        left: 16px;
+      }
+    }
+    &.ps-input-icon-position-right {
+      #{$selectors} {
+        padding-right: 42px !important;
+      }
+      .ps-input-icon-wrapper {
+        right: 16px;
+      }
+    }
+    .ps-input-wrapper {
+      position: relative;
+      display: flex;
+
+      input:placeholder-shown {
+        ~ .ps-input-icon-wrapper {
+          svg {
+            fill: getColor(text, disabled);
+          }
+        }
+      }
+    }
+    .ps-input-icon-wrapper {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      display: flex;
+      height: 100%;
+      align-items: center;
+      z-index: 7;
+      svg {
+        fill: getColor(text, primary);
+      }
+    }
+  }
+  &.ps-input-status-error {
+    .ps-input-message {
+      display: block !important;
+      color: getColor(red, dark) !important;
+      padding-top: 4px;
+    }
+
+    #{$selectors} {
+      border-color: getColor(red, dark) !important;
+      content: '';
+      z-index: 5;
+      display: block;
+      background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTkgMTNIMTFWMTVIOVYxM1pNOSA1SDExVjExSDlWNVpNOS45OSAwQzQuNDcgMCAwIDQuNDggMCAxMEMwIDE1LjUyIDQuNDcgMjAgOS45OSAyMEMxNS41MiAyMCAyMCAxNS41MiAyMCAxMEMyMCA0LjQ4IDE1LjUyIDAgOS45OSAwWk0xMCAxOEM1LjU4IDE4IDIgMTQuNDIgMiAxMEMyIDUuNTggNS41OCAyIDEwIDJDMTQuNDIgMiAxOCA1LjU4IDE4IDEwQzE4IDE0LjQyIDE0LjQyIDE4IDEwIDE4WiIgZmlsbD0iI0I5NUI1NyIvPgo8L3N2Zz4K);
+      background-repeat: no-repeat;
+      background-position: calc(100% - 12px);
+      background-size: 20px;
+      transition: unset !important;
+      &:focus,
+      &:focus-visible {
+        box-shadow: 0 0 0 4px rgba(#dc3545, 0.5) !important;
+        outline: none !important;
+      }
+      @at-root {
+        select#{&} {
+          background-position: calc(100% - 16px);
+        }
+      }
+    }
+  }
+}

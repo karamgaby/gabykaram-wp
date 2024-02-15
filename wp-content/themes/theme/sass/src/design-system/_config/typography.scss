@@ -1,0 +1,159 @@
+$typographies: (
+  'h1': (
+    'font-weight': Bold,
+    'font-size': 62,
+    'type': Sentence,
+    'letter-spacing': -0.5px,
+    'line-height': 110%,
+    'font-family': 'SF Pro',
+  ),
+  'h2': (
+    'font-weight': Medium,
+    'font-size': 48,
+    'type': Sentence,
+    'letter-spacing': 0px,
+    'line-height': 110%,
+    'font-family': 'SF Pro',
+  ),
+  'h3': (
+    'font-weight': Medium,
+    'font-size': 34,
+    'type': Sentence,
+    'letter-spacing': 0.25px,
+    'line-height': 110%,
+    'font-family': 'SF Pro',
+  ),
+  'h4': (
+    'font-weight': Medium,
+    'font-size': 24,
+    'type': Sentence,
+    'letter-spacing': 0px,
+    'line-height': 120%,
+    'font-family': 'SF Pro',
+  ),
+  'h5': (
+    'font-weight': Medium,
+    'font-size': 20,
+    'type': Sentence,
+    'letter-spacing': 0.15px,
+    'line-height': 130%,
+    'font-family': 'SF Pro',
+  ),
+  'subtitle1': (
+    'font-weight': Semibold,
+    'font-size': 18,
+    'type': Sentence,
+    'letter-spacing': 0.15px,
+    'line-height': 175%,
+    'font-family': 'Roboto',
+  ),
+  'subtitle2': (
+    'font-weight': Semibold,
+    'font-size': 16,
+    'type': Sentence,
+    'letter-spacing': 0.1px,
+    'line-height': 157%,
+    'font-family': 'Roboto',
+  ),
+  'body1': (
+    'font-weight': Regular,
+    'font-size': 18,
+    'type': Sentence,
+    'letter-spacing': 0.15px,
+    'line-height': 150%,
+    'font-family': 'Roboto',
+  ),
+  'body2': (
+    'font-weight': Regular,
+    'font-size': 16,
+    'type': Sentence,
+    'letter-spacing': 0.15px,
+    'line-height': 150%,
+    'font-family': 'Roboto',
+  ),
+  'button_large': (
+    'font-weight': Medium,
+    'font-size': 18,
+    'type': 'Sentence',
+    'letter-spacing': 0.46px,
+    'line-height': 26px,
+    'font-family': 'Roboto',
+  ),
+  'button_medium': (
+    'font-weight': Medium,
+    'font-size': 16,
+    'type': 'Sentence',
+    'letter-spacing': 0.4px,
+    'line-height': 24px,
+    'font-family': 'Roboto',
+  ),
+  'caption': (
+    'font-weight': Regular,
+    'font-size': 14,
+    'type': Sentence,
+    'letter-spacing': 0.4px,
+    'line-height': 166%,
+    'font-family': 'Roboto',
+  ),
+  'input_label': (
+    'font-weight': Regular,
+    'font-size': 16,
+    'type': Sentence,
+    'letter-spacing': 0.15px,
+    'line-height': 12px,
+    'font-family': 'Roboto',
+  ),
+  'helper_text': (
+    'font-weight': Regular,
+    'font-size': 14,
+    'type': Sentence,
+    'letter-spacing': 0.4px,
+    'line-height': 20px,
+    'font-family': 'Roboto',
+  ),
+  'input_text': (
+    'font-weight': Regular,
+    'font-size': 16,
+    'type': Sentence,
+    'letter-spacing': 0.15px,
+    'line-height': 19px,
+    'font-family': 'Roboto',
+  ),
+  'tootlip': (
+    'font-weight': Regular,
+    'font-size': 14,
+    'type': Sentence,
+    'letter-spacing': 0.15px,
+    'line-height': 14px,
+    'font-family': 'Roboto',
+  ),
+);
+
+@mixin ps-typography($typography_key) {
+  // #{$typography_key}
+  $typography: map-get($typographies, $typography_key);
+  $font-weight: map-get($typography, 'font-weight');
+  $type: map-get($typography, 'type');
+  font-weight: getFontWeight($font-weight) !important;
+  font-size: #{map-get($typography, 'font-size')}px !important;
+  letter-spacing: #{map-get($typography, 'letter-spacing')} !important;
+  line-height: #{map-get($typography, 'line-height')} !important;
+  font-family: #{map-get($typography, 'font-family')}, sans-serif !important;
+  @if $type == 'All Caps' {
+    text-transform: uppercase !important;
+  }
+}
+@function getFontWeight($weight) {
+  @if $weight == Bold {
+    @return 600;
+  }
+  @if $weight == Semibold {
+    @return 600;
+  } @else if $weight == Medium {
+    @return 500;
+  } @else if $weight == Regular {
+    @return 400;
+  } @else {
+    @error "Property font-weight is set wrongly";
+  }
+}

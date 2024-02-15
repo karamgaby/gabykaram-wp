@@ -1,0 +1,19 @@
+header {
+  min-height: 88px;
+  display: flex;
+  align-items: center;
+  .ps-btn.ps-btn-variant-navigation {
+    font-weight: 400 !important;
+    &.ps-btn-status-active,
+    &:focus,
+    &:hover {
+      font-weight: 800 !important;
+    }
+  }
+}
+
+@include media-breakpoint-smaller(lg) {
+  header {
+    min-height: 64px;
+  }
+}

@@ -1,0 +1,59 @@
+.ps-checkbox {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  --checkbox-color: #{getColor(text, secondary)};
+  &.ps-checkbox-color-primary {
+    --checkbox-color: #{getColor(primary, main)};
+  }
+  &.ps-checkbox-color-secondary {
+    --checkbox-color: #{getColor(secondary, main)};
+  }
+  @include ps-typography(helper_text);
+  input[type='checkbox'] {
+    position: absolute;
+    left: -1000000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    & ~ * {
+      cursor: pointer;
+    }
+    & ~ .ps-checkbox-visual {
+      display: inline-flex;
+      padding: 8px;
+      .ps-checkbox-visual-filled {
+        display: none;
+      }
+      .ps-checkbox-visual-blank {
+        svg {
+          stroke: getColor(text, secondary);
+        }
+      }
+      svg {
+        fill: var(--checkbox-color);
+      }
+    }
+    &:checked ~ .ps-checkbox-visual {
+      .ps-checkbox-visual-filled {
+        display: block;
+      }
+      .ps-checkbox-visual-blank {
+        display: none;
+      }
+    }
+    &:disabled {
+      & ~ * {
+        cursor: not-allowed;
+      }
+      & ~ .ps-checkbox-visual {
+        .ps-checkbox-visual-filled {
+          svg {
+            fill: getColor(text, disabled);
+          }
+        }
+      }
+    }
+  }
+}

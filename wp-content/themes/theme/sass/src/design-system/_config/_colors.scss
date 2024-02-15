@@ -1,0 +1,49 @@
+// color variables used in the website
+$colors: (
+  text: (
+    primary: #141140,
+    secondary: #585869,
+    disabled: #9e9ead,
+    background: #f8f8fa,
+    hint: #f8f8fa,
+  ),
+  primary: (
+    main: #0fb0be,
+    dark: #14a5b1,
+    light: #76d7de,
+    background: #dcf2f3,
+    border: #76d7de,
+    contrast-text: #ffffff,
+  ),
+  secondary: (
+    main: #141140,
+    dark: #0e0b33,
+    light: #bcbbcb,
+    background: #e8e7f4,
+    border: #7f7c99,
+    contrast-text: #ffffff,
+  ),
+  red: (
+    main: #eb9a97,
+    light: #f7d7d5,
+    dark: #b95b57,
+  ),
+  green: (
+    main: #a7d4d5,
+    light: #dceeee,
+    dark: #67bfc1,
+  ),
+  blue: (
+    main: #9ec2eb,
+    light: #d8e7f7,
+    dark: #6ca6e8,
+  ),
+  other: (
+    black: #000000,
+    white: #ffffff,
+  ),
+);
+
+@function getColor($state, $color) {
+  @return map-get(map-get($colors, $state), $color);
+}
