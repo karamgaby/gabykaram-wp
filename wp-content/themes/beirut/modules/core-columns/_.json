@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "title": "core-columns",
+    "version": "1.2.0"
+  },
+  "php": {
+    "inc": [
+      "setup.php"
+    ]
+  },
+  "css": {
+    "main.css": [
+      "assets/styles/core-columns.scss"
+    ],
+    "editor-gutenberg.css": [
+      "assets/styles/core-columns.scss"
+    ]
+  },
+  "js": {
+    "main.js": [
+      "assets/scripts/front-end.js"
+    ],
+    "editor-gutenberg.js": [
+      "assets/scripts/editor.js"
+    ]
+  }
+}
