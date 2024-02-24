@@ -48,14 +48,14 @@ class FrontEndHtmlFixesTest extends WP_UnitTestCase {
       10, has_filter('script_loader_tag', array($class, 'x_core_cleanup_script_tags'))
     );
 
-    // AXIO_CORE_NEXT_POSTS_ATTRIBUTES()
+    // X_CORE_NEXT_POSTS_ATTRIBUTES()
 
     // check that the return value contains correct string
     $this->assertContains(
       ' itemprop="relatedLink/pagination" ', $class->x_core_next_posts_attributes('')
     );
 
-    // AXIO_CORE_CLEANUP_SCRIPT_TAGS()
+    // X_CORE_CLEANUP_SCRIPT_TAGS()
 
     // mock args
     $tag1 = "type='text/javascript' ";

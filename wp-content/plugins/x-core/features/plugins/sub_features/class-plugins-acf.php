@@ -2,7 +2,7 @@
 /**
  * Class Plugins_Acf
  */
-class Axio_Core_Plugins_Acf extends Axio_Core_Sub_Feature {
+class X_Core_Plugins_Acf extends X_Core_Sub_Feature {
 
   public function setup() {
 

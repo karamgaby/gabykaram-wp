@@ -57,7 +57,7 @@ class SecurityHeadCleanupTest extends WP_UnitTestCase {
       10, has_filter('xmlrpc_methods', array($class, 'x_core_remove_pingback_functionality'))
     );
 
-    // AXIO_CORE_REMOVE_PINGBACK_HEADER()
+    // X_CORE_REMOVE_PINGBACK_HEADER()
 
     // mock args
     // include a second item so array isn't empty on deletion
@@ -68,7 +68,7 @@ class SecurityHeadCleanupTest extends WP_UnitTestCase {
       'X-Pingback', $class->x_core_remove_pingback_header($headers)
     );
 
-    // AXIO_CORE_REMOVE_PINGBACK_FUNCTIONALITY()
+    // X_CORE_REMOVE_PINGBACK_FUNCTIONALITY()
 
     // mock args
     // include a second item so array isn't empty on deletion

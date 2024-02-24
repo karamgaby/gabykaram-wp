@@ -45,7 +45,7 @@ class AdminGalleryTest extends WP_UnitTestCase {
       10, has_filter('media_view_settings', array($class, 'x_core_gallery_defaults'))
     );
 
-    // AXIO_CORE_GALLERY_DEFAULTS()
+    // X_CORE_GALLERY_DEFAULTS()
 
     // mock correct args
     $args = array(

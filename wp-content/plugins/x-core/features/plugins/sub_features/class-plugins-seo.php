@@ -2,7 +2,7 @@
 /**
  * Class Plugins_Seo
  */
-class Axio_Core_Plugins_Seo extends Axio_Core_Sub_Feature {
+class X_Core_Plugins_Seo extends X_Core_Sub_Feature {
 
   public function setup() {
 

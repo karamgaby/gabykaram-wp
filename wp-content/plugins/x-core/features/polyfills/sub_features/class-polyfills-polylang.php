@@ -2,7 +2,7 @@
 /**
  * Class Localization_Polyfill
  */
-class Axio_Core_Polyfills_Polylang extends Axio_Core_Sub_Feature {
+class X_Core_Polyfills_Polylang extends X_Core_Sub_Feature {
 
   public function setup() {
 
@@ -49,7 +49,7 @@ function x_core_get_site_locale() {
 
 }
 
-$instance = new Axio_Core_Polyfills_Polylang;
+$instance = new X_Core_Polyfills_Polylang;
 
 /**
  * Fallback Polylang (preserve functionality without the plugin)

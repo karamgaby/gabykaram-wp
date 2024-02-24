@@ -2,7 +2,7 @@
 /**
  * Class Admin_Notifications
  */
-class Axio_Core_Admin_Notifications extends Axio_Core_Sub_Feature {
+class X_Core_Admin_Notifications extends X_Core_Sub_Feature {
 
   public function setup() {
 

@@ -45,7 +45,7 @@ class PluginsSeoTest extends WP_UnitTestCase {
       10, has_action('wp_before_admin_bar_render', array($class, 'x_core_yoast_admin_bar_render'))
     );
 
-    // AXIO_CORE_YOAST_ADMIN_BAR_RENDER()
+    // X_CORE_YOAST_ADMIN_BAR_RENDER()
 
     global $wp_admin_bar;
 

@@ -2,7 +2,7 @@
 /**
  * Class DashboardCleanupTest
  *
- * @package Axio_Core
+ * @package X_Core
  */
 
 class DashboardCleanupTest extends WP_UnitTestCase {
@@ -11,7 +11,7 @@ class DashboardCleanupTest extends WP_UnitTestCase {
 
   public function setUp() {
     parent::setUp();
-    $this->dash = new Axio_Core_Dashboard;
+    $this->dash = new X_Core_Dashboard;
   }
 
   public function tearDown() {
@@ -45,7 +45,7 @@ class DashboardCleanupTest extends WP_UnitTestCase {
       99, has_action('wp_dashboard_setup', array($class, 'x_core_admin_dashboard'))
     );
 
-    // AXIO_CORE_ADMIN_DASHBOARD()
+    // X_CORE_ADMIN_DASHBOARD()
 
     global $wp_meta_boxes;
 

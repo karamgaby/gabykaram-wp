@@ -2,7 +2,7 @@
 /**
  * Class Plugins_Cookiebot
  */
-class Axio_Core_Plugins_Cookiebot extends Axio_Core_Sub_Feature {
+class X_Core_Plugins_Cookiebot extends X_Core_Sub_Feature {
 
   public function setup() {
 

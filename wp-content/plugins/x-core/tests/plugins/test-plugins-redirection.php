@@ -45,7 +45,7 @@ class PluginsRedirectionTest extends WP_UnitTestCase {
       10, has_filter('redirection_role', array($class, 'x_core_redirection_role'))
     );
 
-    // AXIO_CORE_REDIRECTION_ROLE()
+    // X_CORE_REDIRECTION_ROLE()
 
     // mock args
     $args = 'publish_pages';

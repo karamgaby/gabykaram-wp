@@ -2,7 +2,7 @@
 /**
  * Class Security_Disable_Unfiltered_Html
  */
-class Axio_Core_Security_Disable_Unfiltered_Html extends Axio_Core_Sub_Feature {
+class X_Core_Security_Disable_Unfiltered_Html extends X_Core_Sub_Feature {
 
   public function setup() {
 

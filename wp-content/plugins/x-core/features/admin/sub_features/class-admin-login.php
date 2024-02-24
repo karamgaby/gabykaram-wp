@@ -2,7 +2,7 @@
 /**
  * Class Admin_Login
  */
-class Axio_Core_Admin_Login extends Axio_Core_Sub_Feature {
+class X_Core_Admin_Login extends X_Core_Sub_Feature {
 
   public function setup() {
 

@@ -2,7 +2,7 @@
 /**
  * Class Plugins_Redirection
  */
-class Axio_Core_Plugins_Redirection extends Axio_Core_Sub_Feature {
+class X_Core_Plugins_Redirection extends X_Core_Sub_Feature {
 
   public function setup() {
 

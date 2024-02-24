@@ -45,7 +45,7 @@ class DebugStyleGuideTest extends WP_UnitTestCase {
       10, has_filter('the_content', array($class, 'x_core_style_guide_markup'))
     );
 
-    // AXIO_CORE_STYLE_GUIDE_MARKUP()
+    // X_CORE_STYLE_GUIDE_MARKUP()
 
     // run callback function
     $content = $class->x_core_style_guide_markup('');

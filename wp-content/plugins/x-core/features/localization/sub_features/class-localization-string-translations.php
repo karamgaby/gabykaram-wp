@@ -19,7 +19,7 @@ function x_core_get_registered_strings() {
 /**
  * Class Localization_String_Translations
  */
-class Axio_Core_Localization_String_Translations extends Axio_Core_Sub_Feature {
+class X_Core_Localization_String_Translations extends X_Core_Sub_Feature {
 
   public function setup() {
 

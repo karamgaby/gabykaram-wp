@@ -2,7 +2,7 @@
 /**
  * Class Dashboard_Recent_Widget
  */
-class Axio_Core_Dashboard_Recent_Widget extends Axio_Core_Sub_Feature {
+class X_Core_Dashboard_Recent_Widget extends X_Core_Sub_Feature {
 
   public function setup() {
 
@@ -33,7 +33,7 @@ class Axio_Core_Dashboard_Recent_Widget extends Axio_Core_Sub_Feature {
   public static function register_x_recent_dashboard_widget() {
 
     global $wp_meta_boxes;
-    add_meta_box( 'x_recent_dashboard_widget', __('Activity'), array('Axio_Core_Dashboard_Recent_Widget', 'x_recent_dashboard_widget_display'), 'dashboard', 'side', 'high' );
+    add_meta_box( 'x_recent_dashboard_widget', __('Activity'), array('X_Core_Dashboard_Recent_Widget', 'x_recent_dashboard_widget_display'), 'dashboard', 'side', 'high' );
 
   }
 
@@ -103,7 +103,7 @@ class Axio_Core_Dashboard_Recent_Widget extends Axio_Core_Sub_Feature {
       }
     endwhile;
 
-    usort($user_posts, array('Axio_Core_Dashboard_Recent_Widget', 'x_core_order_posts_array_by_modified_date'));
+    usort($user_posts, array('X_Core_Dashboard_Recent_Widget', 'x_core_order_posts_array_by_modified_date'));
     $user_posts = array_reverse($user_posts);
 
     if (!empty($user_posts)) :
@@ -194,7 +194,7 @@ class Axio_Core_Dashboard_Recent_Widget extends Axio_Core_Sub_Feature {
    */
   public static function x_recent_dashboard_widget_styles($hook) {
     if ($hook == 'index.php') {
-      wp_enqueue_style('x_core-dashboard-widget-styles', AXIO_CORE_DIR . '/assets/x-core.css', array(), AXIO_CORE_VERSION);
+      wp_enqueue_style('x_core-dashboard-widget-styles', X_CORE_DIR . '/assets/x-core.css', array(), X_CORE_VERSION);
     }
   }
 

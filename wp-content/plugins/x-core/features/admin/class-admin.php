@@ -31,7 +31,6 @@ class X_Core_Admin extends X_Core_Feature {
       'x_core_admin_menu_cleanup'          => new X_Core_Admin_Menu_Cleanup,
       'x_core_admin_notifications'         => new X_Core_Admin_Notifications,
       'x_core_admin_profile_cleanup'       => new X_Core_Admin_Profile_Cleanup,
-      'x_core_admin_remove_customizer'     => new X_Core_Admin_Remove_Customizer,
     ));
 
   }

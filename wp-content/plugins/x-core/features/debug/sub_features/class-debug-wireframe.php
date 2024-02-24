@@ -2,7 +2,7 @@
 /**
  * Class Debug_Wireframe
  */
-class Axio_Core_Debug_Wireframe extends Axio_Core_Sub_Feature {
+class X_Core_Debug_Wireframe extends X_Core_Sub_Feature {
 
   public function setup() {
 

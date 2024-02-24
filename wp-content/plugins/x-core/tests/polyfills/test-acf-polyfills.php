@@ -2,7 +2,7 @@
 /**
  * Class ACFPolyfillTest
  *
- * @package Axio_Core
+ * @package X_Core
  */
 
 class ACFPolyfillTest extends WP_UnitTestCase {
@@ -11,7 +11,7 @@ class ACFPolyfillTest extends WP_UnitTestCase {
 
   public function setUp() {
     parent::setUp();
-    $this->local = new Axio_Core_Polyfills;
+    $this->local = new X_Core_Polyfills;
   }
 
   public function tearDown() {

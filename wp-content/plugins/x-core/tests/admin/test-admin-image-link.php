@@ -44,7 +44,7 @@ class AdminImageLinkTest extends WP_UnitTestCase {
       10, has_action('admin_init', array($class, 'x_core_default_image_link_to_none'))
     );
 
-    // AXIO_CORE_DEFAULT_IMAGE_LINK_TO_NONE()
+    // X_CORE_DEFAULT_IMAGE_LINK_TO_NONE()
 
     // inject a wrong value to options
     update_option('image_default_link_type', 'file');

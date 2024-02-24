@@ -2,7 +2,7 @@
 /**
  * Class Plugins
  */
-class Axio_Core_Plugins extends Axio_Core_Feature {
+class X_Core_Plugins extends X_Core_Feature {
 
   public function setup() {
 
@@ -24,12 +24,12 @@ class Axio_Core_Plugins extends Axio_Core_Feature {
 
     // var: sub_features
     $this->set('sub_features', array(
-      'x_core_plugins_acf'                   => new Axio_Core_Plugins_Acf,
-      'x_core_plugins_cookiebot'             => new Axio_Core_Plugins_Cookiebot,
-      'x_core_plugins_public_post_preview'   => new Axio_Core_Plugins_Public_Post_Preview,
-      'x_core_plugins_redirection'           => new Axio_Core_Plugins_Redirection,
-      'x_core_plugins_seo'                   => new Axio_Core_Plugins_Seo,
-      'x_core_plugins_yoast'                 => new Axio_Core_Plugins_Yoast,
+      'x_core_plugins_acf'                   => new X_Core_Plugins_Acf,
+      'x_core_plugins_cookiebot'             => new X_Core_Plugins_Cookiebot,
+      'x_core_plugins_public_post_preview'   => new X_Core_Plugins_Public_Post_Preview,
+      'x_core_plugins_redirection'           => new X_Core_Plugins_Redirection,
+      'x_core_plugins_seo'                   => new X_Core_Plugins_Seo,
+      'x_core_plugins_yoast'                 => new X_Core_Plugins_Yoast,
     ));
 
   }

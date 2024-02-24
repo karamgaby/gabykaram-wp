@@ -2,7 +2,7 @@
 /**
  * Class Admin_Gallery
  */
-class Axio_Core_Admin_Gallery extends Axio_Core_Sub_Feature {
+class X_Core_Admin_Gallery extends X_Core_Sub_Feature {
 
   public function setup() {
 

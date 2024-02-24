@@ -2,7 +2,7 @@
 /**
  * Class Localization_Polyfill
  */
-class Axio_Core_Polyfills_ACF extends Axio_Core_Sub_Feature {
+class X_Core_Polyfills_ACF extends X_Core_Sub_Feature {
 
   public function setup() {
 
@@ -33,7 +33,7 @@ class Axio_Core_Polyfills_ACF extends Axio_Core_Sub_Feature {
  * the polyfills, if that need ever rises for some reason.
  */
 
-$instance = new Axio_Core_Polyfills_ACF;
+$instance = new X_Core_Polyfills_ACF;
 
 /**
  * Fallback ACF (preserve functionality without the plugin)

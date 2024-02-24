@@ -2,7 +2,7 @@
 /**
  * Class Plugins_Yoast
  */
-class Axio_Core_Plugins_Yoast extends Axio_Core_Sub_Feature {
+class X_Core_Plugins_Yoast extends X_Core_Sub_Feature {
 
   public function setup() {
 

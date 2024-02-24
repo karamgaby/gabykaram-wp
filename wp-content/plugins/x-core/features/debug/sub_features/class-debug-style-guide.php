@@ -36,7 +36,7 @@ class X_Core_Debug_Style_Guide extends X_Core_Sub_Feature {
     if (isset($_GET['ac-debug']) && $_GET['ac-debug'] == 'styleguide') {
 
       // placeholder image
-      $img_url = AXIO_CORE_DIR . '/assets/placeholder.jpg';
+      $img_url = X_CORE_DIR . '/assets/placeholder.jpg';
 
       // get wp default large and medium image sizes
       $img_medium_w = get_option('medium_size_w');

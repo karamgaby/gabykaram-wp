@@ -2,7 +2,7 @@
 /**
  * Class Front_End_Html_Fixes
  */
-class Axio_Core_Front_End_Html_Fixes extends Axio_Core_Sub_Feature {
+class X_Core_Front_End_Html_Fixes extends X_Core_Sub_Feature {
 
   public function setup() {
 

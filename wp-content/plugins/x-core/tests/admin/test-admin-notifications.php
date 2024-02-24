@@ -45,7 +45,7 @@ class AdminNotificationsTest extends WP_UnitTestCase {
       1, has_action('admin_head', array($class, 'x_core_remove_update_nags_for_non_admins'))
     );
 
-    // AXIO_CORE_REMOVE_UPDATE_NAGS_FOR_NON_ADMINS()
+    // X_CORE_REMOVE_UPDATE_NAGS_FOR_NON_ADMINS()
 
      // create an admin user and set it as the current user
     $user_admin = $this->factory->user->create(array('role' => 'administrator'));

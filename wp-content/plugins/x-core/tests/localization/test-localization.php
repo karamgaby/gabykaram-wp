@@ -2,7 +2,7 @@
 /**
  * Class LocalizationTest
  *
- * @package Axio_Core
+ * @package X_Core
  */
 
 class LocalizationTest extends WP_UnitTestCase {
@@ -11,7 +11,7 @@ class LocalizationTest extends WP_UnitTestCase {
 
   public function setUp() {
     parent::setUp();
-    $this->local = new Axio_Core_Localization;
+    $this->local = new X_Core_Localization;
   }
 
   public function tearDown() {

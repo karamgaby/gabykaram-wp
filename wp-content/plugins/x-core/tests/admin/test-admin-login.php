@@ -48,14 +48,14 @@ class AdminLoginTest extends WP_UnitTestCase {
       10, has_filter('login_headerurl', array($class, 'x_core_login_logo_url'))
     );
 
-    // AXIO_CORE_LOGIN_LOGO_URL_TITLE()
+    // X_CORE_LOGIN_LOGO_URL_TITLE()
 
     // check that the callback function returns correct value
     $this->assertEquals(
       get_bloginfo('name'), $class->x_core_login_logo_url_title('Test')
     );
 
-    // AXIO_CORE_LOGIN_LOGO_URL()
+    // X_CORE_LOGIN_LOGO_URL()
 
     // check that the callback function returns correct value
     $this->assertEquals(

@@ -2,7 +2,7 @@
 /**
  * Class DashboardRecentWidgetTest
  *
- * @package Axio_Core
+ * @package X_Core
  */
 
 class DashboardRecentWidgetTest extends WP_UnitTestCase {
@@ -11,7 +11,7 @@ class DashboardRecentWidgetTest extends WP_UnitTestCase {
 
   public function setUp() {
     parent::setUp();
-    $this->dash = new Axio_Core_Dashboard;
+    $this->dash = new X_Core_Dashboard;
   }
 
   public function tearDown() {
@@ -155,7 +155,7 @@ class DashboardRecentWidgetTest extends WP_UnitTestCase {
       'Test 2 (Post)', $lowered_capabilities
     );
 
-    // AXIO_CORE_ORDER_POSTS_ARRAY_BY_MODIFIED_DATE()
+    // X_CORE_ORDER_POSTS_ARRAY_BY_MODIFIED_DATE()
 
     // mock an "old" post
     // must be done with wp_insert_post so that the post_modified argument can be modified

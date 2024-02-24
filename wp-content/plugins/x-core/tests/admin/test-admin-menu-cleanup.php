@@ -45,7 +45,7 @@ class AdminMenuCleanupTest extends WP_UnitTestCase {
       9999, has_action('admin_menu', array($class, 'x_core_cleanup_admin_menu'))
     );
 
-    // AXIO_CORE_CLEANUP_ADMIN_MENU()
+    // X_CORE_CLEANUP_ADMIN_MENU()
 
     global $menu, $submenu;
 

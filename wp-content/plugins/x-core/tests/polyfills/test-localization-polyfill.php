@@ -2,7 +2,7 @@
 /**
  * Class LocalizationPolyfillTest
  *
- * @package Axio_Core
+ * @package X_Core
  */
 
 class LocalizationPolyfillTest extends WP_UnitTestCase {
@@ -11,7 +11,7 @@ class LocalizationPolyfillTest extends WP_UnitTestCase {
 
   public function setUp() {
     parent::setUp();
-    $this->local = new Axio_Core_Polyfills;
+    $this->local = new X_Core_Polyfills;
   }
 
   public function tearDown() {
@@ -42,7 +42,7 @@ class LocalizationPolyfillTest extends WP_UnitTestCase {
      *  polyfill functions for the Polylang plugin
      */
 
-    // AXIO_CORE_GET_SITE_LOCALE()
+    // X_CORE_GET_SITE_LOCALE()
 
     // mock (invalid) args
     add_filter('locale', function($locale) {

@@ -52,7 +52,7 @@ class AdminProfileCleanupTest extends WP_UnitTestCase {
       10, has_filter( 'user_contactmethods', array($class, 'x_core_remove_contact_methods'))
     );
 
-    // AXIO_CORE_REMOVE_CONTACT_METHODS()
+    // X_CORE_REMOVE_CONTACT_METHODS()
 
     // mock args
     $args = array(

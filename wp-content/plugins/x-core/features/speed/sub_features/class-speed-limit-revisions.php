@@ -2,7 +2,7 @@
 /**
  * Class Speed_Limit_Revisions
  */
-class Axio_Core_Speed_Limit_Revisions extends Axio_Core_Sub_Feature {
+class X_Core_Speed_Limit_Revisions extends X_Core_Sub_Feature {
 
   public function setup() {
 

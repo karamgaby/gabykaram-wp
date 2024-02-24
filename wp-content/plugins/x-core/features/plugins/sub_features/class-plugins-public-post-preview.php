@@ -2,7 +2,7 @@
 /**
  * Class Plugins_Public_Post_Preview
  */
-class Axio_Core_Plugins_Public_Post_Preview extends Axio_Core_Sub_Feature {
+class X_Core_Plugins_Public_Post_Preview extends X_Core_Sub_Feature {
 
   public function setup() {
 

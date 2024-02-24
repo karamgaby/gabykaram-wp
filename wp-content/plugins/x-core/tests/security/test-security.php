@@ -2,7 +2,7 @@
 /**
  * Class SecurityTest
  *
- * @package Axio_Core
+ * @package X_Core
  */
 
 class SecurityTest extends WP_UnitTestCase {
@@ -11,7 +11,7 @@ class SecurityTest extends WP_UnitTestCase {
 
   public function setUp() {
     parent::setUp();
-    $this->security = new Axio_Core_Security;
+    $this->security = new X_Core_Security;
   }
 
   public function tearDown() {

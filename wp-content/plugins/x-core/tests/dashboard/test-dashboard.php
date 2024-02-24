@@ -2,7 +2,7 @@
 /**
  * Class DashboardTest
  *
- * @package Axio_Core
+ * @package X_Core
  */
 
 class DashboardTest extends WP_UnitTestCase {
@@ -11,7 +11,7 @@ class DashboardTest extends WP_UnitTestCase {
 
   public function setUp() {
     parent::setUp();
-    $this->dash = new Axio_Core_Dashboard;
+    $this->dash = new X_Core_Dashboard;
   }
 
   public function tearDown() {

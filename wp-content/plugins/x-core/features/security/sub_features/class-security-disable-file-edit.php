@@ -2,7 +2,7 @@
 /**
  * Class Security_Disable_File_Edit
  */
-class Axio_Core_Security_Disable_File_Edit extends Axio_Core_Sub_Feature {
+class X_Core_Security_Disable_File_Edit extends X_Core_Sub_Feature {
 
   public function setup() {
 

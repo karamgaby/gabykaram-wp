@@ -2,7 +2,7 @@
 /**
  * Class PolyfillsTest
  *
- * @package Axio_Core
+ * @package X_Core
  */
 
 class PolyfillsTest extends WP_UnitTestCase {
@@ -11,7 +11,7 @@ class PolyfillsTest extends WP_UnitTestCase {
 
   public function setUp() {
     parent::setUp();
-    $this->instance = new Axio_Core_Polyfills;
+    $this->instance = new X_Core_Polyfills;
   }
 
   public function tearDown() {

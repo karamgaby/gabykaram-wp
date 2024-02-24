@@ -2,7 +2,7 @@
 /**
  * Class Admin_Image_Link
  */
-class Axio_Core_Admin_Image_Link extends Axio_Core_Sub_Feature {
+class X_Core_Admin_Image_Link extends X_Core_Sub_Feature {
 
   public function setup() {
 

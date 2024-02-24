@@ -2,7 +2,7 @@
 /**
  * Class Security_Remove_Comment_Moderation
  */
-class Axio_Core_Security_Remove_Comment_Moderation extends Axio_Core_Sub_Feature {
+class X_Core_Security_Remove_Comment_Moderation extends X_Core_Sub_Feature {
 
   public function setup() {
 

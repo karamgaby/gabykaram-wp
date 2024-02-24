@@ -2,7 +2,7 @@
 /**
  * Class Security_Head_Cleanup
  */
-class Axio_Core_Security_Head_Cleanup extends Axio_Core_Sub_Feature {
+class X_Core_Security_Head_Cleanup extends X_Core_Sub_Feature {
 
   public function setup() {
 

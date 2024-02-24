@@ -2,7 +2,7 @@
 /**
  * Class Speed
  */
-class Axio_Core_Speed extends Axio_Core_Feature {
+class X_Core_Speed extends X_Core_Feature {
 
   public function setup() {
 
@@ -24,10 +24,10 @@ class Axio_Core_Speed extends Axio_Core_Feature {
 
     // var: sub_features
     $this->set('sub_features', array(
-      'x_core_speed_limit_revisions'  => new Axio_Core_Speed_Limit_Revisions,
-      'x_core_speed_move_jquery'      => new Axio_Core_Speed_Move_Jquery,
-      'x_core_speed_remove_emojis'    => new Axio_Core_Speed_Remove_Emojis,
-      'x_core_speed_remove_metabox'   => new Axio_Core_Speed_Remove_Metabox,
+      'x_core_speed_limit_revisions'  => new X_Core_Speed_Limit_Revisions,
+      'x_core_speed_move_jquery'      => new X_Core_Speed_Move_Jquery,
+      'x_core_speed_remove_emojis'    => new X_Core_Speed_Remove_Emojis,
+      'x_core_speed_remove_metabox'   => new X_Core_Speed_Remove_Metabox,
     ));
 
   }

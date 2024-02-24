@@ -2,7 +2,7 @@
 /**
  * Class Disable_Admin_Email_Check
  */
-class Axio_Core_Security_Disable_Admin_Email_Check extends Axio_Core_Sub_Feature {
+class X_Core_Security_Disable_Admin_Email_Check extends X_Core_Sub_Feature {
 
   public function setup() {
 

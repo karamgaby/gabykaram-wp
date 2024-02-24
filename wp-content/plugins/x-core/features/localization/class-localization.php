@@ -2,7 +2,7 @@
 /**
  * Class Localization
  */
-class Axio_Core_Localization extends Axio_Core_Feature {
+class X_Core_Localization extends X_Core_Feature {
 
   public function setup() {
 
@@ -24,7 +24,7 @@ class Axio_Core_Localization extends Axio_Core_Feature {
 
     // var: sub_features
     $this->set('sub_features', array(
-      'x_core_localization_string_translations' => new Axio_Core_Localization_String_Translations,
+      'x_core_localization_string_translations' => new X_Core_Localization_String_Translations,
     ));
 
   }

@@ -57,7 +57,7 @@ class PluginsYoastTest extends WP_UnitTestCase {
       5, has_filter('wpseo_twitter_image_size', array($class, 'x_core_filter_wpseo_opengraph_image_size'))
     );
 
-    // AXIO_CORE_REMOVE_WPSEO_NOTIFICATIONS()
+    // X_CORE_REMOVE_WPSEO_NOTIFICATIONS()
 
     // mock actions
     add_action('admin_notices', array(Yoast_Notification_Center::get(), 'display_notifications'));
@@ -74,7 +74,7 @@ class PluginsYoastTest extends WP_UnitTestCase {
       has_action('all_admin_notices', array(Yoast_Notification_Center::get(), 'display_notifications'))
     );
 
-    // AXIO_CORE_SEO_METABOX_PRIO()
+    // X_CORE_SEO_METABOX_PRIO()
 
     // mock args
     $priority = 'high';
@@ -84,7 +84,7 @@ class PluginsYoastTest extends WP_UnitTestCase {
       'low', $class->x_core_seo_metabox_prio($priority)
     );
 
-    // AXIO_CORE_FILTER_WPSEO_OPENGRAPH_IMAGE_SIZE()
+    // X_CORE_FILTER_WPSEO_OPENGRAPH_IMAGE_SIZE()
 
     // mock args
     $size = 'small';

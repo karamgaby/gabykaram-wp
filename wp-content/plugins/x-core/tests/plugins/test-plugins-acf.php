@@ -49,7 +49,7 @@ class PluginsAcfTest extends WP_UnitTestCase {
       1, has_filter('render_block_data', array($class, 'x_core_acf_render_block_data'))
     );
 
-    // AXIO_CORE_HIDE_ACF_FROM_NONADMINS()
+    // X_CORE_HIDE_ACF_FROM_NONADMINS()
 
     // create an admin user and set it as the current user
     $user_admin = $this->factory->user->create(array('role' => 'administrator'));

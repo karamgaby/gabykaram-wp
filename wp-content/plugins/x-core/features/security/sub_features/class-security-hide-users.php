@@ -2,7 +2,7 @@
 /**
  * Class Security_Hide_Users
  */
-class Axio_Core_Security_Hide_Users extends Axio_Core_Sub_Feature {
+class X_Core_Security_Hide_Users extends X_Core_Sub_Feature {
 
   public function setup() {
 

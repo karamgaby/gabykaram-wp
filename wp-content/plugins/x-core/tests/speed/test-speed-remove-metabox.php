@@ -45,7 +45,7 @@ class SpeedRemoveMetaboxTest extends WP_UnitTestCase {
       10, has_action('add_meta_boxes', array($class, 'x_core_remove_post_meta_metabox'))
     );
 
-    // AXIO_CORE_REMOVE_POST_META_METABOX()
+    // X_CORE_REMOVE_POST_META_METABOX()
 
     global $wp_meta_boxes;
 

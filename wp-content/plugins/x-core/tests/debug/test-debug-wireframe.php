@@ -11,7 +11,7 @@ class DebugWireframeTest extends WP_UnitTestCase {
 
   public function setUp() {
     parent::setUp();
-    $this->debug = new Axio_Core_Debug;
+    $this->debug = new X_Core_Debug;
   }
 
   public function tearDown() {
@@ -45,7 +45,7 @@ class DebugWireframeTest extends WP_UnitTestCase {
       10, has_action('wp_head', array($class, 'x_core_wireframe'))
     );
 
-    // AXIO_CORE_WIREFRAME()
+    // X_CORE_WIREFRAME()
 
     // buffer output
     ob_start();

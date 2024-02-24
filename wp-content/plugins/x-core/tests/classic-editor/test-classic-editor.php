@@ -2,7 +2,7 @@
 /**
  * Class ClassicEditorTest
  *
- * @package Axio_Core
+ * @package X_Core
  */
 
 class ClassicEditorTest extends WP_UnitTestCase {
@@ -11,7 +11,7 @@ class ClassicEditorTest extends WP_UnitTestCase {
 
   public function setUp() {
     parent::setUp();
-    $this->ce = new Axio_Core_Classic_Editor;
+    $this->ce = new X_Core_Classic_Editor;
   }
 
   public function tearDown() {

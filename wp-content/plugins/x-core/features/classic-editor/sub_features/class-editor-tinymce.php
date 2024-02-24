@@ -2,7 +2,7 @@
 /**
  * Class Editor_Tinymce
  */
-class Axio_Core_Classic_Editor_Tinymce extends Axio_Core_Sub_Feature {
+class X_Core_Classic_Editor_Tinymce extends X_Core_Sub_Feature {
 
   public function setup() {
 

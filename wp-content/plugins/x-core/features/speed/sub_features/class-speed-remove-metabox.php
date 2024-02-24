@@ -2,7 +2,7 @@
 /**
  * Class Speed_Remove_Metabox
  */
-class Axio_Core_Speed_Remove_Metabox extends Axio_Core_Sub_Feature {
+class X_Core_Speed_Remove_Metabox extends X_Core_Sub_Feature {
 
   public function setup() {
 

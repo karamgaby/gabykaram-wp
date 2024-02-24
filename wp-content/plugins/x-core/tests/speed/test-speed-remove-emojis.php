@@ -45,7 +45,7 @@ class SpeedRemoveEmojisTest extends WP_UnitTestCase {
       10, has_action('init', array($class, 'x_core_disable_emojis'))
     );
 
-    // AXIO_CORE_DISABLE_EMOJIS()
+    // X_CORE_DISABLE_EMOJIS()
 
     // run callback function
     $class->x_core_disable_emojis();

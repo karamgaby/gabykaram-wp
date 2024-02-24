@@ -2,7 +2,7 @@
 /**
  * Class SecurityRemoveCommentingTest
  *
- * @package Axio_Core
+ * @package X_Core
  */
 
 class SecurityRemoveCommentingTest extends WP_UnitTestCase {
@@ -11,7 +11,7 @@ class SecurityRemoveCommentingTest extends WP_UnitTestCase {
 
   public function setUp() {
     parent::setUp();
-    $this->security = new Axio_Core_Security;
+    $this->security = new X_Core_Security;
   }
 
   public function tearDown() {
@@ -66,7 +66,7 @@ class SecurityRemoveCommentingTest extends WP_UnitTestCase {
       20, has_filter('pings_open', '__return_false')
     );
 
-    // AXIO_CORE_DISABLE_COMMENTS_POST_TYPES_SUPPORT()
+    // X_CORE_DISABLE_COMMENTS_POST_TYPES_SUPPORT()
 
     // run callback function
     $class->x_core_disable_comments_post_types_support();
@@ -83,7 +83,7 @@ class SecurityRemoveCommentingTest extends WP_UnitTestCase {
       );
     }
 
-    // AXIO_CORE_DISABLE_COMMENTS_ADMIN_MENU()
+    // X_CORE_DISABLE_COMMENTS_ADMIN_MENU()
 
     global $menu;
 
@@ -100,7 +100,7 @@ class SecurityRemoveCommentingTest extends WP_UnitTestCase {
       );
     }
 
-    // AXIO_CORE_DISABLE_COMMENTS_ADMIN_MENU_REDIRECT()
+    // X_CORE_DISABLE_COMMENTS_ADMIN_MENU_REDIRECT()
 
     // this function is only partially covered, as the other branch calls exit, which makes it untestable
 
@@ -116,7 +116,7 @@ class SecurityRemoveCommentingTest extends WP_UnitTestCase {
     // $pagenow = 'edit-comments.php';
     // $class->x_core_disable_comments_admin_menu_redirect();
 
-    // AXIO_CORE_DISABLE_COMMENTS_DASHBOARD()
+    // X_CORE_DISABLE_COMMENTS_DASHBOARD()
 
     global $wp_meta_boxes;
 
@@ -142,7 +142,7 @@ class SecurityRemoveCommentingTest extends WP_UnitTestCase {
       $wp_meta_boxes['dashboard']['normal']['default']['dashboard_recent_comments']
     );
 
-    // AXIO_CORE_ADMIN_BAR_RENDER()
+    // X_CORE_ADMIN_BAR_RENDER()
 
     global $wp_admin_bar;
 
@@ -166,7 +166,7 @@ class SecurityRemoveCommentingTest extends WP_UnitTestCase {
       'comments', $wp_admin_bar->get_nodes()
     );
 
-    // AXIO_CORE_DISABLE_COMMENTS_HIDE_EXISTING_COMMENTS()
+    // X_CORE_DISABLE_COMMENTS_HIDE_EXISTING_COMMENTS()
 
     // mock comments
     $comment1 = $this->factory->comment->create();

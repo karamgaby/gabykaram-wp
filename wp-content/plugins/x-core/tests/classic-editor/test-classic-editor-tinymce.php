@@ -2,7 +2,7 @@
 /**
  * Class ClassicEditorTinymceTest
  *
- * @package Axio_Core
+ * @package X_Core
  */
 
 class ClassicEditorTinymceTest extends WP_UnitTestCase {
@@ -11,7 +11,7 @@ class ClassicEditorTinymceTest extends WP_UnitTestCase {
 
   public function setUp() {
     parent::setUp();
-    $this->ce = new Axio_Core_Classic_Editor;
+    $this->ce = new X_Core_Classic_Editor;
   }
 
   public function tearDown() {
@@ -45,7 +45,7 @@ class ClassicEditorTinymceTest extends WP_UnitTestCase {
       10, has_filter('tiny_mce_before_init', array($class, 'x_core_show_second_editor_row'))
     );
 
-    // AXIO_CORE_SHOW_SECOND_EDITOR_ROW()
+    // X_CORE_SHOW_SECOND_EDITOR_ROW()
 
     // mock args
     $args = array('wordpress_adv_hidden' => true);

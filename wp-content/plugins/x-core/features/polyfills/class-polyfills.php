@@ -2,7 +2,7 @@
 /**
  * Class Localization
  */
-class Axio_Core_Polyfills extends Axio_Core_Feature {
+class X_Core_Polyfills extends X_Core_Feature {
 
   public function setup() {
 
@@ -24,8 +24,8 @@ class Axio_Core_Polyfills extends Axio_Core_Feature {
 
     // var: sub_features
     $this->set('sub_features', array(
-      'x_core_polyfills_acf'         => new Axio_Core_Polyfills_ACF,
-      'x_core_polyfills_polylang'    => new Axio_Core_Polyfills_Polylang,
+      'x_core_polyfills_acf'         => new X_Core_Polyfills_ACF,
+      'x_core_polyfills_polylang'    => new X_Core_Polyfills_Polylang,
     ));
 
   }

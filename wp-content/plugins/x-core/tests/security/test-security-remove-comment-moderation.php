@@ -2,7 +2,7 @@
 /**
  * Class SecurityRemoveCommentModerationTest
  *
- * @package Axio_Core
+ * @package X_Core
  */
 
 class SecurityRemoveCommentModerationTest extends WP_UnitTestCase {
@@ -11,7 +11,7 @@ class SecurityRemoveCommentModerationTest extends WP_UnitTestCase {
 
   public function setUp() {
     parent::setUp();
-    $this->security = new Axio_Core_Security;
+    $this->security = new X_Core_Security;
   }
 
   public function tearDown() {
@@ -45,7 +45,7 @@ class SecurityRemoveCommentModerationTest extends WP_UnitTestCase {
       11, has_filter('comment_moderation_recipients', array($class, 'x_core_comment_moderation_post_author_only'))
     );
 
-    // AXIO_CORE_COMMENT_MODERATION_POST_AUTHOR_ONLY()
+    // X_CORE_COMMENT_MODERATION_POST_AUTHOR_ONLY()
 
     // mock user, post, comments, args
     $user = $this->factory->user->create(array('role' => 'subscriber', 'user_email' => 'user@user.user'));

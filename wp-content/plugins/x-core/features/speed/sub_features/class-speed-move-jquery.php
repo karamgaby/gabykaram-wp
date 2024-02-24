@@ -2,7 +2,7 @@
 /**
  * Class Speed_Move_Jquery
  */
-class Axio_Core_Speed_Move_Jquery extends Axio_Core_Sub_Feature {
+class X_Core_Speed_Move_Jquery extends X_Core_Sub_Feature {
 
   public function setup() {
 

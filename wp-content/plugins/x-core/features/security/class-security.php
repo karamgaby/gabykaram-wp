@@ -2,7 +2,7 @@
 /**
  * Class Security
  */
-class Axio_Core_Security extends Axio_Core_Feature {
+class X_Core_Security extends X_Core_Feature {
 
   public function setup() {
 
@@ -24,13 +24,13 @@ class Axio_Core_Security extends Axio_Core_Feature {
 
     // var: sub_features
     $this->set('sub_features', array(
-      'x_core_security_disable_admin_email_check' => new Axio_Core_Security_Disable_Admin_Email_Check,
-      'x_core_security_disable_file_edit'         => new Axio_Core_Security_Disable_File_Edit,
-      'x_core_security_disable_unfiltered_html'   => new Axio_Core_Security_Disable_Unfiltered_Html,
-      'x_core_security_head_cleanup'              => new Axio_Core_Security_Head_Cleanup,
-      'x_core_security_hide_users'                => new Axio_Core_Security_Hide_Users,
-      'x_core_security_remove_comment_moderation' => new Axio_Core_Security_Remove_Comment_Moderation,
-      'x_core_security_remove_commenting'         => new Axio_Core_Security_Remove_Commenting,
+      'x_core_security_disable_admin_email_check' => new X_Core_Security_Disable_Admin_Email_Check,
+      'x_core_security_disable_file_edit'         => new X_Core_Security_Disable_File_Edit,
+      'x_core_security_disable_unfiltered_html'   => new X_Core_Security_Disable_Unfiltered_Html,
+      'x_core_security_head_cleanup'              => new X_Core_Security_Head_Cleanup,
+      'x_core_security_hide_users'                => new X_Core_Security_Hide_Users,
+      'x_core_security_remove_comment_moderation' => new X_Core_Security_Remove_Comment_Moderation,
+      'x_core_security_remove_commenting'         => new X_Core_Security_Remove_Commenting,
     ));
 
   }

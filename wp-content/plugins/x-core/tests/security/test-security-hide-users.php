@@ -2,7 +2,7 @@
 /**
  * Class SecurityHideUsersTest
  *
- * @package Axio_Core
+ * @package X_Core
  */
 
 class SecurityHideUsersTest extends WP_UnitTestCase {
@@ -11,7 +11,7 @@ class SecurityHideUsersTest extends WP_UnitTestCase {
 
   public function setUp() {
     parent::setUp();
-    $this->security = new Axio_Core_Security;
+    $this->security = new X_Core_Security;
   }
 
   public function tearDown() {
@@ -54,7 +54,7 @@ class SecurityHideUsersTest extends WP_UnitTestCase {
       1000, has_filter('rest_endpoints', array($class,'x_core_disable_user_endpoints'))
     );
 
-    // AXIO_CORE_RENAME_AUTHORS()
+    // X_CORE_RENAME_AUTHORS()
 
     // mock args
     $name = 'Test';
@@ -72,7 +72,7 @@ class SecurityHideUsersTest extends WP_UnitTestCase {
       'Test', $class->x_core_rename_authors($name)
     );
 
-    // AXIO_CORE_AUTHOR_LINK_TO_FRONT_PAGE()
+    // X_CORE_AUTHOR_LINK_TO_FRONT_PAGE()
 
     // mock args
     $url = 'Test';
@@ -82,7 +82,7 @@ class SecurityHideUsersTest extends WP_UnitTestCase {
       get_site_url(), $class->x_core_author_link_to_front_page($url)
     );
 
-    // AXIO_CORE_DISABLE_USER_ENDPOINTS()
+    // X_CORE_DISABLE_USER_ENDPOINTS()
 
     // mock args
     // include a second item so that the array isn't empty when the first item is removed

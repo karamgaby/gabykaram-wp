@@ -2,7 +2,7 @@
 /**
  * Class Dashboard_Remove_Panels
  */
-class Axio_Core_Dashboard_Remove_Panels extends Axio_Core_Sub_Feature {
+class X_Core_Dashboard_Remove_Panels extends X_Core_Sub_Feature {
 
   public function setup() {
 

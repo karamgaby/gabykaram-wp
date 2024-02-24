@@ -49,7 +49,7 @@ class AdminRemoveCustomizerTest extends WP_UnitTestCase {
       999, has_action('admin_bar_menu', array($class, 'x_core_remove_customizer_admin_bar'))
     );
 
-    // AXIO_CORE_REMOVE_CUSTOMIZER_ADMIN_BAR()
+    // X_CORE_REMOVE_CUSTOMIZER_ADMIN_BAR()
 
     // mock admin bar
     $args = new WP_Admin_Bar;

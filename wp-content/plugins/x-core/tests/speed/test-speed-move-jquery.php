@@ -45,7 +45,7 @@ class SpeedMoveJqueryTest extends WP_UnitTestCase {
       10, has_action('wp_default_scripts', array($class, 'x_core_move_jquery_into_footer'))
     );
 
-    // AXIO_CORE_MOVE_JQUERY_INTO_FOOTER()
+    // X_CORE_MOVE_JQUERY_INTO_FOOTER()
 
     // mock args
     $scripts = new WP_Scripts();

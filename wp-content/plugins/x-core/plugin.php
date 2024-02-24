@@ -9,10 +9,10 @@
  */
 
 // constant: version for cache busting etc
-define('AXIO_CORE_VERSION', '1.1.2');
+define('X_CORE_VERSION', '1.1.2');
 
 // constant: plugin's root directory (used in some sub_features)
-define('AXIO_CORE_DIR', plugins_url('', __FILE__));
+define('X_CORE_DIR', plugins_url('', __FILE__));
 
 
 class X_Core {
@@ -66,7 +66,6 @@ class X_Core {
       require_once 'features/admin/sub_features/class-admin-menu-cleanup.php';
       require_once 'features/admin/sub_features/class-admin-notifications.php';
       require_once 'features/admin/sub_features/class-admin-profile-cleanup.php';
-      require_once 'features/admin/sub_features/class-admin-remove-customizer.php';
 
       // classic-editor
       require_once 'features/classic-editor/class-classic-editor.php';
@@ -85,16 +84,12 @@ class X_Core {
 
       // front-end
       require_once 'features/front-end/class-front-end.php';
-      require_once 'features/front-end/sub_features/class-front-end-clean-empty-html.php';
-      require_once 'features/front-end/sub_features/class-front-end-excerpt.php';
       require_once 'features/front-end/sub_features/class-front-end-html-fixes.php';
-      require_once 'features/front-end/sub_features/class-front-end-uglify-attachment-permalink.php';
 
       // plugins
       require_once 'features/plugins/class-plugins.php';
       require_once 'features/plugins/sub_features/class-plugins-acf.php';
       require_once 'features/plugins/sub_features/class-plugins-cookiebot.php';
-      require_once 'features/plugins/sub_features/class-plugins-gravityforms.php';
       require_once 'features/plugins/sub_features/class-plugins-redirection.php';
       require_once 'features/plugins/sub_features/class-plugins-public-post-preview.php';
       require_once 'features/plugins/sub_features/class-plugins-seo.php';

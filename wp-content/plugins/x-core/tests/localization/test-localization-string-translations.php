@@ -2,7 +2,7 @@
 /**
  * Class LocalizationStringTranslationsTest
  *
- * @package Axio_Core
+ * @package X_Core
  */
 
 class LocalizationStringTranslationsTest extends WP_UnitTestCase {
@@ -11,7 +11,7 @@ class LocalizationStringTranslationsTest extends WP_UnitTestCase {
 
   public function setUp() {
     parent::setUp();
-    $this->local = new Axio_Core_Localization;
+    $this->local = new X_Core_Localization;
   }
 
   public function tearDown() {
@@ -45,7 +45,7 @@ class LocalizationStringTranslationsTest extends WP_UnitTestCase {
       10, has_action('init', array($class, 'x_core_string_registration'))
     );
 
-    // AXIO_CORE_STRING_REGISTRATION()
+    // X_CORE_STRING_REGISTRATION()
 
     // register "translations" with filter for the string translation functions to use
     add_filter('x_core_pll_register_strings', function($string_arr){

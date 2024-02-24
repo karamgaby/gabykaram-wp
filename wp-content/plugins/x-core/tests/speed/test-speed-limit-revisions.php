@@ -45,7 +45,7 @@ class SpeedLimitRevisionsTest extends WP_UnitTestCase {
       10, has_filter('wp_revisions_to_keep', array($class, 'x_core_limit_revision_number'))
     );
 
-    // AXIO_CORE_LIMIT_REVISION_NUMBER()
+    // X_CORE_LIMIT_REVISION_NUMBER()
 
     // mock args
     $number = 20;

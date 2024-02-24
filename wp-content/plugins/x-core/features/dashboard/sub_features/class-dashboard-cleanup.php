@@ -2,7 +2,7 @@
 /**
  * Class Dashboard_Cleanup
  */
-class Axio_Core_Dashboard_Cleanup extends Axio_Core_Sub_Feature {
+class X_Core_Dashboard_Cleanup extends X_Core_Sub_Feature {
 
   public function setup() {
 
