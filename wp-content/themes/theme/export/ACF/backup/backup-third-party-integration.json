@@ -4,6 +4,24 @@
         "title": "Third Party Integration",
         "fields": [
             {
+              "key": "field_65d9d04509b57",
+              "label": "Note: Analytics",
+              "name": "",
+              "aria-label": "",
+              "type": "message",
+              "instructions": "",
+              "required": 0,
+              "conditional_logic": 0,
+              "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+              },
+              "message": "",
+              "esc_html": 0,
+              "new_lines": "wpautop"
+            },
+            {
                 "key": "field_6113fbeab993f",
                 "label": "Google analytics tracking ID",
                 "name": "google_analytics_tracking_id",
