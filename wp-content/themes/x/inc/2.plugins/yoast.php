@@ -1,4 +1,4 @@
 <?php
-add_filter( 'wpseo_metabox_prio', [$this, function () {
+add_filter( 'wpseo_metabox_prio', function () {
   return 'low';
-}] );
+} );
