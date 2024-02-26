@@ -5,7 +5,6 @@
 // 1. Correct the line height in all browsers.
 // 1. Prevent adjustments of font size after orientation changes in iOS.
  html {
-  line-height: 1.5; // as default font-size 16px + line-height (16 + 16/2)px
   -webkit-text-size-adjust: 100%;
 }
 
@@ -13,6 +12,16 @@
 // Remove the margin in all browsers.
 body {
   margin: 0;
+  font-style: normal;
+  font-feature-settings: 'case', 'calt', 'tnum', 'ss01', 'zero';
+  text-rendering: optimizeLegibility;
+  background-color: getColor(g-light, white);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  word-break: break-word;
+  direction: ltr;
 }
 
 // Render the `main` element consistently in IE.
@@ -53,7 +62,7 @@ abbr[title] {
 // Add the correct font weight in Chrome, Edge, and Safari.
 b,
 strong {
-  font-weight: bolder;
+  font-weight: 600;
 }
 
 
@@ -94,6 +103,9 @@ sup {
 // Remove the border on images inside links in IE 10.
 img {
   border-style: none;
+  object-fit: cover;
+  max-width: 100%;
+  aspect-ratio: attr(width) / attr(height);
 }
 
 // 1. Change the font styles in all browsers.
@@ -228,6 +240,11 @@ template {
 // box-sizning border-box everywhere
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
+  height: 100%;
+}
+:root {
+  box-sizing: border-box;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -242,10 +259,6 @@ html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
-}
-
-body {
-  margin: 0;
 }
 
 article,
@@ -398,4 +411,20 @@ object,
 video {
   max-width: 100%;
   height: auto;
+}
+// remove default [styles:] from content tags
+$tags: (h1, h2, h3, h4, h5, h6, p, ul, ol, li);
+@each $tag in $tags {
+  #{$tag} {
+    margin: 0;
+    padding: 0;
+    color: inherit;
+  }
+}
+// remove default [styles:] from content tags
+$tags: (ul, ol, li);
+@each $tag in $tags {
+  #{$tag} {
+    list-style: none;
+  }
 }

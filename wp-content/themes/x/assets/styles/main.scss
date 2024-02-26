@@ -10,4 +10,29 @@
 /* Base
 ----------------------------------------------- */
 
-@import "base/normalize";
+@import "src/1.design-system/index";
+@import "src/3.library/bootstrap/bootstrap";
+
+body {
+  background-color: #33CCCC;
+
+}
+.container {
+  background-color: #F7D414;
+}
+.col {
+  background-color: #3C3C3B;
+  div {
+    width: 100%;
+    background: #E75204;
+  }
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+
+}

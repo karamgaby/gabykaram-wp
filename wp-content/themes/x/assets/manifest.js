@@ -24,19 +24,19 @@ module.exports = {
       "main.js": [
 
         // IE11 polyfill for external x:link svg (https://github.com/Keyamoon/svgxuse)
-        "node_modules/svgxuse/svgxuse.js",
+        // "node_modules/svgxuse/svgxuse.js",
 
         // IE11 polyfill for forEach
-        "node_modules/nodelist-foreach-polyfill/index.js",
+        // "node_modules/nodelist-foreach-polyfill/index.js",
 
         // IE 11 ponyfill for css vars
-        "node_modules/css-vars-ponyfill/dist/css-vars-ponyfill.min.js",
+        // "node_modules/css-vars-ponyfill/dist/css-vars-ponyfill.min.js",
 
         // vanilla js version of fitvids, that makes iframe videos responsice (https://www.npmjs.com/package/fitvids)
-        "node_modules/fitvids/dist/fitvids.js",
+        // "node_modules/fitvids/dist/fitvids.js",
 
         // project specific js
-        "assets/scripts/lib/in-viewport.js",
+        // "assets/scripts/lib/in-viewport.js",
         "assets/scripts/lib/blocks.js",
         "assets/scripts/main.js"
 

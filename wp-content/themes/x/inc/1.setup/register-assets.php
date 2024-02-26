@@ -4,7 +4,38 @@
 /**
  * Enqueue scripts and styles
  */
-add_action( 'wp_enqueue_scripts', 'x_scripts' );
+add_action( 'wp_enqueue_scripts', function () {
+  // main css
+  wp_enqueue_style(
+    'x-style',
+    get_template_directory_uri() . '/dist/styles/main.css',
+    [],
+    x_last_edited('css')
+  );
+
+  // background colors
+  if (function_exists('x_enqueue_color_variables')) {
+    wp_add_inline_style('x-style', x_enqueue_color_variables());
+  }
+
+  // main js
+  wp_enqueue_script(
+    'x-js',
+    get_template_directory_uri() . '/dist/scripts/main.js',
+    ['jquery'],
+    x_last_edited('js'),
+    true
+  );
+
+  // comments
+  if (is_singular() && comments_open() && get_option('thread_comments')) {
+    wp_enqueue_script('comment-reply');
+  }
+
+  // wp-embed
+  wp_deregister_script('wp-embed');
+
+} );
 
 /**
  * Enqueue styles for Gutenberg Editor

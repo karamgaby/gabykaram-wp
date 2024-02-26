@@ -1,0 +1,85 @@
+$base_spacing: 0.25rem;
+$spacers: (
+  0: 0,
+);
+$spacers: (
+0: 0,
+);
+$spacers: map-merge($spacers, $x-spacing);
+$grid-columns: $x-grid-columns;
+// scss-docs-start border-radius-variables
+$border-radius: var(--x-border-radius-1);
+$border-radius-sm: var(--x-border-radius-2);
+$border-radius-lg: var(--x-border-radius-3);
+$border-radius-xl: var(--x-border-radius-4);
+$border-radius-2xl: var(--x-border-radius-5);
+$border-radius-3xl: 1.75rem;
+$border-radius-pill: 24rem;
+$box-shadow : var(--x-border-shadow-simple);
+$box-shadow-sm : var(--x-border-shadow-medium);
+$box-shadow-lg : var(--x-border-shadow-big);
+// scss-docs-start position-map
+$position-values: (
+  0: 0,
+  50: 50%,
+  100: 100%,
+);
+$grid-gutter-width: 3rem;
+$link-color: inherit;
+$link-hover-color: inherit;
+$enable-negative-margins: true;
+
+//$grid-breakpoints: (
+//  xs: 0,
+//  sm: 576px,
+//  md: 768px,
+//  lg: 992px,
+//  xl: 1200px,
+//  xxl: 1400px
+//) !default;
+//
+$grid-breakpoints: ();
+@each $breakpoint, $map in $x-grid-breakpoints {
+  $min-width: map-get($map, minWidth);
+  @if($min-width == null) {
+    $min-width: 0;
+  }
+  $grid-breakpoints: map-merge($grid-breakpoints, ($breakpoint: $min-width));
+}
+//$container-max-widths: (
+//  sm: 540px,
+//  md: 720px,
+//  lg: 960px,
+//  xl: 1140px,
+//  xxl: 1320px
+//) !default;
+$container-max-widths: ();
+@each $breakpoint, $map in $x-grid-breakpoints {
+  $margin: map-get($map, margin);
+  $min-width: map-get($map, minWidth);
+  @if($min-width) {
+    $container-max-widths: map-merge($container-max-widths, ($breakpoint: calc(100% - $margin - $margin)));
+  }
+}
+//$container-max-widths: (
+//  sm: 540px,
+//  md: 720px,
+//  lg: 960px,
+//  xl: 1140px,
+//  xxl: 1320px
+//);
+
+//$grid-breakpoints: (
+//  xs: 0,
+//  sm: 576px,
+//  md: 768px,
+//  lg: 992px,
+//  xl: 1200px,
+//  xxl: 1400px
+//) !default;
+//
+$modal-md: 586px;
+$hr-opacity: 1;
+
+@import "utilities";
+@import "_variable_default";
