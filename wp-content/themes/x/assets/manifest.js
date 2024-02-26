@@ -30,10 +30,10 @@ module.exports = {
         // "node_modules/nodelist-foreach-polyfill/index.js",
 
         // IE 11 ponyfill for css vars
-        // "node_modules/css-vars-ponyfill/dist/css-vars-ponyfill.min.js",
+        "node_modules/css-vars-ponyfill/dist/css-vars-ponyfill.min.js",
 
         // vanilla js version of fitvids, that makes iframe videos responsice (https://www.npmjs.com/package/fitvids)
-        // "node_modules/fitvids/dist/fitvids.js",
+        "node_modules/fitvids/dist/fitvids.min.js",
 
         // project specific js
         // "assets/scripts/lib/in-viewport.js",

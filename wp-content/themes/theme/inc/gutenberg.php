@@ -127,7 +127,7 @@ function ps_filter_gutenberg_global_editor_setting( $editor_settings ) {
 	$editor_settings['__experimentalFeatures']['color']['defaultPalette']       = false;
 	$editor_settings['__experimentalFeatures']['color']['duotone']['default']   = array();
 	$editor_settings['__experimentalFeatures']['color']['gradients']['default'] = array();
-	$editor_settings['titlePlaceholder']                                        = 'Bridging voice post title';
+	$editor_settings['titlePlaceholder']                                        = 'X post title';
 	return $editor_settings;
 }
 
