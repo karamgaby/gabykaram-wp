@@ -1,0 +1,10 @@
+$x_colors: ()  !default;
+@function getColor($color) {
+  $_color: map-get($x_colors, $color);
+  @if($_color) {
+    @return $_color;
+  } @else {
+    @return 'transparent';
+  }
+}
+

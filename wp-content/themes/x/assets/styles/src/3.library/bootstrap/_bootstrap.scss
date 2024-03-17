@@ -49,10 +49,16 @@
 // bootstrap default files end
 @each $breakpoint, $map in $x-grid-breakpoints {
   $infix: breakpoint-infix($breakpoint, $x-grid-breakpoints);
+  $margin: map-get($map, margin);
   @include media-breakpoint-up($breakpoint) {
+    .container,
+    .container-fluid {
+      padding-left: $margin;
+      padding-right: $margin;
+    }
     .container-#{$infix} {
-      padding-left: 0;
-      padding-right: 0;
+      padding-left: $margin;
+      padding-right: $margin;
     }
   }
 }
@@ -76,61 +82,4 @@
     }
   }
 }
-
-@mixin make-grid-columns2($columns: $grid-columns, $grid-breakpoints, $x-grid-breakpoints ) {
-  @each $breakpoint, $width in $grid-breakpoints {
-    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
-    $x-breakpoint: map-get($x-grid-breakpoints, $breakpoint);
-    $margin: map-get($x-breakpoint, margin);
-    $gutter: map-get($x-breakpoint, gutter);
-    @include media-breakpoint-up($breakpoint, $grid-breakpoints) {
-      .col {
-        //  min-width: (100% - total-columns * gab) / total-columns;
-        min-width: calc((100% - $columns * $gutter) / $columns);
-      }
-      @for $i from 1 through $columns {
-        .col-#{$i} {
-          $flex-basis: calc((100% - #{$columns - 1} * #{$gutter}) / #{$columns} * #{$i} + #{($i - 1) * $gutter});
-          flex-basis: $flex-basis;
-        }
-
-      }
-      // Provide basic `.col-{bp}` classes for equal-width flexbox columns
-      .col#{$infix} {
-        min-width: calc((100% - $columns * $gutter) / $columns);
-      }
-      @if $columns > 0 {
-        @for $i from 1 through $columns {
-          .col#{$infix}-#{$i} {
-            min-width: calc((100% - $columns * $gutter) / $columns);
-            $flex-basis: calc(((100% - #{$columns - 1} * #{$gutter}) / #{$columns} * #{$i}) + #{($i - 1) * $gutter});
-            flex-basis: $flex-basis;
-          }
-        }
-      }
-      // old style
-        // not tested
-      // offset is out of the grid system
-
-      .col#{$infix}-auto {
-        @include make-col-auto();
-      }
-
-      // Gutters
-      //
-      // Make use of `.g-*`, `.gx-*` or `.gy-*` utilities to change spacing between the columns.
-      @each $key, $value in $gutters {
-        .g#{$infix}-#{$key},
-        .gx#{$infix}-#{$key} {
-          --#{$prefix}gutter-x: #{$value};
-        }
-        .g#{$infix}-#{$key},
-        .gy#{$infix}-#{$key} {
-          --#{$prefix}gutter-y: #{$value};
-        }
-      }
-    }
-  }
-}
-
-@include make-grid-columns2($grid-columns, $grid-breakpoints, $x-grid-breakpoints);
+@include make-grid-columnsBoostrapCopy($grid-columns, $grid-breakpoints, $x-grid-breakpoints);

@@ -23,7 +23,7 @@
       <?php
       for ( $i = 0; $i < 24; $i ++ ) {
         ?>
-        <div class="col-lg-2  rounded-<?php echo $i%5?> col-md-3 col-sm-6 " style="background: black; height: 160px;">
+        <div class="col-xl-1 col-lg-2  rounded-<?php echo $i%5?> col-md-3 col-sm-6 " style="background: black; height: 160px;">
          <div style="font-size: 1rem">
             <?= $i + 1 ?>
          </div>
@@ -31,6 +31,17 @@
         <?php
       }
       ?>
+     <?php
+     for ( $i = 0; $i < 24; $i ++ ) {
+       ?>
+       <div class="col-xl-2 col-lg-2  rounded-<?php echo $i%5?> col-md-3 col-sm-6 " style="background: black; height: 160px;">
+         <div style="font-size: 1rem">
+           <?= $i + 1 ?>
+         </div>
+       </div>
+       <?php
+     }
+     ?>
      <div class="col-lg-2 col-md-3 col-sm-6 " style="background: black">
          <div style="font-size: 1rem">
          </div>

@@ -1,0 +1,58 @@
+
+
+@mixin make-grid-columnsBoostrapCopy($columns: $grid-columns, $grid-breakpoints, $x-grid-breakpoints ) {
+  @each $breakpoint, $width in $grid-breakpoints {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+    $x-breakpoint: map-get($x-grid-breakpoints, $breakpoint);
+    $margin: map-get($x-breakpoint, margin);
+    $gutter: map-get($x-breakpoint, gutter);
+
+    @include media-breakpoint-up($breakpoint, $grid-breakpoints) {
+      .col {
+        //  min-width: (100% - total-columns * gab) / total-columns;
+        min-width: calc((100% - (#{$columns} * $gutter)) / $columns);
+      }
+      @for $i from 1 through $columns {
+        .col-#{$i} {
+          $flex-basis: calc((100% - #{$columns - 1} * #{$gutter}) / #{$columns} * #{$i} + #{($i - 1) * $gutter});
+          flex-basis: $flex-basis;
+        }
+
+      }
+      // Provide basic `.col-{bp}` classes for equal-width flexbox columns
+      .col#{$infix} {
+        min-width: calc((100% - #{$columns - 1} * var(--bs-gutter-x)) / $columns);
+      }
+      @if $columns > 0 {
+        @for $i from 1 through $columns {
+          .col#{$infix}-#{$i} {
+            min-width: calc((100% - #{$columns -1} * $gutter) / $columns);
+            $flex-basis: calc(((100% - #{$columns - 1} * #{$gutter}) / #{$columns} * #{$i}) + #{($i - 1) * $gutter});
+            flex-basis: $flex-basis;
+          }
+        }
+      }
+      // old style
+      // not tested
+      // offset is out of the grid system
+
+      .col#{$infix}-auto {
+        @include make-col-auto();
+      }
+
+      // Gutters
+      //
+      // Make use of `.g-*`, `.gx-*` or `.gy-*` utilities to change spacing between the columns.
+      @each $key, $value in $gutters {
+        .g#{$infix}-#{$key},
+        .gx#{$infix}-#{$key} {
+          --#{$prefix}gutter-x: #{$value};
+        }
+        .g#{$infix}-#{$key},
+        .gy#{$infix}-#{$key} {
+          --#{$prefix}gutter-y: #{$value};
+        }
+      }
+    }
+  }
+}

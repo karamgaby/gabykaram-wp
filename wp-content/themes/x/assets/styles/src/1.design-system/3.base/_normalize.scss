@@ -15,7 +15,7 @@ body {
   font-style: normal;
   font-feature-settings: 'case', 'calt', 'tnum', 'ss01', 'zero';
   text-rendering: optimizeLegibility;
-  background-color: getColor(g-light, white);
+  background-color: getColor(g-light-white);
   min-height: 100vh;
   display: flex;
   flex-direction: column;

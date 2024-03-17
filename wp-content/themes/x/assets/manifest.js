@@ -100,6 +100,14 @@ module.exports = {
       ]
 
     }
+  },
+
+  tokens: () => {
+    return [
+      'assets/tokens/grid.json',
+      'assets/tokens/colors.json',
+      'assets/tokens/typographies.json',
+    ];
   }
 
 };
