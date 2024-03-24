@@ -101,9 +101,6 @@
          "Invalid block.": [
             ""
          ],
-         "Please ensure that the output is a valid HTML structure.": [
-            ""
-         ],
          "Render callback is not specified.": [
             ""
          ],
