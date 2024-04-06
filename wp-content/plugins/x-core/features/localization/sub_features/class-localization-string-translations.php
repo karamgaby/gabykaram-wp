@@ -5,12 +5,8 @@
  * @return array list of registerd strings as key => value structure
  */
 function x_core_get_registered_strings() {
-
-  // support legacy filter
-  $strings = apply_filters('aucor_core_pll_register_strings', array());
-
   // current filter
-  $strings = apply_filters('x_core_pll_register_strings', $strings);
+  $strings = apply_filters('x_core_pll_register_strings', array());
 
   return $strings;
 

@@ -268,7 +268,7 @@ class X_Core_Debug_Style_Guide extends X_Core_Sub_Feature {
       $content = ob_get_clean();
 
       // support legacy filters
-      $content = apply_filters('aucor_core_custom_markup', $content);
+      $content = apply_filters('x_core_custom_markup', $content);
 
       // (possibly) override with custom markup from theme/plugin
       $content = apply_filters('x_core_custom_markup', $content);

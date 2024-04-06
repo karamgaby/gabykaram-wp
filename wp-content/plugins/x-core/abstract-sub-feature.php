@@ -55,11 +55,8 @@ abstract class X_Core_Sub_Feature {
 
     $default = $this->is_active;
 
-    // legacy filters (aucor_core)
-    $value = apply_filters(str_replace('x_core', 'aucor_core', $this->key), $default);
-
     // new filters (x_core)
-    $value = apply_filters($this->key, $value);
+    $value = apply_filters($this->key, $default);
 
     return $value;
 

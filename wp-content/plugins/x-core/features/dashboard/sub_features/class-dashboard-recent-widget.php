@@ -143,7 +143,7 @@ class X_Core_Dashboard_Recent_Widget extends X_Core_Sub_Feature {
     $default_roles = array('subscriber', 'contributor', 'author');
 
     // support legacy filter
-    $user_blacklist = apply_filters('aucor_core_recent_widget_user_blacklist', $default_roles);
+    $user_blacklist = apply_filters('x_core_recent_widget_user_blacklist', $default_roles);
 
     // new filter
     $user_blacklist = apply_filters('x_core_recent_widget_user_blacklist', $user_blacklist);
