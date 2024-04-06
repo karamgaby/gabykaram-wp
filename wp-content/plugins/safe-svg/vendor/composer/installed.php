@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'darylldoyle/safe-svg',
-        'pretty_version' => '2.2.3',
-        'version' => '2.2.3.0',
-        'reference' => '6973f492e217b93efe4192f7083c5d8030615af0',
+        'pretty_version' => '2.2.4',
+        'version' => '2.2.4.0',
+        'reference' => '62f529ea95b30881c44869fb157d0ea890714471',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'darylldoyle/safe-svg' => array(
-            'pretty_version' => '2.2.3',
-            'version' => '2.2.3.0',
-            'reference' => '6973f492e217b93efe4192f7083c5d8030615af0',
+            'pretty_version' => '2.2.4',
+            'version' => '2.2.4.0',
+            'reference' => '62f529ea95b30881c44869fb157d0ea890714471',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
