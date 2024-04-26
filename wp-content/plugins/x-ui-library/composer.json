@@ -1,0 +1,20 @@
+{
+    "name": "gabykaram/x-ui-library",
+    "description": "A UI Library for wordpress",
+    "autoload": {
+        "psr-4": {
+            "X_UI\\": "inc/"
+        }
+    },
+    "prefer-stable" : true,
+    "authors": [
+        {
+            "name": "Gaby Karam",
+            "email": "info@gabykaram.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+
+    }
+}

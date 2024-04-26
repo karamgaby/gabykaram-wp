@@ -2,7 +2,6 @@
   "columns": 24,
   "max-supported-width": "8000px",
   "breakpoints": {
-
     "xs": {
       "minWidth": null,
       "gutter": "12px",

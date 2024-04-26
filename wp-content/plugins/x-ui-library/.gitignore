@@ -1,0 +1,7 @@
+bower_components/*
+!bower_components/.gitkeep
+node_modules
+.sass-cache
+
+## to be include and could be ignore from parent .gitignore
+!vendor
