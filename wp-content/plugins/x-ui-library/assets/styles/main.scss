@@ -1,5 +1,5 @@
 /* ==========================================================================
- # Gutenberg Editor (back-end)
+ # Main (front-end)
 ========================================================================== */
 
 /* Utils
@@ -10,5 +10,5 @@
 /* Base
 ----------------------------------------------- */
 
-@import "../../../../plugins/x-ui-library/assets/styles/src/1.design-system/index";
-
+@import "src/1.design-system/index";
+@import "src/3.library/bootstrap/bootstrap";

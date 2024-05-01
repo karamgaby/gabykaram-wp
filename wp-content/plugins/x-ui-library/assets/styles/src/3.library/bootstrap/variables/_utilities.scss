@@ -82,15 +82,15 @@ $utilities: (
   ),
 );
 
-@each $border-radius, $key in $x-border-radius {
-  @debug $border-radius;
+@each $border-radius, $key in $x-grid-border-radius {
+  //@debug $border-radius;
 }
 
-// Get the 'rounded' utility style values
+// Get the 'shadow' utility style values
 $shadow-values: map-get(map-get($utilities, 'shadow'), 'values');
 // Merge the new values with the old ones
-$new-shadow-values: map-merge($shadow-values, $x-shadows);
-// Set the new values in the 'rounded' utility style
+$new-shadow-values: map-merge($shadow-values, $x-grid-shadows);
+// Set the new values in the 'shadow' utility style
 $utilities: map-merge($utilities, (
   'shadow': map-merge(map-get($utilities, 'shadow'), (
     'values': $new-shadow-values
@@ -100,10 +100,30 @@ $utilities: map-merge($utilities, (
 // Get the 'rounded' utility style values
 $rounded-values: map-get(map-get($utilities, 'rounded'), 'values');
 // Merge the new values with the old ones
-$new-rounded-values: map-merge($rounded-values, $x-border-radius);
+$new-rounded-values: map-merge($rounded-values, $x-grid-border-radius);
 // Set the new values in the 'rounded' utility style
 $utilities: map-merge($utilities, (
   'rounded': map-merge(map-get($utilities, 'rounded'), (
     'values': $new-rounded-values
+  ))
+));
+// Get the 'width' utility style values
+$width-values: map-get(map-get($utilities, 'width'), 'values');
+// Merge the new values with the old ones
+$new-width-values: map-merge($width-values, $spacers);
+// Set the new values in the 'width' utility style
+$utilities: map-merge($utilities, (
+  'width': map-merge(map-get($utilities, 'width'), (
+    'values': $new-width-values
+  ))
+));
+// Get the 'height' utility style values
+$height-values: map-get(map-get($utilities, 'height'), 'values');
+// Merge the new values with the old ones
+$new-height-values: map-merge($height-values, $spacers);
+// Set the new values in the 'height' utility style
+$utilities: map-merge($utilities, (
+  'height': map-merge(map-get($utilities, 'height'), (
+    'values': $new-height-values
   ))
 ));

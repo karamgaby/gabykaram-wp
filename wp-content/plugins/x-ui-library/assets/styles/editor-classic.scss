@@ -1,14 +1,12 @@
 /* ==========================================================================
- # Gutenberg Editor (back-end)
+ # Classic Editor (back-end)
 ========================================================================== */
 
-/* Utils
+/* Base from main
 ----------------------------------------------- */
 
-@import "utils";
+@import "main";
 
-/* Base
+
+/* Custom TinyMCE styles
 ----------------------------------------------- */
-
-@import "../../../../plugins/x-ui-library/assets/styles/src/1.design-system/index";
-

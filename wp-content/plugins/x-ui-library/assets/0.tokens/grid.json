@@ -37,7 +37,8 @@
       "minWidth": "3840px",
       "gutter": "48px",
       "margin": "320px",
-      "baseFontSize": "24px"
+      "baseFontSize": "24px",
+      "maxWidth": "2200px"
     }
   },
   "spacing": {

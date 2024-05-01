@@ -1,6 +1,7 @@
 @import "bootstrap-common";
 // override bootstrap utilities before being used in other component
-
+@debug "$container-max-widths";
+@debug $container-max-widths;
 // Layout & components
 @import 'node_modules/bootstrap/scss/root';
 @import 'node_modules/bootstrap/scss/reboot';
@@ -40,7 +41,7 @@
 // Utilities
 @import 'node_modules/bootstrap/scss/utilities/api';
 // scss-docs-end import-stack
-
+//
 .container,
 .container-fluid {
   padding-left: 0;
@@ -71,15 +72,11 @@
       font-size: $baseFontSize;
       line-height: calc(#{$baseFontSize} + 8px);
     }
+    .grid {
+      --bs-gap: #{$gutter};
+    }
     .row {
       --bs-gutter-x: #{$gutter};
-      margin-right: 0;
-      margin-left: 0;
-      gap: #{$gutter};
-    }
-    .row > * {
-      padding: 0;
     }
   }
 }
-@include make-grid-columnsBoostrapCopy($grid-columns, $grid-breakpoints, $x-grid-breakpoints);

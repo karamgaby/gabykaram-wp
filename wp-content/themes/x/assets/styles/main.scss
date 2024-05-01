@@ -4,14 +4,15 @@
 
 /* Utils
 ----------------------------------------------- */
-
 @import "utils";
 
 /* Base
 ----------------------------------------------- */
 
-@import "src/1.design-system/index";
-@import "src/3.library/bootstrap/bootstrap";
+@import "../../../../plugins/x-ui-library/assets/styles/src/1.design-system/index";
+@import "../../../../plugins/x-ui-library/assets/styles/src/3.library/bootstrap/bootstrap";
+//@debug "$container-max-widths";
+//@debug $container-max-widths;
 
 body {
   background-color: #33CCCC;
@@ -28,11 +29,8 @@ body {
   }
 }
 
-.container,
-.container-fluid,
-.container-lg,
-.container-md,
-.container-sm,
-.container-xl {
-
+.test-col {
+  font-size: 0.75rem;
+  background: red;
+  height: 80%;
 }
