@@ -31,10 +31,12 @@ const path = {
   },
   "sprite": {
     "source": "assets/sprite/",
+    "pluginSource": "../../plugins/x-ui-library/assets/sprite/",
     "dist": "dist/sprite/",
   },
   "modules": {
     "source": "modules/",
+    "pluginModulesPath": "../../plugins/x-ui-library/modules/",
   }
 };
 

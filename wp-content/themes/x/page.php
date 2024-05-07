@@ -4,7 +4,7 @@
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
- * @package axio
+ * @package x
  */
 
 get_header(); ?>

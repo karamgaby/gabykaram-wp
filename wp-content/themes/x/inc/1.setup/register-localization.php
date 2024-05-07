@@ -14,7 +14,7 @@
  *
  * @return array list of translatabel strings
  */
-add_filter('axio_core_pll_register_strings', function($strings) {
+add_filter('x_core_pll_register_strings', function($strings) {
 
   return array_merge($strings, [
 

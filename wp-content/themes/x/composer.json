@@ -3,7 +3,7 @@
     "description": "A block theme for wordpress",
     "autoload": {
         "psr-4": {
-            "StageZero\\": "src/"
+            "StageZero\\": "core-php/"
         }
     },
     "prefer-stable" : true,

@@ -5,7 +5,6 @@ const {enabled, path} = require('./gulp/config');
 const {updateTimestamp} = require('./gulp/helpers/update-timeStamp');
 const {cssTasks} = require('./gulp/tasks/css');
 const {jsTasks} = require('./gulp/tasks/js');
-const {tokensTasks} = require('./gulp/tasks/tokens');
 /**
  * Site config
  */
@@ -42,6 +41,15 @@ const getModules = () => {
     });
 }
 
+const getUIPluginModule = () => {
+  return fs.readdirSync(path.modules.pluginModulesPath)
+    .filter(function (module) {
+      console.log('getUIPluginModule', module)
+      if (!module.includes("_", 0)) {
+        return fs.statSync(path_module.join(path.modules.pluginModulesPath, module)).isDirectory();
+      }
+    });
+}
 
 /**
  * getModuleJsons helper function for collecting all modules _.json files
@@ -118,13 +126,6 @@ var jsAssets = buildAssets(getAssets().js);
 var cssAssets = buildAssets(getAssets().css);
 
 
-/**
- * Task: Tokens
- * */
-gulp.task('buildJsonToken', (cb) => {
-  tokensTasks()
-  return cb();
-});
 
 /**
  * Task: Styles
@@ -235,7 +236,7 @@ gulp.task('svgstore', async () => {
 
   updateTimestamp('svg');
   const imagemin = await import('gulp-imagemin');
-
+  const pluginPath = path.sprite.pluginSource;
   // Gather all svg sources to one array
   let spriteSources = [];
 
@@ -245,13 +246,28 @@ gulp.task('svgstore', async () => {
     err => console.error({err})
   );
 
+  await fs.promises.readdir(pluginPath).then(
+    files => {
+      files.forEach(file => spriteSources.push(pluginPath + file))
+    },
+    err => console.error('svgPlugin error', {err})
+  );
+
   // Add module sprites to spriteSources if icon with the same name is not found
-  // @todo maybe turn into async function
   const dropIns = getModules();
 
   // Get module filenames
   for (const module of dropIns) {
     await fs.promises.readdir(path.modules.source + module + '/assets/sprite').then(
+      files => files.forEach(file => spriteSources.push(path.modules.source + module + '/assets/sprite/' + file)),
+      err => null // directory doesn't exist
+    );
+  }
+
+  const pluginDropIns = getUIPluginModule();
+  // Get module filenames
+  for (const module of pluginDropIns) {
+    await fs.promises.readdir(path.modules.pluginModulesPath + module + '/assets/sprite').then(
       files => files.forEach(file => spriteSources.push(path.modules.source + module + '/assets/sprite/' + file)),
       err => null // directory doesn't exist
     );
@@ -272,7 +288,6 @@ gulp.task('svgstore', async () => {
       }
     }
   }
-  console.log('-----> svgstore')
   return gulp.src(Object.keys(spriteFilenameReference))
     // rename SVG IDs by "icon-filename"
     .pipe(rename({prefix: 'icon-'}))
@@ -350,7 +365,8 @@ gulp.task('watch', () => {
     browsersync.init({
       files: [
         '{inc,blocks,modules}/**/*.php',
-        '*.php'
+        '*.php',
+        '../../plugins/x-ui-library/*.php'
       ],
       proxy: manifest.devUrl(),
       snippetOptions: {
@@ -363,17 +379,11 @@ gulp.task('watch', () => {
 
   // watch these files
   gulp.watch(path.styles.source + '**/*.scss', gulp.task('styles'));
+  gulp.watch('../../themes/x/' + '**/*.scss', gulp.task('styles'));
+  gulp.watch('../../plugins/x-ui-library/' + '**/*.scss', gulp.task('styles'));
   gulp.watch(path.scripts.source + '**/*.js', gulp.task('scripts'));
   gulp.watch(path.images.source + '**/*', gulp.task('images'));
   gulp.watch(path.sprite.source + '*', gulp.task('svgstore'));
-  gulp.watch(path.tokens.source + '*.json', gulp.task('buildJsonToken')).on(
-    'change',
-    () => {
-      console.log('tokens change')
-      // gulp.parallel('styles', 'scripts', 'jshint');
-    }
-  );
-  // gulp.watch('./assets/*.json', buildJsonToken).on('change', buildCss);
   // modules
   gulp.watch(path.modules.source + '**/*.scss', gulp.task('styles'));
   gulp.watch(path.modules.source + '**/*.js', gulp.task('scripts'));
@@ -386,7 +396,7 @@ gulp.task('watch', () => {
     'assets/manifest.js',
     path.modules.source + '*/_.json'
   ], () => {
-    console.log("\n⚠️  Congifuration modified. Restart gulp. ⚠️\n");
+    console.log("\n⚠️  Configuration modified. Restart gulp. ⚠️\n");
     return process.exit();
   });
 

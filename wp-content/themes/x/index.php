@@ -9,7 +9,7 @@
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
- * @package axio
+ * @package x
  */
 
 $title = ask__('Title: Archives');

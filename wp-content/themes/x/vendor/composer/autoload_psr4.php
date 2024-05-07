@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'StageZero\\' => array($baseDir . '/src'),
+    'StageZero\\' => array($baseDir . '/core-php'),
 );

@@ -1,0 +1,36 @@
+/* ==========================================================================
+ # SVG
+========================================================================== */
+
+@import '../../../../../../plugins/x-ui-library/assets/styles/src/1.design-system/common';
+@import '../../../../assets/styles/utils.scss';
+
+.x-icon {
+  display: inline-block;
+  fill: currentColor;
+  height: 1.5rem;
+  vertical-align: middle;
+  width:  1.5rem;
+  &.x-icon-size-small {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  &.x-icon-size-xlarge {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  @each $breakpoint in map-keys($x_grid_breakpoints) {
+    @include media-breakpoint-up($breakpoint) {
+      $infix: breakpoint-infix($breakpoint, $x_grid_breakpoints);
+      &.x-icon-size#{$infix}-small {
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+      &.x-icon-size#{$infix}-xlarge {
+        width: 15rem;
+        height: 15rem;
+      }
+    }
+  }
+}

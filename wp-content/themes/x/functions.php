@@ -28,7 +28,6 @@ define( 'STORKER_DATE_FORMAT', 'd.m.Y' );
  */
 require get_template_directory() . '/inc/0.core/reset.php';
 require get_template_directory() . '/inc/0.core/security.php';
-require get_template_directory() . '/inc/0.core/class-component.php';
 require get_template_directory() . '/inc/0.core/user-roles.php';
 
 /**

@@ -16,7 +16,7 @@ class ComposerStaticInit8dd3885789107d9f76937655836e6427
     public static $prefixDirsPsr4 = array (
         'StageZero\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src',
+            0 => __DIR__ . '/../..' . '/core-php',
         ),
     );
 

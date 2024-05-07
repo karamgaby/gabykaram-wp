@@ -11,26 +11,28 @@
 
 @import "../../../../plugins/x-ui-library/assets/styles/src/1.design-system/index";
 @import "../../../../plugins/x-ui-library/assets/styles/src/3.library/bootstrap/bootstrap";
-//@debug "$container-max-widths";
-//@debug $container-max-widths;
-
+@import "../../../../plugins/x-ui-library/modules/svg/assets/styles/svg";
+@import "../../../../plugins/x-ui-library/modules/buttons/assets/styles/buttons";
 body {
-  background-color: #33CCCC;
+  background-color: #CCCCCC;
+}
+.grid-system {
 
-}
-.container {
-  background-color: #F7D414;
-}
-.col {
-  background-color: #3C3C3B;
-  div {
-    width: 100%;
-    background: #E75204;
+  .container {
+    background-color: #F7D414;
   }
-}
+  .col {
+    background-color: #3C3C3B;
+    div {
+      width: 100%;
+      background: #E75204;
+    }
+  }
 
-.test-col {
-  font-size: 0.75rem;
-  background: red;
-  height: 80%;
+  .test-col {
+    font-size: 0.75rem;
+    background: red;
+    height: 80%;
+  }
+
 }
