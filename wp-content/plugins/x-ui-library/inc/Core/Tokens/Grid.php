@@ -24,8 +24,8 @@ class Grid extends AbstractTokens {
             ],
             "md" => [
                 "minWidth" => "774px",
-                "gutter" => "16px",
-                "margin" => "16px",
+                "gutter" => "24px",
+                "margin" => "24px",
                 "baseFontSize" => "16px",
             ],
             "lg" => [
@@ -36,15 +36,17 @@ class Grid extends AbstractTokens {
             ],
             "xl" => [
                 "minWidth" => "1920px",
-                "gutter" => "48px",
-                "margin" => "160px",
-                "baseFontSize" => "24px",
+                "gutter" => "24px",
+                "margin" => "24px",
+                "baseFontSize" => "16px",
+                "maxWidth" => "1600px",
             ],
             "xxl" => [
                 "minWidth" => "3840px",
                 "gutter" => "48px",
+                "margin" => "320px",
                 "baseFontSize" => "24px",
-                "maxWidth" => "2000px",
+                "maxWidth" => "2200px",
             ],
         ],
         "spacing" => [

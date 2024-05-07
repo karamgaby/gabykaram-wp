@@ -67,7 +67,9 @@ abstract class AbstractComponent {
             if (is_array($value)) {
                 $value = implode(' ', $value);
             }
-            if (!empty($value) || is_numeric($value)) {
+            if($key === 'disabled') {
+              $return[] = 'disabled';
+            } else if (!empty($value) || is_numeric($value)) {
                 $return[] = esc_attr($key) . '="' . esc_attr($value) . '"';
             } else {
                 if ($key === 'alt') {

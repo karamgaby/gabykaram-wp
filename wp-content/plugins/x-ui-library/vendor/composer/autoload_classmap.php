@@ -7,7 +7,4 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
-    'X_UI\\Core\\AbstractComponent' => $baseDir . '/inc/Core/AbstractComponent.php',
-    'X_UI\\Core\\AbstractTokens' => $baseDir . '/inc/Core/AbstractTokens.php',
-    'X_UI\\Core\\Config' => $baseDir . '/inc/Core/Config.php',
 );

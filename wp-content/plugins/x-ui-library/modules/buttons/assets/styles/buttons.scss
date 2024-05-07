@@ -1,0 +1,45 @@
+/* ==========================================================================
+ # Button block and X_Button component
+========================================================================== */
+
+@import '../../../../assets/styles/utils.scss';
+@import "mixin";
+/* Component
+----------------------------------------------- */
+
+@import "0.tokens/buttons";
+
+.x-btn {
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  &.x-btn-disabled,
+  &:disabled {
+    cursor: not-allowed;
+  }
+
+  @each $button-name, $button-settings in $x_buttons {
+    $default: map-get($button-settings, default);
+    $hover: map-get($button-settings, hover);
+    $disabled: map-get($button-settings, disabled);
+    &.x-btn-style-#{$button-name} {
+      @if ($default) {
+        @include xBtnDefault($default);
+      }
+
+      &:hover {
+        @if ($hover) {
+          @include xBtnDefault($hover);
+        }
+      }
+
+      @if ($disabled) {
+        &.x-btn-disabled,
+        &:disabled {
+          @include xBtnDefault($disabled);
+        }
+      }
+    }
+  }
+}

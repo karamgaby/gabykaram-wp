@@ -1,0 +1,52 @@
+@import '../../../../assets/styles/src/1.design-system/common';
+
+@mixin xBtnDefault($settings) {
+  $textStyle: map-get($settings, textStyle);
+  $outline: map-get($settings, outline);
+  $bgColor: map-get($settings, bgColor);
+  $textColor: map-get($settings, textColor);
+  $borderRadius: map-get($settings, borderRadius);
+  $padding: map-get($settings, padding);
+  $iconFillColor: map-get($settings, iconFillColor);
+  @if ($bgColor) {
+    background-color: getColor($bgColor);
+  }
+  @if ($textColor) {
+    color: getColor($textColor);
+  }
+  @if ($borderRadius) {
+    border-radius: $borderRadius;
+  }
+  @if ($padding) {
+    padding: $padding;
+  }
+
+  @if ($textStyle) {
+    @include ps-typography($textStyle);
+  }
+
+  @if ($outline) {
+    $outlineStyle: map-get($outline, style);
+    $outlineWidth: map-get($outline, width);
+    $outlineColor: map-get($outline, color);
+    $outlineOffset: map-get($outline, offset);
+    @if ($outlineStyle) {
+      outline-style: $outlineStyle;
+    }
+    @if ($outlineWidth) {
+      outline-width: $outlineWidth;
+    }
+    @if ($outlineColor) {
+      outline-color: getColor($outlineColor);
+    }
+    @if ($outlineOffset) {
+      outline-offset: $outlineOffset;
+    }
+  }
+
+  @if($iconFillColor) {
+    .x-icon {
+      fill: getColor($iconFillColor);
+    }
+  }
+}

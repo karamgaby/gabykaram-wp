@@ -1,7 +1,5 @@
 @import "bootstrap-common";
 // override bootstrap utilities before being used in other component
-@debug "$container-max-widths";
-@debug $container-max-widths;
 // Layout & components
 @import 'node_modules/bootstrap/scss/root';
 @import 'node_modules/bootstrap/scss/reboot';

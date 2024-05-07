@@ -6,5 +6,6 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'X_UI\\Modules\\' => array($baseDir . '/modules'),
     'X_UI\\' => array($baseDir . '/inc'),
 );

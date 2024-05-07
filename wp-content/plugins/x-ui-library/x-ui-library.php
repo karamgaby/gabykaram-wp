@@ -43,3 +43,21 @@ define( 'X_UI_PLUGIN_VERSION', $plugin_version );
  */
 
 $media_breakpoints = X_UI\Core\Config::get_grid_breakpoints_keys(  );
+
+/**
+ * Module PHP autoloader
+ *
+ * You can disable a module by starting directory with underscore
+ */
+foreach ( glob( __DIR__ . '/modules/*', GLOB_ONLYDIR ) as $dir ) {
+  if ( ! str_contains( $dir, '/modules/_' ) && file_exists( $dir . '/_.json' ) ) {
+    $parts = json_decode( file_get_contents( $dir . '/_.json' ), true, 512, JSON_THROW_ON_ERROR );
+    if ( isset( $parts['php'], $parts['php']['inc'] ) ) {
+      foreach ( $parts['php']['inc'] as $file ) {
+        if ( ! strstr( $file, '..' ) ) {
+          require_once $dir . '/' . $file;
+        }
+      }
+    }
+  }
+}

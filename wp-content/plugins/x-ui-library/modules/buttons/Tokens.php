@@ -1,0 +1,325 @@
+<?php
+
+namespace X_UI\Core\Modules\Buttons;
+
+use X_UI\Core\AbstractTokens;
+class Tokens extends AbstractTokens {
+  private static $instance = null;
+  private function __construct() {
+    parent::__construct([
+        "buttons" => [
+            "primary-standard" => [
+                "default" => [
+                    "textStyle" => "button-standard",
+                    "bgColor" => "medium-turquoise-500",
+                    "textColor" => "mate-black-900",
+                    "padding" => "0.75rem 1rem",
+                    "borderRadius" => "0.75rem",
+                    "outline" => null,
+                ],
+                "hover" => [
+                    "bgColor" => "medium-turquoise-400",
+                ],
+                "disabled" => [
+                    "bgColor" => "white-grey-300",
+                    "textColor" => "mate-black-200",
+                ],
+            ],
+            "icon-left" => [
+                "hasIcon" => "true",
+                "iconPosition" => "start",
+                "default" => [
+                    "textStyle" => "button-standard",
+                    "bgColor" => "medium-turquoise-500",
+                    "textColor" => "mate-black-900",
+                    "padding" => "0.75rem 1rem",
+                    "borderRadius" => "0.75rem",
+                    "outline" => null,
+                    "iconFillColor" => "black",
+                ],
+                "hover" => [
+                    "bgColor" => "medium-turquoise-400",
+                ],
+                "disabled" => [
+                    "bgColor" => "white-grey-300",
+                    "textColor" => "mate-black-200",
+                    "iconFillColor" => "mate-black-200",
+                ],
+            ],
+            "primary-outlined" => [
+                "default" => [
+                    "textStyle" => "button-standard",
+                    "bgColor" => "transparent",
+                    "textColor" => "mate-black-900",
+                    "padding" => "0.75rem 1rem",
+                    "borderRadius" => "0.75rem",
+                    "outline" => [
+                        "style" => "solid",
+                        "width" => "0.125rem",
+                        "offset" => "-0.125rem",
+                        "color" => "medium-turquoise-500",
+                    ],
+                ],
+                "hover" => [
+                    "bgColor" => "medium-turquoise-50",
+                ],
+                "disabled" => [
+                    "bgColor" => "white-grey-300",
+                    "textColor" => "mate-black-200",
+                    "outline" => [
+                        "color" => "mate-black-200",
+                    ],
+                ],
+            ],
+            "icon-left-outlined" => [
+                "hasIcon" => "true",
+                "iconPosition" => "start",
+                "default" => [
+                    "textStyle" => "button-standard",
+                    "bgColor" => "transparent",
+                    "textColor" => "mate-black-900",
+                    "padding" => "0.75rem 1rem",
+                    "borderRadius" => "0.75rem",
+                    "iconFillColor" => "black",
+                    "outline" => [
+                        "style" => "solid",
+                        "width" => "0.125rem",
+                        "offset" => "-0.125rem",
+                        "color" => "medium-turquoise-500",
+                    ],
+                ],
+                "hover" => [
+                    "bgColor" => "medium-turquoise-50",
+                ],
+                "disabled" => [
+                    "bgColor" => "white-grey-300",
+                    "textColor" => "mate-black-200",
+                    "iconFillColor" => "mate-black-200",
+                    "outline" => [
+                        "color" => "mate-black-200",
+                    ],
+                ],
+            ],
+            "icon-right" => [
+                "hasIcon" => "true",
+                "iconPosition" => "end",
+                "default" => [
+                    "textStyle" => "button-standard",
+                    "bgColor" => "medium-turquoise-500",
+                    "textColor" => "mate-black-900",
+                    "padding" => "0.75rem 1rem",
+                    "borderRadius" => "0.75rem",
+                    "outline" => null,
+                    "iconFillColor" => "black",
+                ],
+                "hover" => [
+                    "bgColor" => "medium-turquoise-400",
+                ],
+                "disabled" => [
+                    "bgColor" => "white-grey-300",
+                    "textColor" => "mate-black-200",
+                    "iconFillColor" => "mate-black-200",
+                ],
+            ],
+            "icon-right-outlined" => [
+                "hasIcon" => "true",
+                "iconPosition" => "end",
+                "default" => [
+                    "textStyle" => "button-standard",
+                    "bgColor" => "transparent",
+                    "textColor" => "mate-black-900",
+                    "padding" => "0.75rem 1rem",
+                    "borderRadius" => "0.75rem",
+                    "iconFillColor" => "black",
+                    "outline" => [
+                        "style" => "solid",
+                        "width" => "0.125rem",
+                        "offset" => "-0.125rem",
+                        "color" => "medium-turquoise-500",
+                    ],
+                ],
+                "hover" => [
+                    "bgColor" => "medium-turquoise-50",
+                ],
+                "disabled" => [
+                    "bgColor" => "white-grey-300",
+                    "textColor" => "mate-black-200",
+                    "iconFillColor" => "mate-black-200",
+                    "outline" => [
+                        "color" => "mate-black-200",
+                    ],
+                ],
+            ],
+            "light" => [
+                "default" => [
+                    "textStyle" => "button-standard",
+                    "bgColor" => "white-white-50",
+                    "textColor" => "mate-black-900",
+                    "padding" => "0.75rem 1rem",
+                    "borderRadius" => "0.75rem",
+                    "outline" => null,
+                ],
+                "hover" => [
+                    "bgColor" => "medium-turquoise-50",
+                ],
+                "disabled" => [
+                    "bgColor" => "white-grey-300",
+                    "textColor" => "mate-black-200",
+                ],
+            ],
+            "secondary-outlined" => [
+                "default" => [
+                    "textStyle" => "button-standard",
+                    "bgColor" => "transparent",
+                    "textColor" => "mate-black-900",
+                    "padding" => "0.75rem 1rem",
+                    "borderRadius" => "0.75rem",
+                    "outline" => [
+                        "style" => "solid",
+                        "width" => "0.125rem",
+                        "offset" => "-0.125rem",
+                        "color" => "orange-700",
+                    ],
+                ],
+                "hover" => [
+                    "bgColor" => "orange-50",
+                ],
+                "disabled" => [
+                    "bgColor" => "white-grey-300",
+                    "textColor" => "mate-black-200",
+                    "outline" => [
+                        "color" => "mate-black-200",
+                    ],
+                ],
+            ],
+            "icon-right-secondary" => [
+                "hasIcon" => "true",
+                "iconPosition" => "end",
+                "default" => [
+                    "textStyle" => "button-standard",
+                    "bgColor" => "transparent",
+                    "textColor" => "mate-black-900",
+                    "padding" => "0.75rem 1rem",
+                    "borderRadius" => "0.75rem",
+                    "iconFillColor" => "black",
+                    "outline" => [
+                        "style" => "solid",
+                        "width" => "0.125rem",
+                        "offset" => "-0.125rem",
+                        "color" => "orange-700",
+                    ],
+                ],
+                "hover" => [
+                    "bgColor" => "orange-50",
+                ],
+                "disabled" => [
+                    "bgColor" => "white-grey-300",
+                    "textColor" => "mate-black-200",
+                    "iconFillColor" => "mate-black-200",
+                    "outline" => [
+                        "color" => "mate-black-200",
+                    ],
+                ],
+            ],
+            "icon-left-secondary" => [
+                "hasIcon" => "true",
+                "iconPosition" => "start",
+                "default" => [
+                    "textStyle" => "button-standard",
+                    "bgColor" => "transparent",
+                    "textColor" => "mate-black-900",
+                    "padding" => "0.75rem 1rem",
+                    "borderRadius" => "0.75rem",
+                    "iconFillColor" => "black",
+                    "outline" => [
+                        "style" => "solid",
+                        "width" => "0.125rem",
+                        "offset" => "-0.125rem",
+                        "color" => "orange-700",
+                    ],
+                ],
+                "hover" => [
+                    "bgColor" => "orange-50",
+                ],
+                "disabled" => [
+                    "bgColor" => "white-grey-300",
+                    "textColor" => "mate-black-200",
+                    "iconFillColor" => "mate-black-200",
+                    "outline" => [
+                        "color" => "mate-black-200",
+                    ],
+                ],
+            ],
+            "text-only" => [
+                "default" => [
+                    "textStyle" => "button-standard",
+                    "bgColor" => "transparent",
+                    "textColor" => "mate-black-900",
+                    "padding" => "0.75rem 1rem",
+                    "borderRadius" => "0.75rem",
+                ],
+                "hover" => [
+                    "textColor" => "orange-700",
+                ],
+                "disabled" => [
+                    "textColor" => "mate-black-200",
+                    "outline" => [
+                        "color" => "mate-black-200",
+                    ],
+                ],
+            ],
+            "icon-right-text" => [
+                "hasIcon" => "true",
+                "iconPosition" => "end",
+                "default" => [
+                    "textStyle" => "button-standard",
+                    "bgColor" => "transparent",
+                    "textColor" => "mate-black-900",
+                    "padding" => "0.75rem 1rem",
+                    "iconFillColor" => "black",
+                    "borderRadius" => "0.75rem",
+                ],
+                "hover" => [
+                    "iconFillColor" => "orange-700",
+                ],
+                "disabled" => [
+                    "textColor" => "mate-black-200",
+                    "iconFillColor" => "mate-black-200",
+                    "outline" => [
+                        "color" => "mate-black-200",
+                    ],
+                ],
+            ],
+            "icon-left-text" => [
+                "hasIcon" => "true",
+                "iconPosition" => "start",
+                "default" => [
+                    "textStyle" => "button-standard",
+                    "bgColor" => "transparent",
+                    "textColor" => "mate-black-900",
+                    "padding" => "0.75rem 1rem",
+                    "iconFillColor" => "black",
+                    "borderRadius" => "0.75rem",
+                ],
+                "hover" => [
+                    "iconFillColor" => "orange-700",
+                ],
+                "disabled" => [
+                    "textColor" => "mate-black-200",
+                    "iconFillColor" => "mate-black-200",
+                    "outline" => [
+                        "color" => "mate-black-200",
+                    ],
+                ],
+            ],
+        ],
+    ]);
+  }
+
+  public static function getInstance() {
+    if (!self::$instance) {
+      self::$instance = new Tokens();
+    }
+    return self::$instance;
+  }
+}

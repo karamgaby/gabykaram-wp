@@ -3,7 +3,8 @@
     "description": "A UI Library for wordpress",
     "autoload": {
         "psr-4": {
-            "X_UI\\": "inc/"
+            "X_UI\\": "inc/",
+            "X_UI\\Modules\\": "modules/"
         }
     },
     "prefer-stable" : true,

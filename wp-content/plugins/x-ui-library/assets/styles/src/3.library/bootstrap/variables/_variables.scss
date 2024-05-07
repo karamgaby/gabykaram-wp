@@ -87,8 +87,6 @@ $x_grid_breakpointsValues: map-values($x_grid_breakpoints);
     $container-max-widths: map-merge($container-max-widths, ($breakpoint: $max-width));
   }
 }
-@debug "$container-max-widths";
-@debug $container-max-widths;
 //$container-max-widths: (
 //  sm: 540px,
 //  md: 720px,

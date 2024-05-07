@@ -30,7 +30,7 @@
       "minWidth": "1920px",
       "gutter": "24px",
       "margin": "24px",
-      "baseFontSize": "24px",
+      "baseFontSize": "16px",
       "maxWidth": "1600px"
     },
     "xxl": {

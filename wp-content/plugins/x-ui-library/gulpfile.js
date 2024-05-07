@@ -3,6 +3,8 @@
  */
 const {enabled, path} = require('./gulp/config');
 const {updateTimestamp} = require('./gulp/helpers/update-timeStamp');
+const {getModuleJsons} = require("./gulp/helpers/modules");
+
 const {cssTasks} = require('./gulp/tasks/css');
 const {jsTasks} = require('./gulp/tasks/js');
 const {tokensTasks} = require('./gulp/tasks/tokens');
@@ -16,50 +18,11 @@ const manifest = require('./assets/manifest.js');
  */
 const argv = require('minimist')(process.argv.slice(2));
 const browsersync = require('browser-sync').create();
-const flatten = require('gulp-flatten');
 const gulp = require('gulp');
 const del = require('del');
 const gulpif = require('gulp-if');
-// const imagemin     = require('gulp-imagemin');
 const jshint = require('gulp-jshint');
 const merge = require('merge-stream');
-const rename = require('gulp-rename');
-const svgstore = require('gulp-svgstore');
-
-const fs = require('fs');
-const path_module = require('path');
-
-
-/**
- * getModules helper function for collecting all modules
- */
-const getModules = () => {
-  return fs.readdirSync(path.modules.source)
-    .filter(function (module) {
-      if (!module.includes("_", 0)) {
-        return fs.statSync(path_module.join('./modules/', module)).isDirectory();
-      }
-    });
-}
-
-
-/**
- * getModuleJsons helper function for collecting all modules _.json files
- */
-var getModuleJsons = () => {
-  var jsons = [];
-  var modules = getModules();
-
-  for (let i = 0; i < modules.length; i++) {
-    if (!modules[i].includes("_", 0) && !modules[i].includes(".")) {
-      jsons.push({
-        'name': modules[i],
-        'json': require('./modules/' + modules[i] + '/_.json'),
-      });
-    }
-  }
-  return jsons;
-}
 
 const getAssets = () => {
   let manifest_json = {
@@ -139,6 +102,7 @@ gulp.task('styles', () => {
 
   // update last-edited.json
   updateTimestamp('css');
+  console.log('cssAssets', cssAssets)
   // process all assets
   for (i = 0; i < cssAssets.length; i++) {
     let asset = cssAssets[i];
@@ -263,14 +227,21 @@ gulp.task('watch', () => {
   // modules
   gulp.watch(path.modules.source + '**/*.scss', gulp.task('styles'));
   gulp.watch(path.modules.source + '**/*.js', gulp.task('scripts'));
-
+  gulp.watch(path.modules.source + '**/assets/0.tokens/*.json', gulp.task('buildJsonToken')).on(
+    'change',
+    () => {
+      console.log('tokens change')
+      // gulp.parallel('styles', 'scripts', 'jshint');
+    }
+  );
 
   gulp.watch([
     'gulpfile.js',
     'assets/manifest.js',
+    'gulp/**/*',
     path.modules.source + '*/_.json'
   ], () => {
-    console.log("\n⚠️  Congifuration modified. Restart gulp. ⚠️\n");
+    console.log("\n⚠️  Configuration modified. Restart gulp. ⚠️\n");
     return process.exit();
   });
 
