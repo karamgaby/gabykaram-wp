@@ -11,23 +11,6 @@ use X_UI\Core\AbstractComponent;
  */
 class Component extends AbstractComponent {
 
-  protected static function get_data_placeholders(): array {
-    return  [
-      // required
-      'title'         => '',
-      'style'         => self::$variants[0],
-      'url'           => '#',
-
-      // optional
-      'icon'          => isset( $args['icon_position'] ) && $args['icon_position'] === 'start' ? 'chevron-left' : 'chevron-right',
-      'has_icon'      => false,
-      'icon_position' => false,
-      'as'            => 'a',
-      'target'        => '_self',
-      'type'          => null,
-      'attr'          => [],
-    ];
-  }
   //@todo move $variants to file -< this would be automatically generated file based on json tokens buttons.json
   public static array $variants = array(
     'primary-standard',
@@ -38,9 +21,31 @@ class Component extends AbstractComponent {
   );
   public static array $button_types = array( 'button', 'submit', 'reset' );
 
+  protected static function get_data_placeholders(): array {
+    return  [
+      // required
+      'title'         => '',
+      'style'         => self::$variants[0],
+      'url'           => '#',
+
+      // optional
+      'icon'          => null,
+      'has_icon'      => false,
+      'icon_position' => false,
+      'as'            => 'a',
+      'target'        => '_self',
+      'type'          => null,
+      'attr'          => [],
+    ];
+  }
   public static function frontend( $data ) {
     $html_tag      = $data['as'];
-    $icon          = $data['icon'];
+    if(!isset($data['icon'])) {
+//      'icon'          => isset( $args['icon_position'] ) && $args['icon_position'] === 'start' ? 'chevron-left' : 'chevron-right',
+      $icon          =  isset( $data['icon_position'] ) && $data['icon_position'] === 'start' ? 'chevron-left' : 'chevron-right';
+    } else {
+      $icon          = $data['icon'];
+    }
     $has_icon      = $icon && $data['has_icon'];
     $icon_position = $data['icon_position'];
     ?>
