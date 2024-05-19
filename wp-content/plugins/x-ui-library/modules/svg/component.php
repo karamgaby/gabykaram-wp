@@ -134,7 +134,7 @@ class Component extends AbstractComponent
     }
     $args['attr']['class'][] = 'x-icon';
     $args['attr']['class'][] = 'x-icon-' . esc_html($args['name']);
-    $args['attr']['class'][] = 'x-icon-size' . esc_html($args['size']);
+    $args['attr']['class'][] = 'x-icon-size-' . esc_html($args['size']);
 
     foreach ( $args['size_breakpoints'] as $breakpoint => $value ) {
       if ( ! empty( $value ) ) {

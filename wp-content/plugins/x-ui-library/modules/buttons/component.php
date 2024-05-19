@@ -45,13 +45,14 @@ class Component extends AbstractComponent {
     $icon_position = $data['icon_position'];
     ?>
     <<?php echo $html_tag . ' '; ?><?php parent::render_attributes( $data['attr'] ); ?>>
-    <?php
-    if ( ! ! $has_icon && $icon_position === 'start' ) {
-      Svg::render( array(
-        'name' => $icon
-      ) );
-    }
-    ?>
+    <span>
+       <?php
+       if ( ! ! $has_icon && $icon_position === 'start' ) {
+         Svg::render( array(
+           'name' => $icon
+         ) );
+       }
+       ?>
     <span><?php echo $data['title']; ?></span>
     <?php
     if ( ! ! $has_icon && $icon_position === 'end' ) {
@@ -60,6 +61,7 @@ class Component extends AbstractComponent {
       ) );
     }
     ?>
+    </span>
     </<?php echo $html_tag . ' '; ?>>
     <?php
   }

@@ -1,15 +1,17 @@
 {
+  "moduleKey": "buttons",
   "meta": {
     "title": "buttons",
     "version": "1.0.0"
   },
   "tokens": {
     "path": "buttons.json",
-    "scssOutput": "_buttons.json",
+    "scssOutput": "_buttons.scss",
     "phpOutput": "Tokens.php",
     "namespace": "X_UI\\Core\\Modules\\Buttons",
     "isGroup": false
   },
+  "dependencies": ["svg"],
   "php": {
     "inc": [
       "Tokens.php",
