@@ -1,16 +1,33 @@
 <?php
+namespace X_UI\Modules\Buttons;
 
+use X_UI\Modules\Svg\Component as Svg;
 use X_UI\Core\AbstractComponent;
-use X_UI\Modules\Svg;
 
 /**
  * Component: Button
  *
  * @package axio
  */
-class Button extends AbstractComponent {
-  public static array $content_types = array( 'text-only', 'icon-right', 'icon-left' );
+class Component extends AbstractComponent {
 
+  protected static function get_data_placeholders(): array {
+    return  [
+      // required
+      'title'         => '',
+      'style'         => self::$variants[0],
+      'url'           => '#',
+
+      // optional
+      'icon'          => isset( $args['icon_position'] ) && $args['icon_position'] === 'start' ? 'chevron-left' : 'chevron-right',
+      'has_icon'      => false,
+      'icon_position' => false,
+      'as'            => 'a',
+      'target'        => '_self',
+      'type'          => null,
+      'attr'          => [],
+    ];
+  }
   //@todo move $variants to file -< this would be automatically generated file based on json tokens buttons.json
   public static array $variants = array(
     'primary-standard',
@@ -48,26 +65,6 @@ class Button extends AbstractComponent {
   }
 
   public static function backend( $args = [] ) {
-
-    $placeholders = [
-
-      // required
-      'title'         => '',
-      'style'         => self::$variants[0],
-      'url'           => '#',
-
-      // optional
-      'icon'          => isset( $args['icon_position'] ) && $args['icon_position'] === 'start' ? 'chevron-left' : 'chevron-right',
-      'has_icon'      => false,
-      'icon_position' => false,
-      'as'            => 'a',
-      'target'        => '_self',
-      'content_type'  => self::$content_types[0],
-      'type'          => null,
-      'attr'          => [],
-    ];
-
-    $args = wp_parse_args( $args, $placeholders );
     $args = self::manipulateAttrClass( $args );
 
     if ( $args['as'] === 'button' && ! isset( $args['type'] ) ) {

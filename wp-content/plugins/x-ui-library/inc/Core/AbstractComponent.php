@@ -1,4 +1,5 @@
 <?php
+
 namespace X_UI\Core;
 /**
  * Abstract Class Component
@@ -8,49 +9,55 @@ namespace X_UI\Core;
  */
 abstract class AbstractComponent {
 
-    /**
-     * Render component (echo HTML)
-     *
-     * @param array $args
-     */
-    public static function render($args = []) {
-
-        $data = static::backend($args);
-
-        // bail if errors on backend
-        if ($data instanceof \WP_Error) {
-
-            // display error
-            if (defined('WP_DEBUG') && WP_DEBUG === true) {
+  /**
+   * Get the placeholders for the component
+   *
+   * @return array
+   */
+  protected static function get_data_placeholders(): array {
+    return [
+      'attr' => []
+    ];
+  }
+  /**
+   * Render component (echo HTML)
+   *
+   * @param array $args
+   */
+  public static function render( $args = []) {
+    $placeholders = static::get_data_placeholders();
+    $args = wp_parse_args( $args, $placeholders );
+    $data = static::backend( $args );
+    // bail if errors on backend
+    if ( $data instanceof \WP_Error ) {
+      // display error
+      if ( defined( 'WP_DEBUG' ) && WP_DEBUG === true ) {
 //              @todo recheck it should be x_core_debug_msg or x_ui_debug_msg
-                if (function_exists('\axio_core_debug_msg')) {
-                    \axio_core_debug_msg($data->get_error_message(), ['backend', 'frontend', 'render', 'get']);
-                } else {
-                    trigger_error($data->get_error_message(), E_USER_WARNING);
-                }
-
-            }
-
-            return;
-
+        if ( function_exists( '\axio_core_debug_msg' ) ) {
+          \axio_core_debug_msg( $data->get_error_message(), [ 'backend', 'frontend', 'render', 'get' ] );
+        } else {
+          trigger_error( $data->get_error_message(), E_USER_WARNING );
         }
-
-        static::frontend($data);
-
+      }
+      return;
     }
 
-    /**
-     * Return component HTML
-     *
-     * @param array $args
-     */
-    public static function get($args = []) {
+    static::frontend( $data );
+  }
 
-        ob_start();
-        static::render($args);
-        return ob_get_clean();
+  /**
+   * Return component HTML
+   *
+   * @param array $args
+   */
+  public static function get( $args = [] ) {
 
-    }
+    ob_start();
+    static::render( $args );
+
+    return ob_get_clean();
+
+  }
 
     /**
      * Build html attributes from key-value array
@@ -102,12 +109,13 @@ abstract class AbstractComponent {
 
   }
 
-    protected static function get_default_breakpoints_attr(): array {
-        $media_breakpoints = Config::get_grid_breakpoints_keys(  );
-        $breakpoints_attr  = array();
-        foreach ( $media_breakpoints as $breakpoint ) {
-            $breakpoints_attr[ $breakpoint ] = '';
-        }
-        return $breakpoints_attr;
+  protected static function get_default_breakpoints_attr(): array {
+    $media_breakpoints = Config::get_grid_breakpoints_keys();
+    $breakpoints_attr  = array();
+    foreach ( $media_breakpoints as $breakpoint ) {
+      $breakpoints_attr[ $breakpoint ] = '';
     }
+
+    return $breakpoints_attr;
+  }
 }

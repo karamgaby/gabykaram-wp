@@ -1,5 +1,5 @@
 <?php
-namespace X_UI\Modules;
+namespace X_UI\Modules\Svg;
 use X_UI\Core\AbstractComponent;
 
 /**
@@ -8,10 +8,25 @@ use X_UI\Core\AbstractComponent;
  * @example
  * X_SVG::render(['name' => 'plus']);
  */
-class Svg extends AbstractComponent
+class Component extends AbstractComponent
 {
   protected static array $sizes = array('small', 'xlarge');
 
+  protected static function get_data_placeholders(): array {
+    $default_breakpoints_attr = parent::get_default_breakpoints_attr();
+    return [
+
+      // required
+      'name' => null,
+
+      // optional
+      'output'           => 'sprite',
+      'attr' => [],
+      'title' => '',
+      'size'             => 'small',
+      'size_breakpoints' => $default_breakpoints_attr,
+    ];
+  }
   /**
    * Image markup
    */
@@ -101,22 +116,6 @@ class Svg extends AbstractComponent
    */
   public static function backend($args = [])
   {
-    $default_breakpoints_attr = parent::get_default_breakpoints_attr();
-    $placeholders = [
-
-      // required
-      'name' => null,
-
-      // optional
-      'output'           => 'sprite',
-      'attr' => [],
-      'title' => '',
-      'size'             => 'small',
-      'size_breakpoints' => $default_breakpoints_attr,
-    ];
-    $args = wp_parse_args($args, $placeholders);
-
-
     if (empty($args['name'])) {
       return parent::error('Missing icon name ($args[\'name\'])');
     }
