@@ -43,6 +43,7 @@ if ( ! function_exists( 'get_plugin_data' ) ) {
 /**
  * Core setup.
  */
+Menu::getInstance();
 $moduleLoader = new ModuleLoader();
 $moduleLoader->loadModules();
 
