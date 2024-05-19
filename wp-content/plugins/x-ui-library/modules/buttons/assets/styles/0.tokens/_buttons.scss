@@ -259,6 +259,24 @@ $x_buttons: (
 			),
 		),
 	),
+	text-only-active: (
+		default: (
+			textStyle: button-standard,
+			bgColor: transparent,
+			textColor: orange-700,
+			padding: 0.75rem 1rem,
+			borderRadius: 0.75rem,
+		),
+		hover: (
+			textColor: mate-black-900,
+		),
+		disabled: (
+			textColor: mate-black-200,
+			outline: (
+				color: mate-black-200,
+			),
+		),
+	),
 	icon-right-text: (
 		hasIcon: true,
 		iconPosition: end,

@@ -1,0 +1,10 @@
+$x_grid_shadows: ()  !default;
+@function getShadow($shadow) {
+  $x_shadow: map-get($x_grid_shadows, $shadow);
+  @if($x_shadow) {
+    @return $x_shadow;
+  } @else {
+    @return none;
+  }
+}
+

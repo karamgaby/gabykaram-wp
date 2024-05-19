@@ -20,7 +20,6 @@
     "mate-black-400": "#6D6D6B",
     "mate-black-200": "#ACACAB",
     "mate-black-50": "#D0D0CF",
-    "black": "#000000",
     "orange-500": "#EA8E12",
     "orange-400": "#FDA625",
     "orange-300": "#FDB64C",
@@ -31,6 +30,7 @@
     "white-grey-100": "#F9F9F9",
     "white-white-50": "#FFFFFF",
     "white-grey-200": "#F3F3F3",
-    "white-grey-300": "#E5E5E5"
+    "white-grey-300": "#E5E5E5",
+    "black": "#000000"
   }
 }

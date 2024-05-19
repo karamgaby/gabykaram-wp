@@ -41,43 +41,57 @@ const tokensTasks = () => {
   const modulesJson = getModuleJsons();
 
   for (const module of modulesJson) {
-    console.log('module', module);
-    if(module.json.tokens && module.json.tokens.path) {
-      files.push({
+    if (module.json.tokens && module.json.tokens.path) {
+      const fileConfig = {
         file: module.name,
         className: 'Tokens',
         isGroup: !!module.json.isGroup,
         path: `${path.modules.source}${module.name}/assets/0.tokens/${module.json.tokens.path}`,
-        scssOutput: `${path.modules.source}${module.name}/assets/styles/0.tokens/_${module.name}.scss`,
-        phpOutput: `${path.modules.source}${module.name}/${module.json.tokens.phpOutput}`,
-        namespace: module.json.tokens.namespace
-      })
+      }
+      if (module.json.tokens.scssOutput) {
+        fileConfig.scssOutput = `${path.modules.source}${module.name}/assets/styles/0.tokens/${module.json.tokens.scssOutput}`;
+      }
+      if (module.json.tokens.phpOutput) {
+        fileConfig.phpOutput = `${path.modules.source}${module.name}/${module.json.tokens.phpOutput}`;
+        fileConfig.namespace = module.json.tokens.namespace;
+      }
+      files.push(fileConfig)
     }
   }
-  console.log('files', files);
 
   const tasks = files.map(file => {
     const src = gulp.src(file.path);
     const commonOptions = {};
 
-    const scssTransform = src.pipe(jsonToSass({
-      sass: file.scssOutput,
-      isGroup: !!file.isGroup,
-      prefix: file.isGroup ? `x_${file.file}` : 'x',
-      suffix: '',
-      separator: '_',
-      ...commonOptions
-    }));
+    let scssTransform = null;
+    if (file.scssOutput) {
+      scssTransform = src.pipe(jsonToSass({
+        sass: file.scssOutput,
+        isGroup: !!file.isGroup,
+        prefix: file.isGroup ? `x_${file.file}` : 'x',
+        suffix: '',
+        separator: '_',
+        ...commonOptions
+      }));
 
-    const phpTransform = src.pipe(jsonToPhp({
-      php: file.phpOutput,
-      className: file.className,
-      namespace: file.namespace,
-      abstractClassUse: 'X_UI\\Core\\AbstractTokens',
-      abstractClass: 'AbstractTokens',
-      ...commonOptions
-    }));
-    return merge(scssTransform, phpTransform);
+    }
+    let phpTransform = null;
+    if (file.phpOutput) {
+      phpTransform = src.pipe(jsonToPhp({
+        php: file.phpOutput,
+        className: file.className,
+        namespace: file.namespace,
+        abstractClassUse: 'X_UI\\Core\\AbstractTokens',
+        abstractClass: 'AbstractTokens',
+        ...commonOptions
+      }));
+    }
+    if (phpTransform && scssTransform) {
+      return merge(scssTransform, phpTransform);
+    } else if (phpTransform) {
+      return phpTransform;
+    }
+    return scssTransform;
   });
 
   return merge(tasks);
