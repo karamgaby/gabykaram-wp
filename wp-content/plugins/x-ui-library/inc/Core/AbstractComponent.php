@@ -83,16 +83,24 @@ abstract class AbstractComponent {
 
     }
 
-    /**
-     * Make error message
-     *
-     * @param string message
-     */
-    public static function error($message) {
+  /**
+   * Make error message
+   *
+   * @param string message
+   */
+  public static function error( $message ) {
 
-        return new \WP_Error('error', $message);
+    $e = new \Exception();
+    ob_start();
+    echo "<pre>";
+    var_dump( $e->getTraceAsString() );
+    echo "</pre>";
+    $data    = ob_get_clean();
+    $message .= $data;
 
-    }
+    return new \WP_Error( 'error', $message );
+
+  }
 
     protected static function get_default_breakpoints_attr(): array {
         $media_breakpoints = Config::get_grid_breakpoints_keys(  );
