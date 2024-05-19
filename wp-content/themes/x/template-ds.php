@@ -3,7 +3,8 @@
 
 global $x_ui_plugin_path;
 
-use X_UI\Modules\Svg;
+use X_UI\Modules\Svg\Component as Svg;
+use X_UI\Modules\Buttons\Component as Button;
 use X_UI\Core\Modules\Buttons\Tokens as ButtonsTokens;
 
 $title = ask__( 'Title: Archives' );
@@ -45,6 +46,7 @@ get_header(); ?>
           <div class="col">
             <?php
             Button::render( array(
+              'as'            => 'button',
               'title'         => $style,
               'style'         => $style,
               'has_icon'      => $hasIcon,
@@ -55,9 +57,9 @@ get_header(); ?>
           <div class="col">
             <?php
             Button::render( array(
+              'as'            => 'button',
               'title'         => $style,
               'style'         => $style,
-              'as'            => 'button',
               'has_icon'      => $hasIcon,
               'icon_position' => $iconPosition,
               'attr'          => [

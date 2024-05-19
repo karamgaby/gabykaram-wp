@@ -1,0 +1,23 @@
+@import "0.tokens/tokens";
+
+$header_bg_color: map-get($x_mobile, 'header_bg_color');
+$shadow: map-get($x_mobile, 'shadow');
+$maxWidth: map-get($x_mobile, 'maxWidth');
+
+.menuBarMobile {
+  background: getColor($header_bg_color);
+  box-shadow: getShadow($shadow);
+  width: 100%;
+  .menuBarMobile__container {
+    @if($maxWidth) {
+      max-width: $maxWidth;
+      margin: auto;
+    }
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .menuBarMobile__site-logo {
+    height: 40px;
+    width: auto;
+  }
+}

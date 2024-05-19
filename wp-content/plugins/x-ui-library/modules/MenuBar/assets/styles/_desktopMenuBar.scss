@@ -1,0 +1,20 @@
+@import "0.tokens/tokens";
+
+$header_bg_color: map-get($x_desktop, 'header_bg_color');
+$shadow: map-get($x_desktop, 'shadow');
+$maxWidth: map-get($x_desktop, 'maxWidth');
+
+
+.menuBarDesktop {
+  background: getColor($header_bg_color);
+  box-shadow: getShadow($shadow);
+  width: 100%;
+  .menuBarDesktop__container {
+    max-width: $maxWidth;
+    margin: auto;
+  }
+  .menuBarDesktop__site-logo {
+    height: 40px;
+    width: auto;
+  }
+}

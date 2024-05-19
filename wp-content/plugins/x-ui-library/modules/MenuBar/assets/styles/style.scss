@@ -1,0 +1,37 @@
+/* ==========================================================================
+ # Button block and X_Button component
+========================================================================== */
+
+@import '../../../../assets/styles/utils.scss';
+@import '../../../../assets/styles/src/1.design-system/common';
+/* Component
+----------------------------------------------- */
+
+@import "0.tokens/tokens";
+
+
+.x-menuBar {
+  display: flex;
+  .x-menuBar__desktop {
+    display: flex;
+    width: 100%;
+  }
+  .x-menuBar__mobile {
+    display: none;
+  }
+}
+@include media-breakpoint-smaller($x_breakpoint) {
+  .x-menuBar {
+    .x-menuBar__desktop {
+      display: none;
+    }
+    .x-menuBar__mobile {
+      display: flex;
+      width: 100%;
+    }
+  }
+}
+
+@import "desktopMenuBar";
+@import "mobileMenuBar";
+@import "headerDrawer";

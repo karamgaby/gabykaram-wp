@@ -1,0 +1,30 @@
+@import "0.tokens/tokens";
+
+$bg_color: map-get($x_drawer, 'bg_color');
+$shadow: map-get($x_drawer, 'shadow');
+$maxWidth: map-get($x_drawer, 'maxWidth');
+
+.offcanvas-backdrop.x-header-drawer-visible {
+  background-color: black;
+}
+.x-header-drawer {
+  background-color: getColor($bg_color);
+  box-shadow: getShadow($shadow);
+  max-width: $maxWidth;
+  border-radius: 1.5rem 0 0 1.5rem;
+  padding: 1.5rem 1rem;
+  --header-height: 72px;
+
+  &.offcanvas-end {
+    //top: calc(var(--header-height) + 24px);
+  }
+}
+
+@media all and (max-width: calc(#{$maxWidth} + 32px)) {
+  .x-header-drawer {
+    &.offcanvas-end {
+      width: 100%;
+      left: 32px;
+    }
+  }
+}

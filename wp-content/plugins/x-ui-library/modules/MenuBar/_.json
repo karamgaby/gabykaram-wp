@@ -1,0 +1,37 @@
+{
+  "moduleKey": "MenuBar",
+  "meta": {
+    "title": "MenuBar",
+    "version": "1.0.0"
+  },
+  "tokens": {
+    "path": "tokens.json",
+    "scssOutput": "_tokens.scss",
+    "phpOutput": "Tokens.php",
+    "namespace": "X_UI\\Core\\Modules\\MenuBar",
+    "isGroup": false
+  },
+  "dependencies": ["image", "buttons"],
+  "php": {
+    "inc": [
+      "Tokens.php",
+      "TemplateLoader.php",
+      "component.php",
+      "setup.php"
+    ]
+  },
+  "css": {
+    "main.css": [
+      "assets/styles/style.scss"
+    ],
+    "admin.css": [],
+    "editor-gutenberg.css": [
+    ]
+  },
+  "js": {
+    "main.js": [
+      "assets/scripts/menu.js"
+    ],
+    "editor-gutenberg.js": []
+  }
+}

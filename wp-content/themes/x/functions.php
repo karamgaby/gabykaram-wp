@@ -65,22 +65,3 @@ require get_template_directory() . '/inc/9.helpers/utils.php';
 require_once get_template_directory() . '/inc/4.libraries/tgm/class-tgm-plugin-activation.php';
 // import TGM Plugin Activation library setup
 require_once get_template_directory() . '/inc/4.libraries/tgm/function-required-plugins.php';
-
-/**
- * Module PHP autoloader
- *
- * You can disable a module by starting directory with underscore
- */
-foreach ( glob( __DIR__ . '/modules/*', GLOB_ONLYDIR ) as $dir ) {
-  if ( ! str_contains( $dir, '/modules/_' ) && file_exists( $dir . '/_.json' ) ) {
-    $parts = json_decode( file_get_contents( $dir . '/_.json' ), true, 512, JSON_THROW_ON_ERROR );
-    if ( isset( $parts['php'], $parts['php']['inc'] ) ) {
-      foreach ( $parts['php']['inc'] as $file ) {
-        if ( ! strstr( $file, '..' ) ) {
-          require_once $dir . '/' . $file;
-        }
-      }
-    }
-  }
-}
-

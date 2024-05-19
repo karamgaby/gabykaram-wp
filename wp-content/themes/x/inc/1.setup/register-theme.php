@@ -1,6 +1,17 @@
 <?php
 
-if ( ! function_exists( 'bridging_voice_theme_setup' ) ) :
+/**
+ * Localization
+ */
+add_filter('x_core_pll_register_strings', function($strings) {
+  return array_merge($strings, [
+    'Menu: Primary Menu'        => 'Primary Menu',
+  ]);
+
+}, 10, 1);
+
+
+if ( ! function_exists( 'polarstork_theme_setup' ) ) :
 
   /**
    * Sets up theme defaults and registers support for various WordPress features.
@@ -34,13 +45,10 @@ if ( ! function_exists( 'bridging_voice_theme_setup' ) ) :
      */
     add_theme_support( 'post-thumbnails' );
 
-    // This theme uses wp_nav_menu() in one location.
-    register_nav_menus(
-      array(
-        'primary-menu' => esc_html__( 'Primary', 'polarstork_theme' ),
-        'footer-menu'  => esc_html__( 'footer Menu', 'polarstork_theme' ),
-      )
-    );
+    register_nav_menus([
+      'primary'    => ask__('Menu: Primary Menu'),
+    ]);
+
 
     /*
      * Switch default core markup for search form, comment form, and comments

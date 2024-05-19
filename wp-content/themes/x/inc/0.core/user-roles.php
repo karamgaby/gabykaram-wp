@@ -82,30 +82,13 @@ function create_client_admin_role() {
 	$wp_roles->remove_role( 'mini-admin' );
 	$wp_roles->add_role( 'mini-admin', 'X Admin', $capabilities );
 }
-add_action('admin_menu', 'change_menus_position');
-function change_menus_position() {
-
-  // Remove old menu
-  remove_submenu_page( 'themes.php', 'nav-menus.php' );
-
-  //Add new menu page
-  add_menu_page(
-    'Menus',
-    'Menus',
-    'edit_theme_options',
-    'nav-menus.php',
-    '',
-    'dashicons-list-view',
-    68
-  );
-  function remove_appearance_menu() {
-    // Check if the current user is not an administrator.
-    if ( ! current_user_can( 'administrator' ) ) {
-      // Remove the "Appearance" menu.
-      remove_menu_page( 'themes.php' );
-      remove_menu_page( 'tools.php' );
-    }
+function remove_appearance_menu(): void {
+  // Check if the current user is not an administrator.
+  if ( ! current_user_can( 'administrator' ) ) {
+    // Remove the "Appearance" menu.
+    remove_menu_page( 'themes.php' );
+    remove_menu_page( 'tools.php' );
   }
-  add_action( 'admin_menu', 'remove_appearance_menu' );
-
 }
+add_action( 'admin_menu', 'remove_appearance_menu' );
+

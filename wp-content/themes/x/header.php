@@ -6,6 +6,9 @@
  *
  * @package x
  */
+
+use X_UI\Modules\MenuBar\Component as MenuBar;
+
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?> class="no-js">
@@ -22,8 +25,16 @@
 
 <div id="page" class="site js-page">
 
-  <a class="skip-to-content" href="#content"><?php ask_e('Accessibility: Skip to content'); ?></a>
+  <?php
+  $site_icon_id = (int) get_option( 'site_icon' );
 
-  <?php do_action('theme_header'); ?>
+  AccessibilitySkipToContent::render();
+  MenuBar::render(
+    array(
+      'image_id' => $site_icon_id,
+      'menu_location' => 'primary'
+    )
+  );
+  ?>
 
   <div id="content" class="site-content" role="main" itemscope itemprop="mainContentOfPage">
