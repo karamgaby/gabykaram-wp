@@ -5,6 +5,8 @@ const {enabled, path} = require('./gulp/config');
 const {updateTimestamp} = require('./gulp/helpers/update-timeStamp');
 const {cssTasks} = require('./gulp/tasks/css');
 const {jsTasks} = require('./gulp/tasks/js');
+const {tokensTasks} = require('./gulp/tasks/tokens');
+
 /**
  * Site config
  */
@@ -126,6 +128,13 @@ var jsAssets = buildAssets(getAssets().js);
 var cssAssets = buildAssets(getAssets().css);
 
 
+/**
+ * Task: Tokens
+ * */
+gulp.task('buildJsonToken', (cb) => {
+  tokensTasks()
+  return cb();
+});
 
 /**
  * Task: Styles
@@ -176,7 +185,7 @@ gulp.task('scripts', () => {
   jsAssets = buildAssets(getAssets().js);
 
   // process all assets
-  for (i = 0; i < jsAssets.length; i++) {
+  for (let i = 0; i < jsAssets.length; i++) {
     let asset = jsAssets[i];
     const jsTasksInstance = jsTasks(asset.name);
     //merge
@@ -364,9 +373,8 @@ gulp.task('watch', () => {
     // browsersync changes unless in quiet mode
     browsersync.init({
       files: [
-        '{inc,blocks,modules}/**/*.php',
-        '*.php',
-        '../../plugins/x-ui-library/*.php'
+        '**/*.php',
+        '../../plugins/x-ui-library/**/*.php'
       ],
       proxy: manifest.devUrl(),
       snippetOptions: {
@@ -381,6 +389,7 @@ gulp.task('watch', () => {
   gulp.watch(path.styles.source + '**/*.scss', gulp.task('styles'));
   gulp.watch('../../themes/x/' + '**/*.scss', gulp.task('styles'));
   gulp.watch('../../plugins/x-ui-library/' + '**/*.scss', gulp.task('styles'));
+  gulp.watch('../../plugins/x-ui-library/' + '**/*.js', gulp.task('scripts'));
   gulp.watch(path.scripts.source + '**/*.js', gulp.task('scripts'));
   gulp.watch(path.images.source + '**/*', gulp.task('images'));
   gulp.watch(path.sprite.source + '*', gulp.task('svgstore'));
@@ -389,7 +398,7 @@ gulp.task('watch', () => {
   gulp.watch(path.modules.source + '**/*.js', gulp.task('scripts'));
   gulp.watch(path.modules.source + '**/images/*', gulp.task('images'));
   gulp.watch(path.modules.source + '**/sprite/*', gulp.task('svgstore'));
-
+  gulp.watch(path.modules.source + '**/assets/0.tokens/*.json', gulp.task('buildJsonToken'));
 
   gulp.watch([
     'gulpfile.js',
@@ -415,7 +424,7 @@ gulp.task('watch', () => {
  */
 
 gulp.task('build', gulp.series(
-  // gulp.parallel('buildJsonToken'),
+  gulp.parallel('buildJsonToken'),
   gulp.parallel('styles', 'scripts', 'jshint'),
   gulp.parallel('images', 'svgstore')
 ));
