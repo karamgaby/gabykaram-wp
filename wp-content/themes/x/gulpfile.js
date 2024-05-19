@@ -131,9 +131,8 @@ var cssAssets = buildAssets(getAssets().css);
 /**
  * Task: Tokens
  * */
-gulp.task('buildJsonToken', (cb) => {
-  tokensTasks()
-  return cb();
+gulp.task('buildJsonToken', () => {
+  return tokensTasks();
 });
 
 /**

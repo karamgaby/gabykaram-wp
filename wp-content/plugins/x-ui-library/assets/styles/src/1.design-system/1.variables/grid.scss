@@ -5,7 +5,7 @@ POC: To do not important at this time
 
 */
 $grid-breakpoints: ();
-@each $breakpoint, $map in $x-grid-breakpoints {
+@each $breakpoint, $map in $x_grid_breakpoints {
   $min-width: map-get($map, minWidth);
   @if ($min-width == null) {
     $min-width: 0;

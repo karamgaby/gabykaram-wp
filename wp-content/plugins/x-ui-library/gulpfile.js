@@ -84,9 +84,8 @@ var cssAssets = buildAssets(getAssets().css);
 /**
  * Task: Tokens
  * */
-gulp.task('buildJsonToken', (cb) => {
-  tokensTasks()
-  return cb();
+gulp.task('buildJsonToken', () => {
+  return tokensTasks();
 });
 
 /**
@@ -102,7 +101,6 @@ gulp.task('styles', () => {
 
   // update last-edited.json
   updateTimestamp('css');
-  console.log('cssAssets', cssAssets)
   // process all assets
   for (i = 0; i < cssAssets.length; i++) {
     let asset = cssAssets[i];
