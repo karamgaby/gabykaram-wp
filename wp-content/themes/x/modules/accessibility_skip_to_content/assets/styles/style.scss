@@ -1,0 +1,11 @@
+.x-accessibility-skip-to-content {
+  display: inline-block;
+  left: -9999rem;
+  position: absolute;
+  top: -9999rem;
+  &:focus {
+    left: 1rem;
+    top: 1rem;
+    z-index: 100000;
+  }
+}

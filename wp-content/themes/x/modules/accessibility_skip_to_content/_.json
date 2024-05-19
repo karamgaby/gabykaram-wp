@@ -1,0 +1,33 @@
+{
+  "moduleKey": "accessibility_skip_to_content",
+  "meta": {
+    "title": "accessibility_skip_to_content",
+    "version": "1.0.0"
+  },
+  "tokens": {
+    "path": "tokens.json",
+    "phpOutput": "Tokens.php",
+    "namespace": "X_Theme\\Modules\\AccessibleSkipButton",
+    "isGroup": false
+  },
+  "dependencies": ["buttons"],
+  "php": {
+    "inc": [
+      "Tokens.php",
+      "component.php",
+      "setup.php"
+    ]
+  },
+  "css": {
+    "main.css": [
+      "assets/styles/style.scss"
+    ],
+    "admin.css": [],
+    "editor-gutenberg.css": [
+    ]
+  },
+  "js": {
+    "main.js": [],
+    "editor-gutenberg.js": []
+  }
+}
