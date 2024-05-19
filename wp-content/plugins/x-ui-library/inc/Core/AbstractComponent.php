@@ -59,36 +59,33 @@ abstract class AbstractComponent {
 
   }
 
-    /**
-     * Build html attributes from key-value array
-     *
-     * @param array $attr key-value array of attribute names and values
-     *
-     * @return string attributes for html element
-     */
-    public static function render_attributes($attr = array()) {
+  /**
+   * Build html attributes from key-value array
+   *
+   * @param array $attr key-value array of attribute names and values
+   *
+   * @return void attributes for html element
+   */
+  public static function render_attributes( array $attr = array() ): void {
 
-        $return = array();
-        foreach ($attr as $key => $value) {
+    $return = array();
+    foreach ( $attr as $key => $value ) {
 
-            if (is_array($value)) {
-                $value = implode(' ', $value);
-            }
-            if($key === 'disabled') {
-              $return[] = 'disabled';
-            } else if (!empty($value) || is_numeric($value)) {
-                $return[] = esc_attr($key) . '="' . esc_attr($value) . '"';
-            } else {
-                if ($key === 'alt') {
-                    $return[] = esc_attr($key) . '=""';
-                } else {
-                    $return[] = esc_attr($key);
-                }
-            }
+      if ( is_array( $value ) ) {
+        $value = implode( ' ', $value );
+      }
+      if ( false !== $value && '' !== $value && is_scalar( $value ) ) {
+        if ( $key === 'disabled' ) {
+          $return[] = 'disabled';
+        } else  {
+          $value             = ( 'href' === $attr ) ? esc_url( $value ) : esc_attr( $value );
+          $return[] = esc_attr( $key ) . '="' . $value . '"';
         }
-        echo implode(' ', $return);
-
+      }
     }
+    echo implode( ' ', $return );
+
+  }
 
   /**
    * Make error message
