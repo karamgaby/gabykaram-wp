@@ -274,6 +274,9 @@
          "Icon Picker": [
             ""
          ],
+         "Error: Could not generate the preview.": [
+            ""
+         ],
          "Error loading block preview: %s": [
             ""
          ],
@@ -320,9 +323,6 @@
             ""
          ],
          "Blocks Constructor": [
-            ""
-         ],
-         "Error: Could not generate the preview.": [
             ""
          ],
          "Preview": [
