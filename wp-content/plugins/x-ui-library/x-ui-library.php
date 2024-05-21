@@ -16,6 +16,8 @@
 
 use X_UI\Core\Menu;
 use X_UI\Core\ModuleLoader;
+use X_UI\Core\PluginSettings;
+use X_UI\Core\RegisterAssets;
 
 if ( ! defined( 'WPINC' ) ) {
   die; // Abort, if called directly.
@@ -44,6 +46,8 @@ if ( ! function_exists( 'get_plugin_data' ) ) {
  * Core setup.
  */
 Menu::getInstance();
+PluginSettings::getInstance();
+RegisterAssets::getInstance();
 $moduleLoader = new ModuleLoader();
 $moduleLoader->loadModules();
 

@@ -1,0 +1,86 @@
+/* ==========================================================================
+ # Footer
+========================================================================== */
+@import '../../../../assets/styles/src/1.design-system/common';
+
+@import "0.tokens/tokens";
+
+.site-footer {
+  background-color: getColor($x_bgColor);
+  color: getColor($x_textColor);
+  padding-top: getSpacing(6);
+  padding-bottom: getSpacing(6);
+  &__title {
+    @include ps-typography(badge);
+    color: getColor($x_titleColor);
+  }
+
+  &__container {
+    max-width: 760px;
+    margin: auto;
+    display: flex;
+    gap: getSpacing(3);
+  }
+  &__about {
+  }
+  &__logo {
+    img {
+      height: 4.625rem;
+      width: auto;
+      max-width: unset;
+    }
+  }
+
+  &__about-section {
+    max-width: 368px;
+
+    p {
+      @include ps-typography(input-label);
+
+      strong {
+        @include ps-typography(badge);
+      }
+    }
+  }
+
+  &__explore {
+    display: flex;
+  }
+
+  &__sitemap, &__contact {
+    min-width: 172px;
+
+  }
+
+  &__sitemap__list-item,
+  &__contact__content {
+    @include ps-typography(input-label);
+  }
+}
+
+@include media-breakpoint-smaller(lg) {
+  .site-footer {
+    padding-top: getSpacing(3);
+    padding-bottom: getSpacing(3);
+    &__container {
+      max-width: 328px;
+      flex-direction: column;
+    }
+    &__about {
+      strong {
+        display: block;
+      }
+    }
+
+    &__logo img {
+      height: 49px;
+    }
+    &__about-section {
+      flex-direction: column;
+    }
+    &__explore {
+      flex-direction: column;
+      gap: getSpacing(2);
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "moduleKey": "footer",
+  "meta": {
+    "title": "footer",
+    "version": "2.0.0"
+  },
+  "tokens": {
+    "path": "footer.json",
+    "scssOutput": "_tokens.scss",
+    "phpOutput": "Tokens.php",
+    "namespace": "X_UI\\Core\\Modules\\Footer",
+    "isGroup": false
+  },
+  "php": {
+    "inc": [
+      "component-menu-legal.php",
+      "component-footer.php",
+      "setup.php"
+    ]
+  },
+  "css": {
+    "main.css": [
+      "assets/styles/footer.scss"
+    ],
+    "admin.css": [
+      "assets/styles/acf-admin.scss"
+    ],
+    "editor-gutenberg.css": []
+  },
+  "js": {
+    "main.js": [],
+    "editor-gutenberg.js": []
+  }
+}

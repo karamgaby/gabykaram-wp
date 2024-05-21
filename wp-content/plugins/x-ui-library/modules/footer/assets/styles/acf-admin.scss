@@ -1,0 +1,15 @@
+#acf-group_664a824159f7b {
+
+  .acf-fields > .acf-field-group.acf-field {
+    &.acf-hide-group-layout {
+      padding: 0;
+      > .acf-label {
+        display: none;
+      }
+
+      > .acf-input > .acf-fields.-border {
+        border: none;
+      }
+    }
+  }
+}
