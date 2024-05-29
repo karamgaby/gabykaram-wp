@@ -1,5 +1,5 @@
 <?php
-namespace X_UI\Modules\Footer;
+namespace X_Modules\Footer;
 
 use \X_UI\Core\AbstractComponent;
 /**
@@ -10,7 +10,7 @@ use \X_UI\Core\AbstractComponent;
  *
  * @package axio
  */
-class Menu_Legal extends AbstractComponent {
+class MenuLegal extends AbstractComponent {
   protected static function get_data_placeholders(): array {
     return [
       // optional

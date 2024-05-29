@@ -7,4 +7,10 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
+    'X_Modules\\Footer\\Component' => $baseDir . '/modules/Footer/Component.php',
+    'X_Modules\\Footer\\MenuLegal' => $baseDir . '/modules/Footer/MenuLegal.php',
+    'X_Modules\\Footer\\Tokens' => $baseDir . '/modules/Footer/Tokens.php',
+    'X_Modules\\MenuBar\\Component' => $baseDir . '/modules/MenuBar/Component.php',
+    'X_Modules\\MenuBar\\TemplateLoader' => $baseDir . '/modules/MenuBar/TemplateLoader.php',
+    'X_Modules\\MenuBar\\Tokens' => $baseDir . '/modules/MenuBar/Tokens.php',
 );

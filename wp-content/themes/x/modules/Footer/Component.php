@@ -1,6 +1,6 @@
 <?php
 
-namespace X_UI\Modules\Footer;
+namespace X_Modules\Footer;
 
 use X_UI\Core\Menu;
 use X_UI\Modules\Image\Component as Image;

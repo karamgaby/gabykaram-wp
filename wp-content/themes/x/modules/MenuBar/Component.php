@@ -1,6 +1,6 @@
 <?php
 
-namespace X_UI\Modules\MenuBar;
+namespace X_Modules\MenuBar;
 
 use X_UI\Core\AbstractComponent;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace X_UI\Core\Modules\Footer;
+namespace X_Modules\Footer;
 
 use X_UI\Core\AbstractTokens;
 class Tokens extends AbstractTokens {

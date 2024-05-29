@@ -8,7 +8,7 @@
     "path": "tokens.json",
     "scssOutput": "_tokens.scss",
     "phpOutput": "Tokens.php",
-    "namespace": "X_UI\\Core\\Modules\\MenuBar",
+    "namespace": "X_Modules\\MenuBar",
     "isGroup": false
   },
   "dependencies": ["image", "buttons"],
@@ -16,13 +16,12 @@
     "inc": [
       "Tokens.php",
       "TemplateLoader.php",
-      "component.php",
+      "Component.php",
       "setup.php"
     ]
   },
   "css": {
     "main.css": [
-      "assets/styles/style.scss"
     ],
     "admin.css": [],
     "editor-gutenberg.css": [

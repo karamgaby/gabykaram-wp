@@ -2,7 +2,7 @@
 
 use X_UI\Core\AbstractComponent;
 use X_UI\Core\Menu;
-use X_UI\Core\Modules\MenuBar\Tokens;
+use X_Modules\MenuBar\Tokens;
 use X_UI\Modules\Buttons\Component as Button;
 if ( ! isset( $data ) ) {
   return;

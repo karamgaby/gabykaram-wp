@@ -6,5 +6,6 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'X_Modules\\' => array($baseDir . '/modules'),
     'StageZero\\' => array($baseDir . '/core-php'),
 );

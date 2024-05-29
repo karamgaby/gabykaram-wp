@@ -7,6 +7,10 @@ namespace Composer\Autoload;
 class ComposerStaticInit8dd3885789107d9f76937655836e6427
 {
     public static $prefixLengthsPsr4 = array (
+        'X' => 
+        array (
+            'X_Modules\\' => 10,
+        ),
         'S' => 
         array (
             'StageZero\\' => 10,
@@ -14,6 +18,10 @@ class ComposerStaticInit8dd3885789107d9f76937655836e6427
     );
 
     public static $prefixDirsPsr4 = array (
+        'X_Modules\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/modules',
+        ),
         'StageZero\\' => 
         array (
             0 => __DIR__ . '/../..' . '/core-php',
@@ -22,6 +30,12 @@ class ComposerStaticInit8dd3885789107d9f76937655836e6427
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'X_Modules\\Footer\\Component' => __DIR__ . '/../..' . '/modules/Footer/Component.php',
+        'X_Modules\\Footer\\MenuLegal' => __DIR__ . '/../..' . '/modules/Footer/MenuLegal.php',
+        'X_Modules\\Footer\\Tokens' => __DIR__ . '/../..' . '/modules/Footer/Tokens.php',
+        'X_Modules\\MenuBar\\Component' => __DIR__ . '/../..' . '/modules/MenuBar/Component.php',
+        'X_Modules\\MenuBar\\TemplateLoader' => __DIR__ . '/../..' . '/modules/MenuBar/TemplateLoader.php',
+        'X_Modules\\MenuBar\\Tokens' => __DIR__ . '/../..' . '/modules/MenuBar/Tokens.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

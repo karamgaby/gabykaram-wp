@@ -9,7 +9,7 @@ if ( ! isset( $data ) ) {
 }
 $logo_id = $data->image_id;
 $menu_location = $data->menu_location;
-$componentTokens = X_UI\Core\Modules\MenuBar\Tokens::getInstance();
+$componentTokens = X_Modules\MenuBar\Tokens::getInstance();
 $desktopTokens = $componentTokens->getMeta('desktop');
 $menu_btn_style = $desktopTokens['button_style'];
 $active_menu_btn_style = $desktopTokens['active_button_style'];

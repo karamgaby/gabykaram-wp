@@ -1,6 +1,6 @@
 <?php
 
-namespace X_UI\Core\Modules\MenuBar;
+namespace X_Modules\MenuBar;
 
 use X_UI\Core\AbstractTokens;
 class Tokens extends AbstractTokens {

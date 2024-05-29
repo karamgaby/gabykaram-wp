@@ -1,11 +1,11 @@
 <?php
 
-use X_UI\Modules\MenuBar\TemplateLoader;
+use X_Modules\MenuBar\TemplateLoader;
 
 if ( ! isset( $data ) ) {
   return;
 }
-$componentTokens = X_UI\Core\Modules\MenuBar\Tokens::getInstance();
+$componentTokens = X_Modules\MenuBar\Tokens::getInstance();
 $desktopTokens   = $componentTokens->getMeta( 'desktop' );
 
 $templateLoader = new TemplateLoader();

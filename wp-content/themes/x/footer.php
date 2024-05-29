@@ -6,17 +6,18 @@
  *
  * @package x
  */
-use X_UI\Modules\Footer\Component as Footer;
+use X_Modules\Footer\Component as Footer;
 ?>
 
+</div><!-- #page -->
+
+
 <?php
-do_action( 'theme_footer' );
 Footer::render(array(
 
 ));
 ?>
-</div><!-- #page -->
-
+</div>
 <?php
 wp_footer(); ?>
 

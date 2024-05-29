@@ -15,12 +15,6 @@ use X_UI\Core\PluginSettings;
 /**
  * Load ACF fields
  */
-//add_filter('acf/settings/load_json', function ($paths) {
-//  $paths[] = dirname(__FILE__) . '/acf-json';
-//  return $paths;
-//
-//});
-
 add_filter( 'acf/settings/load_json', function ( $paths ) {
   $custom_acf_json_dir = dirname( __FILE__ ) . '/acf-json';
   $paths[]             = $custom_acf_json_dir;
@@ -28,10 +22,6 @@ add_filter( 'acf/settings/load_json', function ( $paths ) {
   return $paths;
 } );
 
-add_action( 'acf/init', function () {
-  $field_groups = acf_get_field_groups();
-  error_log( 'Loaded ACF field groups: ' . print_r( $field_groups, true ) );
-} );
 add_filter( 'x_core_pll_register_strings', function ( $strings ) {
   return array_merge( $strings, [
     'Menu: Site Map'              => 'Site Map',

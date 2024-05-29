@@ -38,7 +38,7 @@ module.exports = {
         // project specific js
         // "assets/scripts/lib/in-viewport.js",
         "assets/scripts/lib/blocks.js",
-        "../../plugins/x-ui-library/modules/MenuBar/assets/scripts/menu.js",
+        "modules/MenuBar/assets/scripts/menu.js",
         "assets/scripts/main.js"
 
       ],

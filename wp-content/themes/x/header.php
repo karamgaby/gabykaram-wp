@@ -7,7 +7,7 @@
  * @package x
  */
 
-use X_UI\Modules\MenuBar\Component as MenuBar;
+use X_Modules\MenuBar\Component as MenuBar;
 
 ?>
 <!DOCTYPE html>

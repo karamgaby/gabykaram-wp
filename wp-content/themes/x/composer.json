@@ -1,20 +1,20 @@
 {
-    "name": "gabykaram/block-theme",
-    "description": "A block theme for wordpress",
-    "autoload": {
-        "psr-4": {
-            "StageZero\\": "core-php/"
-        }
-    },
-    "prefer-stable" : true,
-    "authors": [
-        {
-            "name": "Gaby Karam",
-            "email": "info@gabykaram.com"
-        }
-    ],
-    "require": {},
-    "require-dev": {
-
+  "name": "gabykaram/block-theme",
+  "description": "A block theme for wordpress",
+  "autoload": {
+    "psr-4": {
+      "StageZero\\": "core-php/",
+      "X_Modules\\": "modules"
     }
+  },
+  "prefer-stable": true,
+  "authors": [
+    {
+      "name": "Gaby Karam",
+      "email": "info@gabykaram.com"
+    }
+  ],
+  "require": {},
+  "require-dev": {
+  }
 }

@@ -1,9 +1,8 @@
 <?php
 
-use X_UI\Modules\Buttons\Component as Button;
 use X_UI\Modules\Image\Component as Image;
 use X_UI\Modules\Svg\Component as Svg;
-use X_UI\Modules\MenuBar\TemplateLoader;
+use X_Modules\MenuBar\TemplateLoader;
 
 if ( ! isset( $data ) ) {
   return;
