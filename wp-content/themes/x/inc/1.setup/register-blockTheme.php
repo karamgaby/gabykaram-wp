@@ -53,12 +53,14 @@ add_filter('allowed_block_types_all', function ($allowed_block_types_all, $post)
  */
 add_filter( 'use_block_editor_for_post', 'ps_handle_disable_gutenberg', 10, 2 );
 function ps_handle_disable_gutenberg( $use_block_editor, $post ) {
-  if ( $post->post_type === 'post' ) {
+  $allowed_post_types = apply_filters('ps_allowed_gutenberg_post_types', [ 'post' ], $post);
+  if (in_array($post->post_type, $allowed_post_types)) {
     return true;
   }
 
-  return $use_block_editor;
+  return false;
 }
+
 
 /*
  * Filter block controls per component

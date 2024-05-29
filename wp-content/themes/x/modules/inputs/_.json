@@ -1,29 +1,28 @@
 {
-  "moduleKey": "footer",
+  "moduleKey": "inputs",
   "meta": {
-    "title": "footer",
-    "version": "2.0.0"
+    "title": "inputs",
+    "version": "1.0.0"
   },
   "tokens": {
-    "path": "footer.json",
+    "path": "tokens.json",
     "scssOutput": "_tokens.scss",
     "phpOutput": "Tokens.php",
-    "namespace": "X_UI\\Core\\Modules\\Footer",
+    "namespace": "X_Modules\\Inputs",
     "isGroup": false
   },
   "php": {
     "inc": [
-      "component-menu-legal.php",
-      "component-footer.php",
-      "setup.php"
+      "Component.php",
+      "setup.php",
+      "setup-cf7-input.php",
+      "setup-cf7-textarea.php"
     ]
   },
   "css": {
     "main.css": [
-      "assets/styles/footer.scss"
     ],
     "admin.css": [
-      "assets/styles/acf-admin.scss"
     ],
     "editor-gutenberg.css": []
   },

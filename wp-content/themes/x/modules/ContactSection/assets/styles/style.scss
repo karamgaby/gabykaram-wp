@@ -1,0 +1,26 @@
+.contact-section {
+  .contact-section__image {
+    position: relative;
+    border-radius: 1rem;
+    overflow: hidden;
+    height: 320px;
+    &--full-height {
+      height: 100%;
+    }
+    img {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  .contact-list-item {
+    .contact-list-item__icon {
+      padding: getSpacing(1);
+      background-color: getColor(medium-turquoise-50);
+      border-radius: 50%;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "moduleKey": "ContactSection",
+  "meta": {
+    "title": "ContactSection",
+    "version": "1.0.0"
+  },
+  "tokens": {
+    "path": "tokens.json",
+    "scssOutput": "_tokens.scss",
+    "phpOutput": "Tokens.php",
+    "namespace": "X_Modules\\ContactSection",
+    "isGroup": false
+  },
+  "php": {
+    "inc": [
+      "Component.php",
+      "setup.php"
+    ]
+  },
+  "css": {
+    "main.css": [
+    ],
+    "admin.css": [
+    ],
+    "editor-gutenberg.css": []
+  },
+  "js": {
+    "main.js": [],
+    "editor-gutenberg.js": []
+  }
+}

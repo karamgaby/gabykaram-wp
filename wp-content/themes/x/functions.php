@@ -65,3 +65,8 @@ require get_template_directory() . '/inc/9.helpers/utils.php';
 require_once get_template_directory() . '/inc/4.libraries/tgm/class-tgm-plugin-activation.php';
 // import TGM Plugin Activation library setup
 require_once get_template_directory() . '/inc/4.libraries/tgm/function-required-plugins.php';
+
+
+add_filter('x_ui_component_sprite_last_edited', function () {
+  return x_last_edited('svg');
+});
