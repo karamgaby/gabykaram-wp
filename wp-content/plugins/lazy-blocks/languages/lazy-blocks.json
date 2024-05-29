@@ -307,9 +307,6 @@
          "And much more…": [
             ""
          ],
-         "This field is required": [
-            ""
-         ],
          "Styles": [
             ""
          ],
@@ -637,6 +634,9 @@
          "Block used for adding blocks inside it in cases when template locked from adding blocks.": [
             ""
          ],
+         "This field is required.": [
+            ""
+         ],
          "Alongside Text": [
             ""
          ],
@@ -800,9 +800,6 @@
             ""
          ],
          "Collapsed by Default": [
-            ""
-         ],
-         "Multiline": [
             ""
          ],
          "Choices": [

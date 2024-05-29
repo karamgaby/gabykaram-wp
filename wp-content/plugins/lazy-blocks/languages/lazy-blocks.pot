@@ -2,14 +2,14 @@
 # This file is distributed under the GPLv2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Lazy Blocks 3.6.2\n"
+"Project-Id-Version: Lazy Blocks 3.7.0\n"
 "Report-Msgid-Bugs-To: https://github.com/nk-crew/lazyblocks/issues\n"
 "Last-Translator: Lazy Blocks Team\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-05-01T13:07:18+00:00\n"
+"POT-Creation-Date: 2024-05-23T05:22:32+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.10.0\n"
 "X-Domain: lazy-blocks\n"
@@ -456,10 +456,6 @@ msgstr ""
 msgid "And much more…"
 msgstr ""
 
-#: assets/components/render-controls/index.js:310
-msgid "This field is required"
-msgstr ""
-
 #: assets/editor-constructor/block/edit.js:69
 msgid "Styles"
 msgstr ""
@@ -672,23 +668,23 @@ msgstr ""
 #: assets/editor-constructor/boxes/selected-control-settings/settings-rows/required.js:18
 #: assets/editor-constructor/boxes/selected-control-settings/settings-rows/save-in-meta.js:38
 #: assets/editor-constructor/boxes/selected-control-settings/settings-rows/translate.js:18
-#: controls/checkbox/script.js:62
-#: controls/color/script.js:71
-#: controls/color/script.js:88
+#: controls/checkbox/script.js:83
+#: controls/color/script.js:91
+#: controls/color/script.js:108
 #: controls/image/script.js:125
-#: controls/radio/script.js:74
+#: controls/radio/script.js:84
 #: controls/repeater/script.js:289
-#: controls/select/script.js:98
-#: controls/select/script.js:119
+#: controls/select/script.js:108
+#: controls/select/script.js:129
 #: controls/toggle/script.js:57
 msgid "Yes"
 msgstr ""
 
 #: assets/editor-constructor/boxes/selected-control-settings/settings-rows/label.js:44
 #: assets/editor-constructor/boxes/styles/index.js:35
-#: controls/radio/script.js:100
+#: controls/radio/script.js:110
 #: controls/select/component-choices.js:155
-#: controls/select/script.js:145
+#: controls/select/script.js:155
 msgid "Label"
 msgstr ""
 
@@ -851,7 +847,7 @@ msgid "Insert custom HTML attributes with custom content."
 msgstr ""
 
 #: assets/editor-constructor/boxes/supports/index.js:29
-#: controls/select/script.js:111
+#: controls/select/script.js:121
 msgid "Multiple"
 msgstr ""
 
@@ -919,17 +915,21 @@ msgstr ""
 msgid "Block used for adding blocks inside it in cases when template locked from adding blocks."
 msgstr ""
 
-#: controls/checkbox/script.js:44
-#: controls/color/script.js:49
+#: assets/utils/check-control-validity/index.js:36
+msgid "This field is required."
+msgstr ""
+
+#: controls/checkbox/script.js:65
+#: controls/color/script.js:69
 #: controls/toggle/script.js:40
 msgid "Alongside Text"
 msgstr ""
 
-#: controls/checkbox/script.js:45
+#: controls/checkbox/script.js:66
 msgid "Displays text alongside the checkbox"
 msgstr ""
 
-#: controls/checkbox/script.js:58
+#: controls/checkbox/script.js:79
 #: controls/toggle/script.js:53
 msgid "Checked"
 msgstr ""
@@ -946,84 +946,84 @@ msgstr ""
 msgid "Save"
 msgstr ""
 
-#: controls/color/script.js:50
+#: controls/color/script.js:70
 msgid "Displays text alongside the color indicator"
 msgstr ""
 
-#: controls/color/script.js:63
+#: controls/color/script.js:83
 msgid "Alpha Channel"
 msgstr ""
 
-#: controls/color/script.js:64
+#: controls/color/script.js:84
 msgid "Allow set semi-transparent colors"
 msgstr ""
 
-#: controls/color/script.js:80
+#: controls/color/script.js:100
 msgid "Color Palette"
 msgstr ""
 
-#: controls/color/script.js:81
+#: controls/color/script.js:101
 msgid "Display color palette with predefined colors"
 msgstr ""
 
-#: controls/color/script.js:101
-#: controls/radio/script.js:87
-#: controls/select/script.js:132
+#: controls/color/script.js:121
+#: controls/radio/script.js:97
+#: controls/select/script.js:142
 msgid "Output Format"
 msgstr ""
 
-#: controls/color/script.js:102
-#: controls/radio/script.js:88
-#: controls/select/script.js:133
+#: controls/color/script.js:122
+#: controls/radio/script.js:98
+#: controls/select/script.js:143
 msgid "Allows you to change attribute output format"
 msgstr ""
 
-#: controls/color/script.js:110
+#: controls/color/script.js:130
 msgid "Color"
 msgstr ""
 
-#: controls/color/script.js:114
+#: controls/color/script.js:134
 msgid "Array (Color + Slug)"
 msgstr ""
 
-#: controls/date_time/script.js:67
+#: controls/date_time/script.js:64
 msgid "Select Date"
 msgstr ""
 
-#: controls/date_time/script.js:72
+#: controls/date_time/script.js:69
 msgid "Select Date and Time"
 msgstr ""
 
-#: controls/date_time/script.js:77
+#: controls/date_time/script.js:74
 msgid "Select Time"
 msgstr ""
 
-#: controls/date_time/script.js:230
+#: controls/date_time/script.js:260
 msgid "Date"
 msgstr ""
 
-#: controls/date_time/script.js:252
+#: controls/date_time/script.js:282
 msgid "Time"
 msgstr ""
 
-#: controls/email/script.js:49
-#: controls/number/script.js:80
+#: controls/email/script.js:73
+#: controls/number/script.js:119
 #: controls/password/script.js:53
-#: controls/text/script.js:48
+#: controls/text/script.js:78
 #: controls/textarea/script.js:52
 msgid "Placeholder"
 msgstr ""
 
-#: controls/email/script.js:56
+#: controls/email/script.js:80
 #: controls/password/script.js:60
-#: controls/text/script.js:55
+#: controls/text/script.js:85
 #: controls/textarea/script.js:59
 msgid "Characters Limit"
 msgstr ""
 
-#: controls/email/script.js:57
+#: controls/email/script.js:81
 #: controls/password/script.js:61
-#: controls/text/script.js:56
+#: controls/text/script.js:86
 #: controls/textarea/script.js:60
 msgid "Maximum number of characters allowed. Leave blank to no limit."
 msgstr ""
@@ -1082,39 +1082,39 @@ msgstr ""
 msgid "The Inner Blocks control deprecated since v3.4.0, you should migrate to the <InnerBlocks /> component as this control will be removed in future plugin updates."
 msgstr ""
 
-#: controls/number/script.js:54
+#: controls/number/script.js:93
 #: controls/range/script.js:45
 msgid "Minimum Value"
 msgstr ""
 
-#: controls/number/script.js:63
+#: controls/number/script.js:102
 #: controls/range/script.js:54
 msgid "Maximum Value"
 msgstr ""
 
-#: controls/number/script.js:72
+#: controls/number/script.js:111
 #: controls/range/script.js:63
 msgid "Step Size"
 msgstr ""
 
-#: controls/radio/script.js:66
-#: controls/select/script.js:90
+#: controls/radio/script.js:76
+#: controls/select/script.js:100
 msgid "Allow Null"
 msgstr ""
 
-#: controls/radio/script.js:67
-#: controls/select/script.js:91
+#: controls/radio/script.js:77
+#: controls/select/script.js:101
 msgid "Allows you to reset selected option value to null"
 msgstr ""
 
-#: controls/radio/script.js:96
+#: controls/radio/script.js:106
 #: controls/select/component-choices.js:159
-#: controls/select/script.js:141
+#: controls/select/script.js:151
 msgid "Value"
 msgstr ""
 
-#: controls/radio/script.js:104
-#: controls/select/script.js:149
+#: controls/radio/script.js:114
+#: controls/select/script.js:159
 msgid "Both (Array)"
 msgstr ""
 
@@ -1168,10 +1168,6 @@ msgstr ""
 msgid "Collapsed by Default"
 msgstr ""
 
-#: controls/rich_text/script.js:48
-msgid "Multiline"
-msgstr ""
-
 #: controls/select/component-choices.js:162
 msgid "Choices"
 msgstr ""
@@ -1184,7 +1180,7 @@ msgstr ""
 msgid "-- Select --"
 msgstr ""
 
-#: controls/select/script.js:112
+#: controls/select/script.js:122
 msgid "Allows you to select multiple values"
 msgstr ""
 
