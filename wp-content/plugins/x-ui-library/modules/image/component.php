@@ -55,8 +55,6 @@ class Component extends AbstractComponent {
     }
     // fetch attachment metadata from database
     $image = wp_get_attachment_metadata( $args['id'] );
-    $image_size = $args['size'];
-    $debug = $image_size === 'footer_logo';
 
     // possible invalid image
     if ( empty( $image ) || is_wp_error( $image ) ) {

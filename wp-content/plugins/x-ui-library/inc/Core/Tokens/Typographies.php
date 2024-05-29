@@ -125,6 +125,15 @@ class Typographies extends AbstractTokens {
                 "textTransform" => "none",
                 "textDecoration" => "none",
             ],
+            "link-lg" => [
+                "fontFamily" => "Outfit",
+                "fontSize" => "1.5rem",
+                "fontWeight" => "500",
+                "letterSpacing" => "0.5px",
+                "lineHeight" => "150%",
+                "textTransform" => "none",
+                "textDecoration" => "underline",
+            ],
             "link" => [
                 "fontFamily" => "Outfit",
                 "fontSize" => "1rem",

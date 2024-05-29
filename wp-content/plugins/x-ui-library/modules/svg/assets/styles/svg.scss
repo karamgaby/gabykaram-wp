@@ -31,6 +31,10 @@
         width: 1.5rem;
         height: 1.5rem;
       }
+      &.x-icon-size#{$infix}-medium {
+        width: 2rem;
+        height: 2rem;
+      }
       &.x-icon-size#{$infix}-xlarge {
         width: 15rem;
         height: 15rem;

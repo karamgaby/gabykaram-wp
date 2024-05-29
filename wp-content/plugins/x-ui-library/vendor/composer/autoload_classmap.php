@@ -14,5 +14,4 @@ return array(
     'X_UI\\Core\\Tokens\\Colors' => $baseDir . '/inc/Core/Tokens/Colors.php',
     'X_UI\\Core\\Tokens\\Grid' => $baseDir . '/inc/Core/Tokens/Grid.php',
     'X_UI\\Core\\Tokens\\Typographies' => $baseDir . '/inc/Core/Tokens/Typographies.php',
-    'X_UI\\Modules\\MenuBar\\TemplateLoader' => $baseDir . '/modules/MenuBar/TemplateLoader.php',
 );

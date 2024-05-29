@@ -1,0 +1,12 @@
+$x_colors: () !default;
+@each $color, $value in $x_colors {
+    .x-color-#{"" + $color} {
+      color: $value;
+    }
+    .x-fill-#{"" + $color} {
+      fill: $value;
+    }
+    .x-background-#{"" + $color} {
+      background-color: $value;
+    }
+}

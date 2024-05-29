@@ -34,7 +34,6 @@ class ComposerStaticInitefc2c9e699968c41d9f965da4b38f9dd
         'X_UI\\Core\\Tokens\\Colors' => __DIR__ . '/../..' . '/inc/Core/Tokens/Colors.php',
         'X_UI\\Core\\Tokens\\Grid' => __DIR__ . '/../..' . '/inc/Core/Tokens/Grid.php',
         'X_UI\\Core\\Tokens\\Typographies' => __DIR__ . '/../..' . '/inc/Core/Tokens/Typographies.php',
-        'X_UI\\Modules\\MenuBar\\TemplateLoader' => __DIR__ . '/../..' . '/modules/MenuBar/TemplateLoader.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

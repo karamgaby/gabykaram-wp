@@ -1,0 +1,32 @@
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-breakpoint-up($breakpoint) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+    @each $typography in $x_typographies {
+      $typography_key: nth($typography, 1);
+      .x-typography#{$infix}-#{nth($typography, 1)} {
+        @include ps-typography($typography_key);
+      }
+    }
+  }
+}
+
+.ps-list-unordered {
+  @include ps-list-unordered;
+}
+
+.ps-list-ordered {
+  @include ps-list-ordered;
+}
+
+.ps-free-text {
+  ul {
+    @include ps-list-unordered;
+  }
+  ol {
+    @include ps-list-ordered;
+  }
+  a {
+    text-decoration: none;
+    transition: all .25s;
+  }
+}

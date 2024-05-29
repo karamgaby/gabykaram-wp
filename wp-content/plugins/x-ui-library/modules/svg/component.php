@@ -1,5 +1,7 @@
 <?php
+
 namespace X_UI\Modules\Svg;
+
 use X_UI\Core\AbstractComponent;
 
 /**
@@ -8,37 +10,37 @@ use X_UI\Core\AbstractComponent;
  * @example
  * X_SVG::render(['name' => 'plus']);
  */
-class Component extends AbstractComponent
-{
-  protected static array $sizes = array('small', 'xlarge');
+class Component extends AbstractComponent {
+  protected static array $sizes = array( 'small', 'xlarge' );
 
   protected static function get_data_placeholders(): array {
     $default_breakpoints_attr = parent::get_default_breakpoints_attr();
+
     return [
 
       // required
-      'name' => null,
+      'name'             => null,
 
       // optional
       'output'           => 'sprite',
-      'attr' => [],
-      'title' => '',
+      'attr'             => [],
+      'title'            => '',
       'size'             => 'small',
       'size_breakpoints' => $default_breakpoints_attr,
     ];
   }
+
   /**
    * Image markup
    */
-  public static function frontend($data)
-  {
+  public static function frontend( $data ) {
     /**
      * @ sprite
      * & sprite_path
      *
      * @ svg
      * svg_path
-    */
+     */
     if ( $data['output'] === 'sprite' ) {
       self::sprite_frontend( $data );
     } else {
@@ -61,7 +63,9 @@ class Component extends AbstractComponent
       }
     }
   }
+
   public static function sprite_frontend( $data ) {
+    $last_edited = apply_filters( 'x_ui_component_sprite_last_edited', '1.0.0' );
     ?>
     <svg
       <?php
@@ -79,11 +83,9 @@ class Component extends AbstractComponent
       <?php
       endif;
       ?>
-      <use xlink:href="
-			<?php
-      echo esc_attr( get_stylesheet_directory_uri() . '/dist/sprite/sprite.svg?ver=' . STORKER_THEME_VERSION . '#icon-' . esc_html( $data['name'] ) );
-      ?>
-			"></use>
+      <use
+        xlink:href="<?= esc_attr( get_stylesheet_directory_uri() . '/dist/sprite/sprite.svg?ver=' . $last_edited . '#icon-' . esc_html( $data['name'] ) ); ?>">
+      </use>
     </svg>
     <?php
   }
@@ -107,38 +109,41 @@ class Component extends AbstractComponent
         $return[ $key ] = '';
       }
     }
+
     return $return;
   }
+
   /**
    * Fetch and setup image data
    *
    * @param array $args
    */
-  public static function backend($args = [])
-  {
-    if (empty($args['name'])) {
-      return parent::error('Missing icon name ($args[\'name\'])');
+  public static function backend( $args = [] ) {
+    if ( empty( $args['name'] ) ) {
+      return parent::error( 'Missing icon name ($args[\'name\'])' );
     }
     if ( ! is_array( $args['size_breakpoints'] ) ) {
       return parent::error( 'Wrong icon size_breakpoints format ($args[\'size_breakpoints\']) should be an array' );
     }
 
-    if (!empty($args['title'])) {
+    if ( ! empty( $args['title'] ) ) {
       $args['attr']['aria-labelledby'] = 'title';
     } else {
       $args['attr']['aria-hidden'] = 'true';
     }
 
-    if (!isset($args['attr']['class'])) {
+    if ( ! isset( $args['attr']['class'] ) ) {
       $args['attr']['class'] = [];
+    } elseif (!is_array( $args['attr']['class'] ) ) {
+      $args['attr']['class'] = [$args['attr']['class']];
     }
     $args['attr']['class'][] = 'x-icon';
-    $args['attr']['class'][] = 'x-icon-' . esc_html($args['name']);
-    $args['attr']['class'][] = 'x-icon-size-' . esc_html($args['size']);
+    $args['attr']['class'][] = 'x-icon-' . esc_html( $args['name'] );
+    $args['attr']['class'][] = 'x-icon-size-' . esc_html( $args['size'] );
 
     foreach ( $args['size_breakpoints'] as $breakpoint => $value ) {
       if ( ! empty( $value ) ) {
-        $args['attr']['class'][] = 'ps-icon-size-' . $breakpoint . '-' . $value;
+        $args['attr']['class'][] = 'x-icon-size-' . $breakpoint . '-' . $value;
       }
     }
 
