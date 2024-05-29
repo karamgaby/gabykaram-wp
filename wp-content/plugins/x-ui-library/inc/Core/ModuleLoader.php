@@ -9,7 +9,7 @@ class ModuleLoader {
    */
   public function __construct() {
     $this->registerModulesFromDirectory(trailingslashit(X_UI_LIBRARY_PLUGIN_DIR_PATH) . 'modules');  // Assuming plugin's module directory
-    $this->registerModulesFromDirectory(get_template_directory() . '/modules');    // Main theme modules
+    $this->registerModulesFromDirectory(trailingslashit(get_template_directory()) . 'modules');    // Main theme modules
 
     // Check if there's a child theme and it's not the same as the parent
     if (get_stylesheet_directory() !== get_template_directory()) {
