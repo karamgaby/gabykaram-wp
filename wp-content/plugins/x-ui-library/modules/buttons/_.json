@@ -16,7 +16,8 @@
     "inc": [
       "Tokens.php",
       "component.php",
-      "setup.php"
+      "setup.php",
+      "setup-cf7-submit-btn.php"
     ]
   },
   "css": {
