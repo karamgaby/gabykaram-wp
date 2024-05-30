@@ -14,6 +14,7 @@
   "php": {
     "inc": [
       "Component.php",
+      "InputComponent.php",
       "setup.php",
       "setup-cf7-input.php",
       "setup-cf7-textarea.php"
