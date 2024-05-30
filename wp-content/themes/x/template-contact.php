@@ -10,6 +10,7 @@ $title           = $contact_section['title'];
 $subtitle        = $contact_section['subtitle'];
 $image           = $contact_section['image'];
 $contact_list    = $contact_section['contact_info'];
+$cf7_id          = $contact_section['contact_form'][0];
 ?>
 
   <div class="container py-5">
@@ -19,7 +20,7 @@ $contact_list    = $contact_section['contact_info'];
       'subtitle'     => $subtitle,
       'image_id'     => $image['ID'],
       'contact_list' => $contact_list,
-      'cf7_id'       => 6
+      'cf7_id'       => $cf7_id
     ) );
     ?>
 
