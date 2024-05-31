@@ -4,7 +4,7 @@ $x_colors: ()  !default;
   @if($_color) {
     @return $_color;
   } @else {
-    @return 'transparent';
+    @return inherit;
   }
 }
 

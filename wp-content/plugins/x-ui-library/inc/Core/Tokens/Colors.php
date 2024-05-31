@@ -40,7 +40,7 @@ class Colors extends AbstractTokens {
             "white-grey-200" => "#F3F3F3",
             "white-grey-300" => "#E5E5E5",
             "black" => "#000000",
-            "error" => "red",
+            "error" => "#C6000C",
         ],
     ]);
   }

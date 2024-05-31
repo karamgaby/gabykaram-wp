@@ -2,20 +2,25 @@ $x_typographies: () !default;
 @mixin ps-typography($typography_key) {
   // #{$typography_key}
   $typography: map-get($x_typographies, $typography_key);
-  $textTransform: map-get($typography, 'textTransform');
-  $font-weight: map-get($typography, 'fontWeight');
-  $text-decoration: map-get($typography, 'textDecoration');
-  font-weight: $font-weight !important;
-  font-size: #{map-get($typography, 'fontSize')} !important;
-  letter-spacing: #{map-get($typography, 'letterSpacing')} !important;
-  line-height: #{map-get($typography, 'lineHeight')} !important;
-  font-family: #{map-get($typography, 'fontFamily')}, sans-serif !important;
-  @if $textTransform {
-    text-transform: $textTransform !important;
+  @if($typography) {
+    $textTransform: map-get($typography, 'textTransform');
+    $font-weight: map-get($typography, 'fontWeight');
+    $text-decoration: map-get($typography, 'textDecoration');
+    font-weight: $font-weight !important;
+    font-size: #{map-get($typography, 'fontSize')} !important;
+    letter-spacing: #{map-get($typography, 'letterSpacing')} !important;
+    line-height: #{map-get($typography, 'lineHeight')} !important;
+    font-family: #{map-get($typography, 'fontFamily')}, sans-serif !important;
+    @if $textTransform {
+      text-transform: $textTransform !important;
+    }
+    @if $text-decoration {
+      text-decoration: $text-decoration;
+    }
+  } @else {
+    @debug "Warrning: Typography key: " + $typography_key + " Not found"
   }
-  @if $text-decoration {
-    text-decoration: $text-decoration;
-  }
+
 }
 
 @mixin ps-list-unordered() {
