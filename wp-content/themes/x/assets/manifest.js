@@ -23,6 +23,10 @@ module.exports = {
       // main js to be loaded in footer
       "main.js": [
         'node_modules/bootstrap/dist/js/bootstrap.bundle.js',
+        // Module files
+        "../../plugins/x-ui-library/modules/buttons/assets/scripts/cf7.js",
+        // Themes Modules
+        "modules/inputs/assets/scripts/inputs-cf7.js",
         // IE11 polyfill for external x:link svg (https://github.com/Keyamoon/svgxuse)
         // "node_modules/svgxuse/svgxuse.js",
 

@@ -23,6 +23,8 @@ module.exports = {
       // main js to be loaded in footer
       "main.js": [
 
+        // Modules specific js
+        "modules/buttons/assets/scripts/cf7.js",
         // IE 11 ponyfill for css vars
         "node_modules/css-vars-ponyfill/dist/css-vars-ponyfill.min.js",
 
