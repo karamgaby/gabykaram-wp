@@ -30,39 +30,26 @@
         color: getColor(mate-black-200) !important;
       }
     }
-  }
-  input {
-  }
-  textarea {
-
-  }
-  .ps-input-message {
-    display: none !important;
-    //@include ps-typography(helper_text);
-  }
-  &.ps-input-status-error {
     .ps-input-message {
-      display: block !important;
+      display: none !important;
+      @include ps-typography(input-text);
+    }
+  }
+
+  &.ps-input-status-error {
+    #{$selectors} {
+      &::placeholder,
+      &:not(:placeholder-shown):not(:focus):not(:focus-visible):not(:disabled),
+      &:disabled {
+        outline-color: getColor(error) !important;
+      }
+      outline-color: getColor(error) !important;
+
+    }
+    .ps-input-message {
+      display: flex !important;
       color: getColor(error) !important;
       padding-top: 4px;
     }
-
-    #{$selectors} {
-      border-color: getColor(error) !important;
-      content: "";
-      z-index: 5;
-      display: block;
-      transition: unset !important;
-      &:focus, &:focus-visible {
-        box-shadow: 0 0 0 4px rgba(#DC3545, 0.5) !important;
-        outline: none !important;
-      }
-      @at-root {
-        select#{&} {
-          background-position: calc(100% - 16px);
-        }
-      }
-    }
   }
-
 }

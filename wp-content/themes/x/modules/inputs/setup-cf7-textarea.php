@@ -9,11 +9,43 @@ use X_Modules\Inputs\InputComponent;
 
 add_action( 'wpcf7_init', 'x_wpcf7_add_form_tag_textarea', 10, 0 );
 
+
+/**
+ * Returns a class names list for a form-tag of the specified type.
+ *
+ * @param string $type Form-tag type.
+ * @param string $default_classes Optional default classes.
+ * @return string Whitespace-separated list of class names.
+ */
+function x_wpcf7_form_textarea_controls_class( $type, $default_classes = '' ) {
+  // @todo join x_wpcf7_form_textarea_controls_class and x_wpcf7_form_controls_class functions into the same (duplicate code) - move it up
+  $type = trim( $type );
+
+  if ( is_string( $default_classes ) ) {
+    $default_classes = explode( ' ', $default_classes );
+  }
+
+  $classes = array(
+    'x_inputs-wpcf7-form-control',
+    sprintf( 'wpcf7-%s', rtrim( $type, '*' ) ),
+  );
+
+  if ( str_ends_with( $type, '*' ) ) {
+    $classes[] = 'x_inputs-wpcf7-validates-as-required';
+  }
+
+  $classes = array_merge( $classes, $default_classes );
+  $classes = array_filter( array_unique( $classes ) );
+
+  return implode( ' ', $classes );
+}
+
 function x_wpcf7_add_form_tag_textarea() {
   wpcf7_add_form_tag( array( 'x_textarea', 'x_textarea*' ),
     'x_wpcf7_textarea_form_tag_handler', array( 'name-attr' => true )
   );
 }
+
 
 function x_wpcf7_textarea_form_tag_handler( $tag ) {
   if ( empty( $tag->name ) ) {
@@ -22,10 +54,10 @@ function x_wpcf7_textarea_form_tag_handler( $tag ) {
 
   $validation_error = wpcf7_get_validation_error( $tag->name );
 
-  $class = wpcf7_form_controls_class( $tag->type );
+  $class = x_wpcf7_form_textarea_controls_class( $tag->type );
 
   if ( $validation_error ) {
-    $class .= ' wpcf7-not-valid';
+    $class .= ' x_inputs-wpcf7-not-valid';
   }
 
   $atts = array();
@@ -85,6 +117,7 @@ function x_wpcf7_textarea_form_tag_handler( $tag ) {
       'input_attr' => $atts,
       'attr'       => [
         'data-name' => $tag->name,
+        'class' => 'x_inputs-wpcf7-form-control-wrap'
       ]
     )
   );

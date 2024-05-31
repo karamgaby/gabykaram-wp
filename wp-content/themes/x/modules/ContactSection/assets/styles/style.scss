@@ -23,4 +23,20 @@
       border-radius: 50%;
     }
   }
+  .wpcf7-form {
+    --response-output-color: inherit;
+    .wpcf7-response-output {
+      border: none;
+      margin: 0;
+      padding: 0;
+      color: var(--response-output-color);
+      @include ps-typography(input-text);
+    }
+    &.invalid {
+      --response-output-color: #{getColor(error)};
+    }
+    &.sent {
+      --response-output-color: #{getColor(orange-700)};
+    }
+  }
 }

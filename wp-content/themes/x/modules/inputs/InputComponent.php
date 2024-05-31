@@ -40,7 +40,7 @@ class InputComponent extends AbstractComponent {
 
       if ( $data['input_attr']['type'] === 'textarea' ) :
         ?>
-        <div class="form-floating">
+        <div class="form-floating d-flex">
                     <textarea <?php
                     parent::render_attributes( $data['input_attr'] ); ?>
                         placeholder="<?= $data['input_attr']['placeholder']; ?>"

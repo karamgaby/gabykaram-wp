@@ -271,7 +271,6 @@ gulp.task('svgstore', async () => {
       err => null // directory doesn't exist
     );
   }
-
   const pluginDropIns = getUIPluginModule();
   // Get module filenames
   for (const module of pluginDropIns) {
@@ -395,6 +394,7 @@ gulp.task('watch', () => {
   // modules
   gulp.watch(path.modules.source + '**/*.scss', gulp.task('styles'));
   gulp.watch(path.modules.source + '**/*.js', gulp.task('scripts'));
+  gulp.watch(path.modules.pluginModulesPath + '**/*.js', gulp.task('scripts'));
   gulp.watch(path.modules.source + '**/images/*', gulp.task('images'));
   gulp.watch(path.modules.source + '**/sprite/*', gulp.task('svgstore'));
   gulp.watch(path.modules.source + '**/assets/0.tokens/*.json', gulp.task('buildJsonToken'));
