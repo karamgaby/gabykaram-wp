@@ -6,6 +6,7 @@ global $x_ui_plugin_path;
 use X_UI\Modules\Svg\Component as Svg;
 use X_UI\Modules\Buttons\Component as Button;
 use X_UI\Core\Modules\Buttons\Tokens as ButtonsTokens;
+use X_Modules\PictureCards\Component as PictureCards;
 
 $title = ask__( 'Title: Archives' );
 if ( is_tag() || is_category() || is_tax() ) {
@@ -21,11 +22,33 @@ get_header(); ?>
   <div id="primary" class="primary primary--index">
 
     <div class="heading heading--index">
-      <h1 class="heading__title"><?php echo esc_html( $title ); ?></h1>
+      <h1 class="heading__title"><?php
+        echo esc_html( $title ); ?></h1>
       <div class="heading__description">
-        <?php echo apply_filters( 'the_content', $description ); ?>
+        <?php
+        echo apply_filters( 'the_content', $description ); ?>
       </div>
     </div>
+    <section class="my-2">
+      <?php
+      PictureCards::render( array(
+        'image_id' => 136,
+        'style'    => 'picture_only',
+        'device'   => 'desktop',
+        'image_title'   => 'desktop',
+      ) );
+      ?>
+    </section>
+    <section class="my-2">
+      <?php
+      PictureCards::render( array(
+        'image_id' => 136,
+        'style'    => 'picture_only',
+        'device'   => 'mobile',
+        'image_title'   => 'mobile',
+      ) );
+      ?>
+    </section>
     <section class="container">
       <?php
       Svg::render( array(
@@ -93,7 +116,8 @@ get_header(); ?>
           <?php
           for ( $i = 0; $i < 24; $i ++ ) {
             ?>
-            <div class="col-xl-1 col-lg-1  rounded-<?php echo $i % 5 ?> col-md-1 col-sm-1 "
+            <div class="col-xl-1 col-lg-1  rounded-<?php
+            echo $i % 5 ?> col-md-1 col-sm-1 "
                  style="background: black; height: 160px;">
               <div class="test-col">
                 <?= $i + 1 ?>
@@ -119,7 +143,8 @@ get_header(); ?>
           <?php
           for ( $i = 0; $i < 24; $i ++ ) {
             ?>
-            <div class="g-col-xl-1 g-col-lg-1  rounded-<?php echo $i % 5 ?> g-col-md-1 g-col-sm-1 "
+            <div class="g-col-xl-1 g-col-lg-1  rounded-<?php
+            echo $i % 5 ?> g-col-md-1 g-col-sm-1 "
                  style="background: black; height: 160px;">
               <div class="test-col">
                 <?= $i + 1 ?>
@@ -133,7 +158,8 @@ get_header(); ?>
           <?php
           for ( $i = 0; $i < 24; $i ++ ) {
             ?>
-            <div class="col-xl-2 col-lg-2  rounded-<?php echo $i % 5 ?> col-md-3 col-sm-6 "
+            <div class="col-xl-2 col-lg-2  rounded-<?php
+            echo $i % 5 ?> col-md-3 col-sm-6 "
                  style="background: black; height: 160px;">
               <div style="font-size: 1rem">
                 <?= $i + 1 ?>

@@ -3,3 +3,4 @@ node_modules/**
 modules/*/node_modules/**
 modules/*/assets/vendor/**
 modules/*/assets/*/vendor/**
+assets/scripts/lib/*

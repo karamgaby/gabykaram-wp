@@ -1,0 +1,19 @@
+.pictures-slider-section {
+
+  .pictures-slides {
+    width: calc(100% + var(--container-padding));
+    &:not(.swiper-initialized) {
+      .swiper-wrapper {
+        display: flex;
+        gap: 16px;
+      }
+    }
+    .picture-slide {
+      width: max-content;
+    }
+    .space-slide {
+      width: var(--container-padding);
+    }
+
+  }
+}

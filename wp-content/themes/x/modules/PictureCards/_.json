@@ -1,0 +1,34 @@
+{
+  "moduleKey": "PictureCards",
+  "meta": {
+    "title": "PictureCards",
+    "version": "1.0.0"
+  },
+  "tokens": {
+    "path": "tokens.json",
+    "scssOutput": "_tokens.scss",
+    "phpOutput": "Tokens.php",
+    "namespace": "X_Modules\\PictureCards",
+    "isGroup": false
+  },
+  "dependencies": ["image", "buttons"],
+  "php": {
+    "inc": [
+      "Tokens.php",
+      "Component.php",
+      "setup.php"
+    ]
+  },
+  "css": {
+    "main.css": [
+    ],
+    "admin.css": [],
+    "editor-gutenberg.css": [
+    ]
+  },
+  "js": {
+    "main.js": [
+    ],
+    "editor-gutenberg.js": []
+  }
+}

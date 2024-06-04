@@ -1,6 +1,6 @@
 <?php
 
-add_filter( 'rest_namespace_index', 'disable_index_for_rest_api'  );
+//add_filter( 'rest_namespace_index', 'disable_index_for_rest_api'  );
 add_filter( 'rest_index', 'filter_rest_api_index_data', PHP_INT_MAX, 10, 2 );
 foreach ( array( 'wp_head', 'rss2_head', 'commentsrss2_head', 'rss_head', 'rdf_header', 'atom_head', 'comments_atom_head', 'opml_head', 'app_head' ) as $action ) {
 // Feed generator tags.

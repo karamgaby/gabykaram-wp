@@ -52,12 +52,30 @@
   @include media-breakpoint-up($breakpoint) {
     .container,
     .container-fluid {
-      padding-left: $margin;
-      padding-right: $margin;
+      --container-padding: #{$margin};
+      padding-left: var(--container-padding);
+      padding-right: var(--container-padding);
     }
     .container-#{$infix} {
-      padding-left: $margin;
-      padding-right: $margin;
+      padding-left: var(--container-padding);
+      padding-right: var(--container-padding);
+    }
+  }
+}
+
+@for $i from 1 through length($x_grid_breakpointsValues) {
+  $map: nth($x_grid_breakpointsValues, $i);
+  $breakpoint: nth($x_grid_breakpointsKeys, $i);
+  $min-width: map-get($map, minWidth);
+  $max-width: map-get($map, maxWidth);
+  @if ($min-width) {
+    @if not $max-width {
+      @include media-breakpoint-up($breakpoint) {
+        $margin: map-get($map, margin);
+        .container {
+          max-width: calc(100vw);
+        }
+      }
     }
   }
 }

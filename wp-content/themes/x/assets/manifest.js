@@ -7,7 +7,7 @@ module.exports = {
   /**
    * URL for BrowserSync to mirror
    */
-  devUrl: () => "http://playgroundplayhouse.local",
+  devUrl: () => "http://playground.playhouse.local/",
 
   /**
    * JS files
@@ -42,6 +42,7 @@ module.exports = {
         // project specific js
         // "assets/scripts/lib/in-viewport.js",
         "assets/scripts/lib/blocks.js",
+        "assets/scripts/lib/swiper.min.js",
         "modules/MenuBar/assets/scripts/menu.js",
         "assets/scripts/main.js"
 

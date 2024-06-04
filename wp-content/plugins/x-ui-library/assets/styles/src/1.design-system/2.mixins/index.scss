@@ -1,7 +1,13 @@
+@use 'sass:math';
 @import 'typography';
 @import 'grid';
 @import 'colors';
 @import 'media-breakpoints';
+
+
+@function toRem($px-value) {
+  @return math.div($px-value, 16) * 1rem;
+}
 
 @mixin loader-placeholder($size: 24px) {
   border: 3px solid getColor(other-normal);

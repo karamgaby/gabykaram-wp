@@ -9,6 +9,7 @@
 /* Base
 ----------------------------------------------- */
 
+@import "libraries/swiper-bundle.min";
 @import "../../../../plugins/x-ui-library/assets/styles/src/1.design-system/index";
 @import "../../../../plugins/x-ui-library/assets/styles/src/3.library/bootstrap/bootstrap";
 @import "../../../../plugins/x-ui-library/modules/svg/assets/styles/svg";
@@ -18,6 +19,26 @@
 @import "../../modules/accessibility_skip_to_content/assets/styles/style";
 @import "../../modules/ContactSection/assets/styles/style";
 @import "../../modules/inputs/assets/styles/style";
+@import "../../modules/PictureCards/assets/styles/style";
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+@import "src/template-parts/flexible-content/pictures_sliders_section";
+@import "src/template-parts/flexible-content/text_gallery_section";
+@import "src/template-parts/flexible-content/calendar_booking";
+body.page-template-template-flexible-content {
+  background: #FFFFFF;
+  article {
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    padding-top: 4rem;
+    @include media-breakpoint-smaller(lg) {
+      gap: 3rem;
+    }
+  }
+}
 html, body {
   background-color: #ffffff;
   height: 100%;

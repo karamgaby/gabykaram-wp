@@ -1,0 +1,372 @@
+.calendar-booking {
+  h2 {
+    color: getColor(medium-turquoise-600);
+    strong {
+      color: getColor(orange-700);
+    }
+  }
+  .calendar-booking__calendly-embed {
+    container-type: inline-size;
+  }
+
+  @container (max-width: 999px) {
+    .calendly-inline-widget {
+      height: 930px !important;
+    }
+  }
+}
+/**
+* WP Cal css
+*/
+div#wpcal_user_app.narrow {
+  #wpcal-widget {
+    margin: 0;
+    .widget-main {
+      max-width: unset;
+      &.state-form {
+        .event-form {
+          .icon-back {
+            margin-bottom: toRem(24);
+            span {
+            }
+          }
+        }
+
+      }
+      .event-type-duration {
+        display: flex;
+        justify-content: flex-start;
+      }
+      .event-preset {
+        .event-type-description {
+          text-align: left;
+        }
+      }
+      .event-time-col-cont .event-time-col h4 {
+        padding: 0 0 0.5rem;
+        display: flex;
+        align-items: center;
+        gap: toRem(16);
+        .icon-back {
+          margin: 0;
+          width: 24px;
+          height: 24px;
+          position: relative;
+          padding: 2px;
+          border: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          &:before {
+            position: relative;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            display: flex;
+            right: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+div#wpcal_user_app.extended, div#wpcal_user_app.wide {
+  > div {
+    width: 100%;
+  }
+  #wpcal-widget .widget-main {
+
+    &.state-form {
+      .event-preset-cont {
+        width: 40%;
+      }
+      .event-form {
+        width: 60%;
+      }
+    }
+    &.state-confirmation {
+      .event-preset {
+        width: 100%;
+        .event-type-duration {
+          justify-content: center;
+        }
+      }
+    }
+    &.state-select-date {
+      display: flex;
+      justify-content: space-between;
+      .event-preset-cont {
+        width: 40%;
+        padding: 3rem 1.5rem 3rem 3rem;
+      }
+      .event-date-col {
+        width: 50%;
+      }
+    }
+    &.state-select-time {
+      width: 100%;
+      .event-preset-cont {
+        width: 40%;
+        padding: 3rem 1.5rem 3rem 3rem;
+
+      }
+      .event-time-col-cont {
+        width: 40%;
+        margin: 0px;
+        padding-left: toRem(24);
+        padding-right: toRem(48);
+      }
+      .event-date-col {
+        width: 40%;
+      }
+      @media (max-width: 999px) {
+        display: flex;
+        flex-wrap: wrap;
+        .event-preset-cont {
+          width: 100%;
+          padding: 3rem 1.5rem 0 3rem;
+
+        }
+        .event-time-col-cont {
+          width: 40%;
+
+        }
+        .event-date-col {
+          width: 60%;
+          .tzs-cont {
+            margin-right: toRem(3);
+          }
+        }
+      }
+    }
+  }
+}
+div#wpcal_user_app {
+  color: getColor(black);
+  display: flex;
+  .bottom_powered_by {
+    display: none;
+  }
+  .wpcal-widget {
+    .widget-main {
+      border-radius: toRem(16);
+    }
+  }
+
+  #wpcal-widget .widget-main {
+    margin: 0;
+    width: 100%;
+    * {
+      font-family: inherit !important;
+    }
+
+
+    .event-type-name {
+      @include ps-typography(h5);
+      margin-bottom: 0;
+      padding: 0;
+    }
+    .inviter-name {
+      @include ps-typography(body-1);
+      margin-bottom: 0.5rem;
+      padding: 0;
+    }
+    .ribbon-mask {
+      display: none;
+    }
+    .event-time-col-cont {
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+      background: transparent !important;
+      .event-time-col {
+        &:before {
+          display: none;
+        }
+        h4 {
+          padding: 0 0 0.5rem;
+          display: flex;
+          align-items: center;
+          gap: toRem(16);
+          .icon-back {
+            margin: 0;
+            width: 24px;
+            height: 24px;
+            position: relative;
+            padding: 2px;
+            border: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &:before {
+              position: relative;
+              left: 0;
+              top: 0;
+              bottom: 0;
+              display: flex;
+              right: 0;
+            }
+          }
+        }
+      }
+
+      ul.time-slot-selector {
+        display: flex;
+        flex-direction: column;
+        gap: toRem(8);
+        padding: 0;
+        .wpcal_slot {
+          margin: 0;
+          &:not(.confirmation) {
+            a {
+              padding: toRem(16) toRem(48);
+              &:hover {
+                background-color: getColor(medium-turquoise-50);
+              }
+            }
+          }
+          &.confirmation {
+            display: flex;
+            gap: toRem(8);
+            a {
+              padding: toRem(16) toRem(8);
+              background-color: getColor(mate-black-400);
+              color: getColor(white-white-50);
+
+            }
+            button {
+              color: getColor(white-white-50);
+              background-color: getColor(medium-turquoise-600);
+              @include ps-typography(body-1);
+              text-align: center;
+              margin: 0;
+              width: 100%;
+            }
+          }
+          a {
+            border: 1px solid getColor(mate-black-400);
+            border-radius: toRem(4);
+            @include ps-typography(body-1);
+            color: getColor(mate-black-500);
+          }
+        }
+      }
+    }
+    .event-date-col {
+      padding-top: 3rem;
+      h4 {
+        padding: 0;
+        max-width: toRem(273);
+        @include ps-typography(subtitle-2);
+        text-align: left;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-bottom: toRem(24);
+      }
+      .vc-header {
+        //input-label
+        padding: 0;
+        .vc-title-layout {
+          justify-content: flex-start;
+          margin-bottom: toRem(24);
+          .vc-title {
+            padding: 0;
+            @include ps-typography(body-1);
+          }
+          .vc-popover-content-wrapper.is-interactive {
+            transform: translate3d(0, toRem(18), 0) !important;
+          }
+        }
+      }
+      .vc-container {
+        max-width: toRem(273);
+        .vc-weeks {
+          padding: 0;
+          .vc-grid-cell:first-child {
+
+          }
+        }
+        .vc-highlights + .vc-day-content {
+          background-color: getColor(medium-turquoise-50) !important;
+          color: getColor(medium-turquoise-700) !important;
+        }
+        .vc-day-content {
+          border-radius: 50%;
+          @include ps-typography(input-text);
+          margin: 0;
+          height: toRem(30);
+          width: toRem(30);
+          background-color: transparent;
+          color: getColor(mate-black-500);
+          &.vc-text-gray-400 {
+            color: getColor(mate-black-50);
+          }
+        }
+        .vc-weekday {
+          @include ps-typography(input-label);
+          color: getColor(mate-black-500);
+          padding: 0;
+          width: auto;
+        }
+        //input-text
+        .vc-arrows-container {
+          width: auto;
+          top: 0;
+          right: 0;
+          padding: 0;
+          display: flex;
+          gap: toRem(24);
+          [role="button"] {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            svg {
+              width: toRem(24);
+              height: toRem(24);
+            }
+          }
+        }
+      }
+    }
+    .event-preset {
+      background: transparent;
+      border-radius: 0;
+      border: 0;
+      margin: 0;
+      width: auto;
+      .event-type-duration {
+        margin-top: 1.5rem;
+        @include ps-typography(body-2);
+        padding: 0;
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+        &:before {
+          width: 1.5rem;
+          height: 1.5rem;
+          position: initial;
+          margin-left: 0;
+          top: unset;
+          display: block;
+        }
+      }
+      .event-type-description {
+        margin-top: 1rem !important;
+        .pre {
+          @include ps-typography(paragraph);
+        }
+      }
+      .inviter-pic {
+        margin-bottom: toRem(8);
+        img {
+          width: toRem(56);
+          height: toRem(56);
+          border-radius: 50%;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+}
+
