@@ -43,7 +43,7 @@ if($embed_type === 'calendly') {
           ?>
           <div class="calendar-booking__calendly-embed">
             <!-- Calendly inline widget begin -->
-            <div class="calendly-inline-widget" data-url="https://calendly.com/gabykaram/30min?hide_gdpr_banner=1" style="min-width:320px;height:660px;"></div>
+            <div class="calendly-inline-widget" data-url="<?= $booking_id ?>" style="min-width:320px;height:660px;"></div>
             <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
             <!-- Calendly inline widget end -->
           </div>
