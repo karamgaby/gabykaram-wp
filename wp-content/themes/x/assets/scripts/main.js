@@ -31,6 +31,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
   const swiper = new Swiper(".pictures-slides", {
     slidesPerView: 'auto',
     spaceBetween: remToPx(1),
+    freeMode: true,
   });
 
   window.addEventListener('resize', function () {
