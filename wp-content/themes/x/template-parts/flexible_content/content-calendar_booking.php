@@ -31,7 +31,7 @@ if($embed_type === 'calendly') {
         <?php
         if ( ! empty( $title ) ):
           ?>
-          <h2 class="x-typography-h4 x-typography-lg-h2 mb-lg-5 mb-3"><?= $title ?></h2>
+          <h2 class="x-typography-h4 x-typography-lg-h2 <?= $embed_type === 'calendly'? '': 'mb-lg-5   mb-3'?>"><?= $title ?></h2>
         <?php
         endif;
         ?>

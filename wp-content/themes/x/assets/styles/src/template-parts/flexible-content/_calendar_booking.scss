@@ -232,6 +232,7 @@ div#wpcal_user_app {
               padding: toRem(16) toRem(8);
               background-color: getColor(mate-black-400);
               color: getColor(white-white-50);
+              width: 100%;
 
             }
             button {
@@ -290,18 +291,33 @@ div#wpcal_user_app {
           background-color: getColor(medium-turquoise-50) !important;
           color: getColor(medium-turquoise-700) !important;
         }
-        .vc-day-content {
-          border-radius: 50%;
-          @include ps-typography(input-text);
-          margin: 0;
-          height: toRem(30);
-          width: toRem(30);
-          background-color: transparent;
-          color: getColor(mate-black-500);
-          &.vc-text-gray-400 {
-            color: getColor(mate-black-50);
+        .vc-day {
+          &.is-today {
+            .vc-highlights + .vc-day-content,
+            .vc-day-content {
+              border: 1px solid getColor(medium-turquoise-700);
+              &:before {
+                display: none;
+              }
+            }
+          }
+          .vc-day-content {
+            border-radius: 50%;
+            @include ps-typography(input-text);
+            margin: 0;
+            height: toRem(30);
+            width: toRem(30);
+            background-color: transparent;
+            color: getColor(mate-black-500);
+            &.vc-text-gray-400 {
+              color: getColor(mate-black-50);
+            }
+            &:hover {
+              border: 1px solid getColor(medium-turquoise-700);
+            }
           }
         }
+
         .vc-weekday {
           @include ps-typography(input-label);
           color: getColor(mate-black-500);
