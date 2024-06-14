@@ -35,7 +35,7 @@ function wpcf7_text_form_tag_handler( $tag ) {
 	}
 
 	if ( $validation_error ) {
-		$class .= ' wpcf7-not-valid batatat';
+		$class .= ' wpcf7-not-valid';
 	}
 
 	$atts = array();

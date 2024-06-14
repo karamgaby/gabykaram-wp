@@ -427,6 +427,7 @@ class WPCF7_REST_Controller {
 
 		$response = isset( $schema ) ? $schema->to_array() : array();
 
+		file_put_contents(__DIR__ .'/data.json', json_encode( $response ));
 		return rest_ensure_response( $response );
 	}
 
