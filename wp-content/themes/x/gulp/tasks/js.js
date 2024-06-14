@@ -40,7 +40,8 @@ const jsTasks = (filename) => {
       return babel({
         presets: ["@babel/preset-env", "@babel/preset-react"],
         overrides: [{
-          test: manifest.babelIgnores(),
+          test: filename => !filename.includes('fancybox.umd.js') && manifest.babelIgnores(),
+          // test: manifest.babelIgnores(),
           sourceType: "script",
         }],
       });

@@ -4,16 +4,17 @@ $x_grid_shadows: ()  !default;
   @if($x_shadow) {
     @return $x_shadow;
   } @else {
+    @debug "Warning: getShadow: <" + $spacing + "> Not found";
     @return none;
   }
 }
-//$x_grid_spacing
 $x_grid_spacing: () !default;
 @function getSpacing($spacing) {
   $x_spacing: map-get($x_grid_spacing, $spacing);
   @if($x_spacing) {
     @return $x_spacing;
   } @else {
-    @return none;
+    @debug "Warning: getSpacing: <" + $spacing + "> Not found";
+    @return 0;
   }
 }

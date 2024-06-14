@@ -57,7 +57,7 @@
   }
 }
 
-@include media-breakpoint-smaller(lg) {
+@include media-breakpoint-smaller(md) {
   .site-footer {
     padding-top: getSpacing(3);
     padding-bottom: getSpacing(3);

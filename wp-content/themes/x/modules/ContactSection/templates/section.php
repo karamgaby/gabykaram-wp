@@ -22,9 +22,9 @@ $classes = implode( ' ', $classes );
 
 <section class="contact-section container <?= $classes ?>" <?php AbstractComponent::render_attributes( $attr ); ?>>
   <div class="row">
-    <div class="col-lg-12 col-24">
-      <h1 class="x-color-mate-black-900 x-typography-lg-h1 x-typography-h4 text-center text-lg-start"><?= $title ?></h1>
-      <div class="contact-section__image mt-3 d-lg-none">
+    <div class="col-md-12 col-24">
+      <h1 class="x-color-mate-black-900 x-typography-md-h1 x-typography-h4 text-center text-md-start"><?= $title ?></h1>
+      <div class="contact-section__image mt-3 d-md-none">
         <?php
         X_UI\Modules\Image\Component::render( array(
           'id'   => $image_id,
@@ -37,8 +37,8 @@ $classes = implode( ' ', $classes );
       <?php
       if ( count( $contact_list ) > 0 ):
         ?>
-        <div class="d-flex justify-content-between justify-content-lg-start mt-3">
-          <div class="contact-section__contact-list x-color-mate-black-900 d-inline-flex mx-auto mx-lg-0  gap-1 flex-column">
+        <div class="d-flex justify-content-between justify-content-md-start mt-3">
+          <div class="contact-section__contact-list x-color-mate-black-900 d-inline-flex mx-auto mx-md-0  gap-1 flex-column">
             <?php
             foreach ( $contact_list as $contact ) :
               $icon_type = $contact['icon_type'];
@@ -65,8 +65,8 @@ $classes = implode( ' ', $classes );
                     'name'             => $icon_name,
                     'size'             => 'small',
                     'size_breakpoints' => [
-                      'md' => 'small',
-                      'lg' => 'medium'
+                      'sm' => 'small',
+                      'md' => 'medium'
                     ],
                     'attr'             => [
                       'class' => 'contact-list-item__icon__icon',
@@ -77,12 +77,12 @@ $classes = implode( ' ', $classes );
                 <?php
                 if ( $has_link ) :
                   ?>
-                  <a class="x-typography-link x-typography-lg-link-lg"
+                  <a class="x-typography-link x-typography-md-link-lg"
                      href="<?= $link['url'] ?>" <?php if ( ! empty( $link['target'] ) ): ?> target="<?= $link['target']; ?>" <?php endif; ?>><?= $link['title'] ?></a>
                 <?php
                 else:
                   ?>
-                  <span class="x-typography-lg-subtitle-1 x-typography-subtitle-2 "><?= $text ?></span>
+                  <span class="x-typography-md-subtitle-1 x-typography-subtitle-2 "><?= $text ?></span>
                 <?php
                 endif;
                 ?>
@@ -104,8 +104,8 @@ $classes = implode( ' ', $classes );
         ?>
       </div>
     </div>
-    <div class="col-lg-12 col-24">
-      <div class="contact-section__image contact-section__image--full-height d-none d-lg-block">
+    <div class="col-md-12 col-24">
+      <div class="contact-section__image contact-section__image--full-height d-none d-md-block">
         <?php
         X_UI\Modules\Image\Component::render( array(
           'id'   => $image_id,

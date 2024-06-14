@@ -38,6 +38,7 @@ module.exports = {
 
         // vanilla js version of fitvids, that makes iframe videos responsice (https://www.npmjs.com/package/fitvids)
         "node_modules/fitvids/dist/fitvids.min.js",
+        "node_modules/@fancyapps/ui/dist/fancybox/fancybox.umd.js",
 
         // project specific js
         // "assets/scripts/lib/in-viewport.js",
@@ -68,6 +69,7 @@ module.exports = {
   babelIgnores: () => {
     return [
       "./node_modules/@rqrauhvmra/tobi/js/tobi.js",
+      "node_modules/@fancyapps/ui/dist/fancybox/fancybox.umd.js",
       "./node_modules/axios/dist/axios.min.js",
       "./modules/lightbox/assets/vendor/tobi/js/tobi.js",
       "./modules/lightbox/assets/vendor/tobi/js/tobi.min.js"

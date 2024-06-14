@@ -38,5 +38,14 @@ document.addEventListener('DOMContentLoaded', (event) => {
     swiper.params.spaceBetween = remToPx(1);
     swiper.update();
   });
-
+  // $.fancybox.defaults.hideScrollbar = false;
+  Fancybox.bind('[data-fancybox]', {
+    height: () => Math.max(window.innerHeight * 0.5, 320),
+    Images: {
+      zoom: false,
+    },
+    backFocus: false,
+    hideScrollbar: false,
+    Hash: false,
+  });   
 });
