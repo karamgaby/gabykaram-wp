@@ -1,0 +1,7 @@
+.rooms-products-section {
+    .products-list {
+        display: flex;
+        flex-direction: column;
+        gap: getSpacing(5);
+    }
+}

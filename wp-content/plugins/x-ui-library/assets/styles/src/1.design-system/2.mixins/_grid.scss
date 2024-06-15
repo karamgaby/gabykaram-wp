@@ -4,7 +4,7 @@ $x_grid_shadows: ()  !default;
   @if($x_shadow) {
     @return $x_shadow;
   } @else {
-    @debug "Warning: getShadow: <" + $spacing + "> Not found";
+    @warn "Warning: getShadow: <" + $spacing + "> Not found";
     @return none;
   }
 }
@@ -14,7 +14,17 @@ $x_grid_spacing: () !default;
   @if($x_spacing) {
     @return $x_spacing;
   } @else {
-    @debug "Warning: getSpacing: <" + $spacing + "> Not found";
+    @warn "Warning: getSpacing: <" + $spacing + "> Not found";
+    @return 0;
+  }
+}
+$x_grid_border-radius: () !default;
+@function getBorderRadius($border-radius) {
+  $x_border-radius: map-get($x_grid_border-radius, $border-radius);
+  @if($x_border-radius) {
+    @return $x_border-radius;
+  } @else {
+    @warn "Warning: getBorderRadius <" + $border-radius + "> Not found";
     @return 0;
   }
 }

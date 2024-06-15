@@ -31,7 +31,7 @@ class Component extends AbstractComponent {
       // optional
       'icon'          => null,
       'has_icon'      => false,
-      'icon_position' => false,
+      'icon_position' => 'end',
       'as'            => 'a',
       'target'        => '_self',
       'type'          => null,
@@ -50,7 +50,7 @@ class Component extends AbstractComponent {
     $icon_position = $data['icon_position'];
     ?>
     <<?php echo $html_tag . ' '; ?><?php parent::render_attributes( $data['attr'] ); ?>>
-    <span>
+    <span class="x-btn__wrapper">
        <?php
        if ( ! ! $has_icon && $icon_position === 'start' ) {
          Svg::render( array(

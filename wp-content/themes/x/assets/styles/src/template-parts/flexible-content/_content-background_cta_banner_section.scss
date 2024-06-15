@@ -1,0 +1,15 @@
+.background-cta-banner-section {
+    background-color: getColor(orange-500);
+    &__title {
+        @include ps-typography(h4);
+        color: getColor(mate-black-900);
+        text-align: center;
+        max-width: toRem(450);
+    }
+
+    @include media-breakpoint-down(md) {
+        &__title {
+            @include ps-typography(h5);
+        }
+    }
+}

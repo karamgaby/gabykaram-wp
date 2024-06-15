@@ -20,11 +20,24 @@ get_header(); ?>
               $row_layout = get_row_layout();
               $args = array(
                 'attr' => [
+                  'class' => []
                 ]
               );
-              $section_id = get_sub_field('section_id');
+              $advanced_settings = get_sub_field('advanced_settings');
+              $section_id = $advanced_settings ? $advanced_settings['section_id'] : null;
+              $mobile_top_spacing = $advanced_settings ? $advanced_settings['mobile_top_spacing'] : null;
+              $desktop_top_spacing = $advanced_settings ? $advanced_settings['desktop_top_spacing'] : null;
               if(!empty( $section_id ) ) {
                 $args['attr']['id'] = $section_id;
+              }
+              if(!empty($mobile_top_spacing)) {
+                $args['attr']['class'][] = 'mt-' . $mobile_top_spacing;
+                if(empty($desktop_top_spacing)) {
+                  $args['attr']['class'][] = 'mt-md-0';
+                }
+              }
+              if(!empty($desktop_top_spacing)) {
+                $args['attr']['class'][] = 'mt-md-' . $desktop_top_spacing;
               }
               if($row_layout === 'pictures_slider_section') {
                 $args['title'] = get_sub_field( 'title');
@@ -43,6 +56,29 @@ get_header(); ?>
                 $args['embed_type'] = get_sub_field( 'embed_type');
                 $args['title'] = get_sub_field( 'title');
                 $args['booking_id'] = get_sub_field( 'booking_id');
+              }
+              if($row_layout === 'icons_slider') {
+                $args['items'] = get_sub_field( 'icons');
+              }
+              if($row_layout === 'quote_section') {
+                $args['quote'] = get_sub_field( 'quote');
+                $args['author'] = get_sub_field( 'author');
+              }
+              if($row_layout === 'video_cta') {
+                $args['video_cover_image'] = get_sub_field( 'video_cover_image');
+                $args['youtube_video_url'] = get_sub_field( 'youtube_video_url');
+                $args['content'] = get_sub_field( 'content');
+                $args['cta_link_and_text'] = get_sub_field( 'cta_link_and_text');
+              }
+              if($row_layout === 'title_section') {
+                $args['title'] = get_sub_field( 'title');
+              }
+              if($row_layout === 'background_cta_banner') {
+                $args['title'] = get_sub_field( 'title');
+                $args['cta'] = get_sub_field( 'cta');
+              }
+              if($row_layout === 'products_type_room_listing') {
+                $args['products'] = get_sub_field( 'products');
               }
               ?>
               <?php

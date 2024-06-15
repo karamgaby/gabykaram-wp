@@ -4,6 +4,7 @@ $x_colors: ()  !default;
   @if($_color) {
     @return $_color;
   } @else {
+    @warn "Warning: getColor: <" + $color + "> Not found";
     @return inherit;
   }
 }

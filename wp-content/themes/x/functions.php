@@ -1,9 +1,9 @@
 <?php
 
-if ( ! defined( 'STAGE_ZERO_VERSION' ) ) {
-  $theme         = wp_get_theme();
-  $theme_version = $theme->get( 'Version' );
-  define( 'STAGE_ZERO_VERSION', $theme_version );
+if (!defined('STAGE_ZERO_VERSION')) {
+  $theme = wp_get_theme();
+  $theme_version = $theme->get('Version');
+  define('STAGE_ZERO_VERSION', $theme_version);
 }
 
 require_once __DIR__ . '/vendor/autoload.php';
@@ -15,13 +15,13 @@ require_once __DIR__ . '/vendor/autoload.php';
  *
  * @package polarstork
  */
-if ( ! defined( 'STORKER_THEME_VERSION' ) ) {
-  $theme         = wp_get_theme();
-  $theme_version = $theme->get( 'Version' );
-  define( 'STORKER_THEME_VERSION', $theme_version );
+if (!defined('STORKER_THEME_VERSION')) {
+  $theme = wp_get_theme();
+  $theme_version = $theme->get('Version');
+  define('STORKER_THEME_VERSION', $theme_version);
 }
 
-define( 'STORKER_DATE_FORMAT', 'd.m.Y' );
+define('STORKER_DATE_FORMAT', 'd.m.Y');
 
 /**
  * Core setup.
@@ -70,3 +70,24 @@ require_once get_template_directory() . '/inc/4.libraries/tgm/function-required-
 add_filter('x_ui_component_sprite_last_edited', function () {
   return x_last_edited('svg');
 });
+
+function acf_modifify_flexible_content_global_spacing_options( $field ) {
+
+  $grid_tokens = X_UI\Core\Tokens\Grid::getInstance();
+  $spacing = $grid_tokens->getMeta('spacing');
+  // Lock-in the value "Example".
+  file_put_contents(__DIR__ . '/field_group.json', json_encode($spacing));
+  // $field['choices'][] = '';
+  $choices = $field['choices'];
+  foreach ($spacing as $key => $value) {
+    $choices[$key] = sprintf('%s => (%s) 1 rem = 16px', $key, $value);
+  }
+  foreach ($spacing as $key => $value) {
+    $choices['n' . $key] = sprintf('Negative spacce %s => (%s) 1 rem = 16px', $key, $value);
+  }
+  $field['choices'] = $choices;
+  return $field;
+}
+
+add_filter('acf/prepare_field/name=desktop_top_spacing', 'acf_modifify_flexible_content_global_spacing_options');
+add_filter('acf/prepare_field/name=mobile_top_spacing', 'acf_modifify_flexible_content_global_spacing_options');

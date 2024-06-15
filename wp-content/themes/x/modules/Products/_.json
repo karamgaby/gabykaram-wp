@@ -1,0 +1,28 @@
+{
+    "moduleKey": "Products",
+    "meta": {
+      "title": "Products",
+      "version": "1.0.0"
+    },
+    "dependencies": ["image"],
+    "php": {
+      "inc": [
+        "PriceCard.php",
+        "ProductCard.php",
+        "setup.php"
+      ]
+    },
+    "css": {
+      "main.css": [
+      ],
+      "admin.css": [],
+      "editor-gutenberg.css": [
+      ]
+    },
+    "js": {
+      "main.js": [
+      ],
+      "editor-gutenberg.js": []
+    }
+  }
+  

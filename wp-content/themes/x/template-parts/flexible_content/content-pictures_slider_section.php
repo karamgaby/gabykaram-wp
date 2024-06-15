@@ -5,33 +5,33 @@ use X_Modules\PictureCards\Component as PictureCards;
 if ( ! isset( $args ) ) {
   return;
 }
-$section_id = $args['section_id'] ?? null;
+
 $title                         = $args['title'];
 $content                       = $args['content'];
 $pictures                      = $args['pictures'];
 $has_button_on_mobile          = $args['has_button_on_mobile'] ?? false;
 $button_link_plus_text         = $args['button_link_plus_text'] ?? null;
 $switch_image_on_top_on_mobile = $args['switch_image_on_top_on_mobile'] ?? false;
-$attr = [];
-
-if ( ! empty( $section_id ) ) {
-  $attr['id'] = $section_id;
-}
+$attr = wp_parse_args($args['attr'], array(
+  'class' => [],
+));
+$class = $attr['class'];
+unset($attr['class']);
 ?>
 
-<section class="pictures-slider-section" <?php \X_UI\Core\AbstractComponent::render_attributes($attr); ?> >
+<section class="pictures-slider-section <?= implode(' ', $class) ?>" <?php \X_UI\Core\AbstractComponent::render_attributes($attr); ?> >
   <div class="container">
     <div class="row">
-      <div class="col-24">
-        <div class="col-24 col-lg-22">
-          <h2 class="x-typography-h4 x-typography-lg-h2 x-color-medium-turquoise-600"><?= $title ?></h2>
+      <div class="col-24 <?= $switch_image_on_top_on_mobile ? 'order-2 order-md-1 mt-3 mt-md-0' : '' ?>">
+        <div class="col-24 col-md-22">
+          <h2 class="x-typography-h4 x-typography-md-h2 x-color-medium-turquoise-600"><?= $title ?></h2>
         </div>
         <?php
         if ( ! empty( $content ) ) :
           ?>
           <div class="row">
-            <div class="col-24 col-lg-18">
-              <div class="section-content x-typography-body-1 x-typography-lg-subtitle-1 mt-3">
+            <div class="col-24 col-md-18">
+              <div class="section-content x-typography-body-1 x-typography-md-subtitle-1 mt-3">
                 <?= $content ?>
               </div>
             </div>
@@ -41,8 +41,8 @@ if ( ! empty( $section_id ) ) {
         ?>
 
       </div>
-      <div class="col-24">
-        <div class="pictures-slides swiper <?= ! $switch_image_on_top_on_mobile ? 'mt-3 mt-lg-6' : '' ?>">
+      <div class="col-24 <?= $switch_image_on_top_on_mobile ? 'order-1 order-md-2' : '' ?>">
+        <div class="pictures-slides swiper <?= ! $switch_image_on_top_on_mobile ? 'mt-3 ' : 'mt-md-6' ?>">
           <div class="swiper-wrapper">
             <?php
             foreach ( $pictures as $picture ) :
@@ -57,7 +57,7 @@ if ( ! empty( $section_id ) ) {
               'device'      => 'desktop',
               'image_title' => $picture_title,
               'attr'        => [
-                'class' => 'd-none d-lg-flex'
+                'class' => 'd-none d-md-flex'
               ]
             ) );
 
@@ -67,7 +67,7 @@ if ( ! empty( $section_id ) ) {
               'device'      => 'mobile',
               'image_title' => $picture_title,
               'attr'        => [
-                'class' => 'd-flex d-lg-none'
+                'class' => 'd-flex d-md-none'
               ]
             ) );
             ?>
@@ -83,5 +83,26 @@ if ( ! empty( $section_id ) ) {
         </div>
       </div>
     </div>
+    <?php
+    if($has_button_on_mobile) :
+      ?>
+      <div class="row justify-content-center mt-3 d-md-none">
+        <div class="col-24">
+          <?php
+          X_UI\Modules\Buttons\Component::render(array(
+            'title' => $button_link_plus_text['title'],
+            'url' => $button_link_plus_text['url'],
+            'as' => 'a',
+            'attr' => [
+              'class' => 'x-button x-button-primary w-100',
+              'target' => $button_link_plus_text['target'] ?? '_self'
+            ]
+          ));
+          ?>
+        </div>
+      </div>
+      <?php
+    endif; 
+    ?>
   </div>
 </section>

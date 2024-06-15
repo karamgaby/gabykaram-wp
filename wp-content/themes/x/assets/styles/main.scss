@@ -20,6 +20,7 @@
 @import "../../modules/ContactSection/assets/styles/style";
 @import "../../modules/inputs/assets/styles/style";
 @import "../../modules/PictureCards/assets/styles/style";
+@import "../../modules/Products/assets/styles/room-card";
 @import "../../node_modules/@fancyapps/ui/dist/fancybox/fancybox";
 
 html, body {
@@ -29,6 +30,12 @@ html, body {
 @import "src/template-parts/flexible-content/pictures_sliders_section";
 @import "src/template-parts/flexible-content/text_gallery_section";
 @import "src/template-parts/flexible-content/calendar_booking";
+@import "src/template-parts/flexible-content/icons_slider";
+@import "src/template-parts/flexible-content/quote_section";
+@import "src/template-parts/flexible-content/video_cta_section";
+@import "src/template-parts/flexible-content/title_section";
+@import "src/template-parts/flexible-content/content-background_cta_banner_section";
+@import "src/template-parts/flexible-content/products_type_room_listing";
 body.page-template-template-flexible-content {
   background: #FFFFFF;
   article {
@@ -38,6 +45,7 @@ body.page-template-template-flexible-content {
     padding-top: 4rem;
     @include media-breakpoint-smaller(lg) {
       gap: 3rem;
+      padding-top: 3rem;
     }
   }
 }

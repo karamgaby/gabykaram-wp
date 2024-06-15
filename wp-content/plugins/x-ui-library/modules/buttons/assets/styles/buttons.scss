@@ -19,6 +19,12 @@
   &:disabled {
     cursor: not-allowed;
   }
+  .x-btn__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: getSpacing(1);
+  }
 
   @each $button-name, $button-settings in $x_buttons {
     $default: map-get($button-settings, default);

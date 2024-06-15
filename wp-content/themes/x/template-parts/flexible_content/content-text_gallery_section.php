@@ -3,21 +3,19 @@
 if ( ! isset( $args ) ) {
   return;
 }
-$section_id = $args['section_id'] ?? null;
 $title                         = $args['title'];
 $content                       = $args['content'];
 $pictures                      = $args['pictures'];
 $has_button_on_mobile          = $args['has_button_on_mobile'] ?? false;
 $button_link_plus_text         = $args['button_link_plus_text'] ?? null;
 $switch_image_on_top_on_mobile = $args['switch_image_on_top_on_mobile'] ?? false;
-
-$attr = [];
-
-if ( ! empty( $section_id ) ) {
-  $attr['id'] = $section_id;
-}
+$attr = wp_parse_args($args['attr'], array(
+  'class' => [],
+));
+$class = $attr['class'];
+unset($attr['class']);
 ?>
-<section class="text-gallery-section" <?php \X_UI\Core\AbstractComponent::render_attributes($attr);?>>
+<section class="text-gallery-section <?= implode(' ', $class) ?>" <?php \X_UI\Core\AbstractComponent::render_attributes($attr);?>>
   <div class="container">
     <div class="row">
       <div class="col-24 col-md-12">

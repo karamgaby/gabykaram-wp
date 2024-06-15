@@ -1,0 +1,160 @@
+{
+    "key": "group_666db39581aff",
+    "title": "Product Room Type",
+    "fields": [
+        {
+            "key": "field_666db395a29b5",
+            "label": "Room Category",
+            "name": "room_category",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Single occupancy": "Single occupancy",
+                "Couple friendly": "Couple friendly"
+            },
+            "default_value": "",
+            "return_format": "value",
+            "allow_null": 0,
+            "other_choice": 1,
+            "save_other_choice": 1,
+            "layout": "vertical"
+        },
+        {
+            "key": "field_666db415a29b6",
+            "label": "Services",
+            "name": "services",
+            "aria-label": "",
+            "type": "checkbox",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Balcony": "Balcony",
+                "Closet\/drawers": "Closet\/drawers",
+                "Essentials": "Essentials",
+                "Lock box": "Lock box",
+                "WiFi": "WiFi",
+                "Desk\/workspace": "Desk\/workspace",
+                "Lock on door": "Lock on door"
+            },
+            "default_value": [],
+            "return_format": "value",
+            "allow_custom": 1,
+            "save_custom": 1,
+            "layout": "vertical",
+            "toggle": 1,
+            "custom_choice_button_text": "Add new choice"
+        },
+        {
+            "key": "field_666db4b4a29b7",
+            "label": "Fit For",
+            "name": "fit_for",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "How many users can this room fit",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 1,
+            "min": "",
+            "max": "",
+            "placeholder": 4,
+            "step": 1,
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_666db4dfa29b8",
+            "label": "Bed Type",
+            "name": "bed_type",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Bunk bed": "Bunk bed",
+                "Twin bed": "Twin bed",
+                "Full bed": "Full bed",
+                "Queen bed": "Queen bed"
+            },
+            "default_value": "",
+            "return_format": "value",
+            "allow_null": 0,
+            "other_choice": 1,
+            "save_other_choice": 1,
+            "layout": "vertical"
+        },
+        {
+            "key": "field_666db5ad7ddac",
+            "label": "Bath Type",
+            "name": "bath_type",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Shared bath": "Shared bath",
+                "Private bath": "Private bath"
+            },
+            "default_value": "",
+            "return_format": "value",
+            "allow_null": 0,
+            "other_choice": 1,
+            "save_other_choice": 1,
+            "layout": "vertical"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "room-products"
+            },
+            {
+                "param": "post_taxonomy",
+                "operator": "==",
+                "value": "product_type:rooms"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1718465997
+}

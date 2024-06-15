@@ -1,0 +1,22 @@
+.video-cta-section {
+    .text-section {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .text-section-wrapper {
+            display: flex;
+            gap: getSpacing(5);
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    }
+    @include media-breakpoint-down(md) {
+        .text-section {
+            .text-section-wrapper {
+                gap: getSpacing(3);
+                align-items: center;
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.title-section {
+    &__title {
+        text-align: center;
+        @include ps-typography(h3);
+    }
+    &__icon {
+        fill: getColor('mate-black-900');
+    }
+
+    @include media-breakpoint-up(md) {
+        &__icon.x-icon.x-icon-size-md-auto {
+            width: toRem(48);
+            height: toRem(48);
+        }
+    }
+    @include media-breakpoint-down(md) {
+        &__title {
+            @include ps-typography(subtitle-1)
+        }
+    }
+}

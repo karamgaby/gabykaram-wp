@@ -1,0 +1,20 @@
+.icons-slides {
+    &:not(.swiper-initialized ) {
+        .swiper-wrapper {
+            display: flex;
+            flex-wrap: nowrap;
+            gap: 1.5rem;
+        }
+    }
+    .picture-slide {
+        width: auto;
+        &.swiper-slide {
+            width: auto;
+            min-width: 172px;
+            text-align: center;
+            .icon-title {
+                margin-top: 16px;
+            }
+        }
+    }
+}

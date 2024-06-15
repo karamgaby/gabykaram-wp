@@ -92,7 +92,7 @@ abstract class AbstractComponent {
    *
    * @param string message
    */
-  public static function error( $message ) {
+  public static function error( $message ) : \WP_Error {
 
     $e = new \Exception();
     ob_start();

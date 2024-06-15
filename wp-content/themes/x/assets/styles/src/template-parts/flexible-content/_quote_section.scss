@@ -1,0 +1,51 @@
+.quote-section {
+    .quote-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, sans-serif;
+    }
+    .quote-box {
+        max-width: toRem(760);
+        position: relative;
+        margin-top: getSpacing(4);
+    }
+    blockquote:before {
+        content: "“";
+        @include ps-typography(h1);
+        color: getColor(black);
+        position: absolute;
+        bottom: calc(100% - 40px);
+    }
+
+    blockquote:after {
+        content: "”";
+        @include ps-typography(h1);
+        color: #000;
+        position: absolute;
+        top: 89%;
+        right: 40%;
+    }
+
+    blockquote {
+        @include ps-typography("subtitle-1");
+        color: getColor("mate-black-900");
+        position: relative;
+        margin: 0;
+        padding: 0;
+    }
+
+    .quote-author {
+        margin-top: 1.5rem;
+        @include ps-typography("subtitle-1");
+        color: getColor("mate-black-900");
+    }
+
+    @include media-breakpoint-smaller(md) {
+        blockquote,
+        .quote-author {
+            @include ps-typography(body-1);
+            max-width: toRem(500);
+        }
+    }
+}
