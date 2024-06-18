@@ -66,17 +66,23 @@ document.addEventListener('DOMContentLoaded', (event) => {
   }
   function setupWordsSlider() {
     if (document.querySelectorAll('.sliding-words-slider').length > 0) {
-
+// @todo replace with bxskuder Better transition https://bxslider.com/options
       const swiper = new Swiper(".sliding-words-slider", {
         slidesPerView: 'auto',
         spaceBetween: remToPx(1.5),
         freeMode: true,
-        centerInsufficientSlides: true,
         loop: true,
+        speed: 2000,
+        autoplay: {
+          delay: 0.1,
+          // delay: 1200,
+          disableOnInteraction: false,
+          waitForTransition: false,
+
+        },
       });
       window.addEventListener('resize', function () {
         swiper.params.spaceBetween = remToPx(1.5);
-        swiper.updateAutoHeight(300);
         swiper.update();
       });
     }

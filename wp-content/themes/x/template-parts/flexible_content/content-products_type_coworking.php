@@ -30,9 +30,9 @@ unset($attr['class']);
 ?>
 <section class="coworking-products-section <?= implode(' ', $class) ?>" <?php \X_UI\Core\AbstractComponent::render_attributes($attr); ?>>
     <div class="container">
-        <div class="row">
+        <div class="row row-gap-3">
             <div class="col-24 col-md-12">
-                <div class="row">
+                <div class="row row row-gap-3">
                     <?php foreach ($products as $product_id): ?>
                         <div class="col-24 col-md-12">
                             <?php
