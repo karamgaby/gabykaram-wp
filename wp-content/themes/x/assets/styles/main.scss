@@ -90,3 +90,19 @@ html, body {
   }
 
 }
+body.page-id-45.page-template-template-flexible-content article {
+  padding-bottom: 0;
+}
+
+@media all and (max-width: 773px) {
+  .rooms-products-section .products-list {
+      gap: 1.5rem;
+  }
+}
+.wp-gr .grw-header-inner, .wp-gr .grw-review-inner {
+  margin: 0 16px !important;
+}
+
+.wp-gr .grw-review .wp-google-feedback {
+  height: 150px!important;
+}
