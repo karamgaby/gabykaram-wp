@@ -1,0 +1,38 @@
+.google-reviews-section {
+    .g-reviews-business-card {
+        display: flex;
+        align-items: center;
+        gap: toRem(4);
+        padding: toRem(16) toRem(12);
+        &__image {
+            width: toRem(58);
+            min-width: toRem(58);
+            height: toRem(54);
+            min-height: toRem(54);
+            border-radius: toRem(64);
+            position: relative;
+            overflow: hidden;
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        &__content {
+            display: flex;
+            flex-direction: column;
+            gap: getSpacing(1);
+            h2 {
+                @include ps-typography(body-1-bold);
+                color: getColor(mate-black-500);
+            }
+            p {
+                @include ps-typography(body-1);
+                color: getColor(mate-black-400);
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.mobile-text-slider-section {
+    max-width: 100vw;
+    z-index: 0;
+    overflow: hidden;
+    .sliding-words-slider {
+        margin-top: -1rem;
+        .swiper-wrapper {
+            display: flex;
+            align-items: center;
+        }
+        .word-slide {
+            @include ps-typography(h1);
+            color: getColor(mate-black-50);
+            display: inline-flex;
+            align-items: center;
+            width: max-content;
+        }
+        .dot-slide {
+            display: inline-flex;
+            align-items: center;
+            width: max-content;
+            .dot {
+                width: 10px;
+                height: 10px;
+                background-color: getColor(mate-black-50);
+                border-radius: 50%;
+            }
+        }
+    }
+}

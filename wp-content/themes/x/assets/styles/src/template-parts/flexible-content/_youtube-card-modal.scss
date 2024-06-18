@@ -1,0 +1,36 @@
+.youtube-cards-modal-section {
+   
+}
+.youtube-modal-card {
+    border-radius: getBorderRadius(5);
+    background: getColor(medium-turquoise-100);
+    display: flex;
+    flex-direction: column;
+    gap: getSpacing(5);
+    padding: getSpacing(5) getSpacing(2);
+    overflow: hidden;
+    cursor: pointer;
+    &__title {
+        @include ps-typography(h3);
+        color: getColor(mate-black-500);
+    }
+    &__description {
+        @include ps-typography(body-1);
+        color: getColor(black);
+    }
+    .modal-card__image {
+        aspect-ratio: 16/9;
+    }
+}
+.youtube-card-modal{
+    min-width: min(toRem(954), 75vw);
+    .modal-dialog{
+        background: getColor(white);
+        border-radius: getBorderRadius(5);
+        overflow: hidden;
+    }
+    .fluid-width-video-wrapper {
+        aspect-ratio: 16 / 9;
+
+    }
+}

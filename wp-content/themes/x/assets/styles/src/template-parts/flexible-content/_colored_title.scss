@@ -1,0 +1,15 @@
+.colored-title-section {
+    &__title {
+        @include ps-typography(h2);
+        color: getColor(medium-turquoise-600);
+        strong {
+            color: getColor(orange-700);
+        }
+    }
+
+    @include media-breakpoint-down(md) {
+        &__title {
+            @include ps-typography(h4);
+        }
+    }
+}

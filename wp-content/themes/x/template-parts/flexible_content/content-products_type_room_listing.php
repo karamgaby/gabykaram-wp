@@ -1,6 +1,6 @@
 <?php
 "use strict";
-use X_Modules\Products\ProductCard;
+use X_Modules\Products\RoomProductCard;
 if (!isset($args)) {
     return;
 }
@@ -51,7 +51,7 @@ unset($attr['class']);
                             }
                         }
                         $featured_image_id = $featured_image_id ?? null;
-                        ProductCard::render(array(
+                        RoomProductCard::render(array(
                             'image_id' => $featured_image_id,
                             'title' => get_the_title($product_id),
                             'room_category' => get_field('room_category', $product_id),

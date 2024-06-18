@@ -66,18 +66,15 @@ require_once get_template_directory() . '/inc/4.libraries/tgm/class-tgm-plugin-a
 // import TGM Plugin Activation library setup
 require_once get_template_directory() . '/inc/4.libraries/tgm/function-required-plugins.php';
 
-
 add_filter('x_ui_component_sprite_last_edited', function () {
   return x_last_edited('svg');
 });
 
-function acf_modifify_flexible_content_global_spacing_options( $field ) {
+function acf_modifify_flexible_content_global_spacing_options($field)
+{
 
   $grid_tokens = X_UI\Core\Tokens\Grid::getInstance();
   $spacing = $grid_tokens->getMeta('spacing');
-  // Lock-in the value "Example".
-  file_put_contents(__DIR__ . '/field_group.json', json_encode($spacing));
-  // $field['choices'][] = '';
   $choices = $field['choices'];
   foreach ($spacing as $key => $value) {
     $choices[$key] = sprintf('%s => (%s) 1 rem = 16px', $key, $value);
@@ -91,3 +88,70 @@ function acf_modifify_flexible_content_global_spacing_options( $field ) {
 
 add_filter('acf/prepare_field/name=desktop_top_spacing', 'acf_modifify_flexible_content_global_spacing_options');
 add_filter('acf/prepare_field/name=mobile_top_spacing', 'acf_modifify_flexible_content_global_spacing_options');
+
+
+function acf_modifify_flexible_color_options($field)
+{
+  $colors_tokens = X_UI\Core\Tokens\Colors::getInstance();
+  $colors = $colors_tokens->getMeta('colors');
+  $choices = [];
+
+  foreach ($colors as $key => $colorHex) {
+    ob_start();
+    
+    ?>
+    <div class="d-inline-flex" style="display: inline-flex !important; gap: 8px; align-items: center; justify-content: center;">
+      <span>Color: <?= $key?></span>
+      <div style="width: 32px; height: 32px; display: block; background-color: <?= $colorHex?>"></div>
+    </div>
+    <?php
+    $choice_label = ob_get_clean();
+    $choices[$key] = $choice_label;
+  }
+  $field['choices'] = $choices;
+
+  return $field;
+}
+add_filter('acf/prepare_field/name=title_color', 'acf_modifify_flexible_color_options');
+add_filter('acf/prepare_field/name=content_color', 'acf_modifify_flexible_color_options');
+add_filter('acf/prepare_field/name=bold_content_color', 'acf_modifify_flexible_color_options');
+
+function acf_modifify_flexible_content_typography_options($field)
+{
+  $typographies_tokens = X_UI\Core\Tokens\Typographies::getInstance();
+  $typographies = $typographies_tokens->getMeta('typographies');
+  // Lock-in the value "Example".
+  $choices = [];
+
+  foreach ($typographies as $key => $typography) {
+    ob_start();
+    
+    ?>
+    <div class="d-inline-flex" style="display: inline-flex !important; gap: 8px; align-items: center; justify-content: center;">
+      <span>Typographies: <?= $key?></span>
+    </div>
+    <?php
+    $choice_label = ob_get_clean();
+    $choices[$key] = $choice_label;
+  }
+  $field['choices'] = $choices;
+
+  return $field;
+}
+add_filter('acf/prepare_field/name=title_typography_on_desktop', 'acf_modifify_flexible_content_typography_options');
+add_filter('acf/prepare_field/name=title_typography_on_mobile', 'acf_modifify_flexible_content_typography_options');
+add_filter('acf/prepare_field/name=title_typography_desktop', 'acf_modifify_flexible_content_typography_options');
+add_filter('acf/prepare_field/name=title_typography_mobile', 'acf_modifify_flexible_content_typography_options');
+
+function customize_acf_wysiwyg_toolbars($toolbars)
+{
+
+  $toolbars['Simple'] = array();
+  $toolbars['Simple'][1] = array('bold', 'italic', 'underline', 'strikethrough', "bullist", "numlist", "undo", "redo", "link", "fullscreen");
+
+  $toolbars['Text'] = array();
+  $toolbars['Text'][1] = array('bold', 'italic', 'underline', 'strikethrough', "undo", "redo", "fullscreen");
+
+  return $toolbars;
+}
+add_filter('acf/fields/wysiwyg/toolbars', 'customize_acf_wysiwyg_toolbars');

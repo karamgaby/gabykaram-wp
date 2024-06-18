@@ -8,7 +8,8 @@
     "php": {
       "inc": [
         "PriceCard.php",
-        "ProductCard.php",
+        "RoomProductCard.php",
+        "CoworkingProductCard.php",
         "setup.php"
       ]
     },

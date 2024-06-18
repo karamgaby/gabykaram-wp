@@ -14,6 +14,9 @@ wp-content/uploads
 wp-content/upgrade
 wp-content/upgrade-temp-backup
 wp-content/uploads-webpc
+wp-content/ai1wm-backups
+wp-content/plugins/all-in-one-wp-migration
+wp-content/plugins/all-in-one-wp-migration-unlimited-extension
 # htaccess
 .htaccess
 /index.php

@@ -21,6 +21,7 @@
 @import "../../modules/inputs/assets/styles/style";
 @import "../../modules/PictureCards/assets/styles/style";
 @import "../../modules/Products/assets/styles/room-card";
+@import "../../modules/Products/assets/styles/coworking-card";
 @import "../../node_modules/@fancyapps/ui/dist/fancybox/fancybox";
 
 html, body {
@@ -28,6 +29,7 @@ html, body {
   overflow-x: hidden;
 }
 @import "src/template-parts/flexible-content/pictures_sliders_section";
+@import "src/template-parts/flexible-content/text-image-link";
 @import "src/template-parts/flexible-content/text_gallery_section";
 @import "src/template-parts/flexible-content/calendar_booking";
 @import "src/template-parts/flexible-content/icons_slider";
@@ -36,6 +38,14 @@ html, body {
 @import "src/template-parts/flexible-content/title_section";
 @import "src/template-parts/flexible-content/content-background_cta_banner_section";
 @import "src/template-parts/flexible-content/products_type_room_listing";
+@import "src/template-parts/flexible-content/colored_title";
+@import "src/template-parts/flexible-content/google-reviews";
+@import "src/template-parts/flexible-content/text-image-link";
+@import "src/template-parts/flexible-content/navigation-cards";
+@import "src/template-parts/flexible-content/mobile_text_slider";
+@import "src/template-parts/flexible-content/icons_slider_with_video";
+@import "src/template-parts/flexible-content/open-positions";
+@import "src/template-parts/flexible-content/youtube-card-modal";
 body.page-template-template-flexible-content {
   background: #FFFFFF;
   article {
@@ -43,9 +53,11 @@ body.page-template-template-flexible-content {
     flex-direction: column;
     gap: 6rem;
     padding-top: 4rem;
-    @include media-breakpoint-smaller(lg) {
+    padding-bottom: 6rem;
+    @include media-breakpoint-smaller(md) {
       gap: 3rem;
       padding-top: 3rem;
+      padding-bottom: 3rem;
     }
   }
 }

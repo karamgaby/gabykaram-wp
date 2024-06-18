@@ -1,0 +1,57 @@
+.navigation-cards-section {
+    &__title {
+        @include ps-typography(h3);
+        color: getColor(mate-black-500);
+        strong {
+            color: getColor(orange-700);
+        }
+        em,
+        i {
+            color: getColor(medium-turquoise-500);
+            font-style: normal !important;
+        }
+    }
+    &__cards-row {
+        row-gap: getSpacing(3);
+    }
+    &__card {
+        position: relative;
+        width: 100%; /* or any other desired width */
+        padding-top: calc(287 / 561 * 100%);
+        border-radius: getBorderRadius(3);
+        overflow: hidden;
+        &__image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        &__btn {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            top: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .x-btn {
+                margin-top: 25%;
+                background: getColor(white-white-50) !important;
+            }
+        }
+    }
+    @include media-breakpoint-down(md) {
+        &__title {
+            @include ps-typography(h5);
+        }
+        &__card {
+            &__btn {
+                .x-btn {
+                    background: getColor(yellow-gold-500) !important;
+                }
+            }
+        }
+    }
+}

@@ -32,30 +32,68 @@ document.addEventListener('DOMContentLoaded', (event) => {
   setupPicturesSlider();
   setupGalleryFancyBox();
   setupIconsSlider();
-  function setupIconsSlider() {
-    const swiper = new Swiper(".icons-slides", {
-      slidesPerView: 'auto',
-      spaceBetween: remToPx(1.5),
-      freeMode: true,
-      centerInsufficientSlides: true,
-    });
-    window.addEventListener('resize', function () {
-      swiper.params.spaceBetween = remToPx(1.5);
-      swiper.updateAutoHeight(300);
-      swiper.update();
-    });
-  }
-  function setupPicturesSlider() {
-    const swiper = new Swiper(".pictures-slides", {
-      slidesPerView: 'auto',
-      spaceBetween: remToPx(1),
-      freeMode: true,
+  setupWordsSlider();
+  const modals = document.querySelectorAll('.youtube-card-modal');
+
+  modals.forEach(modal => {
+    modal.addEventListener('hide.bs.modal', function () {
+      modal.querySelectorAll('iframe').forEach(iframe => {
+        iframe.src = '';
+      });
     });
 
-    window.addEventListener('resize', function () {
-      swiper.params.spaceBetween = remToPx(1);
-      swiper.update();
+    modal.addEventListener('show.bs.modal', function () {
+      modal.querySelectorAll('iframe').forEach(iframe => {
+        iframe.src = iframe.getAttribute('data-src');
+      });
     });
+  });
+  function setupIconsSlider() {
+    if (document.querySelectorAll('.icons-slides').length > 0) {
+
+      const swiper = new Swiper(".icons-slides", {
+        slidesPerView: 'auto',
+        spaceBetween: remToPx(1.5),
+        freeMode: true,
+        centerInsufficientSlides: true,
+      });
+      window.addEventListener('resize', function () {
+        swiper.params.spaceBetween = remToPx(1.5);
+        swiper.updateAutoHeight(300);
+        swiper.update();
+      });
+    }
+  }
+  function setupWordsSlider() {
+    if (document.querySelectorAll('.sliding-words-slider').length > 0) {
+
+      const swiper = new Swiper(".sliding-words-slider", {
+        slidesPerView: 'auto',
+        spaceBetween: remToPx(1.5),
+        freeMode: true,
+        centerInsufficientSlides: true,
+        loop: true,
+      });
+      window.addEventListener('resize', function () {
+        swiper.params.spaceBetween = remToPx(1.5);
+        swiper.updateAutoHeight(300);
+        swiper.update();
+      });
+    }
+  }
+  function setupPicturesSlider() {
+    if (document.querySelectorAll('.pictures-slides').length > 0) {
+      const swiper = new Swiper(".pictures-slides", {
+        slidesPerView: 'auto',
+        spaceBetween: remToPx(1),
+        freeMode: true,
+      });
+
+      window.addEventListener('resize', function () {
+        swiper.params.spaceBetween = remToPx(1);
+        swiper.update();
+      });
+    }
   }
 
   function setupGalleryFancyBox() {

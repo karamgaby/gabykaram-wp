@@ -190,7 +190,6 @@
       scope = form,
       ...remainingOptions
     } = options ?? {};
-    debugger
     const errorId = `${form.wpcf7?.unitTag}-ve-${fieldName}`
       .replaceAll(/[^0-9a-z_-]+/ig, '');
 
@@ -254,7 +253,6 @@
   };
 
   const removeValidationError = (form, fieldName) => {
-    debugger;
     const errorId = `${form.wpcf7?.unitTag}-ve-${fieldName}`
       .replaceAll(/[^0-9a-z_-]+/ig, '');
 

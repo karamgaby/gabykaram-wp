@@ -1,5 +1,9 @@
 <?php
 "use strict";
+use X_UI\Core\Tokens\Colors;
+
+$colorsTokens = Colors::getInstance();
+$colors = $colorsTokens->getMeta('colors');
 if (!isset($args)) {
     return;
 }
@@ -10,11 +14,16 @@ $args = wp_parse_args(
         'author' => '',
     )
 );
+$show_video_on_top_on_mobile = isset($args['show_video_on_top_on_mobile']) ? $args['show_video_on_top_on_mobile']: false;
 $video_cover_image = $args['video_cover_image'];
 $youtube_video_url = $args['youtube_video_url'];
 preg_match('/src="(.+?)"/', $youtube_video_url, $matches);
 $video_src = $matches[1];
 $content = $args['content'];
+$content_color = $args['content_color'];
+$bold_content_color = $args['bold_content_color'];
+$title_typography_desktop = $args['title_typography_desktop'];
+$title_typography_mobile = $args['title_typography_mobile'];
 $cta_link_and_text = $args['cta_link_and_text'];
 if (!isset($args['attr']) || !is_array($args['attr'])) {
     $args['attr'] = [];
@@ -31,7 +40,7 @@ unset($attr['class']);
 <section class="video-cta-section <?= implode(' ', $class) ?>" <?php \X_UI\Core\AbstractComponent::render_attributes($attr); ?>>
     <div class="container">
         <div class="row gy-3 ">
-            <div class="col-24 col-md-14">
+            <div class="col-24 col-md-14 <?= $show_video_on_top_on_mobile ? '' : 'order-1 order-md-0'; ?>">
                 <div class="video-section">
                     <a data-fancybox href="<?= $video_src; ?>" class="m-auto">
                         <div class="video-overlay">
@@ -39,8 +48,6 @@ unset($attr['class']);
                                 alt="<?= $video_cover_image['alt'] ?>" title="<?= $video_cover_image['title'] ?>">
                         </div>
                     </a>
-                    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/6yJ4pohu8E8" frameborder="0"
-                allowfullscreen></iframe> -->
                 </div>
             </div>
             <div class="col-24 col-md-10">
@@ -63,7 +70,10 @@ unset($attr['class']);
                             ));
                         endif;
                         ?>
-                        <p class="x-typography-body-1 x-typography-md-subtitle-1"><?= $content; ?></p>
+                         <div
+                        class="video-cta-section__content <?= 'x-typography-' . $title_typography_mobile ?> <?= 'x-typography-md-' . $title_typography_desktop ?> "
+                        style="--content-color: <?= $colors[$content_color] ?>; --bold-content-color: <?= $colors[$bold_content_color] ?>;"
+                        ><?= $content; ?></div>
                         <?php
                         if (!empty($cta_link_and_text)):
                             X_UI\Modules\Buttons\Component::render(

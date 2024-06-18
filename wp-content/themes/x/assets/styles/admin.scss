@@ -1,8 +1,19 @@
 /* ==========================================================================
  # Admin (back-end)
 ========================================================================== */
-
+@import "libraries/swiper-bundle.min";
+@import "../../../../plugins/x-ui-library/assets/styles/src/1.design-system/index";
+@import "../../../../plugins/x-ui-library/assets/styles/src/3.library/bootstrap/bootstrap";
 // Hide update nags in admin footer
-#footer-upgrade {
+#footer-upgrade, #wpfooter {
   display: none;
+}
+.acf-radio-list.acf-hl {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 12px;
+  &:before {
+      width: 100%;
+  }
 }

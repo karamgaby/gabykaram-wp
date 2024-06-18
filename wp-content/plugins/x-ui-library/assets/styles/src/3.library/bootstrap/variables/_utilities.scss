@@ -1,5 +1,11 @@
 $utilities: (
-  'rounded': (
+  "row-gap": (
+    responsive: true,
+    property: row-gap,
+    class: row-gap,
+    values: $spacers
+  ),
+  "rounded": (
     property: border-radius,
     class: rounded,
     responsive: true,
@@ -9,11 +15,11 @@ $utilities: (
       sm: $border-radius-sm,
       lg: $border-radius-lg,
       xl: $border-radius-xl,
-      '2xl': $border-radius-2xl,
-      '3xl': $border-radius-3xl,
+      "2xl": $border-radius-2xl,
+      "3xl": $border-radius-3xl,
       circle: 50%,
-      pill: $border-radius-pill,
-    ),
+      pill: $border-radius-pill
+    )
   ),
   "shadow": (
     property: box-shadow,
@@ -22,37 +28,37 @@ $utilities: (
       null: $box-shadow,
       sm: $box-shadow-sm,
       lg: $box-shadow-lg,
-      none: none,
+      none: none
     )
   ),
-  'position': (
+  "position": (
     property: position,
     responsive: true,
-    values: static relative absolute fixed sticky,
+    values: static relative absolute fixed sticky
   ),
-  'top': (
+  "top": (
     property: top,
     responsive: true,
-    values: $position-values,
+    values: $position-values
   ),
-  'bottom': (
+  "bottom": (
     property: bottom,
     responsive: true,
-    values: $position-values,
+    values: $position-values
   ),
-  'start': (
+  "start": (
     property: left,
     class: start,
     responsive: true,
-    values: $position-values,
+    values: $position-values
   ),
-  'end': (
+  "end": (
     property: right,
     class: end,
     responsive: true,
-    values: $position-values,
+    values: $position-values
   ),
-  'height': (
+  "height": (
     property: height,
     class: h,
     responsive: true,
@@ -63,10 +69,10 @@ $utilities: (
       66: 66%,
       75: 75%,
       100: 100%,
-      auto: auto,
-    ),
+      auto: auto
+    )
   ),
-  'width': (
+  "width": (
     property: width,
     class: w,
     responsive: true,
@@ -77,9 +83,9 @@ $utilities: (
       66: 66%,
       75: 75%,
       100: 100%,
-      auto: auto,
-    ),
-  ),
+      auto: auto
+    )
+  )
 );
 
 @each $border-radius, $key in $x-grid-border-radius {
@@ -87,43 +93,71 @@ $utilities: (
 }
 
 // Get the 'shadow' utility style values
-$shadow-values: map-get(map-get($utilities, 'shadow'), 'values');
+$shadow-values: map-get(map-get($utilities, "shadow"), "values");
 // Merge the new values with the old ones
 $new-shadow-values: map-merge($shadow-values, $x-grid-shadows);
 // Set the new values in the 'shadow' utility style
-$utilities: map-merge($utilities, (
-  'shadow': map-merge(map-get($utilities, 'shadow'), (
-    'values': $new-shadow-values
-  ))
-));
+$utilities: map-merge(
+  $utilities,
+  (
+    "shadow":
+      map-merge(
+        map-get($utilities, "shadow"),
+        (
+          "values": $new-shadow-values
+        )
+      )
+  )
+);
 
 // Get the 'rounded' utility style values
-$rounded-values: map-get(map-get($utilities, 'rounded'), 'values');
+$rounded-values: map-get(map-get($utilities, "rounded"), "values");
 // Merge the new values with the old ones
 $new-rounded-values: map-merge($rounded-values, $x-grid-border-radius);
 // Set the new values in the 'rounded' utility style
-$utilities: map-merge($utilities, (
-  'rounded': map-merge(map-get($utilities, 'rounded'), (
-    'values': $new-rounded-values
-  ))
-));
+$utilities: map-merge(
+  $utilities,
+  (
+    "rounded":
+      map-merge(
+        map-get($utilities, "rounded"),
+        (
+          "values": $new-rounded-values
+        )
+      )
+  )
+);
 // Get the 'width' utility style values
-$width-values: map-get(map-get($utilities, 'width'), 'values');
+$width-values: map-get(map-get($utilities, "width"), "values");
 // Merge the new values with the old ones
 $new-width-values: map-merge($width-values, $spacers);
 // Set the new values in the 'width' utility style
-$utilities: map-merge($utilities, (
-  'width': map-merge(map-get($utilities, 'width'), (
-    'values': $new-width-values
-  ))
-));
+$utilities: map-merge(
+  $utilities,
+  (
+    "width":
+      map-merge(
+        map-get($utilities, "width"),
+        (
+          "values": $new-width-values
+        )
+      )
+  )
+);
 // Get the 'height' utility style values
-$height-values: map-get(map-get($utilities, 'height'), 'values');
+$height-values: map-get(map-get($utilities, "height"), "values");
 // Merge the new values with the old ones
 $new-height-values: map-merge($height-values, $spacers);
 // Set the new values in the 'height' utility style
-$utilities: map-merge($utilities, (
-  'height': map-merge(map-get($utilities, 'height'), (
-    'values': $new-height-values
-  ))
-));
+$utilities: map-merge(
+  $utilities,
+  (
+    "height":
+      map-merge(
+        map-get($utilities, "height"),
+        (
+          "values": $new-height-values
+        )
+      )
+  )
+);

@@ -72,6 +72,15 @@
       "textTransform": "none",
       "textDecoration": "none"
     },
+    "body-1-bold": {
+      "fontFamily": "Outfit",
+      "fontSize": "1rem",
+      "fontWeight": 700,
+      "letterSpacing": "0.15000000596046448px",
+      "lineHeight": "1.5rem",
+      "textTransform": "none",
+      "textDecoration": "none"
+    },
     "body-2": {
       "fontFamily": "Outfit",
       "fontSize": "0.875rem",

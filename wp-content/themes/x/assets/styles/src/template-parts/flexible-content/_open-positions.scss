@@ -1,0 +1,95 @@
+.open-positions-section {
+    &__content {
+        display: flex;
+        flex-direction: column;
+        gap: getSpacing(5);
+    }
+    &__title {
+        @include ps-typography(h3);
+        color: getColor(mate-black-500);
+    }
+    &__position-type__title {
+        @include ps-typography(h4);
+        color: getColor(medium-turquoise-600);
+        strong {
+            color: getColor(orange-700);
+        }
+    }
+    &__position-type {
+        display: flex;
+        flex-direction: column;
+        gap: getSpacing(3);
+    }
+    &__positions {
+        display: flex;
+        flex-direction: column;
+        gap: getSpacing(3);
+    }
+    &__position {
+        display: flex;
+        gap: getSpacing(3);
+        box-shadow: getShadow(clear);
+        border-radius: getBorderRadius(3);
+        padding: getSpacing(3);
+        &__content {
+            display: flex;
+            flex-direction: column;
+            gap: getSpacing(1);
+        }
+        &__image {
+            width: toRem(244);
+            height: auto;
+            position: relative;
+            border-radius: getBorderRadius(3);
+            overflow: hidden;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+        }
+        &__title {
+            @include ps-typography(h5);
+            color: getColor(black);
+        }
+        &__description {
+            @include ps-typography(body-2);
+            color: getColor(black);
+            padding-top: getSpacing(1);
+            padding-bottom: getSpacing(1);
+            max-width: toRem(271);
+        }
+        .open-positions-section__position__button {
+            .x-btn {
+                background: #32d851;
+                color: getColor(white-white-50);
+                .x-icon {
+                    fill: getColor(white-white-50);
+                }
+            }
+        }
+        @include media-breakpoint-down(md) {
+            flex-direction: column;
+
+            &__image {
+                height: toRem(169);
+                width: 100%;
+            }
+            &__description {
+                max-width: 100%;
+            }
+        }
+    }
+
+    @include media-breakpoint-down(md) {
+        &__content {
+            gap: getSpacing(3);
+        }
+        &__title {
+            @include ps-typography(h4);
+        }
+    }
+}
