@@ -1,0 +1,1979 @@
+# Translation of Plugins - Jetpack Protect - Stable (latest release) in Romanian
+# This file is distributed under the same license as the Plugins - Jetpack Protect - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-05-25 07:23:59+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n == 0 || n % 100 >= 2 && n % 100 <= 19) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ro\n"
+"Project-Id-Version: Plugins - Jetpack Protect - Stable (latest release)\n"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:367
+msgid "I'm fine with my plan, thanks"
+msgstr "Îmi place planul, mulțumesc"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:366
+msgid "Continue for free"
+msgstr "Continuă cu planul gratuit"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:219
+msgid "The most powerful AI tool for WordPress"
+msgstr "Cel mai puternic instrument AI pentru WordPress"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:159
+msgid "Generate featured images"
+msgstr "Generezi imagini reprezentative"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:152
+#: jetpack_vendor/automattic/jetpack-my-jetpack/build/index.js:58
+msgid "Get feedback on posts"
+msgstr "Ai impresii despre articole"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:145
+msgid "Build forms from prompts"
+msgstr "Construiești formulare din mesajele sistemului de operare"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:138
+msgid "Generate and edit content"
+msgstr "Generezi și editezi conținutul"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:124
+msgid "Increase your monthly request limit. Upgrade now and have the option to further increase your requests with additional upgrades."
+msgstr "Crește limita lunară de cereri. Actualizează acum și ai opțiunea să crești în continuare numărul de cereri, cu actualizări suplimentare."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:123
+msgid "Requests"
+msgstr "Cereri"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:121
+msgid "Number of requests"
+msgstr "Număr de cereri"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:115
+msgid "Let's get in touch"
+msgstr "Hai să luăm legătura"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:110
+msgid "Up to 20 requests"
+msgstr "Până la 20 de cereri"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-user-admin.php:1218
+msgid "This user doesn&#8217;t have an SSO connection to WordPress.com. Invite them to the site to increase security and improve their experience."
+msgstr "Acest utilizator nu are o conexiune printr-o Autentificare securizată la WordPress.com. Invită-l pe site ca să-și mărească securitatea și să-și îmbunătățească experiența de utilizare."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-user-admin.php:1217
+msgid "Send invite"
+msgstr "Trimite o invitație"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-user-admin.php:1196
+msgid "Pending invite"
+msgstr "Invitație în așteptare"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-user-admin.php:1195
+msgid "This user didn&#8217;t accept the invitation to join this site yet."
+msgstr "Acest utilizator nu a acceptat încă invitația de a se alătura la acest site."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-user-admin.php:1187
+msgid "Connected"
+msgstr "Conectat"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-user-admin.php:1186
+msgid "This user is connected and can log-in to this site."
+msgstr "Acest utilizator este conectat și poate să se autentifice pe acest site."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-user-admin.php:1004
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-user-admin.php:1219
+msgid "Tooltip"
+msgstr "Text explicativ"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-user-admin.php:1003
+msgid "SSO Status"
+msgstr "Stare Autentificare securizată"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-user-admin.php:992
+msgid "Jetpack SSO allows a seamless and secure experience on WordPress.com. Join millions of WordPress users who trust us to keep their accounts safe."
+msgstr "Autentificarea securizată Jetpack permite o experiență fluentă și sigură pe WordPress.com. Alătură-te altor milioane de utilizatori WordPress care au încredere în noi ca să-ți păstreze conturile în siguranță."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-user-admin.php:946
+msgid "<strong>Error</strong>: The user invitation email could not be sent, the user account was not created."
+msgstr "<strong>Eroare</strong>: emailul cu invitația pentru utilizator nu a putut fi trimis, contul de utilizator nu a fost creat."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-user-admin.php:896
+msgid "<strong>Error</strong>: Invalid site ID."
+msgstr "<strong>Eroare</strong>: ID-ul site-ului nu este valid."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-user-admin.php:883
+msgid "<strong>Error</strong>: The custom message is too long. Please keep it under 500 characters."
+msgstr "<strong>Eroare</strong>: mesajul personalizat este prea lung. Nu trebuie să depășească 500 de caractere."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-user-admin.php:818
+msgid "This user will be invited to WordPress.com. You can include a personalized welcome message with the invitation."
+msgstr "Acest utilizator va fi invitat la WordPress.com. Poți să incluzi în invitație un mesaj personalizat de bun venit."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-user-admin.php:811
+msgid "Custom Message"
+msgstr "Mesaj personalizat"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-user-admin.php:786
+msgid "This user is a contractor, freelancer, consultant, or agency."
+msgstr "Acest utilizator este un contractant, un liber-profesionist, un consultant sau o agenție."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-user-admin.php:773
+msgid "External User"
+msgstr "Utilizator extern"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-user-admin.php:747
+msgid "Invite user to WordPress.com"
+msgstr "Invită utilizatorul la WordPress.com"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-user-admin.php:733
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-user-admin.php:738
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-user-admin.php:778
+msgid "Invite user"
+msgstr "Invită utilizatorul"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-user-admin.php:616
+msgid "Resend invite"
+msgstr "Retrimite invitația"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-user-admin.php:600
+msgid "Revoke invite"
+msgstr "Revocă invitația"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-user-admin.php:207
+msgid "An error has occurred when inviting the user to the site."
+msgstr "A apărut o eroare în timpul invitării utilizatorului pe site."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-user-admin.php:205
+msgid "An error has occurred when revoking the user invite."
+msgstr "A apărut o eroare în timpul revocării invitației utilizatorului."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-user-admin.php:203
+msgid "An error has occurred when revoking the invite for the user."
+msgstr "A apărut o eroare în timpul revocării invitației pentru utilizator."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-user-admin.php:201
+msgid "Attempted to send a new invitation to a user using an invite that doesn&#8217;t exist."
+msgstr "Ai încercat să trimiți o invitație nouă unui utilizator folosind o invitație care nu există."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-user-admin.php:199
+msgid "There is no previous invite for this user"
+msgstr "Nu există invitații anterioare pentru acest utilizator"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-user-admin.php:197
+msgid "You don&#8217;t have permission to revoke invites."
+msgstr "Nu ai permisiunea să revoci invitațiile."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-user-admin.php:195
+msgid "Tried to revoke an invite that doesn&#8217;t exist."
+msgstr "Ai încercat să revoci o invitație care nu există."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-user-admin.php:193
+msgid "Tried to revoke an invite for a user that doesn&#8217;t exist."
+msgstr "Ai încercat să revoci o invitație pentru un utilizator care nu există."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-user-admin.php:191
+msgid "You don&#8217;t have permission to invite users."
+msgstr "Nu ai permisiunea să inviți utilizatori."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-user-admin.php:189
+msgid "Tried to invite a user that doesn&#8217;t have an email address."
+msgstr "Ai încercat să inviți un utilizator care nu are o adresă de email."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-user-admin.php:187
+msgid "Tried to invite a user that doesn&#8217;t exist."
+msgstr "Ai încercat să inviți un utilizator care nu există."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-user-admin.php:177
+msgid "User invite revoked successfully."
+msgstr "Am revocat cu succes invitația pentru utilizator."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-user-admin.php:173
+msgid "User was re-invited successfully!"
+msgstr "Utilizatorul a fost reinvitat cu succes!"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-user-admin.php:170
+msgid "User was invited successfully!"
+msgstr "Utilizatorul a fost invitat cu succes!"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-sso.php:1001
+msgid "Account not found. If you already have an account, make sure you have connected to WordPress.com."
+msgstr "Nu am găsit contul. Dacă ai deja un cont, asigură-te că te-ai conectat la WordPress.com."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-sso.php:839
+msgid "Something got a little mixed up and an unexpected WordPress.com user logged in."
+msgstr "Ceva s-a amestecat puțin și a fost autentificat un utilizator WordPress.com neașteptat."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-sso.php:824
+msgid "You must have Two-Step Authentication enabled on your WordPress.com account."
+msgstr "Autentificarea în-doi-pași trebuie să fie activată pentru contul tău WordPress.com."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-sso.php:684
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-sso.php:1033
+msgid "Log in with WordPress.com"
+msgstr "Autentifică-te cu WordPress.com"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-sso.php:678
+msgid "Log in with username and password"
+msgstr "Autentifică-te cu nume utilizator și parolă"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-sso.php:673
+msgid "Or"
+msgstr "Sau"
+
+#. Translators: %s is the name of the site.
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-sso.php:650
+msgid "You can now save time spent logging in by connecting your WordPress.com account to %s."
+msgstr "Acum poți să economisești la autentificare prin conectarea contului tău WordPress.com la %s."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-sso.php:632
+msgid "Log in as a different WordPress.com user"
+msgstr "Autentifică-te ca un alt utilizator WordPress.com"
+
+#. translators: %s a user display name.
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-sso.php:617
+msgid "Log in as <span>%s</span>"
+msgstr "Autentifică-te ca <span>%s</span>"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-sso.php:555
+msgid "Cannot deal with cookie redirects, as headers are already sent."
+msgstr "Nu mă pot ocupa de redirecționările cookie-urilor deoarece anteturile sunt deja trimise."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-sso.php:405
+msgid "Match by Email"
+msgstr "Potrivire după email"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-sso.php:317
+msgid "Secure Sign On"
+msgstr "Autentificare securizată"
+
+#. translators: %1$s is a link to the WordPress.com account settings page.
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-sso.php:168
+msgid "If you are on a shared computer, remember to also <a href=\"%1$s\">log out of WordPress.com</a>."
+msgstr "Dacă folosești un computer partajat, nu uita să te <a href=\"%1$s\">dezautentifici din WordPress.com</a>."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/sso/class-sso.php:373
+msgid "Require Two-Step Authentication"
+msgstr "Necesită autentificare în-doi-pași"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-authorize-json-api.php:48
+#: jetpack_vendor/automattic/jetpack-connection/src/class-authorize-json-api.php:54
+msgid "You must connect your Jetpack plugin to WordPress.com to use this feature."
+msgstr "Pentru a folosi această funcționalitate, trebuie să conectezi modulul Jetpack la WordPress.com."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-social.php:89
+msgid "Auto-publish to social media"
+msgstr "Publicare automată pe media socială"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-search.php:106
+msgid "Custom instant site search"
+msgstr "Căutare imediată și personalizată pe site"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:88
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-scan.php:60
+msgid "Powerful, automated site security"
+msgstr "Securitate puternică și automatizată pe site"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-crm.php:80
+msgid "Nurture your contacts to grow your business"
+msgstr "Încurajezi contactele ca să-ți dezvolți afacerile"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:85
+msgid "Speed up your site in seconds"
+msgstr "Îți accelerezi site-ul în câteva secunde"
+
+#: jetpack_vendor/automattic/jetpack-boost-speed-score/src/class-speed-score.php:136
+msgid "The url parameter is required"
+msgstr "Parametrul URL este obligatoriu"
+
+#: jetpack_vendor/automattic/jetpack-boost-speed-score/src/class-speed-score-request.php:262
+msgid "Invalid response from WPCOM API while polling for speed scores"
+msgstr "Răspunsul de la API-ul WPCOM nu a fost valid în timpul sondajului pentru punctaje de viteză"
+
+#. translators: %d is a numeric HTTP error code
+#: jetpack_vendor/automattic/jetpack-boost-core/src/lib/class-utils.php:132
+msgid "HTTP %d while communicating with WordPress.com"
+msgstr "HTTP %d în timpul comunicării cu WordPress.com"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:369
+#: jetpack_vendor/automattic/jetpack-my-jetpack/build/index.js:62
+msgid "Contact Us"
+msgstr "Contactează-ne"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:270
+msgid "Superior spelling and grammar correction"
+msgstr "Corectarea ortografiei și gramaticii, la un nivel superior"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:269
+msgid "Adaptive tone adjustment"
+msgstr "Ajustezi tonul potrivit"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:267
+msgid "Prompt based content generation"
+msgstr "Generare de conținut pe baza sistemului de operare"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:233
+msgid "Upgrade and increase the amount of your available monthly requests to continue using the most advanced AI technology Jetpack has to offer."
+msgstr "Actualizează și vei crește numărul de cereri lunare disponibile că să folosești în continuare cea mai avansată tehnologie AI oferită de Jetpack."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:231
+msgid "The most advanced AI technology Jetpack has to offer."
+msgstr "Cea mai avansată tehnologie AI oferită de Jetpack."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:234
+msgid ""
+"<p>WordAds adds advertisements to your website. Start earning from your website traffic.</p>\n"
+"                        <p>Over 50 internet advertisers — including Google AdSense & Adx, AppNexus, Amazon A9, AOL Marketplace, Yahoo, Criteo, and more — bid to display ads in WordAds spots.</p>"
+msgstr ""
+"<p>WordAds adaugă reclame pe site-ul tău. Începi să câștigi bani din traficul pe site.</p>\n"
+"                        <p>Peste 50 de agenți de publicitate pe internet – inclusiv Google AdSense & Adx, AppNexus, Amazon A9, AOL Marketplace, Yahoo, Criteo și alții – licitează pentru a afișa reclame în spoturile WordAds.</p>"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:232
+msgid "WordAds"
+msgstr "WordAds"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:221
+msgid "Accept payment with PayPal for simple payments like eBooks, courses and more."
+msgstr "Accepți plăți cu PayPal pentru plăți simple, cum ar fi eBooks, cursuri și altele."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:219
+msgid "Pay with PayPal"
+msgstr "Plătești cu PayPal"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:208
+msgid "Start a Newsletter by sending your content as an email newsletter direct to your fans email inboxes."
+msgstr "Începi un Buletin de știri și îți trimiți direct conținutul fanilor prin email, ca un buletin de știri."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:206
+msgid "Newsletter"
+msgstr "Buletin de știri"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:195
+msgid "Add a Paywall to your content which lets your visitors read a section of your content before being asked to subscribe to continue reading."
+msgstr "Adaugi Paywall pentru conținutul tău, care le va permite vizitatorilor să citească o secțiune din conținut înainte de a li se cere să se aboneze pentru a continua lectura."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:193
+msgid "Paywall access"
+msgstr "Acces la Paywall"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:182
+msgid "Lock your content behind a paid content block. To access the content, readers will need to pay a one-time fee or a recurring subscription."
+msgstr "Îți blochezi conținutul în spatele unui bloc Conținut cu plată. Pentru a accesa conținutul, cititorii trebuie să plătească o taxă unică sau să-și facă un abonament recurent."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:180
+msgid "Paid content gating"
+msgstr "Înregistrare conținut plătit"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:92
+msgid "Create, grow, and monetize your audience with powerful tools for creators."
+msgstr "Cu instrumentele puternice pentru creatori, creezi conținut, îți dezvolți site-ul și câștigi bani cu site-ul tău."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:83
+msgid "Create, grow, and monetize your audience"
+msgstr "Creezi, dezvolți și câștigi bani"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-backup.php:96
+msgid "Your site is not backed up"
+msgstr "Site-ul tău nu are copii de siguranță"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-jetpack-manage.php:48
+msgctxt "product name shown in menu"
+msgid "Jetpack Manage"
+msgstr "Jetpack Manage"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-jetpack-manage.php:47
+msgid "Jetpack Manage"
+msgstr "Jetpack Manage"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-activitylog.php:50
+msgctxt "product name shown in menu"
+msgid "Activity Log"
+msgstr "Jurnal de activități"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-activitylog.php:49
+msgid "Activity Log"
+msgstr "Jurnal de activități"
+
+#: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-rest-endpoints.php:316
+msgid "The endpoint is not available on connected sites."
+msgstr "Punctul-final nu este disponibil pentru site-urile conectate."
+
+#: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-rest-endpoints.php:100
+msgid "URL secret to compare to the ones stored in the database."
+msgstr "Secret URL pentru compare cu cele stocate în baza de date."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-stats.php:118
+msgid "Commercial use"
+msgstr "Utilizare comercială"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-stats.php:116
+msgid "Access to upcoming advanced features"
+msgstr "Ai acces la funcționalități avansate viitoare"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-stats.php:114
+msgid "Detailed statistics about links leading to your site"
+msgstr "Statistici detaliate despre legăturile care duc la site-ul tău"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-stats.php:113
+msgid "Traffic stats and trends for post and pages"
+msgstr "Statistici trafic și tendințe pentru articole și pagini"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-stats.php:112
+msgid "Real-time data on visitors"
+msgstr "Date în timp real despre vizitatori"
+
+#. translators: number of requests
+#. translators: %d is the number of requests.
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:112
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:117
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:274
+msgid "Up to %d requests per month"
+msgstr "Până la %d de cereri pe lună"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:271
+msgid "Title & summary generation"
+msgstr "Generare de titluri și rezumate"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:138
+msgid "100 subscribers"
+msgstr "100 de abonați"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:130
+msgid "Import a CSV file of your existing subscribers to be sent your Newsletter."
+msgstr "Imporți un fișier CSV cu abonații tăi existenți ca să le trimiți buletinul de știri."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:104
+msgid "Monetize your online presence and earn from your website"
+msgstr "Câștigi bani din prezența ta online și ai venituri de pe urma site-ului tău web"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:103
+msgid "Grow your subscribers through our creator network and tools"
+msgstr "Îți mărești numărul de abonați cu ajutorul rețelei noastre de creatori și a instrumentelor noastre"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:102
+msgid "Create content that stands out"
+msgstr "Creezi conținut care iese în evidență"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:128
+msgid "Import subscribers"
+msgstr "Imporți abonații"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:167
+msgid "Jetpack Blocks"
+msgstr "Blocuri Jetpack"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:162
+msgid "2%"
+msgstr "2%"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:158
+msgid "10%"
+msgstr "10%"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:147
+msgid "Transaction fees"
+msgstr "Taxe pentru tranzacții"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:142
+msgid "Unlimited subscribers"
+msgstr "Număr nelimitat de abonați"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:169
+msgid "Jetpack has over 40 Gutenberg blocks to help you with your content creation, such as displaying your podcasts, showing different content to repeat visitors, creating contact forms and many more."
+msgstr "Jetpack are peste 40 de blocuri Gutenberg care te ajută la crearea conținutului, cum ar fi afișarea de podcast-uri, afișarea unui conținut diferit vizitatorilor care revin pe site, crearea de formulare de contact și multe altele."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:149
+msgid ""
+"<p>Fees are only collected when you accept payments.</p>\n"
+"                        <p>Fees are based on the Jetpack plan you have and are calculated as a percentage of your revenue from 10% on the Free plan to 2% on the Creator plan (plus Stripe fees).</p>"
+msgstr ""
+"<p>Taxele sunt colectate numai când accepți plăți.</p>\n"
+"                        <p>Taxele se bazează pe planul Jetpack pe care îl ai și sunt calculate ca procent din veniturile tale, de la 2% în cazul planului Creator și până la 10% în cazul planului Gratuit (taxele Stripe nu sunt incluse!).</p>"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:261
+msgid "Get feedback about your post"
+msgstr "Primești impresii despre articolul tău"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:259
+msgid "Generate text, tables, lists, and forms"
+msgstr "Generezi text, tabele, liste și formulare"
+
+#: jetpack_vendor/automattic/jetpack-jitm/src/class-jitm.php:190
+msgid "Settings"
+msgstr "Setări"
+
+#: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-url-secret.php:92
+msgid "Unable to save new URL secret"
+msgstr "Nu pot să salvez noul secret URL"
+
+#: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-rest-endpoints.php:301
+msgid "You do not have the correct user permissions to perform this action."
+msgstr "Nu ai permisiunile corecte pentru a efectua această acțiune."
+
+#: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-rest-endpoints.php:252
+msgid "URL secret does not exist."
+msgstr "Secret URL nu există."
+
+#. translators: %1$s is a domain name.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2283
+msgid "IP address `%1$s` just failed is_usable_domain check as it is in the private network."
+msgstr "Adresa IP „%1$s” a eșuat la verificarea is_usable_domain deoarece este într-o rețea privată."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:370
+#: jetpack_vendor/automattic/jetpack-my-jetpack/build/index.js:18
+msgid "Upgrade"
+msgstr "Actualizează"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:272
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-stats.php:117
+msgid "Priority support"
+msgstr "Suport prioritar"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-stats.php:102
+msgid "With Jetpack Stats, you don’t need to be a data scientist to see how your site is performing."
+msgstr "Cu Statistici Jetpack, nu trebuie să fii un expert în prelucrarea datelor pentru a vedea cum funcționează site-ul tău."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-stats.php:93
+msgid "Simple, yet powerful analytics"
+msgstr "Analitice puternice, dar simple"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-starter.php:78
+msgctxt "Starter Product Feature"
+msgid "Comment & form spam protection"
+msgstr "Protecție împotriva spamului din comentarii și formulare"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-starter.php:77
+msgctxt "Starter Product Feature"
+msgid "One-click fixes for most threats"
+msgstr "Corecții cu un singur clic pentru majoritatea amenințărilor"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-starter.php:76
+msgctxt "Starter Product Feature"
+msgid "Real-time cloud backups with 1GB storage"
+msgstr "Copii de siguranță în cloud, în timp real, cu spațiu de stocare de 1 Go"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-starter.php:57
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-starter.php:66
+msgid "Essential security tools: real-time backups and comment spam protection."
+msgstr "Instrumente de securitate esențiale: copii de siguranță în timp real și protecție împotriva spamului din comentarii."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:262
+msgid "Seamless WordPress editor integration"
+msgstr "Integrare perfectă cu editorul WordPress"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:260
+msgid "Refine the tone and content to your liking"
+msgstr "Cizelezi tonul și conținutul exact așa cum vrei"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:268
+msgid "Generate text, tables, and lists"
+msgstr "Generezi text, tabele și liste"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:258
+msgid "Artificial intelligence chatbot"
+msgstr "Chatbot pentru inteligență artificială"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:230
+msgid "Jetpack AI Assistant brings the power of AI right into your WordPress editor, letting your content creation soar to new heights."
+msgstr "Asistentul Jetpack AI aduce puterea inteligenței artificiale (AI) direct în editorul tău WordPress și îți permite să creezi conținut nou și relevant."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:234
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:248
+msgid ""
+"<p>Paid customers get dedicated email support from our world-class Happiness Engineers to help with any issue.</p>\n"
+"\t\t\t\t\t\t <p>All other questions are handled by our team as quickly as we are able to go through the WordPress support forum.</p>"
+msgstr ""
+"<p>Clienții care plătesc au suport dedicat prin email asigurat de inginerii noștri de fericire care îi ajută să rezolve orice problemă.</p>\n"
+"\t\t\t\t\t\t <p>Toate celelalte întrebări sunt gestionate de echipa noastră cât mai rapid posibil prin forumul pentru suport WordPress.</p>"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:232
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:246
+msgid "Dedicated email support"
+msgstr "Suport dedicat prin email"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:221
+msgid "Deliver images from Jetpack's Content Delivery Network. Automatically resizes your images to an appropriate size, converts them to modern efficient formats like WebP, and serves them from a worldwide network of servers."
+msgstr "Livrarea imaginilor prin rețeaua pentru livrarea conținutului oferită de Jetpack. Redimensionează automat imaginile la dimensiuni potrivite, le convertește în formate moderne și eficiente (cum ar fi WebP) și le servește printr-o rețea globală de servere."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:219
+msgid "Image CDN"
+msgstr "CDN pentru imagini"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:208
+msgid "Discover and fix images with a suboptimal resolution, aspect ratio, or file size, improving user experience and page speed."
+msgstr "Descoperi și corectezi imaginile care nu au o rezoluție, un raport de aspect sau dimensiuni optime, îmbunătățind astfel experiența utilizatorilor și viteza paginilor."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:206
+msgid "Image guide"
+msgstr "Ghid pentru imagini"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:191
+msgid "Improve page loading speed by only loading images when they are required."
+msgstr "Îmbunătățește viteza de încărcare a paginilor prin încărcarea imaginilor numai când ele sunt cerute."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:189
+msgid "Lazy image loading"
+msgstr "Imagini încărcate lent"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:174
+msgid "Run non-essential JavaScript after the page has loaded so that styles and images can load more quickly."
+msgstr "Rulează JavaScript-ul care nu este esențial după încărcarea paginilor, astfel stilurile și imaginile se vor încărca mai repede."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:172
+msgid "Defer non-essential JavaScript"
+msgstr "Amână JavaScript-ul neesențial"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:162
+msgid ""
+"<p>It’s essential to regenerate Critical CSS to optimize your site speed whenever your HTML or CSS structure changes. Being on top of this can be tedious and time-consuming.</p>\n"
+"\t\t\t\t\t\t\t\t <p>Boost’s cloud service can automatically detect when your site needs the Critical CSS regenerated, and perform this function behind the scenes without requiring you to monitor it manually.</p>"
+msgstr ""
+"<p>Este esențial să regenerezi CSS-ul critic ca să optimizezi viteza site-ului ori de câte ori se schimbă structura HTML sau CSS. Această acțiune poate fi obositoare, plictisitoare și să-ți ia mult timp.</p>\n"
+"\t\t\t\t\t\t\t\t <p>Serviciul cloud oferit de Boost poate să detecteze automat când site-ul tău are nevoie de regenerarea de CSS critic și poate să execute această acțiune în culise, fără a fi necesar să o monitorizezi manual.</p>"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:161
+msgid "Automatic Critical CSS regeneration"
+msgstr "Regenerare automată CSS critic"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:159
+msgid "Automatically updated"
+msgstr "Actualizat automat"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:142
+msgid "Manual Critical CSS regeneration"
+msgstr "Regenerare manuală CSS critic"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:140
+msgid "Must be done manually"
+msgstr "Trebuie făcută manual"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:132
+msgid "Move important styling information to the start of the page, which helps pages display your content sooner, so your users don’t have to wait for the entire page to load. Commonly referred to as Critical CSS."
+msgstr "Mută informațiile importante despre design la începutul paginii, astfel ajută paginile să îți afișeze conținutul mai devreme și utilizatorii nu mai trebuie să aștepte încărcarea completă a paginilor. Denumirea comună este CSS critic."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:130
+msgid "Optimize CSS Loading"
+msgstr "Optimizează încărcarea CSS"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:192
+#: build/index.js:22
+msgid "Automatic protection and rule updates"
+msgstr "Protecție automată și actualizări ale regulilor"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:188
+#: build/index.js:22
+msgid "Manual rules only"
+msgstr "Numai reguli manuale"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:184
+#: build/index.js:22
+msgid "Web Application Firewall"
+msgstr "Firewall pentru aplicații web"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-rest-controller.php:159
+msgid "Brute force protection could not be deactivated."
+msgstr "Protecția împotriva atacurilor cu forță-brută nu a putut fi dezactivată."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-rest-controller.php:158
+msgid "Brute force protection could not be activated."
+msgstr "Protecția împotriva atacurilor cu forță-brută nu a putut fi activată."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:337
+msgid "Brute Force Protection cannot keep your site secure"
+msgstr "Protecția împotriva atacurilor cu forță-brută nu îți poate securiza site-ul"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:197
+#: build/index.js:22
+msgid "Brute force protection"
+msgstr "Protecție împotriva atacurilor cu forță-brută"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:353
+msgid "https://jetpack.com/support/multisite-protect"
+msgstr "https://jetpack.com/support/multisite-protect"
+
+#. translators: %s is HTML markup, for a help icon.
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:762
+msgid "%s Get help unlocking your site"
+msgstr "%s Primești ajutor pentru deblocarea site-ului"
+
+#. translators: %s is HTML markup, for a back icon.
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:749
+msgid "%s Back"
+msgstr "%s Înapoi"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:444
+msgid "Send email"
+msgstr "Trimite email"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:441
+msgid "Your email"
+msgstr "Adresa ta de email"
+
+#. translators: the IP address that was flagged.
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:426
+msgid "<p>Your IP address <code>%2$s</code> has been flagged for potential security violations. You can unlock your login by sending yourself a special link via email. <a href=\"%3$s\">Learn More</a></p>"
+msgstr "<p>Adresa ta IP <code>%2$s</code> a fost marcată pentru posibile încălcări de securitate. Poți debloca autentificarea dacă îți trimiți o legătură specială prin email. <a href=\"%3$s\">Află mai mult</a></p>"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:371
+msgid "Oops, we were unable to send a recovery email. Try again."
+msgstr "Hopa, n-am putut să-ți trimitem un email de recuperare. Încearcă din nou."
+
+#. translators: email address the recovery instructions were sent to.
+#. translators: the email address the recovery email was sent to.
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:369
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:415
+msgid "Recovery instructions were sent to %s. Check your inbox!"
+msgstr "Instrucțiunile de recuperare au fost trimise la %s. Verifică-ți emailurile primite."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:347
+msgid "Oops, we couldn't find a user with that email. Please try again!"
+msgstr "Hopa, n-am putut găsi un utilizator cu acel email. Te rog încearcă din nou!"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:290
+msgid "Oops, we couldn't validate the recovery token."
+msgstr "Hopa, n-am putut valida tokenul de recuperare."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:387
+msgid "Jetpack has locked your site's login page."
+msgstr "Jetpack a blocat pagina de autentificare pe site-ul tău."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:342
+msgid "Oops, looks like that's not the right email address. Please try again!"
+msgstr "Hopa, se pare că adresa de email nu este corectă.Te rog încearcă din nou!"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:307
+msgid "You successfully logged out."
+msgstr "Te-ai dezautentificat cu succes."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:217
+msgid "The recovery token is not valid for this user."
+msgstr "Tokenul de recuperare nu este valid pentru acest utilizator."
+
+#. translators: variable is the IP address that was flagged.
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:875
+msgid "Your IP (%1$s) has been flagged for potential security violations."
+msgstr "IP-ul tău (%1$s) a fost marcat pentru posibile încălcări de securitate."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:956
+msgid "There was an error contacting Jetpack servers."
+msgstr "A fost o eroare la contactarea serverelor Jetpack."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:952
+msgid "No API key"
+msgstr "Nicio cheie API"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:948
+msgid "Your API key is invalid"
+msgstr "Cheia ta API este invalidă"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:878
+msgid "Login Blocked by Jetpack"
+msgstr "Autentificare blocată de Jetpack"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:485
+msgid "No reply from Jetpack servers"
+msgstr "Niciun răspuns de la serverele Jetpack"
+
+#. Translators: The xml error code, and the xml error message.
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:476
+msgid "Error connecting to WordPress.com. Code: %1$s, %2$s"
+msgstr "Eroare de conectare la WordPress.com. Cod: %1$s, %2$s"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:447
+msgid "Your main blog is not connected to WordPress.com. Please connect to get an API key."
+msgstr "Blogul tău principal nu este conectat la WordPress.com. Te rog conectează-l pentru a primi o cheie API."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:351
+msgid "View Network Admin"
+msgstr "Vezi administratorul de rețea"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-shared-functions.php:189
+msgid "Only super admins can edit the global allow list"
+msgstr "Numai super-administratorii pot să editeze lista cu permisiuni globale"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-shared-functions.php:186
+msgid "Cannot use global flag on non-multisites"
+msgstr "Nu pot folosi un marcaj global pe non-multisite-uri"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-shared-functions.php:183
+msgid "Expecting an array"
+msgstr "Așteptam un tablou"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-math-fallback.php:167
+msgid "Prove your humanity"
+msgstr "Dovedește că ești o ființă umană"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-math-fallback.php:104
+msgid "Continue &rarr;"
+msgstr "Continuă &rarr;"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-math-fallback.php:98
+msgid "Your answer was incorrect, please try again."
+msgstr "Răspunsul tău a fost incorect, te rog încearcă din nou."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-math-fallback.php:96
+msgid "Please solve this math problem to prove that you are not a bot. Once you solve it, you will need to log in again."
+msgstr "Te rog să rezolvi această problemă de matematică pentru a dovedi că nu ești un robot. După rezolvare, va trebui să te conectezi din nou."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-math-fallback.php:73
+msgid "<strong>You failed to correctly answer the math problem.</strong> This is used to combat spam when Jetpack’s Brute Force Attack Protection API is unavailable. Please use your browser’s back button to return to the login form, press the \"refresh\" button to generate a new math problem, and try to log in again."
+msgstr "<strong>Nu ai răspuns corect la problema de matematică.</strong> Acest lucru este folosit pentru a combate spamul când API-ul de la Jetpack Protecție împotriva atacurilor cu forță-brută nu este disponibil. Ca să încerci să te autentifici din nou, te rog să folosești butonul Înapoi al navigatorului pentru a reveni la pagina de autentificare și apoi să apeși butonul „Reîncarcă” pentru a genera o nouă problemă de matematică."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-shared-functions.php:220
+msgid "One of your IP addresses was not valid."
+msgstr "Una din adresele tale IP nu era validă."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:354
+msgid "Learn More"
+msgstr "Află mai multe"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-rest-controller.php:82
+msgid "Rules updated succesfully"
+msgstr "Am actualizat cu succes regulile"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2636
+msgid "Sorry, something is wrong with your Jetpack connection."
+msgstr "Regret, ceva este greșit la conexiunea ta Jetpack."
+
+#: src/class-rest-controller.php:390
+msgid "An error occured enabling the firewall."
+msgstr "A apărut o eroare la activarea firewall-ului."
+
+#: src/class-rest-controller.php:378
+msgid "An error occured disabling the firewall."
+msgstr "A apărut o eroare la dezactivarea firewall-ului."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:170
+msgid "Something went wrong. Please try again."
+msgstr "Ceva nu a mers bine. Te rog să încerci din nou."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-waf-cli.php:134
+msgid "Jetpack WAF has been deactivated."
+msgstr "Jetpack WAF a fost dezactivat."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-waf-cli.php:131
+msgid "Jetpack WAF failed to fully deactivate."
+msgstr "Jetpack WAF nu a putut fi dezactivat complet."
+
+#. translators: %1$s is the name of the mode that was just switched to.
+#: jetpack_vendor/automattic/jetpack-waf/src/class-waf-cli.php:161
+msgid "Jetpack WAF rules successfully created to: \"%1$s\"."
+msgstr "Am creat cu succes regulile Jetpack WAF pentru: „%1$s”."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-waf-cli.php:118
+msgid "Jetpack WAF has successfully been setup."
+msgstr "Am inițializat cu succes Jetpack WAF."
+
+#. translators: %1$s is the unexpected error message.
+#: jetpack_vendor/automattic/jetpack-waf/src/class-waf-cli.php:112
+#: jetpack_vendor/automattic/jetpack-waf/src/class-waf-cli.php:152
+msgid "Jetpack WAF rules file failed to generate: %1$s"
+msgstr "Fișierul cu regulile Jetpack WAF a eșuat la generare: %1$s"
+
+#. translators: %1$s is the name of the mode that the waf is currently running
+#. in.
+#: jetpack_vendor/automattic/jetpack-waf/src/class-waf-cli.php:75
+msgid "Jetpack WAF is running in \"%1$s\" mode."
+msgstr "Jetpack WAF rulează în modul „%1$s”."
+
+#. translators: %1$s is the name of the mode that was just switched to.
+#: jetpack_vendor/automattic/jetpack-waf/src/class-waf-cli.php:67
+msgid "Jetpack WAF mode switched to \"%1$s\"."
+msgstr "Modul Jetpack WAF a fost comutat la „%1$s”."
+
+#. translators: %1$s is the unexpected error message.
+#: jetpack_vendor/automattic/jetpack-waf/src/class-waf-cli.php:58
+msgid "Unable to generate waf bootstrap - standalone mode may not work properly: %1$s"
+msgstr "Nu pot să generez bootstrap pentru WAF - modul autonom ar putea să nu funcționeze corect: %1$s"
+
+#. translators: %1$s is the mode that was actually found. Also note that the
+#. expected "silent" and "normal" are hard-coded strings and must therefore
+#. stay the same in any translation.
+#: jetpack_vendor/automattic/jetpack-waf/src/class-waf-cli.php:44
+msgid "Invalid mode: %1$s. Expected \"silent\" or \"normal\"."
+msgstr "Modul nu este valid: %1$s. Trebuie să fie „silent” sau „normal”."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-waf-cli.php:36
+msgid "Only one mode may be specified."
+msgstr "Poate fi specificat numai un singur mod."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-security.php:57
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-security.php:66
+msgid "Comprehensive site security, including VaultPress Backup, Scan, and Akismet Anti-spam."
+msgstr "Securitate comprehensivă pentru site-ul tău, inclusiv copii de siguranță VaultPress, Scanare și Akismet Anti-spam."
+
+#: jetpack_vendor/automattic/jetpack-admin-ui/src/class-admin-menu.php:61
+msgid "Akismet Anti-spam"
+msgstr "Akismet Anti-spam"
+
+#. Author URI of the plugin
+#: jetpack-protect.php
+msgid "https://jetpack.com/protect/"
+msgstr "https://jetpack.com/protect/"
+
+#. Author of the plugin
+#: jetpack-protect.php
+msgid "Automattic - Jetpack Security team"
+msgstr "Automattic - echipa Securitate Jetpack"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:225
+#: build/index.js:22
+msgid "Severity labels"
+msgstr "Etichete de severitate"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:211
+#: build/index.js:22
+msgid "One-click auto fixes"
+msgstr "Corecții automate cu un singur clic"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:204
+#: build/index.js:22
+msgid "Access to scan on Cloud"
+msgstr "Acces la scanare în cloud"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:179
+#: build/index.js:22
+msgid "Plus on-demand manual scans"
+msgstr "Plus scanări manuale la cerere"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:174
+#: build/index.js:22
+msgid "Daily automated scans"
+msgstr "Scanări automate, zilnic"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:169
+#: build/index.js:22
+msgid "Line by line malware scanning"
+msgstr "Scanare malware rând cu rând"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:165
+#: build/index.js:22
+msgid "Check items against database"
+msgstr "Verifică elementele în baza de date"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:161
+#: build/index.js:22
+msgid "Scan for threats and vulnerabilities"
+msgstr "Scanează pentru amenințări și vulnerabilități"
+
+#: jetpack_vendor/automattic/jetpack-transport-helper/src/class-rest-controller.php:91
+msgid "You are not allowed to perform this action."
+msgstr "Nu ai voie să execuți această acțiune."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:218
+#: build/index.js:22
+msgid "Notifications"
+msgstr "Notificări"
+
+#. translators: $d is the number of threats found.
+#: src/class-site-health.php:86
+msgid "Your site is affected by %d security threat"
+msgid_plural "Your site is affected by %d security threats"
+msgstr[0] "Site-ul tău este afectat de o amenințare la securitate"
+msgstr[1] "Site-ul tău este afectat de %d amenințări la securitate"
+msgstr[2] "Site-ul tău este afectat de %d de amenințări la securitate"
+
+#: src/class-site-health.php:66
+msgid "No known threats found"
+msgstr "Nu am găsit nicio amenințare cunoscută"
+
+#. translators: %d is the number of threats found.
+#: src/class-jetpack-protect.php:319
+msgid "%d threat found by Jetpack Protect"
+msgid_plural "%d threats found by Jetpack Protect"
+msgstr[0] "Protecție Jetpack a găsit o amenințare"
+msgstr[1] "Protecție Jetpack a găsit %d amenințări"
+msgstr[2] "Protecție Jetpack a găsit %d de amenințări"
+
+#: jetpack_vendor/automattic/jetpack-transport-helper/src/class-rest-controller.php:121
+msgid "Helper Script body must be base64 encoded"
+msgstr "Corpul scriptului de ajutor trebuie să fie codat în base64"
+
+#: jetpack_vendor/automattic/jetpack-transport-helper/src/class-rest-controller.php:68
+msgid "Path to Helper Script"
+msgstr "Cale la scriptul ajutător"
+
+#: jetpack_vendor/automattic/jetpack-transport-helper/src/class-rest-controller.php:49
+msgid "base64 encoded Helper Script body."
+msgstr "Corpul scriptul ajutător codat în base64."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-backup.php:131
+msgctxt "Backup Product Disclaimer"
+msgid "Learn more"
+msgstr "Află mai multe"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-backup.php:130
+msgctxt "Backup Product Disclaimer"
+msgid "* Subject to your usage and storage limit."
+msgstr "* Depinde de limita de utilizare și stocare."
+
+#. translators: URL to contact Jetpack support.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:229
+msgid "As always, feel free to <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">contact our support team</a> if you have any questions."
+msgstr "Ca de obicei, dacă ai vreo întrebare, nu ezita să <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">contactezi echipa noastră de suport</a>."
+
+#. translators: URL to Jetpack support doc regarding the primary user.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:213
+msgid "<a href='%s' target='_blank' rel='noopener noreferrer'>Learn more</a> about the connection owner and what will break if you do not have one."
+msgstr "<a href='%s' target='_blank' rel='noopener noreferrer'>Află mai multe</a> despre proprietarul conexiunii și ce nu va funcționa dacă nu există unul."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:203
+msgid "Every Jetpack site needs at least one connected admin for the features to work properly. Please connect to your WordPress.com account via the button below. Once you connect, you may refresh this page to see an option to change the connection owner."
+msgstr "Pentru ca funcționalitățile să lucreze cum trebuie, fiecare site Jetpack are nevoie de cel puțin un administrator conectat. Te rog conectează-te la contul tău WordPress.com cu ajutorul butonului de mai jos. După ce te-ai conectat, poți reîmprospăta această pagină pentru a vedea o opțiune cu ajutorul căreia să schimbi proprietarul conexiunii."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:143
+msgid "Set new connection owner"
+msgstr "Setează un proprietar de conexiune nou"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:125
+msgid "You can choose to transfer connection ownership to one of these already-connected admins:"
+msgstr "Poți alege să transferi proprietatea conexiunii la unul din acești administratori deja conectați:"
+
+#. translators: WordPress User, if available.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:119
+msgid "Warning! You are about to delete the Jetpack connection owner (%s) for this site, which may cause some of your Jetpack features to stop working."
+msgstr "Avertizare! Ești pe cale să ștergi proprietarul conexiunii Jetpack (%s) pentru acest site, s-ar putea ca unele dintre funcționalitățile Jetpack să nu mai funcționeze."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:116
+msgid "Important notice about your Jetpack connection:"
+msgstr "Observație importantă despre conexiunea Jetpack:"
+
+#: jetpack_vendor/automattic/jetpack-jitm/src/class-jitm.php:189
+msgid "Activating"
+msgstr "Activez"
+
+#: jetpack_vendor/automattic/jetpack-jitm/src/class-post-connection-jitm.php:62
+msgid "New free service: Show Canada Post shipping rates on your store!"
+msgstr "Serviciu gratuit nou: arată tarife de livrare Canada Post în magazinul tău!"
+
+#: jetpack_vendor/automattic/jetpack-jitm/src/class-post-connection-jitm.php:59
+msgid "New free service: Show USPS shipping rates on your store! Added bonus: print shipping labels without leaving WooCommerce."
+msgstr "Serviciu gratuit nou: îți arată tarifele de livrare USPS în magazin! Bonus: tipărești etichete de livrare fără să părăsești WooCommerce."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:187
+msgid "Success!"
+msgstr "Succes!"
+
+#: jetpack_vendor/automattic/jetpack-jitm/src/class-jitm.php:188
+msgid "Activated"
+msgstr "Activată"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:206
+msgid "Connect to WordPress.com"
+msgstr "Conectare la WordPress.com"
+
+#: jetpack_vendor/automattic/jetpack-jitm/src/class-jitm.php:187
+#: jetpack_vendor/automattic/jetpack-my-jetpack/build/index.js:12
+#: jetpack_vendor/automattic/jetpack-my-jetpack/build/index.js:18
+msgid "Activate"
+msgstr "Activează"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-search.php:127
+msgid "Supports 38 languages"
+msgstr "Disponibilă în 38 de limbi"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-social.php:110
+msgid "Supports the major social networks"
+msgstr "Acceptă principalele rețele de socializare"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-social.php:109
+msgid "Schedule publishing"
+msgstr "Programezi publicarea"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-social.php:108
+msgid "Post to social networks"
+msgstr "Publici pe rețelele de socializare"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-social.php:98
+msgid "Promote your content on social media by automatically publishing when you publish on your site."
+msgstr "Când publici ceva nou pe site, îți promovezi conținutul pe media socială prin publicarea automată."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:110
+msgid "Easy to navigate and use"
+msgstr "Navigare facilă și ușor de utilizat"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:109
+msgid "Check plugin and theme version status"
+msgstr "Verifică starea versiunii modulului și a temei"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:108
+msgid "Daily automatic scans"
+msgstr "Scanări automate, zilnic"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:107
+msgid "Over 20,000 listed vulnerabilities"
+msgstr "Peste 20.000 de vulnerabilități enumerate"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:97
+msgid "Protect your site and scan for security vulnerabilities listed in our database."
+msgstr "Îți protejezi site-ul și îl scanezi pentru vulnerabilitățile de securitate enumerate în baza noastră de date."
+
+#. Plugin Name of the plugin
+#: jetpack-protect.php src/class-jetpack-protect.php:152 build/index.js:10
+#: build/index.js:20
+msgid "Jetpack Protect"
+msgstr "Jetpack Protect"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-scan.php:82
+msgctxt "Scan Product Feature"
+msgid "Access to latest Firewall rules"
+msgstr "Ai acces la ultimele reguli pentru firewall"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-product.php:647
+msgid "My Jetpack dashboard"
+msgstr "Panou control My Jetpack"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-hybrid-product.php:83
+msgid "Activation failed. Plugin is not installed"
+msgstr "Activarea a eșuat. Modulul nu este instalat"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-security.php:79
+msgctxt "Security Product Feature"
+msgid "Comment & form spam protection"
+msgstr "Protecție împotriva spamului din comentarii și formulare"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-security.php:78
+msgctxt "Security Product Feature"
+msgid "One-click fixes for most threats"
+msgstr "Corecții cu un singur clic pentru majoritatea amenințărilor"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-security.php:77
+msgctxt "Security Product Feature"
+msgid "Automated real-time malware scan"
+msgstr "Scanare malware automată, în timp real"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-security.php:76
+msgctxt "Security Product Feature"
+msgid "Real-time cloud backups with 10GB storage"
+msgstr "Copii de siguranță în cloud, în timp real, cu spațiu de stocare de 10 Go"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-crm.php:102
+msgid "Infinitely customizable with integrations and extensions"
+msgstr "Personalizabil în totalitate, cu integrări și extensii"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-crm.php:101
+msgid "Fully integrated with WordPress & WooCommerce"
+msgstr "Integrat în totalitate cu WordPress și WooCommerce"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-crm.php:100
+msgid "Manage billing and create invoices"
+msgstr "Administrezi facturarea și emiți facturi"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-crm.php:99
+msgid "Manage unlimited contacts"
+msgstr "Administrezi un număr nelimitat de contacte"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-crm.php:89
+msgid "All of your contacts in one place. Build better relationships with your customers and clients."
+msgstr "Ai toate contactele într-un singur loc. Construiești relații mai bune cu clienții tăi."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-wpcom-products.php:78
+msgid "Unable to fetch the products list from WordPress.com"
+msgstr "Nu am putut să aduc lista cu produse din WordPress.com"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-search.php:128
+msgid "Spelling correction"
+msgstr "Corectare ortografie"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-search.php:126
+msgid "Powerful filtering"
+msgstr "Filtrare puternică"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-search.php:125
+msgid "Instant search and indexing"
+msgstr "Căutare și indexare instantanee"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:106
+msgid "Standalone free plugin for those focused on speed"
+msgstr "Modul gratuit și independent pentru cei care se axează pe viteză"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:105
+msgid "Enable improvements in one click"
+msgstr "Activezi îmbunătățirile cu un singur clic"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:104
+msgid "Check your site performance"
+msgstr "Verifică cât de performant este site-ul tău"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:94
+msgid "Jetpack Boost gives your site the same performance advantages as the world’s leading websites, no developer required."
+msgstr "Jetpack Boost îi oferă site-ului tău aceleași avantaje privind performanța ca și cele mai bune site-uri web din lume, fără să apelezi la un dezvoltator."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-hybrid-product.php:118
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-hybrid-product.php:147
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-module-product.php:115
+msgid "Error activating Jetpack module"
+msgstr "Eroare la activarea extensiei Jetpack"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-module-product.php:109
+msgid "Error activating Jetpack plugin"
+msgstr "Eroare la activarea modulului Jetpack"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-rest-products.php:183
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-rest-products.php:210
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-rest-products.php:236
+msgid "The product class handler is not implemented"
+msgstr "Gestionarul clasei de produse nu este implementat"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-rest-products.php:127
+msgid "The product argument must be a string."
+msgstr "Argumentul produsului trebuie să fie un șir."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-videopress.php:95
+msgid "High quality, ad-free video"
+msgstr "Videouri de înaltă calitate, fără reclame"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-extras.php:65
+msgid "Basic tools for a successful site"
+msgstr "Instrumente de bază pentru un site de succes"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-backup.php:93
+msgid "Save every change"
+msgstr "Salvezi fiecare modificare"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-anti-spam.php:77
+msgid "Stop comment and form spam"
+msgstr "Oprește spamul din comentarii și formulare"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-products.php:138
+msgid "Production action to execute"
+msgstr "Acțiunea de producție de executat"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-products.php:131
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-rest-products.php:34
+msgid "Product slug"
+msgstr "Descriptor produs"
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:297
+msgid "The required \"nonce\" parameter is missing."
+msgstr "Parametrul „nunic” cerut lipsește."
+
+#. translators: 1: wp_default_scripts. 2: Name of the domain being aliased.
+#: jetpack_vendor/automattic/jetpack-assets/src/class-assets.php:571
+msgid "Textdomain aliases should be registered before the %1$s hook. This notice was triggered by the %2$s domain."
+msgstr "Un alias pentru domeniu-text trebuie înregistrat înainte de cârligul %1$s. Această notificare a fost declanșată de domeniul %2$s."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tracking.php:85
+msgid "No valid event name or type."
+msgstr "Nu este valid niciun nume sau tip de eveniment."
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:296
+msgid "Do we want the checksum or object ids."
+msgstr "Vrem suma de verificare sau ID-urile obiectelor."
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:291
+msgid "Should only range endges be returned"
+msgstr "Trebuie să fie returnate numai marginile de limită"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:286
+msgid "Shared Salt to use when generating checksum"
+msgstr "Salt partajat de folosit când este generată suma de verificare"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:281
+msgid "Strip non-ascii characters?"
+msgstr "Elimini caractere non-ascii?"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:276
+msgid "End ID for the histogram"
+msgstr "ID de încheiere pentru histogramă"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:271
+msgid "Start ID for the histogram"
+msgstr "ID de începere pentru histogramă"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:266
+msgid "Number of histogram buckets."
+msgstr "Numărul de ramificații ale histogramei."
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:256
+msgid "Column mappings"
+msgstr "Mapări de coloane"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:238
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:301
+msgid "If text fields should be converted to latin1 in checksum calculation."
+msgstr "Dacă câmpurile text ar trebui să fie convertite în latin-1 la calculul sumei de verificare."
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:220
+msgid "Size of batches"
+msgstr "Dimensiunea pachetelor"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:215
+msgid "Name of Sync module."
+msgstr "Numele extensiei de sincronizare."
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:157
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:197
+msgid "Name of Sync queue."
+msgstr "Numele cozii de sincronizare."
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:139
+msgid "Objects Identifiers"
+msgstr "Identificatori de obiecte"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:134
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:261
+msgid "Object Type"
+msgstr "Tip de obiect"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:129
+msgid "Name of Sync module"
+msgstr "Numele extensiei de sincronizare"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:93
+msgid "New Sync health status"
+msgstr "Stare nouă pentru sănătate sincronizare"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:75
+msgid "Comma seperated list of additional fields that should be included in status."
+msgstr "Lista cu câmpurile suplimentare, separate cu virgulă, care ar trebui incluse în stare."
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:57
+msgid "Comment IDs to include in Full Sync"
+msgstr "ID-uri comentarii de inclus în Sincronizare completă"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:52
+msgid "Post IDs to include in Full Sync"
+msgstr "ID-uri articole de inclus în Sincronizare completă"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:48
+msgid "User IDs to include in Full Sync or \"initial\""
+msgstr "ID-uri utilizatori de inclus în Sincronizare completă sau „inițială”"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:43
+msgid "Data Modules that should be included in Full Sync"
+msgstr "Extensii de date care ar trebui incluse în Sincronizare completă"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-actions.php:494
+msgid "Sync has been aborted because the IXR client is missing."
+msgstr "Sincronizarea a fost oprită deoarece lipsește clientul IXR."
+
+#: jetpack_vendor/automattic/jetpack-password-checker/src/class-password-checker.php:254
+msgid "Your password is too weak: Looks like you are including easy to guess information about yourself. Try something a little more unique."
+msgstr "Parola ta este prea slabă: se pare că ai inclus informații despre tine, ușor de ghicit. Încearcă ceva care să fie unic."
+
+#. translators: %s is a comma-separated list of license keys.
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-licensing.php:230
+msgid "The following Jetpack licenses are invalid, already in use, or revoked: %s"
+msgstr "Următoarele licențe Jetpack nu sunt valide, sunt deja în utilizare sau revocate: %s"
+
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-licensing.php:211
+msgid "Failed to attach your Jetpack license(s). Please try reconnecting Jetpack."
+msgstr "Atașarea licenței (licențelor) Jetpack a eșuat. Te rog încearcă să reconectezi Jetpack."
+
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-licensing.php:180
+msgid "License attach request failed."
+msgstr "Cererea de atașare a licenței a eșuat."
+
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-licensing.php:170
+msgid "Jetpack doesn't have a connected owner."
+msgstr "Jetpack nu are un proprietar conectat."
+
+#. translators: %s is the full datetime of the last heart beat e.g. 2020-01-01
+#. 12:21:23
+#: jetpack_vendor/automattic/jetpack-connection/src/class-heartbeat.php:256
+msgid "Last heartbeat sent at: %s"
+msgstr "Ultimul puls a fost trimis pe: %s"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:460
+msgid "Invalid blog token"
+msgstr "Tokenul pentru blog nu este valid"
+
+#. translators: %d is the user ID.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:458
+msgid "Invalid token for user %d"
+msgstr "Tokenul pentru utilizatorul %d nu este valid"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:431
+msgid "No blog token found"
+msgstr "Nu am găsit niciun token pentru blog"
+
+#. translators: %1$d is the ID of the requested user. %2$d is the user ID found
+#. in the token.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:400
+msgid "Requesting user_id %1$d does not match token user_id %2$d"
+msgstr "Cererea user_id %1$d nu se potrivește cu tokenul user_id %2$d"
+
+#. translators: %s is the user ID.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:396
+msgid "Token for user %d is malformed"
+msgstr "Tokenul pentru utilizatorul %d este deformat"
+
+#. translators: %s is the user ID.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:391
+msgid "No token for user %d"
+msgstr "Niciun token pentru utilizatorul %d"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:386
+msgid "No primary user defined"
+msgstr "Nu ai definit niciun utilizator principal"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:381
+msgid "No user tokens found"
+msgstr "Nu am găsit niciun token de utilizator"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:258
+msgid "Secret mismatch"
+msgstr "Secretul nu se potrivește"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:250
+msgid "Verification secrets are incomplete"
+msgstr "Secretele verificării sunt incomplete"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:239
+msgid "Verification secrets are empty"
+msgstr "Secretele verificării sunt goale"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:231
+msgid "Verification took too long"
+msgstr "Verificarea a durat prea mult"
+
+#. translators: "%s" is the name of a paramter. It can be either "secret_1" or
+#. "state".
+#: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:196
+#: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:215
+msgid "The required \"%s\" parameter is malformed."
+msgstr "Parametrul „%s” cerut este deformat."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:928
+msgid "Failed to disconnect the site as it appears already disconnected."
+msgstr "Deconectarea site-ului e eșuat, el pare deja deconectat."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:885
+msgid "Site is not connected"
+msgstr "Site-ul nu este conectat"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:288
+msgid "New owner"
+msgstr "Proprietar nou"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:270
+msgid "Is connection owner"
+msgstr "Este proprietarul conexiunii"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:265
+msgid "New user token"
+msgstr "Token nou pentru utilizator"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:231
+msgid "Indicates from what plugin the request is coming from"
+msgstr "Indică modulul de la care vine cererea"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:227
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:248
+#: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-rest-endpoints.php:61
+msgid "URI of the admin page where the user should be redirected after connection flow"
+msgstr "URI-ul paginii de administrare unde utilizatorul ar trebui să fie redirecționat după fluxul de conexiune"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:222
+msgid "The registration nonce"
+msgstr "Nunicul de înregistrare"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:218
+msgid "Indicates where the registration action was triggered for tracking/segmentation purposes"
+msgstr "Indică unde a fost declanșată acțiunea de înregistrare în scopul de urmărire/fragmentare"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:157
+msgid "The isActive argument should be set to false."
+msgstr "Argumentul isActive trebuie setat la „false”."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:152
+msgid "Set to false will trigger the site to disconnect."
+msgstr "Dacă setezi la „false” se va declanșa deconectarea site-ului."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-authentication.php:125
+msgid "The request method is missing."
+msgstr "Lipsește metoda de solicitare."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-plugin-storage.php:142
+msgid "You cannot call this method until Jetpack Config is configured"
+msgstr "Nu poți să apelezi această metodă până când nu este configurat fișierul Jetpack Config"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:1824
+msgid "Invalid Registration State"
+msgstr "Starea înregistrării nu este validă"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:1121
+msgid "Jetpack experienced an issue trying to save options (cannot_save_secrets). We suggest that you contact your hosting provider, and ask them for help checking that the options table is writable on your site."
+msgstr "Jetpack a întâmpinat o problemă la încercarea de salvare a opțiunilor (cannot_save_secrets). Îți sugerăm să contactezi serviciul tău de găzduire și să ceri ajutor pentru a verifica dacă tabelul cu opțiuni poate fi scris pe site-ul tău."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:997
+msgid "New owner is same as existing owner"
+msgstr "Noul proprietar este identic cu proprietarul existent"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-error-handler.php:727
+msgid "Your connection with WordPress.com seems to be broken. If you're experiencing issues, please try reconnecting."
+msgstr "Conexiunea ta cu WordPress.com pare a fi întreruptă. Dacă întâmpini probleme, te rog încearcă reconectarea."
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:367
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:425
+msgid "Blog is already registered"
+msgstr "Blogul este deja înregistrat"
+
+#. translators: %1$s is a PHP class name.
+#: jetpack_vendor/automattic/jetpack-config/src/class-config.php:188
+msgid "Unable to load class %1$s. Please add the package that contains it using composer and make sure you are requiring the Jetpack autoloader"
+msgstr "Nu pot încărca clasa %1$s. Te rog adaugă pachetul care o conține folosind compozitorul și asigură-te că ceri încărcătorul automat Jetpack"
+
+#. translators: %s is the script handle.
+#: jetpack_vendor/automattic/jetpack-assets/src/class-assets.php:405
+msgid "Script \"%s\" depends on wp-i18n but does not specify \"textdomain\""
+msgstr "Scriptul „%s” depinde de wp-i18n dar nu specifică „textdomain”"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-backup.php:117
+msgctxt "Backup Product Feature"
+msgid "30-day archive & activity log*"
+msgstr "Arhivă cu ultimele 30 de zile și jurnal de activități*"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-backup.php:115
+msgctxt "Backup Product Feature"
+msgid "Real-time cloud backups"
+msgstr "Copii de siguranță în cloud în timp real"
+
+#. translators: %s: The literal parameter name. Should not be translated.
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-endpoints.php:260
+msgid "%s must be a non-negative integer."
+msgstr "%s trebuie să fie un număr întreg pozitiv."
+
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-endpoints.php:405
+msgid "Missing parameter \"last_detached_count\"."
+msgstr "Lipsește parametrul „last_detached_count”."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-videopress.php:117
+msgctxt "VideoPress Product Feature"
+msgid "Unlimited users"
+msgstr "Utilizatori în număr nelimitat"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-videopress.php:116
+msgctxt "VideoPress Product Feature"
+msgid "Ad-free and customizable player"
+msgstr "Player personalizabil și fără publicitate"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-videopress.php:115
+msgctxt "VideoPress Product Feature"
+msgid "Built into WordPress editor"
+msgstr "Integrat în editorul WordPress"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-videopress.php:114
+msgctxt "VideoPress Product Feature"
+msgid "1TB of storage"
+msgstr "Spațiu de stocare de 1 To"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-anti-spam.php:98
+msgctxt "Anti-Spam Product Feature"
+msgid "Advanced stats"
+msgstr "Statistici avansate"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-anti-spam.php:97
+msgctxt "Anti-Spam Product Feature"
+msgid "Block spam without CAPTCHAs"
+msgstr "Blochează spamul fără CAPTCHA"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-anti-spam.php:96
+msgctxt "Anti-Spam Product Feature"
+msgid "Comment and form spam protection"
+msgstr "Protecție împotriva spamului din comentarii și formulare"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-anti-spam.php:86
+msgid "Save time and get better responses by automatically blocking spam from your comments and forms."
+msgstr "Economisești timp și obții răspunsuri mai bune prin blocarea automată a spamului din comentarii și formulare."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-search.php:115
+msgid "Help your site visitors find answers instantly so they keep reading and buying. Great for sites with a lot of content."
+msgstr "Îți ajuți vizitatorii să găsească răspunsuri imediat, deci vor citi mai mult și vor cumpăra în continuare. Este excelent pentru site-urile cu mult conținut."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-scan.php:81
+msgctxt "Scan Product Feature"
+msgid "Instant email notifications"
+msgstr "Notificări prin email instantanee"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-scan.php:80
+msgctxt "Scan Product Feature"
+msgid "One-click fixes for most issues"
+msgstr "Corecții cu un singur clic pentru majoritatea problemelor"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-scan.php:79
+msgctxt "Scan Product Feature"
+msgid "Automated daily scanning"
+msgstr "Scanare automată zilnică"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-scan.php:69
+msgid "Automatic scanning and one-click fixes keep your site one step ahead of security threats and malware."
+msgstr "Scanarea automată și corecțiile cu un singur clic îți fac site-ul să fie pregătit dinainte pentru amenințări de securitate și malware."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-backup.php:116
+msgctxt "Backup Product Feature"
+msgid "10GB of backup storage"
+msgstr "10 Go de stocare pentru copii de siguranță"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-backup.php:118
+msgctxt "Backup Product Feature"
+msgid "One-click restores"
+msgstr "Restaurări cu un singur clic"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-backup.php:105
+msgid "Never lose a word, image, page, or time worrying about your site with automated backups & one-click restores."
+msgstr "Cu copiile de siguranță automate și restaurările cu un singur clic, nu pierzi nici măcar un cuvânt, o imagine sau o pagină și nici timp îngrijorându-te în privința site-ului."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-videopress.php:104
+msgid "High-quality, ad-free video built specifically for WordPress."
+msgstr "Player video de înaltă calitate și fără reclame, creat special pentru WordPress."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-extras.php:88
+msgid "Enhance your site with dozens of other features"
+msgstr "Îți îmbunătățești site-ul cu alte zeci de funcționalități"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-extras.php:87
+msgid "Get notifications if your site goes offline"
+msgstr "Primești notificări dacă site-ul tău este offline"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-extras.php:86
+msgid "Protect your site against bot attacks"
+msgstr "Îți protejezi site-ul împotriva atacurilor cu boți"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-extras.php:85
+msgid "Speed up your site with optimized images"
+msgstr "Îți accelerezi site-ul cu imagini optimizate"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-extras.php:84
+msgid "Measure your impact with beautiful stats"
+msgstr "Măsori impactul cu statistici frumoase"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-extras.php:74
+msgid "Secure and speed up your site for free with Jetpack's powerful WordPress tools."
+msgstr "Îți securizezi și accelerezi gratuit site-ul cu instrumente WordPress puternice, oferite de Jetpack."
+
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-endpoints.php:316
+msgid "Could not set this license key. Please try again."
+msgstr "Nu am putut să setez această cheie de licență. Te rog încearcă din nou."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tracking.php:78
+msgid "You aren’t authorized to do that."
+msgstr "Nu ești autorizat să faci asta."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:795
+msgid "Unable to verify your request."
+msgstr "Nu pot să-ți verific cererea."
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:162
+msgid "Invalid user identifier."
+msgstr "Identificatorul pentru utilizator nu este valid."
+
+#: jetpack_vendor/automattic/jetpack-password-checker/src/class-password-checker.php:248
+msgid "This is a very common password. Choose something that will be harder for others to guess."
+msgstr "Aceasta este o parolă foarte comună. Alege altceva care să fie mai greu de ghicit pentru alții."
+
+#: jetpack_vendor/automattic/jetpack-password-checker/src/class-password-checker.php:240
+msgid "This password is too easy to guess: you can improve it by including special characters such as !#=?*&."
+msgstr "Această parolă este prea ușor de ghicit: o poți îmbunătăți incluzând caractere speciale, cum ar fi !#=?*&."
+
+#: jetpack_vendor/automattic/jetpack-password-checker/src/class-password-checker.php:235
+msgid "This password is too easy to guess: you can improve it by mixing both letters and numbers."
+msgstr "Această parolă este prea ușor de ghicit: o poți îmbunătăți prin amestecarea atât a literelor cât și a cifrelor."
+
+#: jetpack_vendor/automattic/jetpack-password-checker/src/class-password-checker.php:230
+msgid "This password is too easy to guess: you can improve it by adding additional uppercase letters, lowercase letters, or numbers."
+msgstr "Această parolă este prea ușor de ghicit: o poți îmbunătăți prin adăugarea suplimentară de majuscule, minuscule sau cifre."
+
+#. translators: %d is a number of characters in the password.
+#: jetpack_vendor/automattic/jetpack-password-checker/src/class-password-checker.php:224
+msgid "Password must be at least %d characters."
+msgstr "Parola trebuie să aibă cel puțin %d caractere."
+
+#: jetpack_vendor/automattic/jetpack-password-checker/src/class-password-checker.php:217
+msgid "Passwords may not contain the character \"\\\"."
+msgstr "Parolele nu trebuie să conțină caracterul „/”."
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:500
+msgid "Failed to fetch user token from WordPress.com."
+msgstr "Aducerea tokenului utilizatorului din WordPress.com a eșuat."
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:476
+msgid "A non-empty nonce must be supplied."
+msgstr "Trebuie furnizat un nunic care nu este gol."
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:465
+msgid "Valid user is required."
+msgstr "Este obligatoriu un utilizator valid."
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:452
+msgid "Jetpack is already connected."
+msgstr "Jetpack este deja conectat."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:1025
+msgid "Could not confirm new owner."
+msgstr "Nu am putut să confirm noul proprietar."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:1005
+msgid "New owner is not connected"
+msgstr "Noul proprietar nu este conectat"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:987
+msgid "New owner is not admin"
+msgstr "Noul proprietar nu este administrator"
+
+#. translators: %s is UTC offset, e.g. "+1"
+#: jetpack_vendor/automattic/jetpack-sync/src/class-functions.php:540
+msgid "UTC%s"
+msgstr "UTC%s"
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:530
+msgid "The required \"local_user\" parameter is missing."
+msgstr "Lipsește parametrul „local_user” cerut."
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:321
+msgid "There was an issue validating this request."
+msgstr "A fost o problemă la validarea acestei cereri."
+
+#. translators: "%s" is the name of a paramter. It can be either "secret_1" or
+#. "state".
+#: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:187
+#: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:206
+msgid "The required \"%s\" parameter is missing."
+msgstr "Parametrul „%s” cerut lipsește."
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:284
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:385
+msgid "Valid user is required"
+msgstr "Este necesar un utilizator valid"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/modules/class-plugins.php:241
+msgid "Unknown Plugin Update Failure"
+msgstr "Eșec necunoscut la actualizarea modulului"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-product.php:707
+#: jetpack_vendor/automattic/jetpack-plugins-installer/src/class-plugins-installer.php:74
+msgid "You are not allowed to install plugins on this site."
+msgstr "Nu ai voie să instalezi module pe acest site."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-product.php:579
+#: jetpack_vendor/automattic/jetpack-plugins-installer/src/class-plugins-installer.php:53
+msgid "You are not allowed to activate plugins on this site."
+msgstr "Nu ai voie să activezi module pe acest site."
+
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-endpoints.php:350
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-endpoints.php:385
+#: src/class-plan.php:84
+msgid "Unable to fetch the requested data."
+msgstr "Nu pot să aduc datele cerute."
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:342
+msgid "There was an unspecified error registering the site"
+msgstr "A apărut o eroare nespecificată la înregistrarea site-ului"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-rest-purchases.php:48
+msgid "Your site is not connected to Jetpack."
+msgstr "Site-ul tău nu este conectat la Jetpack."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-authentication.php:180
+msgid "The request is not signed correctly."
+msgstr "Cererea nu este semnată corect."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-authentication.php:146
+msgid "This request method does not support body parameters."
+msgstr "Această metodă de solicitare nu suportă parametri de corp."
+
+#. translators: %d is an integer indicating the number of minutes.
+#: jetpack_vendor/automattic/jetpack-sync/src/class-actions.php:666
+msgid "Every %d minutes"
+msgstr "La fiecare %d minute"
+
+#: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-identity-crisis.php:270
+msgid "Jetpack Safe Mode"
+msgstr "Mod de siguranță Jetpack"
+
+#: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-rest-endpoints.php:160
+msgid "Could not confirm migration."
+msgstr "Nu am putut să confirm migrarea."
+
+#: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-rest-endpoints.php:146
+msgid "Could not delete sync error option."
+msgstr "Nu am putut să șterg opțiunea pentru eroare la sincronizare."
+
+#: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-rest-endpoints.php:129
+msgid "Could not confirm safe mode."
+msgstr "Nu am putut să confirm modul în siguranță."
+
+#: src/class-site-health.php:69
+msgid "Security"
+msgstr "Securitate"
+
+#. translators: %s: The literal parameter name. Should not be translated.
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-endpoints.php:237
+msgid "%s must be a string."
+msgstr "%s trebuie să fie un șir."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:56
+#: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-rest-endpoints.php:220
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-endpoints.php:37
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:818
+msgid ""
+"You do not have the correct user permissions to perform this action.\n"
+"\t\t\tPlease contact your site admin if you think this is a mistake."
+msgstr ""
+"Nu ai permisiunile corecte de utilizator pentru a efectua această acțiune.\n"
+"&rarr;\t&rarr;\t&rarr;\tTe rog contactează administratorul site-ului tău dacă crezi că aceasta este o greșeală."
+
+#: jetpack-protect.php:129
+msgid "Dashboard"
+msgstr "Panou control"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-actions.php:664
+msgid "Every minute"
+msgstr "În fiecare minut"
+
+#: jetpack_vendor/automattic/jetpack-plugins-installer/src/class-plugins-installer.php:101
+msgid "An unknown error occurred during installation"
+msgstr "A apărut o eroare necunoscută în timpul instalării"
+
+#: jetpack_vendor/automattic/jetpack-plugins-installer/src/class-plugins-installer.php:95
+msgid "There was an error installing your plugin"
+msgstr "A fost o eroare la instalarea modulului tău"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2406
+msgid "Jetpack Plugin Version"
+msgstr "Versiunea modulului Jetpack"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2379
+msgid "The WP.com user email of the connected user"
+msgstr "Emailul utilizatorului WordPress.com pentru utilizatorul conectat"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2374
+msgid "The WP.com username of the connected user"
+msgstr "Numele de utilizator WordPress.com pentru utilizatorul conectat"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2369
+msgid "The WP.com user ID of the connected user"
+msgstr "ID-ul de utilizator WP.com al utilizatorului conectat"
+
+#. translators: %s is an error message string
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:1429
+msgid "Error Details: Jetpack ID begins with a numeral. Do not publicly post this error message! %s"
+msgstr "Detalii eroare: ID-ul Jetpack începe cu o cifră. Nu face public acest mesaj de eroare! %s"
+
+#. translators: %s is an error message string
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:1422
+msgid "Error Details: Jetpack ID is not a scalar. Do not publicly post this error message! %s"
+msgstr "Detalii eroare: ID Jetpack nu este o mărime scalară. Nu face public acest mesaj de eroare! %s"
+
+#. translators: %s is an error message string
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:1415
+msgid "Error Details: Jetpack ID is empty. Do not publicly post this error message! %s"
+msgstr "Detalii eroare: ID-ul Jetpack este gol. Nu face public acest mesaj de eroare! %s"
+
+#. translators: %1$s is a domain name.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2259
+msgid "Domain `%1$s` just failed is_usable_domain check as it is a subdomain of WordPress.com."
+msgstr "Domeniul „%1$s” tocmai a eșuat la verificarea is_usable_domain deoarece este un subdomeniu al WordPress.com."
+
+#. translators: %1$s is a domain name.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2244
+msgid "Domain `%1$s` just failed is_usable_domain check as it uses an invalid top level domain."
+msgstr "Domeniul `%1$s` tocmai a eșuat verificării is_usable_domain deoarece folosește un domeniu de nivel top invalid."
+
+#. translators: %1$s is a domain name.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2229
+msgid "Domain `%1$s` just failed is_usable_domain check as it is in the forbidden array."
+msgstr "Domeniul `%1$s` tocmai a eșuat verificării is_usable_domain deoarece este în tabloul de interzise."
+
+#. translators: %1$s is a domain name.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2196
+msgid "Domain `%1$s` just failed is_usable_domain check as it is empty."
+msgstr "Domeniul „%1$s” tocmai a eșuat verificării is_usable_domain deoarece este gol."
+
+#. translators: Error description string.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2561
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:225
+msgid "Error Details: %s"
+msgstr "Detalii eroare: %s"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:132
+msgid "An administrator for this blog must set up the Jetpack connection."
+msgstr "Un administrator de pe acest blog trebuie să configureze conexiunea la Jetpack."
+
+#. translators: %s is a command like "prompt"
+#: jetpack_vendor/automattic/jetpack-connection/src/class-heartbeat.php:236
+msgid "%s is not a valid command."
+msgstr "%s nu este o comandă validă."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-initializer.php:96
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-initializer.php:97
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-product.php:646
+msgid "My Jetpack"
+msgstr "My Jetpack"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:223
+msgid "Verification secrets not found"
+msgstr "Nu am găsit secretele verificării"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:879
+msgid "Invalid user id is provided"
+msgstr "Ai furnizat un ID utilizator care nu este valid"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:873
+msgid "Invalid user token is provided"
+msgstr "Ai furnizat un token invalid pentru utilizator"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-authentication.php:138
+msgid "This request method is not supported."
+msgstr "Această metodă de solicitare nu este acceptată."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:1394
+msgid "PHP's XML extension is not available. Jetpack requires the XML extension to communicate with WordPress.com. Please contact your hosting provider to enable PHP's XML extension."
+msgstr "Extensia XML pentru PHP nu este disponibilă. Pentru a comunica cu WordPress.com, Jetpack are nevoie de extensia XML. Te rog contactează serviciul tău de găzduire pentru a activa extensia XML pentru PHP."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2412
+msgid "The Client ID/WP.com Blog ID of this site"
+msgstr "ID client/ID blog WP.com pentru acest site"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2384
+msgid "The number of sites of the connected WP.com user"
+msgstr "Numărul de site-uri ale utilizatorului WordPress.com conectat"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:137
+msgid "You need to register your Jetpack before connecting it."
+msgstr "Trebuie să te înregistrezi la Jetpack înainte de a-l conecta."
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:175
+msgid "User not found."
+msgstr "Nu am găsit utilizatorul."
+
+#. Plugin URI of the plugin
+#: jetpack-protect.php
+msgid "https://wordpress.org/plugins/jetpack-protect"
+msgstr "https://wordpress.org/plugins/jetpack-protect"
+
+#: jetpack-protect.php:55
+msgid "Error loading autoloader file for Jetpack Protect plugin"
+msgstr "Eroare la încărcarea fișierului încărcare automată pentru modulul Protecție Jetpack"
+
+#. translators: Placeholder is a link to a support document.
+#: jetpack-protect.php:83
+msgid "Your installation of Jetpack Protect is incomplete. If you installed Jetpack Protect from GitHub, please refer to <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">this document</a> to set up your development environment. Jetpack Protect must have Composer dependencies installed and built via the build command."
+msgstr "Instalarea ta Protecție Jetpack este incompletă. Dacă ai instalat Protecție Jetpack de la GitHub, consultă <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">acest document</a> pentru a configura mediul de dezvoltare. Protecție Jetpack trebuie să aibă instalate dependențe în Composer care sunt construite prin comanda build."
+
+#: src/class-jetpack-protect.php:146
+msgctxt "The Jetpack Protect product name, without the Jetpack prefix"
+msgid "Protect"
+msgstr "Protecție"
+
+#: src/class-site-health.php:87
+msgid "Jetpack Protect detected the following security threats in your site:"
+msgstr "Protecție Jetpack Boost a detectat următoarele probleme la securitate pe site-ul tău:"
+
+#. translators: Link to Jetpack Protect.
+#: src/class-site-health.php:99
+msgid "See <a href=\"%s\">Protect overview page</a> for more information."
+msgstr "Pentru mai multe informații, vezi <a href=\"%s\">pagina prezentare generală protecție</a>."
+
+#. translators: %s: URL to parse.
+#: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-identity-crisis.php:482
+msgid "Cannot parse URL %s"
+msgstr "Nu pot să interpretez URL-ul %s"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-actions.php:562
+msgid "Sync has been blocked from WordPress.com because it would cause an identity crisis"
+msgstr "Sincronizarea din WordPress.com a fost blocată deoarece ar putea provoca probleme la identitate"

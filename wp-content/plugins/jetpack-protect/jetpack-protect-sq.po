@@ -1,0 +1,1708 @@
+# Translation of Plugins - Jetpack Protect - Stable (latest release) in Albanian
+# This file is distributed under the same license as the Plugins - Jetpack Protect - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-03-07 19:11:18+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: sq_AL\n"
+"Project-Id-Version: Plugins - Jetpack Protect - Stable (latest release)\n"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:369
+#: jetpack_vendor/automattic/jetpack-my-jetpack/build/index.js:62
+msgid "Contact Us"
+msgstr "Lidhuni Me Ne"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-stats.php:118
+msgid "Commercial use"
+msgstr "Përdorim komercial"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-stats.php:116
+msgid "Access to upcoming advanced features"
+msgstr "Mundësi përdorimi veçorish të ardhshme të thelluara"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-stats.php:115
+msgid "GDPR compliant"
+msgstr "Në pajtim me GDPR-në"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-stats.php:114
+msgid "Detailed statistics about links leading to your site"
+msgstr "Statistika të hollësishme rreth lidhjesh që shpunë te sajti juaj"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-stats.php:113
+msgid "Traffic stats and trends for post and pages"
+msgstr "Statistika dhe prirje trafiku për postime dhe faqe"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-stats.php:112
+msgid "Real-time data on visitors"
+msgstr "Të dhëna aty për aty rreth vizitorësh"
+
+#. translators: number of requests
+#. translators: %d is the number of requests.
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:112
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:117
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:274
+msgid "Up to %d requests per month"
+msgstr "Deri në %d kërkesa në muaj"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:271
+msgid "Title & summary generation"
+msgstr "Prodhim titulli & përmbledhjeje"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:270
+msgid "Superior spelling and grammar correction"
+msgstr "Ndreqje sipërane gabimesh shkrimi dhe gramatikore"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:269
+msgid "Adaptive tone adjustment"
+msgstr "Përshtatje adaptive e tonit"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:267
+msgid "Prompt based content generation"
+msgstr "Cytje e bazuar në prodhimin e lëndës"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:233
+msgid "Upgrade and increase the amount of your available monthly requests to continue using the most advanced AI technology Jetpack has to offer."
+msgstr "Përmirësoni dhe shtoni sasinë e kërkesave të mundshme nga ju, që të vazhdoni përdorimin e teknologjisë IA më të përparuar që mund të ofrojë Jetpack-u."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:231
+msgid "The most advanced AI technology Jetpack has to offer."
+msgstr "Teknologjia më e përparuar IA që mund të ofrojë Jetpack-u."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:234
+msgid ""
+"<p>WordAds adds advertisements to your website. Start earning from your website traffic.</p>\n"
+"                        <p>Over 50 internet advertisers — including Google AdSense & Adx, AppNexus, Amazon A9, AOL Marketplace, Yahoo, Criteo, and more — bid to display ads in WordAds spots.</p>"
+msgstr ""
+"<p>WordAds shton reklama në sajtin tuaj. Filloni të përfitoni monetarisht nga trafiku në sajtin tuaj.</p>\n"
+"                        <p>Mbi 50 rrjete reklamash në internet — përfshi Google AdSense & Adx, AppNexus, Amazon A9, AOL Marketplace, Yahoo, Criteo, etj — konkurrojnë me njëra-tjetrën për të shfaqur reklama në vende WordAds.</p>"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:232
+msgid "WordAds"
+msgstr "WordAds"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:221
+msgid "Accept payment with PayPal for simple payments like eBooks, courses and more."
+msgstr "Pranoni pagesa me PayPal për pagesa të thjeshta, bie fjala, për eLibra, kurse, etj."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:219
+msgid "Pay with PayPal"
+msgstr "Paguani me PayPal"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:208
+msgid "Start a Newsletter by sending your content as an email newsletter direct to your fans email inboxes."
+msgstr "Nisni një Buletin duke e dërguar lëndën tuaj si një buletin me email drejt e te kutitë email të dashamirësve tuaj."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:206
+msgid "Newsletter"
+msgstr "Buletin"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:195
+msgid "Add a Paywall to your content which lets your visitors read a section of your content before being asked to subscribe to continue reading."
+msgstr "Shtoni te lënda juaj një Mekanizim Pagese, i cili u lejon vizitorëve tuaj të lexojnë një pjesë të lëndës para se t’u kërkohet të pajtohen, që të vazhdojnë leximin."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:193
+msgid "Paywall access"
+msgstr "Hyrje me pagesë"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:182
+msgid "Lock your content behind a paid content block. To access the content, readers will need to pay a one-time fee or a recurring subscription."
+msgstr "Kyçeni lëndën tuaj pas një blloku lënde me pagesë. Që të hyjnë te lënda, lexuesve do t’u duhet të paguajnë një tarifë një here, ose një pajtim ripërsëritës."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:180
+msgid "Paid content gating"
+msgstr "Kufizim lënde me pagesë"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:169
+msgid "Jetpack has over 40 Gutenberg blocks to help you with your content creation, such as displaying your podcasts, showing different content to repeat visitors, creating contact forms and many more."
+msgstr "Jetpack-u përmban mbi 40 blloqe Gutenberg për t’ju ndihmuar në krijim lënde, b.f., shfaqje podkastesh tuajt, shfaqje lënde të ndryshme vizitorëve të rikthyer, krijim formularësh kontakti, etj."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:167
+msgid "Jetpack Blocks"
+msgstr "Blloqe Jetpack"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:162
+msgid "2%"
+msgstr "2%"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:158
+msgid "10%"
+msgstr "10%"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:149
+msgid ""
+"<p>Fees are only collected when you accept payments.</p>\n"
+"                        <p>Fees are based on the Jetpack plan you have and are calculated as a percentage of your revenue from 10% on the Free plan to 2% on the Creator plan (plus Stripe fees).</p>"
+msgstr ""
+"<p>Tarifa merren vetëm kur pranoni pagesa.</p>\n"
+"                        <p>Tarifat bazohen në planin Jetpack që keni dhe llogariten si një përqindje e të ardhurave tuaja nga, 10% në planin Falas e deri në 2% në planin Krijues (plus tarifa Stripe).</p>"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:147
+msgid "Transaction fees"
+msgstr "Tarifa transaksionesh"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:142
+msgid "Unlimited subscribers"
+msgstr "Pajtimtarë pa kufizim"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:138
+msgid "100 subscribers"
+msgstr "100 pajtimtarë"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:130
+msgid "Import a CSV file of your existing subscribers to be sent your Newsletter."
+msgstr "Importoni një kartelë CSV të pajtimtarëve tuaj ekzistues që t’u dërgohet Buletini juaj."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:128
+msgid "Import subscribers"
+msgstr "Importoni pajtimtarë"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:104
+msgid "Monetize your online presence and earn from your website"
+msgstr "Përfitoni monetarisht nga prania juaj internetore dhe fitoni të ardhura nga sajti juaj"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:103
+msgid "Grow your subscribers through our creator network and tools"
+msgstr "Shtoni pajtimtarët tuaj përmes rrjetit dhe mjeteve tona për krijues"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:102
+msgid "Create content that stands out"
+msgstr "Krijoni lëndë që del në pah"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:92
+msgid "Create, grow, and monetize your audience with powerful tools for creators."
+msgstr "Krijoni, shtoni dhe monetarizoni publikun tuaj me mjete të fuqishme për krijues."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:83
+msgid "Create, grow, and monetize your audience"
+msgstr "Krijoni, shtoni dhe fitoni monetarisht nga publiku juaj"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-jetpack-manage.php:48
+msgctxt "product name shown in menu"
+msgid "Jetpack Manage"
+msgstr "Jetpack Manage"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-jetpack-manage.php:47
+msgid "Jetpack Manage"
+msgstr "Jetpack Manage"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-activitylog.php:50
+msgctxt "product name shown in menu"
+msgid "Activity Log"
+msgstr "Regjistër Veprimtarish"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-activitylog.php:49
+msgid "Activity Log"
+msgstr "Regjistër Veprimtarish"
+
+#: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-rest-endpoints.php:316
+msgid "The endpoint is not available on connected sites."
+msgstr "Pikëmbarimi s’mund të kihet në sajte të lidhur."
+
+#: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-rest-endpoints.php:100
+msgid "URL secret to compare to the ones stored in the database."
+msgstr "E fshehtë URL-je për t’u krahasuar me ato të depozituara te baza e të dhënave."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-backup.php:96
+msgid "Your site is not backed up"
+msgstr "Sajti juaj s’është i kopjeruajtur"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:261
+msgid "Get feedback about your post"
+msgstr "Merrni përshtypje rreth postimit tuaj"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:259
+msgid "Generate text, tables, lists, and forms"
+msgstr "Prodhoni tekst, tabela, lista dhe formularë"
+
+#: jetpack_vendor/automattic/jetpack-jitm/src/class-jitm.php:190
+msgid "Settings"
+msgstr "Rregullime"
+
+#: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-url-secret.php:92
+msgid "Unable to save new URL secret"
+msgstr "S’arrihet të ruhet e fshehtë e re URL-je"
+
+#: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-rest-endpoints.php:301
+msgid "You do not have the correct user permissions to perform this action."
+msgstr "S’keni lejet e sakta të përdoruesit për të kryer këtë veprim."
+
+#: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-rest-endpoints.php:252
+msgid "URL secret does not exist."
+msgstr "E fshehta për URL-në s’ekziston."
+
+#. translators: %1$s is a domain name.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2283
+msgid "IP address `%1$s` just failed is_usable_domain check as it is in the private network."
+msgstr "Për adresën IP `%1$s` sapo dështoi kontrolli is_usable_domain, ngaqë gjenden te rrjeti privat."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:370
+#: jetpack_vendor/automattic/jetpack-my-jetpack/build/index.js:18
+msgid "Upgrade"
+msgstr "Përmirësojeni"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:272
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-stats.php:117
+msgid "Priority support"
+msgstr "Asistencës me përparësi"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-stats.php:102
+msgid "With Jetpack Stats, you don’t need to be a data scientist to see how your site is performing."
+msgstr "Me Stastistikat Jetpack, s’ka nevojë të jeni shkencëtar të dhënash, që të shihni se si po ecën sajti juaj."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-stats.php:93
+msgid "Simple, yet powerful analytics"
+msgstr "Statistika të thjeshta, por të fuqishme"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-starter.php:78
+msgctxt "Starter Product Feature"
+msgid "Comment & form spam protection"
+msgstr "Mbrojtje komentesh & formularësh nga mesazhe të padëshiruar"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-starter.php:77
+msgctxt "Starter Product Feature"
+msgid "One-click fixes for most threats"
+msgstr "Zgjidhje me një klikim, për shumicën e kërcënimeve"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-starter.php:76
+msgctxt "Starter Product Feature"
+msgid "Real-time cloud backups with 1GB storage"
+msgstr "Kopjeruajtje të atypëratyshme në re, me 1GB hapësirë depozitimi"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-starter.php:57
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-starter.php:66
+msgid "Essential security tools: real-time backups and comment spam protection."
+msgstr "Mjete thelbësore sigurie: kopjeruajtje aty për aty dhe mbrojtje nga komente të padëshiruar."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:262
+msgid "Seamless WordPress editor integration"
+msgstr "Integrim i pacen me përpunuesin e WordPress-it"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:260
+msgid "Refine the tone and content to your liking"
+msgstr "Përimtoni tonin dhe lëndën sipas dëshirës tuaj"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:258
+msgid "Artificial intelligence chatbot"
+msgstr "Robot fjalosjeje inteligjence artificiale"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:230
+msgid "Jetpack AI Assistant brings the power of AI right into your WordPress editor, letting your content creation soar to new heights."
+msgstr "Asistenti IA Jetpack sjell drejt e te përpunuesi i WordPress-it tuaj fuqinë e IA-së, duke e lejuar krijimin e lëndës tuaj të kapë maja të reja."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:234
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:248
+msgid ""
+"<p>Paid customers get dedicated email support from our world-class Happiness Engineers to help with any issue.</p>\n"
+"\t\t\t\t\t\t <p>All other questions are handled by our team as quickly as we are able to go through the WordPress support forum.</p>"
+msgstr ""
+"<p>Klientët me pagesë përfitojnë asistencë enkas me email, nga Inxhinierët tanë të rangut botëror të Lumturisë, për ndihmë me çfarëdo problemi.</p>\n"
+"\t\t\t\t\t\t <p>Krejt pyetjet e tjera trajtohen nga ekipi ynë aq shpejt sa mund të kalojmë nëpër forumin e asistencës së WordPress-it.</p>"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:232
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:246
+msgid "Dedicated email support"
+msgstr "Asistencë të veçantë me email"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:221
+msgid "Deliver images from Jetpack's Content Delivery Network. Automatically resizes your images to an appropriate size, converts them to modern efficient formats like WebP, and serves them from a worldwide network of servers."
+msgstr "Jepini figurat që nga Rrjeti i Dhënies së Lëndës së Jetpack-ut. I ripërmason automatikisht figurat tuaja në një madhësi të përshtatshme, i shndërron në formate modernë efikase, b.f., WebP dhe i jep që nga një rrjet mbarëbotëror shërbyesish."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:219
+msgid "Image CDN"
+msgstr "CDN Figurash"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:208
+msgid "Discover and fix images with a suboptimal resolution, aspect ratio, or file size, improving user experience and page speed."
+msgstr "Zbuloni dhe ndreqni probleme figurash me qartësi nën optimalen, përpjesëtimet, apo madhësi kartelash, duke përmirësuar kështu funksionimin për përdoruesit dhe shpejtësinë e faqeve."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:206
+msgid "Image guide"
+msgstr "Udhërrëfyes figurash"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:191
+msgid "Improve page loading speed by only loading images when they are required."
+msgstr "Përmirësoni shpejtësinë e ngarkimit të faqeve, përmes ngarkimit të figurave vetëm kur është e nevojshme."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:189
+msgid "Lazy image loading"
+msgstr "Ngarkim “lazy” për figurat"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:174
+msgid "Run non-essential JavaScript after the page has loaded so that styles and images can load more quickly."
+msgstr "Xhiro JavaScript jothelbësor, pasi të jetë ngarkuar faqja, që stilet dhe figurat të mund të ngarkohen më shpejt."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:172
+msgid "Defer non-essential JavaScript"
+msgstr "Hidh poshtë JavaScript-i jothelbësor"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:161
+msgid "Automatic Critical CSS regeneration"
+msgstr "Riprodhim i automatizuar CSS-je Kritike"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:162
+msgid ""
+"<p>It’s essential to regenerate Critical CSS to optimize your site speed whenever your HTML or CSS structure changes. Being on top of this can be tedious and time-consuming.</p>\n"
+"\t\t\t\t\t\t\t\t <p>Boost’s cloud service can automatically detect when your site needs the Critical CSS regenerated, and perform this function behind the scenes without requiring you to monitor it manually.</p>"
+msgstr ""
+"<p>Është thelbësore të riprodhohet CSS Kritike, për të optimizuar shpejtësinë e sajtit tuaj, kurdo që ndryshon struktura e HTML-së apo CSS-së tuaj. Kapërcimi i kësaj mund të jetë gjë e mërzitshme dhe t’ju hajë kohë.</p>\n"
+"\t\t\t\t\t\t\t\t <p>Shërbimi në re Boost mund të pikasë automatikisht kur sajti juaj ka nevojë t’i riprodhohet CSS-ja Kritike dhe e kryen këtë funksion në prapaskenë, pa u dashur që të mbikëqyrni ju dorazi.</p>"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:159
+msgid "Automatically updated"
+msgstr "Përditësuar automatikisht"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:142
+msgid "Manual Critical CSS regeneration"
+msgstr "Riprodhim dorazi CSS-je Kritike"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:140
+msgid "Must be done manually"
+msgstr "Duhet të bërë dorazi"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:132
+msgid "Move important styling information to the start of the page, which helps pages display your content sooner, so your users don’t have to wait for the entire page to load. Commonly referred to as Critical CSS."
+msgstr "Kaloni hollësi të rëndësishme stilizimi në fillim të faqes, çka ndihmon që faqet ta shfaqin lëndën tuaj më shpejt, që përdoruesve të mos ju duhet të presin për ngarkimin e krejt faqes. Zakonisht e quajtur CSS Kritike."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:130
+msgid "Optimize CSS Loading"
+msgstr "Optimizoni Ngarkim CSS-je"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:268
+msgid "Generate text, tables, and lists"
+msgstr "Prodhoni tekst, tabela dhe lista"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:143
+msgid ""
+"<p>To enhance the speed of your site, with this plan you will need to optimize CSS by using the Manual Critical CSS generation feature whenever you:</p>\n"
+"\t\t\t\t\t\t\t\t<ul>\n"
+"\t\t\t\t\t\t\t\t\t<li>Make theme changes.</li>\n"
+"\t\t\t\t\t\t\t\t\t<li>Write a new post/page.</li>\n"
+"\t\t\t\t\t\t\t\t\t<li>Edit a post/page.</li>\n"
+"\t\t\t\t\t\t\t\t\t<li>Activate, deactivate, or update plugins that impact your site layout or HTML structure.</li>\n"
+"\t\t\t\t\t\t\t\t\t<li>Change settings of plugins that impact your site layout or HTML structure.</li>\n"
+"\t\t\t\t\t\t\t\t\t<li>Upgrade your WordPress version if the new release includes core CSS changes.</li>\n"
+"\t\t\t\t\t\t\t\t</ul>"
+msgstr ""
+"<p>Që të thellohet shpejtësia e sajtit tuaj, me këtë plan do t’ju duhet ta bëni CSS-në optimale, duke xhiruar veçorinë e prodhimit Dorazi të CSS-së Kritike, kurdo që:</p>\n"
+"\t\t\t\t\t\t\t\t<ul>\n"
+"\t\t\t\t\t\t\t\t\t<li>Bëni ndryshime teme.</li>\n"
+"\t\t\t\t\t\t\t\t\t<li>Shkruani një postim/faqe të re.</li>\n"
+"\t\t\t\t\t\t\t\t\t<li>Përpunoni një postim/faqe.</li>\n"
+"\t\t\t\t\t\t\t\t\t<li>Aktivizoni, çaktivizoni, ose përditësoni shtojca që ndikojnë në skemën e sajtit tuaj, ose në strukturën e HTML-së tuaj.</li>\n"
+"\t\t\t\t\t\t\t\t\t<li>Ndryshoni rregullime shtojcash që ndikojnë në skemën e sajtit tuaj, ose në strukturën e HTML-së tuaj.</li>\n"
+"\t\t\t\t\t\t\t\t\t<li>Përmirësoni versionin e WordPress-it tuaj, nëse hedhja e re në qarkullim përmban ndryshime të CSS-së bazë.</li>\n"
+"\t\t\t\t\t\t\t\t</ul>"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:188
+#: build/index.js:22
+msgid "Manual rules only"
+msgstr "Vetëm rregulla dorazi"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:192
+#: build/index.js:22
+msgid "Automatic protection and rule updates"
+msgstr "Mbrojtje dhe përditësime rregullash të automatizuara"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:197
+#: build/index.js:22
+msgid "Brute force protection"
+msgstr "Mbrojtje nga hyrjet me zor"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:184
+#: build/index.js:22
+msgid "Web Application Firewall"
+msgstr "Firewall Aplikacionesh Web"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-rest-controller.php:159
+msgid "Brute force protection could not be deactivated."
+msgstr "S’u çaktivizua dot mbrojtje nga sulme hyrjeje me zor."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-rest-controller.php:158
+msgid "Brute force protection could not be activated."
+msgstr "S’u aktivizua dot mbrojtje nga sulme hyrjeje me zor."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:956
+msgid "There was an error contacting Jetpack servers."
+msgstr "Pati një gabim gjatë lidhjes me shërbyesit e Jetpack-ut."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:952
+msgid "No API key"
+msgstr "Pa kyç API"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:948
+msgid "Your API key is invalid"
+msgstr "Kyçi juaj API është i pavlefshëm"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:878
+msgid "Login Blocked by Jetpack"
+msgstr "Hyrje e Bllokuar nga Jetpack-u"
+
+#. translators: variable is the IP address that was flagged.
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:875
+msgid "Your IP (%1$s) has been flagged for potential security violations."
+msgstr "IP-së suaj (%1$s) i është vënë shenjë për shkelje potenciale të sigurisë."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:485
+msgid "No reply from Jetpack servers"
+msgstr "Pa përgjigje nga shërbyesit Jetpack"
+
+#. Translators: The xml error code, and the xml error message.
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:476
+msgid "Error connecting to WordPress.com. Code: %1$s, %2$s"
+msgstr "Gabim gjatë lidhjes me WordPress.com-in. Kodi: %1$s, %2$s"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:447
+msgid "Your main blog is not connected to WordPress.com. Please connect to get an API key."
+msgstr "Blogu juaj kryesor s’është i lidhur me WordPress.com-in. Ju lutemi, lidheni që të merrni një kyç API."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:354
+msgid "Learn More"
+msgstr "Mësoni Më Tepër"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:353
+msgid "https://jetpack.com/support/multisite-protect"
+msgstr "https://jetpack.com/support/multisite-protect"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:351
+msgid "View Network Admin"
+msgstr "Shihni Përgjegjësi Rrjeti"
+
+#. Translators: placeholder is a plugin name (Jetpack Protect or Jetpack).
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:343
+msgid "Thanks for activating the Brute Force Protection feature! To start protecting your whole WordPress Multisite Network, please network activate the %1$s plugin. Due to the way logins are handled on WordPress Multisite Networks, %1$s must be network activated in order for the Brute Force Protection feature to work properly."
+msgstr "Faleminderit për aktivizimin e veçorisë Mbrojtje Nga Sulme Hyrjeje Me Zor! Që të filloni të mbroni krejt Rrjetin tuaj Shumësajtësh WordPress, ju lutemi, aktivizoni shtojcën %1$s për krejt rrjetin. Për shkak të mënyrës se si trajtohen hyrjet në Rrjete Shumësajtësh WordPress, %1$s-u duhet të jetë i aktivizuar për krejt rrjetin, që Mbrojta Nga Sulme Hyrjeje Me Zor të funksionojë si duhet."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:337
+msgid "Brute Force Protection cannot keep your site secure"
+msgstr "Mbrojtja nga Sulme Hyrjesh Me Zor s’mund ta mbajë të siguruar sajtin tuaj"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-shared-functions.php:220
+msgid "One of your IP addresses was not valid."
+msgstr "Një nga adresat tuaja IP s’qe e vlefshme."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-shared-functions.php:189
+msgid "Only super admins can edit the global allow list"
+msgstr "Vetëm superpërgjegjësit mund të përpunojnë lista lejimesh globale"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-shared-functions.php:186
+msgid "Cannot use global flag on non-multisites"
+msgstr "Nuk mund të përdoret shenja global në sajte që s’janë multisajte"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-shared-functions.php:183
+msgid "Expecting an array"
+msgstr "Pritej një varg"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-math-fallback.php:167
+msgid "Prove your humanity"
+msgstr "Dëshmonani se jeni qenie njerëzore"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-math-fallback.php:104
+msgid "Continue &rarr;"
+msgstr "Vazhdo &rarr;"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-math-fallback.php:98
+msgid "Your answer was incorrect, please try again."
+msgstr "Përgjigja juaj qe e pasaktë, ju lutemi, riprovoni."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-math-fallback.php:96
+msgid "Please solve this math problem to prove that you are not a bot. Once you solve it, you will need to log in again."
+msgstr "Ju lutemi, zgjidheni këtë ushtrim matematikor që të vërtetohet se s’jeni një robot. Pasi ta keni zgjidhur, do t’ju duhet të bëni hyrjen sërish."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-math-fallback.php:73
+msgid "<strong>You failed to correctly answer the math problem.</strong> This is used to combat spam when Jetpack’s Brute Force Attack Protection API is unavailable. Please use your browser’s back button to return to the login form, press the \"refresh\" button to generate a new math problem, and try to log in again."
+msgstr "<strong>S’arritët t’i përgjigjeni saktë pyetjes matematike.</strong> Ajo përdoret për të luftuar mesazhet e padëshiruar, kur API i Jetpack-ut për Mbrojtje nga Sulme Hyrjesh Me Zor është jashtë pune. Ju lutemi, përdorni butonin për mbrapsht te shfletuesi juaj, që të ktheheni te formulari i hyrjes, shtypni butonin “rifreskoje” që të prodhohet një pyetje matematike e re dhe riprovoni të bëni hyrjen."
+
+#. translators: %s is HTML markup, for a help icon.
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:762
+msgid "%s Get help unlocking your site"
+msgstr "%s Merrni ndihmë për zhbllokimin e sajtit tuaj"
+
+#. translators: %s is HTML markup, for a back icon.
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:749
+msgid "%s Back"
+msgstr "%s Mbrapsht"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:444
+msgid "Send email"
+msgstr "Dërgo email"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:441
+msgid "Your email"
+msgstr "Email-i juaj"
+
+#. translators: the IP address that was flagged.
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:426
+msgid "<p>Your IP address <code>%2$s</code> has been flagged for potential security violations. You can unlock your login by sending yourself a special link via email. <a href=\"%3$s\">Learn More</a></p>"
+msgstr "<p>Adresës tuaj IP <code>%2$s</code> i është vënë shenjë për cenime potenciale të sigurisë. Mund ta zhbllokoni hyrjen tuaj duke i dërguar vetes përmes email-i një lidhje speciale. <a href=\"%3$s\">Mësoni Më Tepër</a></p>"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:387
+msgid "Jetpack has locked your site's login page."
+msgstr "Jetpack-u ka bllokuar faqen e hyrjeve në sajtin tuaj."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:371
+msgid "Oops, we were unable to send a recovery email. Try again."
+msgstr "Hëm, s’qemë në gjendje të dërgonim një email rimarrjeje. Riprovoni."
+
+#. translators: email address the recovery instructions were sent to.
+#. translators: the email address the recovery email was sent to.
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:369
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:415
+msgid "Recovery instructions were sent to %s. Check your inbox!"
+msgstr "Udhëzimet e rimarrjes u dërguan te %s. Kontrolloni kutinë tuaj të postës!"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:347
+msgid "Oops, we couldn't find a user with that email. Please try again!"
+msgstr "Hëm, s’qemë në gjendje të gjenim një përdorues me atë email. Ju lutemi, riprovoni!"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:342
+msgid "Oops, looks like that's not the right email address. Please try again!"
+msgstr "Hëm, duket sikur s’është adresa email e duhur. Ju lutemi, riprovoni!"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:307
+msgid "You successfully logged out."
+msgstr "Dolët me sukses."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:290
+msgid "Oops, we couldn't validate the recovery token."
+msgstr "Hëm, s’vlerësuam dot token-in e rimarrjes."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:217
+msgid "The recovery token is not valid for this user."
+msgstr "Token-i i rimarrjes s’është i vlefshëm për këtë përdorues."
+
+#: src/class-rest-controller.php:390
+msgid "An error occured enabling the firewall."
+msgstr "Ndodhi një gabim gjatë aktivizimit të firewall-it."
+
+#: src/class-rest-controller.php:378
+msgid "An error occured disabling the firewall."
+msgstr "Ndodhi një gabim gjatë çaktivizimit të firewall-it."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-rest-controller.php:82
+msgid "Rules updated succesfully"
+msgstr "Rregullat u përditësuan me sukses"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:170
+msgid "Something went wrong. Please try again."
+msgstr "Diç shkoi ters. Ju lutemi, riprovoni."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2636
+msgid "Sorry, something is wrong with your Jetpack connection."
+msgstr "Na ndjeni, diç shkoi ters me lidhjen tuaj Jetpack."
+
+#. translators: %1$s is the name of the mode that was just switched to.
+#: jetpack_vendor/automattic/jetpack-waf/src/class-waf-cli.php:161
+msgid "Jetpack WAF rules successfully created to: \"%1$s\"."
+msgstr "Rregullat FAW Jetpack u krijuan me sukses te: “%1$s”."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-waf-cli.php:134
+msgid "Jetpack WAF has been deactivated."
+msgstr "FAW Jetpack është çaktivizuar."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-waf-cli.php:131
+msgid "Jetpack WAF failed to fully deactivate."
+msgstr "S’u arrit të çaktivizohet plotësisht FAW Jetpcak."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-waf-cli.php:118
+msgid "Jetpack WAF has successfully been setup."
+msgstr "FAW Jetpack u ujdis me sukses."
+
+#. translators: %1$s is the unexpected error message.
+#: jetpack_vendor/automattic/jetpack-waf/src/class-waf-cli.php:112
+#: jetpack_vendor/automattic/jetpack-waf/src/class-waf-cli.php:152
+msgid "Jetpack WAF rules file failed to generate: %1$s"
+msgstr "Dështoi prodhimi i kartelës së rregullave FAW Jetpack: %1$s"
+
+#. translators: %1$s is the name of the mode that the waf is currently running
+#. in.
+#: jetpack_vendor/automattic/jetpack-waf/src/class-waf-cli.php:75
+msgid "Jetpack WAF is running in \"%1$s\" mode."
+msgstr "FAW Jetpack po xhiron nën mënyrën “%1$s”."
+
+#. translators: %1$s is the name of the mode that was just switched to.
+#: jetpack_vendor/automattic/jetpack-waf/src/class-waf-cli.php:67
+msgid "Jetpack WAF mode switched to \"%1$s\"."
+msgstr "Mënyra FAW Jetpack u kalua në “%1$s”."
+
+#. translators: %1$s is the mode that was actually found. Also note that the
+#. expected "silent" and "normal" are hard-coded strings and must therefore
+#. stay the same in any translation.
+#: jetpack_vendor/automattic/jetpack-waf/src/class-waf-cli.php:44
+msgid "Invalid mode: %1$s. Expected \"silent\" or \"normal\"."
+msgstr "Mënyrë e pavlefshme: %1$s. Pritej “silent” ose “normal”."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-waf-cli.php:36
+msgid "Only one mode may be specified."
+msgstr "Mund të specifikohet vetëm një mënyrë."
+
+#. translators: %1$s is the unexpected error message.
+#: jetpack_vendor/automattic/jetpack-waf/src/class-waf-cli.php:58
+msgid "Unable to generate waf bootstrap - standalone mode may not work properly: %1$s"
+msgstr "S’arrihet të prodhohet <em>bootstrap</em> FAW - mënyra “më vete” mund të mos funksionojë si duhet: %1$s"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-security.php:57
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-security.php:66
+msgid "Comprehensive site security, including VaultPress Backup, Scan, and Akismet Anti-spam."
+msgstr "Mbrojtje e plotë sajti, përfshi Kopjeruajtje VaultPress, Kontroll dhe Anti-spam Akismet."
+
+#: jetpack_vendor/automattic/jetpack-admin-ui/src/class-admin-menu.php:61
+msgid "Akismet Anti-spam"
+msgstr "Anti-spam Akismet"
+
+#. Author URI of the plugin
+#: jetpack-protect.php
+msgid "https://jetpack.com/protect/"
+msgstr "https://jetpack.com/protect/"
+
+#. Author of the plugin
+#: jetpack-protect.php
+msgid "Automattic - Jetpack Security team"
+msgstr "Automattic – ekipi i Sigurisë Jetpack"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:165
+#: build/index.js:22
+msgid "Check items against database"
+msgstr "Kontrolloni objekte kundrejt baze të dhënash"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:179
+#: build/index.js:22
+msgid "Plus on-demand manual scans"
+msgstr "Plus kontrolle dorazi sipas kërkesash"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:225
+#: build/index.js:22
+msgid "Severity labels"
+msgstr "Etiketa rëndësie"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:218
+#: build/index.js:22
+msgid "Notifications"
+msgstr "Njoftime"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:211
+#: build/index.js:22
+msgid "One-click auto fixes"
+msgstr "Ndreqje të automatizuara me një klikim"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:174
+#: build/index.js:22
+msgid "Daily automated scans"
+msgstr "Kontrolle të përditshëm të vetvetishëm"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:161
+#: build/index.js:22
+msgid "Scan for threats and vulnerabilities"
+msgstr "Kontrollo për kërcënime dhe cenueshmëri"
+
+#: src/class-site-health.php:66
+msgid "No known threats found"
+msgstr "S’u gjetën kërcënime të ditura"
+
+#. translators: %d is the number of threats found.
+#: src/class-jetpack-protect.php:319
+msgid "%d threat found by Jetpack Protect"
+msgid_plural "%d threats found by Jetpack Protect"
+msgstr[0] "Mbrojtja Jetpack gjeti %d kërcënim"
+msgstr[1] "Mbrojtja Jetpack gjeti %d kërcënime"
+
+#: jetpack_vendor/automattic/jetpack-transport-helper/src/class-rest-controller.php:121
+msgid "Helper Script body must be base64 encoded"
+msgstr "Lënda për Programth Ndihmuesi duhet të jetë e koduar nën base64"
+
+#: jetpack_vendor/automattic/jetpack-transport-helper/src/class-rest-controller.php:91
+msgid "You are not allowed to perform this action."
+msgstr "S’keni leje të kryeni këtë veprim."
+
+#: jetpack_vendor/automattic/jetpack-transport-helper/src/class-rest-controller.php:68
+msgid "Path to Helper Script"
+msgstr "Shteg për te Programthi Ndihmuesi"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:169
+#: build/index.js:22
+msgid "Line by line malware scanning"
+msgstr "Kontroll rresht më rresht për <em>malware</em>"
+
+#: jetpack_vendor/automattic/jetpack-transport-helper/src/class-rest-controller.php:49
+msgid "base64 encoded Helper Script body."
+msgstr "Lëndë Programthi Ndihmësuesi, e koduar nën base64."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:204
+#: build/index.js:22
+msgid "Access to scan on Cloud"
+msgstr "Hyrje te kontroll që nga Re"
+
+#. translators: $d is the number of threats found.
+#: src/class-site-health.php:86
+msgid "Your site is affected by %d security threat"
+msgid_plural "Your site is affected by %d security threats"
+msgstr[0] "Sajti juaj është prekur nga %d kërcënim sigurie"
+msgstr[1] "Sajti juaj është prekur nga %d kërcënime sigurie"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-backup.php:131
+msgctxt "Backup Product Disclaimer"
+msgid "Learn more"
+msgstr "Mësoni më tepër"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-backup.php:130
+msgctxt "Backup Product Disclaimer"
+msgid "* Subject to your usage and storage limit."
+msgstr "* Varet nga përdorimi juaj dhe kufij depozite."
+
+#. translators: URL to contact Jetpack support.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:229
+msgid "As always, feel free to <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">contact our support team</a> if you have any questions."
+msgstr "Si gjithmonë, mos ngurroni të <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">lidheni me ekipin tonë të asistencës</a>, nëse keni çfarëdo lloj pyetjesh."
+
+#. translators: URL to Jetpack support doc regarding the primary user.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:213
+msgid "<a href='%s' target='_blank' rel='noopener noreferrer'>Learn more</a> about the connection owner and what will break if you do not have one."
+msgstr "<a href='%s' target='_blank' rel='noopener noreferrer'>Mësoni më tepër</a> rreth të zotit të lidhjes dhe se çfarë s’do të funksionojë, nëse s’keni një të tillë."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:206
+msgid "Connect to WordPress.com"
+msgstr "Lidhuni te WordPress.com"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:203
+msgid "Every Jetpack site needs at least one connected admin for the features to work properly. Please connect to your WordPress.com account via the button below. Once you connect, you may refresh this page to see an option to change the connection owner."
+msgstr "Çdo sajt Jetpack lyp të paktën një përgjegjës të lidhur, që veçoritë të funksionojnë si duhet. Ju lutemi, lidheni llogarinë tuaj WordPress.com përmes butonin më poshtë. Pasi të bëni lidhjen, mund të rifreskoni këtë faqe që të shihni një mundësi për ndryshimin e të zotit të lidhjes."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:187
+msgid "Success!"
+msgstr "Sukses!"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:143
+msgid "Set new connection owner"
+msgstr "Caktoni të zot të ri lidhjeje"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:125
+msgid "You can choose to transfer connection ownership to one of these already-connected admins:"
+msgstr "Mund të zgjidhni të shpërngulni pronësi lidhjeje te një nga këta përgjegjës tashmë të lidhur:"
+
+#. translators: WordPress User, if available.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:119
+msgid "Warning! You are about to delete the Jetpack connection owner (%s) for this site, which may cause some of your Jetpack features to stop working."
+msgstr "Kujdes! Ju ndan një hap nga fshirja e të zotit të lidhjes Jetpack (%s) për këtë sajt, çka mund të sjellë ndalimin e funksionimit për disa nga veçoritë e Jetpack-ut tuaj."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:116
+msgid "Important notice about your Jetpack connection:"
+msgstr "Njoftim i rëndësishëm rreth lidhjes tuaj Jetpack:"
+
+#: jetpack_vendor/automattic/jetpack-jitm/src/class-post-connection-jitm.php:62
+msgid "New free service: Show Canada Post shipping rates on your store!"
+msgstr "Shërbim i ri falas: Shfaqni në dyqanin tuaj çmime dërgimi me Canada Post!"
+
+#: jetpack_vendor/automattic/jetpack-jitm/src/class-post-connection-jitm.php:59
+msgid "New free service: Show USPS shipping rates on your store! Added bonus: print shipping labels without leaving WooCommerce."
+msgstr "Shërbim i ri falas: Shfaqni në dyqanin tuaj çmime dërgimi USPS! Bonus shtesë: shtypni etiketa adresash dërgimi pa dalë nga WooCommerce."
+
+#: jetpack_vendor/automattic/jetpack-jitm/src/class-jitm.php:189
+msgid "Activating"
+msgstr "Po aktivizohet"
+
+#: jetpack_vendor/automattic/jetpack-jitm/src/class-jitm.php:188
+msgid "Activated"
+msgstr "E aktivizuar"
+
+#: jetpack_vendor/automattic/jetpack-jitm/src/class-jitm.php:187
+#: jetpack_vendor/automattic/jetpack-my-jetpack/build/index.js:12
+#: jetpack_vendor/automattic/jetpack-my-jetpack/build/index.js:18
+msgid "Activate"
+msgstr "Aktivizoje"
+
+#. translators: Link to Jetpack Protect.
+#: src/class-site-health.php:99
+msgid "See <a href=\"%s\">Protect overview page</a> for more information."
+msgstr "Për më tepër hollësi, shihni <a href=\"%s\">faqe përmbledhëse mbi Mbrojtjen</a>."
+
+#: src/class-site-health.php:87
+msgid "Jetpack Protect detected the following security threats in your site:"
+msgstr "Mbrojtja Jetpack pikasi kërcënimet vijuese të sigurisë në sajtin tuaj:"
+
+#: src/class-site-health.php:39
+msgid "Jetpack Protect checks"
+msgstr "Kontrolle nga Mbrojtje Jetpack"
+
+#: src/class-jetpack-protect.php:146
+msgctxt "The Jetpack Protect product name, without the Jetpack prefix"
+msgid "Protect"
+msgstr "Mbrojtje"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/modules/class-plugins.php:241
+msgid "Unknown Plugin Update Failure"
+msgstr "Dështim i Panjohur Përditësimi Shtojce"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:281
+msgid "Strip non-ascii characters?"
+msgstr "Të hiqen shenja non-ascii?"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:276
+msgid "End ID for the histogram"
+msgstr "ID Fundi për histogramin"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:271
+msgid "Start ID for the histogram"
+msgstr "ID Fillimi për histogramin"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:238
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:301
+msgid "If text fields should be converted to latin1 in checksum calculation."
+msgstr "Nëse fushat e tekstit duhet të shndërrohen në kodim latin1 te përllogaritja e checksum-it."
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:220
+msgid "Size of batches"
+msgstr "Madhësi grupesh"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:215
+msgid "Name of Sync module."
+msgstr "Emër moduli Sync."
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:157
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:197
+msgid "Name of Sync queue."
+msgstr "Emër radhe Njëkohësimi."
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:139
+msgid "Objects Identifiers"
+msgstr "Identifikues Objektesh"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:134
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:261
+msgid "Object Type"
+msgstr "Lloj Objekti"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:129
+msgid "Name of Sync module"
+msgstr "Emër moduli Sync"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:93
+msgid "New Sync health status"
+msgstr "Gjendje e re shëndeti Sync-u"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:75
+msgid "Comma seperated list of additional fields that should be included in status."
+msgstr "Listë fushash shtesë, ndarë me presje, që duhen përfshirë në gjendje."
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:57
+msgid "Comment IDs to include in Full Sync"
+msgstr "ID Komentesh për t’u përfshirë në Njëkohësim të Plotë"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:52
+msgid "Post IDs to include in Full Sync"
+msgstr "ID Postimesh për t’u përfshirë në Njëkohësim të Plotë"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:48
+msgid "User IDs to include in Full Sync or \"initial\""
+msgstr "ID Komentesh për t’u përfshirë në Njëkohësim të Plotë, ose “fillestar”"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:43
+msgid "Data Modules that should be included in Full Sync"
+msgstr "Module të Dhënash që duhen përfshirë në Njëkohësim të Plotë"
+
+#. translators: %s is UTC offset, e.g. "+1"
+#: jetpack_vendor/automattic/jetpack-sync/src/class-functions.php:540
+msgid "UTC%s"
+msgstr "UTC %s"
+
+#. translators: %d is an integer indicating the number of minutes.
+#: jetpack_vendor/automattic/jetpack-sync/src/class-actions.php:666
+msgid "Every %d minutes"
+msgstr "Çdo %d minuta"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-actions.php:664
+msgid "Every minute"
+msgstr "Çdo minutë"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-actions.php:562
+msgid "Sync has been blocked from WordPress.com because it would cause an identity crisis"
+msgstr "Sync-u është bllokuar nga WordPress.com, ngaqë do të shkaktonte krizë identiteti"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-actions.php:494
+msgid "Sync has been aborted because the IXR client is missing."
+msgstr "Njëkohësimi u ndërpre, ngaqë mungon klienti IXR."
+
+#: jetpack_vendor/automattic/jetpack-plugins-installer/src/class-plugins-installer.php:101
+msgid "An unknown error occurred during installation"
+msgstr "Ndodhi një gabim i panjohur gjatë instalimit"
+
+#: jetpack_vendor/automattic/jetpack-plugins-installer/src/class-plugins-installer.php:95
+msgid "There was an error installing your plugin"
+msgstr "Pati një gabim gjatë instalimit të shtojcës suaj"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-product.php:707
+#: jetpack_vendor/automattic/jetpack-plugins-installer/src/class-plugins-installer.php:74
+msgid "You are not allowed to install plugins on this site."
+msgstr "S’keni leje të instaloni shtojca në këtë sajt."
+
+#: jetpack_vendor/automattic/jetpack-password-checker/src/class-password-checker.php:254
+msgid "Your password is too weak: Looks like you are including easy to guess information about yourself. Try something a little more unique."
+msgstr "Fjalëkalimi juaj është shumë i dobët: Duket se në të po përfshini të dhëna rreth vetes që mund të hamendësohen lehtë. Provoni diçka më unike."
+
+#: jetpack_vendor/automattic/jetpack-password-checker/src/class-password-checker.php:248
+msgid "This is a very common password. Choose something that will be harder for others to guess."
+msgstr "Ky është një fjalëkalim shumë i rëndomtë. Zgjidhni diçka që do të jetë më i vështirë ta hamendësojnë të tjerët."
+
+#: jetpack_vendor/automattic/jetpack-password-checker/src/class-password-checker.php:240
+msgid "This password is too easy to guess: you can improve it by including special characters such as !#=?*&."
+msgstr "Ky fjalëkalim është shumë i lehtë për t’u hamendësuar: mund ta përmirësoni duke përfshirë shenja speciale të tilla si !#=?*&."
+
+#: jetpack_vendor/automattic/jetpack-password-checker/src/class-password-checker.php:235
+msgid "This password is too easy to guess: you can improve it by mixing both letters and numbers."
+msgstr "Fjalëkalimi juaj është shumë i lehtë për t’u hamendësuar: mund ta përmirësoni duke përzierë shkronja dhe shifra."
+
+#: jetpack_vendor/automattic/jetpack-password-checker/src/class-password-checker.php:230
+msgid "This password is too easy to guess: you can improve it by adding additional uppercase letters, lowercase letters, or numbers."
+msgstr "Ky fjalëkalim është shumë i lehtë për t’u hamendësuar: mund ta përmirësoni duke shtuar shkronja të mëdha, shkronja të vogla, ose numra."
+
+#. translators: %d is a number of characters in the password.
+#: jetpack_vendor/automattic/jetpack-password-checker/src/class-password-checker.php:224
+msgid "Password must be at least %d characters."
+msgstr "Fjalëkalimi duhet të jetë e pakta %d shenja."
+
+#: jetpack_vendor/automattic/jetpack-password-checker/src/class-password-checker.php:217
+msgid "Passwords may not contain the character \"\\\"."
+msgstr "Fjalëkalimet s’mund të përmbajnë shenjën “\\”."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-videopress.php:117
+msgctxt "VideoPress Product Feature"
+msgid "Unlimited users"
+msgstr "Pa kufizim numri përdoruesish"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-videopress.php:116
+msgctxt "VideoPress Product Feature"
+msgid "Ad-free and customizable player"
+msgstr "Lojtës pa reklama, që ta përshtatni"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-videopress.php:115
+msgctxt "VideoPress Product Feature"
+msgid "Built into WordPress editor"
+msgstr "Krijuar brenda përpunuesit WordPress"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-videopress.php:114
+msgctxt "VideoPress Product Feature"
+msgid "1TB of storage"
+msgstr "1TB hapësirë depozitimi"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-videopress.php:104
+msgid "High-quality, ad-free video built specifically for WordPress."
+msgstr "Video e cilësisë së lartë, pa reklama, krijuar posaçërisht për WordPress-in."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-videopress.php:95
+msgid "High quality, ad-free video"
+msgstr "Video me cilësi të lartë, pa reklama"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-social.php:110
+msgid "Supports the major social networks"
+msgstr "Mbulon rrjetet më të njohur shoqërorë"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-social.php:109
+msgid "Schedule publishing"
+msgstr "Planifikoni botimin"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-social.php:108
+msgid "Post to social networks"
+msgstr "Postoni në rrjete shoqërorë"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-social.php:98
+msgid "Promote your content on social media by automatically publishing when you publish on your site."
+msgstr "Promovoni në media shoqërore lëndën tuaj, duke e botuar automatikisht, kur botoni në sajtin tuaj."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-security.php:79
+msgctxt "Security Product Feature"
+msgid "Comment & form spam protection"
+msgstr "Mbrojtje komentesh & formularësh nga mesazhe të padëshiruar"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-security.php:78
+msgctxt "Security Product Feature"
+msgid "One-click fixes for most threats"
+msgstr "Zgjidhje me një klikim, për shumicën e kërcënimeve"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-security.php:76
+msgctxt "Security Product Feature"
+msgid "Real-time cloud backups with 10GB storage"
+msgstr "Kopjeruajtje të atypëratyshme në re me 10GB hapësirë depozitimi"
+
+#: src/class-site-health.php:69
+msgid "Security"
+msgstr "Siguri"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-search.php:128
+msgid "Spelling correction"
+msgstr "Ndreqje drejtshkrimore"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-search.php:127
+msgid "Supports 38 languages"
+msgstr "Mbulon 38 gjuhë"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-search.php:126
+msgid "Powerful filtering"
+msgstr "Filtrim i fuqishëm"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-search.php:125
+msgid "Instant search and indexing"
+msgstr "Kërkim dhe indeksim i atypëratyshëm"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-search.php:115
+msgid "Help your site visitors find answers instantly so they keep reading and buying. Great for sites with a lot of content."
+msgstr "Ndihmojini vizitorët e sajtit tuaj të gjejnë përgjigje menjëherë, që të vazhdojnë të lexojnë dhe blejnë. E shkëlqyer për sajte me plot lëndë."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-scan.php:82
+msgctxt "Scan Product Feature"
+msgid "Access to latest Firewall rules"
+msgstr "Mundësi përdorimi të rregullave më të reja për Firewall"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-scan.php:81
+msgctxt "Scan Product Feature"
+msgid "Instant email notifications"
+msgstr "Njoftime të menjëhershme me email"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-scan.php:80
+msgctxt "Scan Product Feature"
+msgid "One-click fixes for most issues"
+msgstr "Zgjidhje me një klikim, për shumicën e problemeve"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-scan.php:79
+msgctxt "Scan Product Feature"
+msgid "Automated daily scanning"
+msgstr "Kontroll i automatizuar i përditshëm"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-scan.php:69
+msgid "Automatic scanning and one-click fixes keep your site one step ahead of security threats and malware."
+msgstr "Kontrolli i automatizuar dhe ndreqjet me një klikim e mbajnë sajtin tuaj një hap para kërcënimeve të sigurisë dhe malware-it."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:110
+msgid "Easy to navigate and use"
+msgstr "I lehtë për t’u përdorur"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:109
+msgid "Check plugin and theme version status"
+msgstr "Kontrollo gjendje versioni teme dhe shtojce"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:108
+msgid "Daily automatic scans"
+msgstr "Kontrolle të përditshëm të vetvetishëm"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:107
+msgid "Over 20,000 listed vulnerabilities"
+msgstr "Mbi 20 mijë cenueshmëri në listë"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:97
+msgid "Protect your site and scan for security vulnerabilities listed in our database."
+msgstr "Mbroni sajtin tuaj dhe kontrollojeni për cenueshmëri sigurie të pranishme në bazën tonë të të dhënave."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-product.php:647
+msgid "My Jetpack dashboard"
+msgstr "Pulti im Jetpack"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-product.php:579
+#: jetpack_vendor/automattic/jetpack-plugins-installer/src/class-plugins-installer.php:53
+msgid "You are not allowed to activate plugins on this site."
+msgstr "S’keni leje të aktivizoni shtojca në këtë sajt."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-module-product.php:109
+msgid "Error activating Jetpack plugin"
+msgstr "Gabim në aktivizimin e shtojcës Jetpack"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-hybrid-product.php:118
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-hybrid-product.php:147
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-module-product.php:115
+msgid "Error activating Jetpack module"
+msgstr "Gabim në aktivizimin e modulit Jetpack"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-hybrid-product.php:83
+msgid "Activation failed. Plugin is not installed"
+msgstr "Aktivizimi dështoi. Shtojca s’është instaluar"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-extras.php:88
+msgid "Enhance your site with dozens of other features"
+msgstr "Përmirësojeni sajtin tuaj përmes dhjetëra veçorish të tjera"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-extras.php:87
+msgid "Get notifications if your site goes offline"
+msgstr "Merrni njoftime, nëse sajti juaj del jashtë funksionimi"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-extras.php:86
+msgid "Protect your site against bot attacks"
+msgstr "Mbrojeni sajtin tuaj nga sulme robotësh"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-extras.php:85
+msgid "Speed up your site with optimized images"
+msgstr "Përshpejtoni funksionimin e sajtit tuaj me figura të optimizuara"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-extras.php:84
+msgid "Measure your impact with beautiful stats"
+msgstr "Vlerësoni ndikimin tuaj, me statistika të hijshme"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-extras.php:74
+msgid "Secure and speed up your site for free with Jetpack's powerful WordPress tools."
+msgstr "Sigurojeni dhe përshpejtojeni sajtin tuaj falas me mjete të fuqishme të Jetpack-ut për WordPress."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-extras.php:65
+msgid "Basic tools for a successful site"
+msgstr "Mjete elementare për një sajt të suksesshëm"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-crm.php:102
+msgid "Infinitely customizable with integrations and extensions"
+msgstr "Përshtatje pafundësisht me integrime dhe zgjerime"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-crm.php:101
+msgid "Fully integrated with WordPress & WooCommerce"
+msgstr "Plotësisht i integruar me WordPress & WooCommerce"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-crm.php:100
+msgid "Manage billing and create invoices"
+msgstr "Administroni faturimet dhe krijoni fatura"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-crm.php:99
+msgid "Manage unlimited contacts"
+msgstr "Administroni kontakte të pakufizuara"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-crm.php:89
+msgid "All of your contacts in one place. Build better relationships with your customers and clients."
+msgstr "Krejt kontaktet tuaj në një vend. Ndërtoni marrëdhënie më të mira me klientët tuaj."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:106
+msgid "Standalone free plugin for those focused on speed"
+msgstr "Shtojcë falas, më vete, për ata që përqendrohen te shpejtësia"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:105
+msgid "Enable improvements in one click"
+msgstr "Aktivizoni përmirësimet, me një klikim"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:104
+msgid "Check your site performance"
+msgstr "Kontrolloni funksionimin e sajtit tuaj"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:94
+msgid "Jetpack Boost gives your site the same performance advantages as the world’s leading websites, no developer required."
+msgstr "Jetpack Boost i jep sajtit tuaj të njëjtat përparësi funksionimi me ato të sajteve kryesues të botës, s’ka nevojë për programues."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-backup.php:118
+msgctxt "Backup Product Feature"
+msgid "One-click restores"
+msgstr "Rikthime me një klikim"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-backup.php:117
+msgctxt "Backup Product Feature"
+msgid "30-day archive & activity log*"
+msgstr "Arkiv & regjistër veprimtarie për 30 ditë*"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-backup.php:116
+msgctxt "Backup Product Feature"
+msgid "10GB of backup storage"
+msgstr "10GB depozitim kopjeruajtjesh"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-backup.php:115
+msgctxt "Backup Product Feature"
+msgid "Real-time cloud backups"
+msgstr "Kopjeruajtje të atypëratyshme në re"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-backup.php:105
+msgid "Never lose a word, image, page, or time worrying about your site with automated backups & one-click restores."
+msgstr "Mos humbni kurrë një fjalë, figurë, faqe, ose kohë, duke u shqetësuar rreth sajtit tuaj, me kopjeruajtje të automatizuara & rikthime me një klikim."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-backup.php:93
+msgid "Save every change"
+msgstr "Ruani çdo ndryshim"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-anti-spam.php:98
+msgctxt "Anti-Spam Product Feature"
+msgid "Advanced stats"
+msgstr "Statistika të thelluara"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-anti-spam.php:97
+msgctxt "Anti-Spam Product Feature"
+msgid "Block spam without CAPTCHAs"
+msgstr "Bllokoni mesazhe të padëshiruar, pa CAPTCHA"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-anti-spam.php:96
+msgctxt "Anti-Spam Product Feature"
+msgid "Comment and form spam protection"
+msgstr "Mbrojtje komentesh dhe formularësh nga mesazhe të padëshiruar"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-anti-spam.php:86
+msgid "Save time and get better responses by automatically blocking spam from your comments and forms."
+msgstr "Kurseni kohë dhe merrni përgjigje më të mira, duke bllokuar automatikisht mesazhe të padëshiruar prej komenteve dhe formularëve tuaj."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-anti-spam.php:77
+msgid "Stop comment and form spam"
+msgstr "Ndalni mesazhe të padëshiruar në komente dhe formularë"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-wpcom-products.php:78
+msgid "Unable to fetch the products list from WordPress.com"
+msgstr "S’arrihet të sillet lista e produkteve nga WordPress.com"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-rest-purchases.php:48
+msgid "Your site is not connected to Jetpack."
+msgstr "Sajti juaj s’është lidhur me Jetpack-un."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-rest-products.php:183
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-rest-products.php:210
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-rest-products.php:236
+msgid "The product class handler is not implemented"
+msgstr "S’është sendërtuar trajtim klase produktesh"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-rest-products.php:127
+msgid "The product argument must be a string."
+msgstr "Argumenti i produktit duhet të jetë një varg."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-products.php:138
+msgid "Production action to execute"
+msgstr "Veprim produkti për t’u ekzekutuar"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-products.php:131
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-rest-products.php:34
+msgid "Product slug"
+msgstr "Identifikues produkti"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-initializer.php:96
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-initializer.php:97
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-product.php:646
+msgid "My Jetpack"
+msgstr "Jetpack-u Im"
+
+#. translators: %s is a comma-separated list of license keys.
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-licensing.php:230
+msgid "The following Jetpack licenses are invalid, already in use, or revoked: %s"
+msgstr "Licencat Jetpack vijuese janë të pavlefshme, tashmë në përdorim, ose të shfuqizuara: %s"
+
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-licensing.php:211
+msgid "Failed to attach your Jetpack license(s). Please try reconnecting Jetpack."
+msgstr "S’u arrit të bashkëngjitet licenca(t) juaj Jetpack. Ju lutemi, provoni të rilidhni Jetpack-un."
+
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-licensing.php:180
+msgid "License attach request failed."
+msgstr "Kërkesa për bashkëngjitje licence dështoi."
+
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-licensing.php:170
+msgid "Jetpack doesn't have a connected owner."
+msgstr "Jetpack-u s’ka një të zot të lidhur."
+
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-endpoints.php:405
+msgid "Missing parameter \"last_detached_count\"."
+msgstr "Mungon parametri “last_detached_count”."
+
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-endpoints.php:350
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-endpoints.php:385
+#: src/class-plan.php:84
+msgid "Unable to fetch the requested data."
+msgstr "S’arrihet të sillen të dhënat e domosdoshme."
+
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-endpoints.php:316
+msgid "Could not set this license key. Please try again."
+msgstr "S’u ujdis dot ky kyç licence. Ju lutemi, riprovoni."
+
+#. translators: %s: The literal parameter name. Should not be translated.
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-endpoints.php:260
+msgid "%s must be a non-negative integer."
+msgstr "%s duhet të jetë numër i plotë jo negativ."
+
+#. translators: %s: The literal parameter name. Should not be translated.
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-endpoints.php:237
+msgid "%s must be a string."
+msgstr "%s duhet të jetë një varg."
+
+#: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-rest-endpoints.php:160
+msgid "Could not confirm migration."
+msgstr "S’u ripohua dot migrimi."
+
+#: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-rest-endpoints.php:146
+msgid "Could not delete sync error option."
+msgstr "S’u fshi dot mundësi gabim njëkohësimi."
+
+#: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-rest-endpoints.php:129
+msgid "Could not confirm safe mode."
+msgstr "S’u ripohua dot përdorimi i mënyrës së sigurt."
+
+#. translators: %s: URL to parse.
+#: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-identity-crisis.php:482
+msgid "Cannot parse URL %s"
+msgstr "S’përtypet dot URL-ja %s"
+
+#: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-identity-crisis.php:270
+msgid "Jetpack Safe Mode"
+msgstr "Mënyra e Sigurt e Jetpack-ut"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tracking.php:85
+msgid "No valid event name or type."
+msgstr "Pa emër ose lloj të vlefshëm veprimtarie."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tracking.php:78
+msgid "You aren’t authorized to do that."
+msgstr "S’jeni i autorizuar për ta bërë këtë."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:460
+msgid "Invalid blog token"
+msgstr "Token i pavlefshëm blogu"
+
+#. translators: %d is the user ID.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:458
+msgid "Invalid token for user %d"
+msgstr "Token i pavlefshëm për përdoruesin %d"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:431
+msgid "No blog token found"
+msgstr "S’u gjet token blogu"
+
+#. translators: %s is the user ID.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:396
+msgid "Token for user %d is malformed"
+msgstr "Token-i për përdoruesin %d është i keqformuar"
+
+#. translators: %s is the user ID.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:391
+msgid "No token for user %d"
+msgstr "S’ka token për përdoruesin %d"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:386
+msgid "No primary user defined"
+msgstr "S’ka të përkufizuar përdorues parësor"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:381
+msgid "No user tokens found"
+msgstr "S’u gjetën token-ë përdoruesi"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:137
+msgid "You need to register your Jetpack before connecting it."
+msgstr "Lypset ta regjistroni Jetpack-un tuaj, përpara se ta lidhni."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:132
+msgid "An administrator for this blog must set up the Jetpack connection."
+msgstr "Duhet që një përgjegjës te ky blog të rregullojë lidhjen e Jetpack-ut."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:258
+msgid "Secret mismatch"
+msgstr "Mospërputhje të fshehtash"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:250
+msgid "Verification secrets are incomplete"
+msgstr "Të fshehtat e verifikimit janë të paplota"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:239
+msgid "Verification secrets are empty"
+msgstr "Të fshehtat e verifikimit janë të zbrazëta"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:231
+msgid "Verification took too long"
+msgstr "Verifikimi zgjati shumë"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:223
+msgid "Verification secrets not found"
+msgstr "S’u gjetën të fshehta verifikimi"
+
+#. translators: "%s" is the name of a paramter. It can be either "secret_1" or
+#. "state".
+#: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:196
+#: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:215
+msgid "The required \"%s\" parameter is malformed."
+msgstr "Parametri i domosdoshëm “%s” është i keqformuar."
+
+#. translators: "%s" is the name of a paramter. It can be either "secret_1" or
+#. "state".
+#: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:187
+#: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:206
+msgid "The required \"%s\" parameter is missing."
+msgstr "Mungon parametri i domosdoshëm “%s”."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:928
+msgid "Failed to disconnect the site as it appears already disconnected."
+msgstr "S’u arrit të shkëputet sajti, ngaqë duket tashmë i shkëputur."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:885
+msgid "Site is not connected"
+msgstr "Sajti s’është i lidhur"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:879
+msgid "Invalid user id is provided"
+msgstr "U dha ID e pavlefshme përdoruesi"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:873
+msgid "Invalid user token is provided"
+msgstr "U dha token i pavlefshëm përdoruesi"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:795
+msgid "Unable to verify your request."
+msgstr "S’arrihet të verifikohet kërkesa juaj."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:288
+msgid "New owner"
+msgstr "I zoti i ri"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:270
+msgid "Is connection owner"
+msgstr "Është i zoti i lidhjes"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:265
+msgid "New user token"
+msgstr "Token i ri përdoruesi"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:231
+msgid "Indicates from what plugin the request is coming from"
+msgstr "Tregon se nga cila shtojcë po vjen kërkesa"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:227
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:248
+#: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-rest-endpoints.php:61
+msgid "URI of the admin page where the user should be redirected after connection flow"
+msgstr "URI e faqes së përgjegjësit te e cila duhet ridrejtuar përdoruesi pas hapave të lidhjes"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:222
+msgid "The registration nonce"
+msgstr "Nonce-i i regjistrimit"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:218
+msgid "Indicates where the registration action was triggered for tracking/segmentation purposes"
+msgstr "Tregon se nga qe shkaktuar veprimi i regjistrimit, për qëllime ndjekjeje/segmentimi"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:56
+#: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-rest-endpoints.php:220
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-endpoints.php:37
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:818
+msgid ""
+"You do not have the correct user permissions to perform this action.\n"
+"\t\t\tPlease contact your site admin if you think this is a mistake."
+msgstr ""
+"S’keni lejet e sakta për të kryer këtë veprim.\n"
+"\t\t\tJu lutemi, lidhuni me përgjegjësin e sajtit tuaj, nëse mendoni se bëhet fjalë për gabim."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-authentication.php:180
+msgid "The request is not signed correctly."
+msgstr "Kërkesa s’është nënshkruar si duhet."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-authentication.php:146
+msgid "This request method does not support body parameters."
+msgstr "Kjo metodë kërkese nuk mbulon parametra lënde."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-authentication.php:138
+msgid "This request method is not supported."
+msgstr "Metoda e kërkesës është e pambuluar."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-authentication.php:125
+msgid "The request method is missing."
+msgstr "Mungon metoda e kërkesës."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-plugin-storage.php:142
+msgid "You cannot call this method until Jetpack Config is configured"
+msgstr "S’mund të thërrisni këtë metodë pa u formësuar Jetpack Config-u"
+
+#. translators: Error description string.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2561
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:225
+msgid "Error Details: %s"
+msgstr "Hollësi Gabimi: %s"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2412
+msgid "The Client ID/WP.com Blog ID of this site"
+msgstr "ID-ja si Klient/ID-ja e Blogut WP.com për këtë sajt"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2406
+msgid "Jetpack Plugin Version"
+msgstr "Version Shtojce Jetpack"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2384
+msgid "The number of sites of the connected WP.com user"
+msgstr "Numër sajtesh për përdoruesin e lidhur WP.com"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2379
+msgid "The WP.com user email of the connected user"
+msgstr "Email përdoruesi WP.com për përdoruesin e lidhur"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2374
+msgid "The WP.com username of the connected user"
+msgstr "Emër përdoruesi te WP.com për përdoruesin e lidhur"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2369
+msgid "The WP.com user ID of the connected user"
+msgstr "ID-ja WP.com e përdoruesit për përdoruesin e lidhur"
+
+#. translators: %1$s is a domain name.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2259
+msgid "Domain `%1$s` just failed is_usable_domain check as it is a subdomain of WordPress.com."
+msgstr "Përkatësia `%1$s` s’e kaloi dot kontrollin is_usable_domain, ngaqë është nënpërkatësi e WordPress.com-i."
+
+#. translators: %1$s is a domain name.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2244
+msgid "Domain `%1$s` just failed is_usable_domain check as it uses an invalid top level domain."
+msgstr "Përkatësia `%1$s` s’e kaloi dot kontrollin is_usable_domain, ngaqë përdor një përkatësi shkalle të epërme të pavlefshme."
+
+#. translators: %1$s is a domain name.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2229
+msgid "Domain `%1$s` just failed is_usable_domain check as it is in the forbidden array."
+msgstr "Përkatësia `%1$s` s’e kaloi dot kontrollin is_usable_domain, ngaqë gjendet në një varg të ndaluar."
+
+#. translators: %1$s is a domain name.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2196
+msgid "Domain `%1$s` just failed is_usable_domain check as it is empty."
+msgstr "Përkatësia `%1$s` s’e kaloi dot kontrollin is_usable_domain, ngaqë është e zbrazët."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:1824
+msgid "Invalid Registration State"
+msgstr "Gjendje e Pavlefshme Regjistrimi"
+
+#. translators: %s is an error message string
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:1429
+msgid "Error Details: Jetpack ID begins with a numeral. Do not publicly post this error message! %s"
+msgstr "Hollësi Gabimi: ID-ja e Jetpack-ut fillon me një numër. Mos e postoni publikisht këtë mesazh gabim! %s"
+
+#. translators: %s is an error message string
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:1422
+msgid "Error Details: Jetpack ID is not a scalar. Do not publicly post this error message! %s"
+msgstr "Hollësi Gabimi: ID-ja e Jetpack-ut s’është numër. Mos e postoni publikisht këtë mesazh gabimi! %s"
+
+#. translators: %s is an error message string
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:1415
+msgid "Error Details: Jetpack ID is empty. Do not publicly post this error message! %s"
+msgstr "Hollësi Gabimi: ID-ja e Jetpack-ut është e zbrazët. Mos e postoni publikisht këtë mesazh gabim! %s"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:1394
+msgid "PHP's XML extension is not available. Jetpack requires the XML extension to communicate with WordPress.com. Please contact your hosting provider to enable PHP's XML extension."
+msgstr "Zgjerimi XML i PHP-së s’gjendet. Jetpack-u lyp zgjerimin XML që të komunikojë me WordPress.com. Ju lutemi, lidhuni me furnizuesin tuaj të strehimit të sajtit që të aktivizojë zgjerimin XML të PHP-së."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:1121
+msgid "Jetpack experienced an issue trying to save options (cannot_save_secrets). We suggest that you contact your hosting provider, and ask them for help checking that the options table is writable on your site."
+msgstr "Jetpack-u hasi një problem teksa provohej të ruheshin mundësitë (cannot_save_secrets). Sugjerojmë të lidheni me shërbimin tuaj të strehimit të sajtit dhe t’u kërkoni t’ju ndihmojnë të kontrolloni nëse tabela e mundësive është e shkrueshme në sajtin tuaj."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:1025
+msgid "Could not confirm new owner."
+msgstr "S’u ripohua dot pronari i ri."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:1005
+msgid "New owner is not connected"
+msgstr "I zoti i ri s’është i lidhur"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:997
+msgid "New owner is same as existing owner"
+msgstr "I zoti i ri është i njëjtë me të zotin ekzistues"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:987
+msgid "New owner is not admin"
+msgstr "I zoti i ri s’është një përgjegjës"
+
+#. translators: %s is the full datetime of the last heart beat e.g. 2020-01-01
+#. 12:21:23
+#: jetpack_vendor/automattic/jetpack-connection/src/class-heartbeat.php:256
+msgid "Last heartbeat sent at: %s"
+msgstr "Rrahja e fundit e zemrës dërguar më: %s"
+
+#. translators: %s is a command like "prompt"
+#: jetpack_vendor/automattic/jetpack-connection/src/class-heartbeat.php:236
+msgid "%s is not a valid command."
+msgstr "%s s’është urdhër i vlefshëm."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-error-handler.php:727
+msgid "Your connection with WordPress.com seems to be broken. If you're experiencing issues, please try reconnecting."
+msgstr "Lidhja juaj me WordPress.com duket të jetë e dëmtuar. Nëse keni probleme, ju lutemi, provoni të rilidheni."
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:530
+msgid "The required \"local_user\" parameter is missing."
+msgstr "Mungon parametri i domosdoshëm “local_user”."
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:500
+msgid "Failed to fetch user token from WordPress.com."
+msgstr "S’u arrit të sillej token përdoruesi që nga WordPress.com."
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:465
+msgid "Valid user is required."
+msgstr "Lypset përdorues i vlefshëm."
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:452
+msgid "Jetpack is already connected."
+msgstr "Jetpack-u është i lidhur tashmë."
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:367
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:425
+msgid "Blog is already registered"
+msgstr "Blogu është tashmë i regjistruar"
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:342
+msgid "There was an unspecified error registering the site"
+msgstr "Pati një gabim të panjohur në regjistrimin e sajtit"
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:321
+msgid "There was an issue validating this request."
+msgstr "Pati një problem me vleftësimin e kësaj kërkese."
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:297
+msgid "The required \"nonce\" parameter is missing."
+msgstr "Mungon parametri i domosdoshëm “nonce”."
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:284
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:385
+msgid "Valid user is required"
+msgstr "Lypset përdorues i vlefshëm"
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:175
+msgid "User not found."
+msgstr "S’u gjet përdorues."
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:162
+msgid "Invalid user identifier."
+msgstr "Identifikues i pavlefshëm përdoruesi."
+
+#. translators: %1$s is a PHP class name.
+#: jetpack_vendor/automattic/jetpack-config/src/class-config.php:188
+msgid "Unable to load class %1$s. Please add the package that contains it using composer and make sure you are requiring the Jetpack autoloader"
+msgstr "S’arrihet të ngarkohet klasa %1$s. Ju lutemi, shtoni paketën që e përmban, duke përdorur hartuesin dhe sigurohuni se po kërkoni vetëngarkuesin e Jetpack-ut"
+
+#. translators: %s is the script handle.
+#: jetpack_vendor/automattic/jetpack-assets/src/class-assets.php:405
+msgid "Script \"%s\" depends on wp-i18n but does not specify \"textdomain\""
+msgstr "Programthi “%s” varet nga wp-i18n, por nuk specifikon “textdomain”"
+
+#: jetpack-protect.php:129
+msgid "Dashboard"
+msgstr "Pult"
+
+#. Plugin URI of the plugin
+#: jetpack-protect.php
+msgid "https://wordpress.org/plugins/jetpack-protect"
+msgstr "https://wordpress.org/plugins/jetpack-protect"
+
+#. Plugin Name of the plugin
+#: jetpack-protect.php src/class-jetpack-protect.php:152 build/index.js:10
+#: build/index.js:20
+msgid "Jetpack Protect"
+msgstr "Mbrojtje Jetpack"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-security.php:77
+msgctxt "Security Product Feature"
+msgid "Automated real-time malware scan"
+msgstr "Kontroll i automatizuar, i atypëratyshëm për <em>malware</em>"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:157
+msgid "The isActive argument should be set to false."
+msgstr "Argumenti isActive duhet vënë si <em>false</em>."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:152
+msgid "Set to false will trigger the site to disconnect."
+msgstr "Vënë si <em>false</em>, do të shkaktojë shkëputjen e sajtit."
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:476
+msgid "A non-empty nonce must be supplied."
+msgstr "Duhet dhënë një <em>nonce</em> jo i zbrazët."
+
+#. translators: 1: wp_default_scripts. 2: Name of the domain being aliased.
+#: jetpack_vendor/automattic/jetpack-assets/src/class-assets.php:571
+msgid "Textdomain aliases should be registered before the %1$s hook. This notice was triggered by the %2$s domain."
+msgstr "Aliaset <em>textdomain</em> duhen regjistruar para grremçit %1$s. Ky shënim u prodhua nga përkatësia %2$s."
+
+#. translators: Placeholder is a link to a support document.
+#: jetpack-protect.php:83
+msgid "Your installation of Jetpack Protect is incomplete. If you installed Jetpack Protect from GitHub, please refer to <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">this document</a> to set up your development environment. Jetpack Protect must have Composer dependencies installed and built via the build command."
+msgstr "Instalimi juaj i Jetpack Protect-it s’është i plotë. Nëse e instaluat Jetpack Protect-in prej GitHub-it, ju lutemi, referojuni <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">këtij dokumenti</a>, që të ujdisni mjedisin tuaj të zhvillimit. Jetpack Protect duhet të ketë varësitë për Composer të instaluara dhe të montuara përmes urdhrit <em>build</em>."
+
+#: jetpack-protect.php:55
+msgid "Error loading autoloader file for Jetpack Protect plugin"
+msgstr "Gabim në ngarkim kartele vetëngarkuesi për shtojcën Jetpack Protect"
+
+#. Description of the plugin
+#: jetpack-protect.php
+msgid "Security tools that keep your site safe and sound, from posts to plugins."
+msgstr "Mjete sigurie që e mbajnë sajtin tuaj të parrezik dhe si duhet, nga postimet e deri te shtojcat."
+
+#: src/class-site-health.php:74
+msgid "Jetpack Protect did not find any known threats in your site. Threats can be exploited by hackers and cause harm to your website."
+msgstr "Jetpack Protect s’gjeti në sajtin tuaj ndonjë kërcënim të ditur. Kërcënimet mund të shfrytëzohen nga hacker-a dhe të shkaktojnë dëm në sajtin tuaj."

@@ -1,0 +1,1618 @@
+# Translation of Plugins - Jetpack Protect - Stable (latest release) in Swedish
+# This file is distributed under the same license as the Plugins - Jetpack Protect - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-04-10 21:01:42+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Plugins - Jetpack Protect - Stable (latest release)\n"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-social.php:89
+msgid "Auto-publish to social media"
+msgstr "Publicera automatiskt till sociala medier"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-search.php:106
+msgid "Custom instant site search"
+msgstr "Anpassad omedelbar webbplatssökning"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:88
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-scan.php:60
+msgid "Powerful, automated site security"
+msgstr "Kraftfull, automatiserad webbplatssäkerhet"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:85
+msgid "Speed up your site in seconds"
+msgstr "Snabba upp din webbplats på några sekunder"
+
+#: jetpack_vendor/automattic/jetpack-boost-speed-score/src/class-speed-score.php:136
+msgid "The url parameter is required"
+msgstr "URL-parametern är obligatorisk"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:369
+#: jetpack_vendor/automattic/jetpack-my-jetpack/build/index.js:62
+msgid "Contact Us"
+msgstr "Kontakta oss"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-stats.php:118
+msgid "Commercial use"
+msgstr "Kommersiell användning"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-stats.php:116
+msgid "Access to upcoming advanced features"
+msgstr "Åtkomst till kommande avancerade funktioner"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-stats.php:114
+msgid "Detailed statistics about links leading to your site"
+msgstr "Detaljerad statistik över länkar som leder till din webbplats"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-stats.php:113
+msgid "Traffic stats and trends for post and pages"
+msgstr "Trafikstatistik och trender för inlägg och sidor"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-stats.php:112
+msgid "Real-time data on visitors"
+msgstr "Realtidsdata om besökare"
+
+#. translators: number of requests
+#. translators: %d is the number of requests.
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:112
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:117
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:274
+msgid "Up to %d requests per month"
+msgstr "Upp till %d förfrågningar per månad"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:271
+msgid "Title & summary generation"
+msgstr "Rubrik- och sammanfattningsgenerering"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:270
+msgid "Superior spelling and grammar correction"
+msgstr "Överlägsen stavnings- och grammatikkorrigering"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:269
+msgid "Adaptive tone adjustment"
+msgstr "Adaptiv tonjustering"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:267
+msgid "Prompt based content generation"
+msgstr "Promptbaserad innehållsgenerering"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:233
+msgid "Upgrade and increase the amount of your available monthly requests to continue using the most advanced AI technology Jetpack has to offer."
+msgstr "Uppgradera och öka antalet tillgängliga månatliga förfrågningar för att fortsätta använda den mest avancerade AI-teknologin som Jetpack har att erbjuda."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:231
+msgid "The most advanced AI technology Jetpack has to offer."
+msgstr "Den mest avancerade AI-teknologin som Jetpack har att erbjuda."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:232
+msgid "WordAds"
+msgstr "WordAds"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:219
+msgid "Pay with PayPal"
+msgstr "Betala med PayPal"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:206
+msgid "Newsletter"
+msgstr "Nyhetsbrev"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:180
+msgid "Paid content gating"
+msgstr "Betalt låst innehåll"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:147
+msgid "Transaction fees"
+msgstr "Transaktionsavgifter"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:142
+msgid "Unlimited subscribers"
+msgstr "Obegränsat antal prenumeranter"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:138
+msgid "100 subscribers"
+msgstr "100 prenumeranter"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:130
+msgid "Import a CSV file of your existing subscribers to be sent your Newsletter."
+msgstr "Importera en CSV-fil med dina befintliga prenumeranter för att skicka ditt nyhetsbrev."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:128
+msgid "Import subscribers"
+msgstr "Importera prenumeranter"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:104
+msgid "Monetize your online presence and earn from your website"
+msgstr "Tjäna pengar på din närvaro online och tjäna pengar på din webbplats"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-backup.php:96
+msgid "Your site is not backed up"
+msgstr "Din webbplats är inte säkerhetskopierad"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-jetpack-manage.php:48
+msgctxt "product name shown in menu"
+msgid "Jetpack Manage"
+msgstr "Jetpack Manage"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-jetpack-manage.php:47
+msgid "Jetpack Manage"
+msgstr "Jetpack Manage"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-activitylog.php:50
+msgctxt "product name shown in menu"
+msgid "Activity Log"
+msgstr "Activity Log"
+
+#: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-rest-endpoints.php:316
+msgid "The endpoint is not available on connected sites."
+msgstr "Ändpunkten är inte tillgänglig på anslutna webbplatser."
+
+#: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-rest-endpoints.php:100
+msgid "URL secret to compare to the ones stored in the database."
+msgstr "URL-hemlighet för jämförelse med de som lagrats i databasen."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:193
+msgid "Paywall access"
+msgstr "Åtkomst till betalvägg"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:167
+msgid "Jetpack Blocks"
+msgstr "Jetpack-block"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:162
+msgid "2%"
+msgstr "2&nbsp;%"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:158
+msgid "10%"
+msgstr "10&nbsp;%"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:102
+msgid "Create content that stands out"
+msgstr "Skapa innehåll som sticker ut"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:92
+msgid "Create, grow, and monetize your audience with powerful tools for creators."
+msgstr "Skapa kontakt med fler läsare och tjäna pengar med kraftfulla verktyg för kreatörer."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:83
+msgid "Create, grow, and monetize your audience"
+msgstr "Skapa, utöka och tjäna pengar på din målgrupp"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-activitylog.php:49
+msgid "Activity Log"
+msgstr "Aktivitetslogg"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-stats.php:115
+msgid "GDPR compliant"
+msgstr "GDPR-kompatibelt"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:261
+msgid "Get feedback about your post"
+msgstr "Få feedback om ditt inlägg"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:259
+msgid "Generate text, tables, lists, and forms"
+msgstr "Generera text, tabeller, listor och formulär"
+
+#: jetpack_vendor/automattic/jetpack-jitm/src/class-jitm.php:190
+msgid "Settings"
+msgstr "﻿Inställningar"
+
+#: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-url-secret.php:92
+msgid "Unable to save new URL secret"
+msgstr "Kan inte spara ny URL-hemlighet"
+
+#: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-rest-endpoints.php:252
+msgid "URL secret does not exist."
+msgstr "URL-hemlighet finns inte."
+
+#: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-rest-endpoints.php:301
+msgid "You do not have the correct user permissions to perform this action."
+msgstr "Du har inte de rätta behörigheterna för att utföra denna åtgärd."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:370
+#: jetpack_vendor/automattic/jetpack-my-jetpack/build/index.js:18
+msgid "Upgrade"
+msgstr "Uppgradera"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:272
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-stats.php:117
+msgid "Priority support"
+msgstr "Prioriterad support"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-starter.php:78
+msgctxt "Starter Product Feature"
+msgid "Comment & form spam protection"
+msgstr "Skräppostskydd för kommentarer och formulär"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-starter.php:77
+msgctxt "Starter Product Feature"
+msgid "One-click fixes for most threats"
+msgstr "Åtgärder med ett klick för de flesta hot"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-starter.php:76
+msgctxt "Starter Product Feature"
+msgid "Real-time cloud backups with 1GB storage"
+msgstr "Molnsäkerhetskopieringar i realtid med 1 GB lagringsutrymme"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:262
+msgid "Seamless WordPress editor integration"
+msgstr "Sömlös integrering med WordPress-redigeraren"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:260
+msgid "Refine the tone and content to your liking"
+msgstr "Förfina tonen och innehållet efter eget tycke"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:268
+msgid "Generate text, tables, and lists"
+msgstr "Generera text, tabeller och listor"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:258
+msgid "Artificial intelligence chatbot"
+msgstr "Artificiell intelligens-chatbot"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:230
+msgid "Jetpack AI Assistant brings the power of AI right into your WordPress editor, letting your content creation soar to new heights."
+msgstr "Jetpacks AI-assistent placerar kraften hos AI direkt i din WordPress-redigerare och tar ditt innehållsskapande till nya höjder."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:232
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:246
+msgid "Dedicated email support"
+msgstr "Dedikerad support via e-post"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:219
+msgid "Image CDN"
+msgstr "Bild-CDN"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:206
+msgid "Image guide"
+msgstr "Bildguide"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:189
+msgid "Lazy image loading"
+msgstr "Uppskjuten inläsning av bild"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:161
+msgid "Automatic Critical CSS regeneration"
+msgstr "Automatiskt återskapande av högprioriterad CSS"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:159
+msgid "Automatically updated"
+msgstr "Uppdateras automatiskt"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:140
+msgid "Must be done manually"
+msgstr "Måste göras manuellt"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:130
+msgid "Optimize CSS Loading"
+msgstr "Optimera CSS-hämtning"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-stats.php:93
+msgid "Simple, yet powerful analytics"
+msgstr "Enkel men ändå kraftfull analys"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-starter.php:57
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-starter.php:66
+msgid "Essential security tools: real-time backups and comment spam protection."
+msgstr "Viktiga säkerhetsverktyg: säkerhetskopieringar i realtid och skräppostskydd för kommentarer."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:191
+msgid "Improve page loading speed by only loading images when they are required."
+msgstr "Förbättra sidladdningshastigheten genom att bara ladda bilder när de behövs."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-stats.php:102
+msgid "With Jetpack Stats, you don’t need to be a data scientist to see how your site is performing."
+msgstr "Med Jetpack Stats behöver du inte vara en dataforskare för att se hur din webbplats presterar."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:234
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:248
+msgid ""
+"<p>Paid customers get dedicated email support from our world-class Happiness Engineers to help with any issue.</p>\n"
+"\t\t\t\t\t\t <p>All other questions are handled by our team as quickly as we are able to go through the WordPress support forum.</p>"
+msgstr ""
+"<p>Betalande kunder får dedikerad e-postsupport från våra supporttekniker i världsklass för att hjälpa till med alla problem.</p>\n"
+"\t\t\t\t\t\t <p>Alla andra frågor hanteras av vårt team via WordPress supportforum så fort som möjligt.</p>"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:142
+msgid "Manual Critical CSS regeneration"
+msgstr "Manuell generering av högprioriterad CSS"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:132
+msgid "Move important styling information to the start of the page, which helps pages display your content sooner, so your users don’t have to wait for the entire page to load. Commonly referred to as Critical CSS."
+msgstr "Flytta viktig stilinformation till början av sidan, vilket hjälper sidor att visa ditt innehåll snabbare, så att dina användare inte behöver vänta på att hela sidan ska laddas. Detta kallas vanligtvis högprioriterad CSS."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:192
+#: build/index.js:22
+msgid "Automatic protection and rule updates"
+msgstr "Automatiskt skydd och regeluppdateringar"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:188
+#: build/index.js:22
+msgid "Manual rules only"
+msgstr "Endast manuella regler"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:184
+#: build/index.js:22
+msgid "Web Application Firewall"
+msgstr "Brandvägg för webbapplikationer"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-rest-controller.php:159
+msgid "Brute force protection could not be deactivated."
+msgstr "Det gick inte att inaktivera skyddet mot brute force-attacker."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-rest-controller.php:158
+msgid "Brute force protection could not be activated."
+msgstr "Det gick inte att aktivera skyddet mot brute force-attacker."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:337
+msgid "Brute Force Protection cannot keep your site secure"
+msgstr "Skyddet mot brute force-attacker kan inte skydda din webbplats"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:197
+#: build/index.js:22
+msgid "Brute force protection"
+msgstr "Skydd mot bruteforce-attacker"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:353
+msgid "https://jetpack.com/support/multisite-protect"
+msgstr "https://jetpack.com/support/multisite-protect"
+
+#. translators: %s is HTML markup, for a help icon.
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:762
+msgid "%s Get help unlocking your site"
+msgstr "%s Få hjälp med att låsa upp din webbplats"
+
+#. translators: %s is HTML markup, for a back icon.
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:749
+msgid "%s Back"
+msgstr "%s Tillbaka"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:444
+msgid "Send email"
+msgstr "Skicka e-post"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:441
+msgid "Your email"
+msgstr "Din e-post"
+
+#. translators: the IP address that was flagged.
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:426
+msgid "<p>Your IP address <code>%2$s</code> has been flagged for potential security violations. You can unlock your login by sending yourself a special link via email. <a href=\"%3$s\">Learn More</a></p>"
+msgstr "<p>Din IP-adress <code>%2$s</code> har flaggats för potentiella säkerhetsproblem. Du kan låsa upp din inloggning genom att skicka en speciell länk via e-post till dig själv. <a href=\"%3$s\">Läs mer</a></p>"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:371
+msgid "Oops, we were unable to send a recovery email. Try again."
+msgstr "Hoppsan, vi kunde inte skicka ett återställningsmeddelande. Försök igen."
+
+#. translators: email address the recovery instructions were sent to.
+#. translators: the email address the recovery email was sent to.
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:369
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:415
+msgid "Recovery instructions were sent to %s. Check your inbox!"
+msgstr "Återställningsinstruktioner skickades till %s. Kolla din inkorg!"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:347
+msgid "Oops, we couldn't find a user with that email. Please try again!"
+msgstr "Hoppsan, vi kunde inte hitta en användare med den e-postadressen. Försök igen!"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:290
+msgid "Oops, we couldn't validate the recovery token."
+msgstr "Hoppsan, vi kunde inte verifiera återställningstoken."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:387
+msgid "Jetpack has locked your site's login page."
+msgstr "Jetpack har låst inloggningssidan för din webbplats."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:342
+msgid "Oops, looks like that's not the right email address. Please try again!"
+msgstr "Hoppsan, det verkar inte vara rätt e-postadress. Försök igen!"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:307
+msgid "You successfully logged out."
+msgstr "Du är nu utloggad."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:217
+msgid "The recovery token is not valid for this user."
+msgstr "Återställningstoken är inte giltig för den här användaren."
+
+#. translators: variable is the IP address that was flagged.
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:875
+msgid "Your IP (%1$s) has been flagged for potential security violations."
+msgstr "Din IP-adress (%1$s) har flaggats för potentiella säkerhetsöverträdelser."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:956
+msgid "There was an error contacting Jetpack servers."
+msgstr "Ett fel uppstod när Jetpack-servrarna kontaktades."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:952
+msgid "No API key"
+msgstr "Ingen API-nyckel"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:948
+msgid "Your API key is invalid"
+msgstr "Din API-nyckel är ogiltig"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:878
+msgid "Login Blocked by Jetpack"
+msgstr "Inloggningen blockerades av Jetpack"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:485
+msgid "No reply from Jetpack servers"
+msgstr "Inget svar från Jetpack-servrarna"
+
+#. Translators: The xml error code, and the xml error message.
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:476
+msgid "Error connecting to WordPress.com. Code: %1$s, %2$s"
+msgstr "Ett fel uppstod vid anslutningen till WordPress.com. Kod: %1$s, %2$s"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:447
+msgid "Your main blog is not connected to WordPress.com. Please connect to get an API key."
+msgstr "Din huvudblogg är inte ansluten till WordPress.com. Anslut dig om du vill ha en API-nyckel."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:351
+msgid "View Network Admin"
+msgstr "Visa nätverksadmin"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-shared-functions.php:189
+msgid "Only super admins can edit the global allow list"
+msgstr "Endast superadministratörer kan redigera den globala Tillåt-listan"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-shared-functions.php:186
+msgid "Cannot use global flag on non-multisites"
+msgstr "Du kan inte använda en global flagga på icke-multisiter."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-shared-functions.php:183
+msgid "Expecting an array"
+msgstr "Väntar på en array"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-math-fallback.php:167
+msgid "Prove your humanity"
+msgstr "Visa att du är en människa"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-math-fallback.php:104
+msgid "Continue &rarr;"
+msgstr "Fortsätt &rarr;"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-math-fallback.php:98
+msgid "Your answer was incorrect, please try again."
+msgstr "Du svarade fel, försök igen."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-math-fallback.php:96
+msgid "Please solve this math problem to prove that you are not a bot. Once you solve it, you will need to log in again."
+msgstr "Lös detta matematiska problem för att bevisa att du inte är en robot. När du löst det måste du logga in igen."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-math-fallback.php:73
+msgid "<strong>You failed to correctly answer the math problem.</strong> This is used to combat spam when Jetpack’s Brute Force Attack Protection API is unavailable. Please use your browser’s back button to return to the login form, press the \"refresh\" button to generate a new math problem, and try to log in again."
+msgstr "<strong>Du svarade fel på matteproblemet.</strong> Detta används för att bekämpa skräppost när Jetpack-API:et för skydd mot brute force-attacker inte är tillgängligt. Använd webbläsarens Bakåt-knapp för att återgå till inloggningsformuläret, klicka på knappen \"Uppdatera\" för att skapa ett nytt matteproblem och försök logga in igen."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-shared-functions.php:220
+msgid "One of your IP addresses was not valid."
+msgstr "En av dina IP-adresser var inte giltig."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:354
+msgid "Learn More"
+msgstr "Lär dig mer"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-rest-controller.php:82
+msgid "Rules updated succesfully"
+msgstr "Regler uppdaterades"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:170
+msgid "Something went wrong. Please try again."
+msgstr "Något gick fel. Försök igen."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2636
+msgid "Sorry, something is wrong with your Jetpack connection."
+msgstr "Något är fel med din Jetpack-anslutning."
+
+#: src/class-rest-controller.php:390
+msgid "An error occured enabling the firewall."
+msgstr "Ett fel uppstod vid aktivering av brandväggen."
+
+#: src/class-rest-controller.php:378
+msgid "An error occured disabling the firewall."
+msgstr "Ett fel uppstod vid inaktivering av brandväggen."
+
+#. translators: %1$s is the name of the mode that was just switched to.
+#: jetpack_vendor/automattic/jetpack-waf/src/class-waf-cli.php:161
+msgid "Jetpack WAF rules successfully created to: \"%1$s\"."
+msgstr "Jetpack WAF-regler skapade till: ”%1$s”."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-waf-cli.php:134
+msgid "Jetpack WAF has been deactivated."
+msgstr "Jetpack WAF har inaktiverats."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-waf-cli.php:131
+msgid "Jetpack WAF failed to fully deactivate."
+msgstr "Jetpack WAF misslyckades att helt inaktiveras."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-waf-cli.php:118
+msgid "Jetpack WAF has successfully been setup."
+msgstr "Jetpack WAF har ställts in."
+
+#. translators: %1$s is the name of the mode that the waf is currently running
+#. in.
+#: jetpack_vendor/automattic/jetpack-waf/src/class-waf-cli.php:75
+msgid "Jetpack WAF is running in \"%1$s\" mode."
+msgstr "Jetpack WAF körs i ”%1$s”-läge."
+
+#. translators: %1$s is the name of the mode that was just switched to.
+#: jetpack_vendor/automattic/jetpack-waf/src/class-waf-cli.php:67
+msgid "Jetpack WAF mode switched to \"%1$s\"."
+msgstr "Jetpack WAF-läge ändrades till ”%1$s”."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-waf-cli.php:36
+msgid "Only one mode may be specified."
+msgstr "Endast ett läge kan specificeras."
+
+#. translators: %1$s is the unexpected error message.
+#: jetpack_vendor/automattic/jetpack-waf/src/class-waf-cli.php:112
+#: jetpack_vendor/automattic/jetpack-waf/src/class-waf-cli.php:152
+msgid "Jetpack WAF rules file failed to generate: %1$s"
+msgstr "Det gick inte att generera filen med Jetpack WAF-regler: %1$s"
+
+#. translators: %1$s is the unexpected error message.
+#: jetpack_vendor/automattic/jetpack-waf/src/class-waf-cli.php:58
+msgid "Unable to generate waf bootstrap - standalone mode may not work properly: %1$s"
+msgstr "Det gick inte att generera WAF-start – fristående läge kanske inte kommer att fungera korrekt: %1$s"
+
+#. translators: %1$s is the mode that was actually found. Also note that the
+#. expected "silent" and "normal" are hard-coded strings and must therefore
+#. stay the same in any translation.
+#: jetpack_vendor/automattic/jetpack-waf/src/class-waf-cli.php:44
+msgid "Invalid mode: %1$s. Expected \"silent\" or \"normal\"."
+msgstr "Ogiltigt läge: %1$s. Förväntade ”tyst” eller ”normalt”."
+
+#: jetpack_vendor/automattic/jetpack-admin-ui/src/class-admin-menu.php:61
+msgid "Akismet Anti-spam"
+msgstr "Akismet Anti-spam"
+
+#. Author URI of the plugin
+#: jetpack-protect.php
+msgid "https://jetpack.com/protect/"
+msgstr "https://jetpack.com/protect/"
+
+#. Author of the plugin
+#: jetpack-protect.php
+msgid "Automattic - Jetpack Security team"
+msgstr "Automattic - Jetpack Security team"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-security.php:57
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-security.php:66
+msgid "Comprehensive site security, including VaultPress Backup, Scan, and Akismet Anti-spam."
+msgstr "Omfattande webbplatssäkerhet, inklusive VaultPress Backup, Scan och Akismet Anti-spam."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:218
+#: build/index.js:22
+msgid "Notifications"
+msgstr "Aviseringar"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:174
+#: build/index.js:22
+msgid "Daily automated scans"
+msgstr "Dagliga automatiska skanningar"
+
+#: src/class-site-health.php:66
+msgid "No known threats found"
+msgstr "Inga kända hot hittades"
+
+#: jetpack_vendor/automattic/jetpack-transport-helper/src/class-rest-controller.php:91
+msgid "You are not allowed to perform this action."
+msgstr "Du har inte behörighet att utföra denna åtgärd."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:165
+#: build/index.js:22
+msgid "Check items against database"
+msgstr "Kontrollera objekt mot databas"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:161
+#: build/index.js:22
+msgid "Scan for threats and vulnerabilities"
+msgstr "Skanna efter hot och sårbarheter"
+
+#. translators: %d is the number of threats found.
+#: src/class-jetpack-protect.php:319
+msgid "%d threat found by Jetpack Protect"
+msgid_plural "%d threats found by Jetpack Protect"
+msgstr[0] "%d hot hittades av Jetpack Protect"
+msgstr[1] "%d hot hittades av Jetpack Protect"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:211
+#: build/index.js:22
+msgid "One-click auto fixes"
+msgstr "Automatiska åtgärder med ett klick"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:225
+#: build/index.js:22
+msgid "Severity labels"
+msgstr "Allvarlighetsetiketter"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:204
+#: build/index.js:22
+msgid "Access to scan on Cloud"
+msgstr "Åtkomst till skanning i molnet"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:179
+#: build/index.js:22
+msgid "Plus on-demand manual scans"
+msgstr "Plus manuella skanningar på begäran"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:169
+#: build/index.js:22
+msgid "Line by line malware scanning"
+msgstr "Radvis skanning efter skadlig programvara"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-backup.php:131
+msgctxt "Backup Product Disclaimer"
+msgid "Learn more"
+msgstr "Lär dig mer"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-backup.php:130
+msgctxt "Backup Product Disclaimer"
+msgid "* Subject to your usage and storage limit."
+msgstr "* Beroende på din användning och lagringsgräns."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:206
+msgid "Connect to WordPress.com"
+msgstr "Anslut till WordPress.com"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:187
+msgid "Success!"
+msgstr "Lyckades!"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:143
+msgid "Set new connection owner"
+msgstr "Ställ in ny anslutningsägare"
+
+#: jetpack_vendor/automattic/jetpack-jitm/src/class-jitm.php:189
+msgid "Activating"
+msgstr "Aktiverar"
+
+#: jetpack_vendor/automattic/jetpack-jitm/src/class-jitm.php:188
+msgid "Activated"
+msgstr "Aktiverad"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:203
+msgid "Every Jetpack site needs at least one connected admin for the features to work properly. Please connect to your WordPress.com account via the button below. Once you connect, you may refresh this page to see an option to change the connection owner."
+msgstr "Varje Jetpack-webbplats behöver minst en ansluten administratör för att funktionerna ska fungera korrekt. Anslut till ditt WordPress.com-konto via knappen nedan. När du anslutit kan du uppdatera den här sidan för att se ett alternativ att ändra anslutningens ägare."
+
+#. translators: URL to Jetpack support doc regarding the primary user.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:213
+msgid "<a href='%s' target='_blank' rel='noopener noreferrer'>Learn more</a> about the connection owner and what will break if you do not have one."
+msgstr "<a href='%s' target='_blank' rel='noopener noreferrer'>Läs mer</a> om anslutningsägaren och vad som kan gå fel om du inte har en."
+
+#. translators: URL to contact Jetpack support.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:229
+msgid "As always, feel free to <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">contact our support team</a> if you have any questions."
+msgstr "Som alltid så är du välkommen att <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">kontakta vårt supportteam</a> om du har några frågor."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:125
+msgid "You can choose to transfer connection ownership to one of these already-connected admins:"
+msgstr "Du kan välja att överföra ägarskap för anslutningen till någon av dessa redan anslutna administratörer:"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:116
+msgid "Important notice about your Jetpack connection:"
+msgstr "Viktigt meddelande om din Jetpack-anslutning:"
+
+#. translators: WordPress User, if available.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:119
+msgid "Warning! You are about to delete the Jetpack connection owner (%s) for this site, which may cause some of your Jetpack features to stop working."
+msgstr "Varning! Du är på väg att ta bort Jetpack-anslutningens ägare (%s) för den här webbplatsen. Det kan göra att vissa av dina Jetpack-funktioner slutar fungera."
+
+#: jetpack_vendor/automattic/jetpack-jitm/src/class-post-connection-jitm.php:59
+msgid "New free service: Show USPS shipping rates on your store! Added bonus: print shipping labels without leaving WooCommerce."
+msgstr "Ny gratistjänst: Visa USPS fraktkostnader i din butik! Extra bonus: skriv ut leveransetiketter utan att lämna WooCommerce."
+
+#: jetpack_vendor/automattic/jetpack-jitm/src/class-post-connection-jitm.php:62
+msgid "New free service: Show Canada Post shipping rates on your store!"
+msgstr "Ny gratistjänst: Visa Canada Posts fraktkostnader i din butik!"
+
+#: jetpack_vendor/automattic/jetpack-jitm/src/class-jitm.php:187
+#: jetpack_vendor/automattic/jetpack-my-jetpack/build/index.js:12
+#: jetpack_vendor/automattic/jetpack-my-jetpack/build/index.js:18
+msgid "Activate"
+msgstr "Aktivera"
+
+#: src/class-jetpack-protect.php:146
+msgctxt "The Jetpack Protect product name, without the Jetpack prefix"
+msgid "Protect"
+msgstr "Protect"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-scan.php:82
+msgctxt "Scan Product Feature"
+msgid "Access to latest Firewall rules"
+msgstr "Åtkomst till de senaste brandväggsreglerna"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-scan.php:81
+msgctxt "Scan Product Feature"
+msgid "Instant email notifications"
+msgstr "Omedelbara e-postaviseringar"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-scan.php:80
+msgctxt "Scan Product Feature"
+msgid "One-click fixes for most issues"
+msgstr "Åtgärder med ett klick för de flesta problemen"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-scan.php:79
+msgctxt "Scan Product Feature"
+msgid "Automated daily scanning"
+msgstr "Automatisk daglig skanning"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:108
+msgid "Daily automatic scans"
+msgstr "Dagliga automatiska skanningar"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:107
+msgid "Over 20,000 listed vulnerabilities"
+msgstr "Över 20 000 listade sårbarheter"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-backup.php:118
+msgctxt "Backup Product Feature"
+msgid "One-click restores"
+msgstr "Återställningar med ett klick"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-backup.php:116
+msgctxt "Backup Product Feature"
+msgid "10GB of backup storage"
+msgstr "10 GB lagringsutrymme"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-backup.php:115
+msgctxt "Backup Product Feature"
+msgid "Real-time cloud backups"
+msgstr "Molnsäkerhetskopieringar i realtid"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-backup.php:93
+msgid "Save every change"
+msgstr "Spara varje ändring"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-anti-spam.php:98
+msgctxt "Anti-Spam Product Feature"
+msgid "Advanced stats"
+msgstr "Avancerad statistik"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-anti-spam.php:97
+msgctxt "Anti-Spam Product Feature"
+msgid "Block spam without CAPTCHAs"
+msgstr "Blockera skräppost utan CAPTCHA"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-anti-spam.php:96
+msgctxt "Anti-Spam Product Feature"
+msgid "Comment and form spam protection"
+msgstr "Skräppostskydd för kommentarer och formulär"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-anti-spam.php:77
+msgid "Stop comment and form spam"
+msgstr "Stoppa skräppost i kommentarer och formulär"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-rest-purchases.php:48
+msgid "Your site is not connected to Jetpack."
+msgstr "Din webbplats är inte ansluten till Jetpack."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-products.php:131
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-rest-products.php:34
+msgid "Product slug"
+msgstr "Produkt-slugg"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tracking.php:78
+msgid "You aren’t authorized to do that."
+msgstr "Du har inte behörighet att göra det."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:460
+msgid "Invalid blog token"
+msgstr "Ogiltig bloggtoken"
+
+#. translators: %d is the user ID.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:458
+msgid "Invalid token for user %d"
+msgstr "Ogiltig token för användare %d"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:431
+msgid "No blog token found"
+msgstr "Ingen bloggtoken hittades"
+
+#. translators: %s is the user ID.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:391
+msgid "No token for user %d"
+msgstr "Ingen token för användare %d"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:386
+msgid "No primary user defined"
+msgstr "Ingen primär användare definierad"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:381
+msgid "No user tokens found"
+msgstr "Inga användartokens hittades"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:137
+msgid "You need to register your Jetpack before connecting it."
+msgstr "Du måste registrera ditt Jetpack innan du ansluter det."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:132
+msgid "An administrator for this blog must set up the Jetpack connection."
+msgstr "En administratör för denna blogg måste ställa in Jetpack-anslutningen."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:258
+msgid "Secret mismatch"
+msgstr "Matchingsfel för hemlighet"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:288
+msgid "New owner"
+msgstr "Ny ägare"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:265
+msgid "New user token"
+msgstr "Ny användartoken"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:231
+msgid "Indicates from what plugin the request is coming from"
+msgstr "Indikerar från vilket tillägg förfrågan kommer ifrån"
+
+#. Plugin URI of the plugin
+#: jetpack-protect.php
+msgid "https://wordpress.org/plugins/jetpack-protect"
+msgstr "https://wordpress.org/plugins/jetpack-protect"
+
+#. Plugin Name of the plugin
+#: jetpack-protect.php src/class-jetpack-protect.php:152 build/index.js:10
+#: build/index.js:20
+msgid "Jetpack Protect"
+msgstr "Jetpack Protect"
+
+#: jetpack-protect.php:129
+msgid "Dashboard"
+msgstr "Adminpanel"
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:367
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:425
+msgid "Blog is already registered"
+msgstr "Blogg är redan registrerad"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-social.php:98
+msgid "Promote your content on social media by automatically publishing when you publish on your site."
+msgstr "Marknadsför ditt innehåll på sociala medier genom att automatiskt publicera där när du publicerar på din webbplats."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-social.php:108
+msgid "Post to social networks"
+msgstr "Publicera till sociala nätverk"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-social.php:109
+msgid "Schedule publishing"
+msgstr "Schemalägg publicering"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-social.php:110
+msgid "Supports the major social networks"
+msgstr "Stöder alla större sociala nätverk"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:97
+msgid "Protect your site and scan for security vulnerabilities listed in our database."
+msgstr "Skydda din webbplats och skanna efter säkerhetssårbarheter listade i vår databas."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:109
+msgid "Check plugin and theme version status"
+msgstr "Kontrollera versionsstatus för tillägg och teman"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:110
+msgid "Easy to navigate and use"
+msgstr "Lätt att navigera och använda"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-product.php:647
+msgid "My Jetpack dashboard"
+msgstr "Min Jetpack-adminpanel"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-hybrid-product.php:83
+msgid "Activation failed. Plugin is not installed"
+msgstr "Aktivering misslyckades. Tillägg är inte installerat"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-wpcom-products.php:78
+msgid "Unable to fetch the products list from WordPress.com"
+msgstr "Det gick inte att hämta produktlistan från WordPress.com"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-crm.php:89
+msgid "All of your contacts in one place. Build better relationships with your customers and clients."
+msgstr "Alla dina kontakter på en och samma plats. Skapa bättre relationer med dina kunder och klienter."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-crm.php:99
+msgid "Manage unlimited contacts"
+msgstr "Hantera ett obegränsat antal kontakter"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-crm.php:100
+msgid "Manage billing and create invoices"
+msgstr "Hantera fakturering och skapa fakturor"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-crm.php:101
+msgid "Fully integrated with WordPress & WooCommerce"
+msgstr "Helt integrerat med WordPress och WooCommerce"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-crm.php:102
+msgid "Infinitely customizable with integrations and extensions"
+msgstr "Oändligt anpassningsbart med integrationer och utökningar"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-security.php:76
+msgctxt "Security Product Feature"
+msgid "Real-time cloud backups with 10GB storage"
+msgstr "Molnsäkerhetskopieringar i realtid med 10 GB lagringsutrymme"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-security.php:77
+msgctxt "Security Product Feature"
+msgid "Automated real-time malware scan"
+msgstr "Automatisk skanning i realtid efter skadlig programvara"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-security.php:78
+msgctxt "Security Product Feature"
+msgid "One-click fixes for most threats"
+msgstr "Åtgärder med ett klick för de flesta hot"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-security.php:79
+msgctxt "Security Product Feature"
+msgid "Comment & form spam protection"
+msgstr "Skräppostskydd för kommentarer och formulär"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:94
+msgid "Jetpack Boost gives your site the same performance advantages as the world’s leading websites, no developer required."
+msgstr "Jetpack Boost ger din webbplats samma prestandafördelar som världens ledande webbplatser har, utan att någon utvecklare behövs."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:104
+msgid "Check your site performance"
+msgstr "Kontrollera din webbplats prestanda"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:105
+msgid "Enable improvements in one click"
+msgstr "Aktivera förbättringar med ett klick"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:106
+msgid "Standalone free plugin for those focused on speed"
+msgstr "Fristående gratis tillägg för dem som fokuserar på hastighet"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-search.php:126
+msgid "Powerful filtering"
+msgstr "Kraftfull filtrering"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-search.php:128
+msgid "Spelling correction"
+msgstr "Stavningskontroll"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-rest-products.php:183
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-rest-products.php:210
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-rest-products.php:236
+msgid "The product class handler is not implemented"
+msgstr "Produktklasshanteraren har inte implementerats"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-module-product.php:109
+msgid "Error activating Jetpack plugin"
+msgstr "Det gick inte att aktivera Jetpack-tillägget"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-hybrid-product.php:118
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-hybrid-product.php:147
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-module-product.php:115
+msgid "Error activating Jetpack module"
+msgstr "Det gick inte att aktivera Jetpack-modulen"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-products.php:138
+msgid "Production action to execute"
+msgstr "Produktionsåtgärd att utföra"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-extras.php:65
+msgid "Basic tools for a successful site"
+msgstr "Grundläggande verktyg för en framgångsrik webbplats"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-videopress.php:95
+msgid "High quality, ad-free video"
+msgstr "Högkvalitativ, annonsfri video"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-rest-products.php:127
+msgid "The product argument must be a string."
+msgstr "Produktargumentet måste vara en sträng."
+
+#. translators: 1: wp_default_scripts. 2: Name of the domain being aliased.
+#: jetpack_vendor/automattic/jetpack-assets/src/class-assets.php:571
+msgid "Textdomain aliases should be registered before the %1$s hook. This notice was triggered by the %2$s domain."
+msgstr "Textdomänsalias bör registreras före %1$s-hooken. Denna notis utlöstes av domänen %2$s."
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:297
+msgid "The required \"nonce\" parameter is missing."
+msgstr "Den obligatoriska parametern ”nonce” saknas."
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:238
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:301
+msgid "If text fields should be converted to latin1 in checksum calculation."
+msgstr "Om textfälten ska konverteras till latin1 vid beräkning av kontrollsumma."
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:256
+msgid "Column mappings"
+msgstr "Kolumnmappningar"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:266
+msgid "Number of histogram buckets."
+msgstr "Antal histogramhinkar."
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:271
+msgid "Start ID for the histogram"
+msgstr "Start-ID för histogrammet"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:276
+msgid "End ID for the histogram"
+msgstr "Slut-ID för histogrammet"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:281
+msgid "Strip non-ascii characters?"
+msgstr "Ta bort icke-ASCII-tecken?"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:286
+msgid "Shared Salt to use when generating checksum"
+msgstr "Delad saltsträng att använda vid generering av kontrollsumma"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:291
+msgid "Should only range endges be returned"
+msgstr "Bör endast intervallgränser returneras?"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:296
+msgid "Do we want the checksum or object ids."
+msgstr "Vill vi ha kontrollsumman eller objekt-ID:n?"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tracking.php:85
+msgid "No valid event name or type."
+msgstr "Inget giltigt eventnamn eller -typ."
+
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-licensing.php:170
+msgid "Jetpack doesn't have a connected owner."
+msgstr "Jetpack har inte någon ansluten ägare."
+
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-licensing.php:180
+msgid "License attach request failed."
+msgstr "Begäran om att bifoga licens misslyckades."
+
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-licensing.php:211
+msgid "Failed to attach your Jetpack license(s). Please try reconnecting Jetpack."
+msgstr "Det gick inte att bifoga din(a) Jetpack-licens(er). Försök att återansluta Jetpack."
+
+#. translators: %s is a comma-separated list of license keys.
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-licensing.php:230
+msgid "The following Jetpack licenses are invalid, already in use, or revoked: %s"
+msgstr "Följande Jetpack-licenser är ogiltiga, används redan eller har återkallats: %s"
+
+#: jetpack_vendor/automattic/jetpack-password-checker/src/class-password-checker.php:254
+msgid "Your password is too weak: Looks like you are including easy to guess information about yourself. Try something a little more unique."
+msgstr "Ditt lösenord är för svagt: Det verkar som om du inkluderar information om dig själv som är lätt att gissa. Försök med något mer unikt."
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-actions.php:494
+msgid "Sync has been aborted because the IXR client is missing."
+msgstr "Synkroniseringen har avbrutits eftersom IXR-klienten saknas."
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:43
+msgid "Data Modules that should be included in Full Sync"
+msgstr "Datamoduler som ska inkluderas i fullständig synkronisering"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:48
+msgid "User IDs to include in Full Sync or \"initial\""
+msgstr "Användar-ID:n att inkludera i fullständig synkronisering eller \"initial\""
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:52
+msgid "Post IDs to include in Full Sync"
+msgstr "Inläggs-ID:n att inkludera i fullständig synkronisering"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:57
+msgid "Comment IDs to include in Full Sync"
+msgstr "Kommentars-ID:n att inkludera i fullständig synkronisering"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:75
+msgid "Comma seperated list of additional fields that should be included in status."
+msgstr "Kommaseparerad lista med ytterligare fält som ska inkluderas i statusen."
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:93
+msgid "New Sync health status"
+msgstr "Hälsostatus för ny synkronisering"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:129
+msgid "Name of Sync module"
+msgstr "Namn på synkroniseringsmodul"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:134
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:261
+msgid "Object Type"
+msgstr "Objekttyp"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:139
+msgid "Objects Identifiers"
+msgstr "Objektidentifierare"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:157
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:197
+msgid "Name of Sync queue."
+msgstr "Namn på synkroniseringskö."
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:215
+msgid "Name of Sync module."
+msgstr "Namn på synkroniseringsmodul."
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:220
+msgid "Size of batches"
+msgstr "Storlek på batchar"
+
+#. translators: "%s" is the name of a paramter. It can be either "secret_1" or
+#. "state".
+#: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:196
+#: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:215
+msgid "The required \"%s\" parameter is malformed."
+msgstr "Den obligatoriska \"%s\"-parametern är felaktig."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:223
+msgid "Verification secrets not found"
+msgstr "Verifieringshemligheterna hittades inte"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:231
+msgid "Verification took too long"
+msgstr "Verfieringen tog för lång tid"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:239
+msgid "Verification secrets are empty"
+msgstr "Verfieringshemligheterna är tomma"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:250
+msgid "Verification secrets are incomplete"
+msgstr "Verfieringshemligheterna är ofullständiga"
+
+#. translators: %s is the user ID.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:396
+msgid "Token for user %d is malformed"
+msgstr "Token för user %d är felformad"
+
+#. translators: %1$d is the ID of the requested user. %2$d is the user ID found
+#. in the token.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:400
+msgid "Requesting user_id %1$d does not match token user_id %2$d"
+msgstr "Den begärande användarens u﻿ser_id %1$d matchar inte user_id %2$d för token"
+
+#. translators: %s is the full datetime of the last heart beat e.g. 2020-01-01
+#. 12:21:23
+#: jetpack_vendor/automattic/jetpack-connection/src/class-heartbeat.php:256
+msgid "Last heartbeat sent at: %s"
+msgstr "Det senaste hjärtslaget skickades vid: %s"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:1121
+msgid "Jetpack experienced an issue trying to save options (cannot_save_secrets). We suggest that you contact your hosting provider, and ask them for help checking that the options table is writable on your site."
+msgstr "Jetpack stötte på ett problem när alternativen skulle sparas (cannot_save_secrets). Vi föreslår att du kontaktar din värdleverantör och ber dem om hjälp för att kontrollera att alternativtabellen är skrivbar på din webbplats."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:1824
+msgid "Invalid Registration State"
+msgstr "Ogiltigt registreringstillstånd"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-plugin-storage.php:142
+msgid "You cannot call this method until Jetpack Config is configured"
+msgstr "Du kan inte anropa den här metoden förrän Jetpack Config har konfigurerats"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-authentication.php:125
+msgid "The request method is missing."
+msgstr "Metoden för begäran saknas."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:152
+msgid "Set to false will trigger the site to disconnect."
+msgstr "Satt till falskt bör det få webbplatsen att frånkopplas."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:157
+msgid "The isActive argument should be set to false."
+msgstr "Argumentet isActive bör vara satt till falskt."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:218
+msgid "Indicates where the registration action was triggered for tracking/segmentation purposes"
+msgstr "Anger var registreringsåtgärden utlöstes för spårnings-/segmenteringsändamål"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:222
+msgid "The registration nonce"
+msgstr "Registreringens engångskod"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:227
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:248
+#: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-rest-endpoints.php:61
+msgid "URI of the admin page where the user should be redirected after connection flow"
+msgstr "URI för adminsidan dit användaren ska omdirigeras efter anslutningsflödet"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:873
+msgid "Invalid user token is provided"
+msgstr "Ogiltig användartoken är angiven"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:879
+msgid "Invalid user id is provided"
+msgstr "Ogiltigt användar-ID är angivet"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:885
+msgid "Site is not connected"
+msgstr "Webbplats inte ansluten"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:928
+msgid "Failed to disconnect the site as it appears already disconnected."
+msgstr "Det gick inte att koppla från webbplatsen, eftersom den redan verkar vara frånkopplad."
+
+#. translators: %s is the script handle.
+#: jetpack_vendor/automattic/jetpack-assets/src/class-assets.php:405
+msgid "Script \"%s\" depends on wp-i18n but does not specify \"textdomain\""
+msgstr "Skriptet \"%s\" är beroende av wp-i18n, men anger inte \"textdomain\""
+
+#. translators: %1$s is a PHP class name.
+#: jetpack_vendor/automattic/jetpack-config/src/class-config.php:188
+msgid "Unable to load class %1$s. Please add the package that contains it using composer and make sure you are requiring the Jetpack autoloader"
+msgstr "Det gick inte att läsa in klassen %1$s. Lägg till paketet som innehåller det med hjälp av Composer och se till att be om en Jetpack-autoloader"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-error-handler.php:727
+msgid "Your connection with WordPress.com seems to be broken. If you're experiencing issues, please try reconnecting."
+msgstr "Din anslutning till WordPress.com verkar inte fungera. Om du har problem, prova att ansluta igen."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:997
+msgid "New owner is same as existing owner"
+msgstr "Ny ägare är samma som befintlig ägare"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-backup.php:117
+msgctxt "Backup Product Feature"
+msgid "30-day archive & activity log*"
+msgstr "30-dagars arkiv- och aktivitetslogg*"
+
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-endpoints.php:405
+msgid "Missing parameter \"last_detached_count\"."
+msgstr "Parametern \"last_detached_count\" saknas."
+
+#. translators: %s: The literal parameter name. Should not be translated.
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-endpoints.php:260
+msgid "%s must be a non-negative integer."
+msgstr "%s måste vara ett icke-negativt heltal."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-videopress.php:114
+msgctxt "VideoPress Product Feature"
+msgid "1TB of storage"
+msgstr "1 TB lagringsutrymme"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-videopress.php:115
+msgctxt "VideoPress Product Feature"
+msgid "Built into WordPress editor"
+msgstr "Inbyggt i WordPress-redigeraren"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-videopress.php:117
+msgctxt "VideoPress Product Feature"
+msgid "Unlimited users"
+msgstr "Obegränsat med användare"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-search.php:115
+msgid "Help your site visitors find answers instantly so they keep reading and buying. Great for sites with a lot of content."
+msgstr "Hjälp dina webbplatsbesökare att hitta svar direkt så att de fortsätter att läsa och köpa. Perfekt för webbplatser med mycket innehåll."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-anti-spam.php:86
+msgid "Save time and get better responses by automatically blocking spam from your comments and forms."
+msgstr "Spara tid och få bättre svar genom att automatiskt blockera skräppost från dina kommentarer och formulär."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-backup.php:105
+msgid "Never lose a word, image, page, or time worrying about your site with automated backups & one-click restores."
+msgstr "Med automatiska säkerhetskopieringar och återställningar med ett klick behöver du aldrig mer förlora ett ord, en bild, en sida eller tid på att oroa dig för din webbplats."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-scan.php:69
+msgid "Automatic scanning and one-click fixes keep your site one step ahead of security threats and malware."
+msgstr "Automatisk skanning och åtgärder med ett klick håller din webbplats ett steg före säkerhetshot och skadlig kod."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-extras.php:74
+msgid "Secure and speed up your site for free with Jetpack's powerful WordPress tools."
+msgstr "Säkra och snabba upp din webbplats gratis med Jetpacks kraftfulla WordPress-verktyg"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-extras.php:84
+msgid "Measure your impact with beautiful stats"
+msgstr "Mät din genomslagskraft med vacker statistik"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-extras.php:85
+msgid "Speed up your site with optimized images"
+msgstr "Snabba upp din webbplats med optimerade bilder"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-extras.php:86
+msgid "Protect your site against bot attacks"
+msgstr "Skydda din webbplats mot robotattacker"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-extras.php:87
+msgid "Get notifications if your site goes offline"
+msgstr "Få notiser om din webbplats går offline"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-extras.php:88
+msgid "Enhance your site with dozens of other features"
+msgstr "Förbättra din webbplats med dussintals andra funktioner"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-videopress.php:104
+msgid "High-quality, ad-free video built specifically for WordPress."
+msgstr "Högkvalitativ, annonsfri video byggd speciellt för WordPress."
+
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-endpoints.php:316
+msgid "Could not set this license key. Please try again."
+msgstr "Det gick inte att ange den här licensnyckeln. Försök igen."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:795
+msgid "Unable to verify your request."
+msgstr "Det gick inte att bekräfta din begäran."
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:162
+msgid "Invalid user identifier."
+msgstr "Ogiltigt användar-ID."
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:175
+msgid "User not found."
+msgstr "Användare hittades inte."
+
+#: jetpack_vendor/automattic/jetpack-password-checker/src/class-password-checker.php:217
+msgid "Passwords may not contain the character \"\\\"."
+msgstr "Lösenord kan inte innehålla tecknet \"\\\"."
+
+#. translators: %d is a number of characters in the password.
+#: jetpack_vendor/automattic/jetpack-password-checker/src/class-password-checker.php:224
+msgid "Password must be at least %d characters."
+msgstr "Lösenordet måste vara minst %d tecken långt."
+
+#: jetpack_vendor/automattic/jetpack-password-checker/src/class-password-checker.php:230
+msgid "This password is too easy to guess: you can improve it by adding additional uppercase letters, lowercase letters, or numbers."
+msgstr "Det här lösenordet är för enkelt att gissa: du kan förbättra det genom att lägga till fler versaler, gemener, eller siffror."
+
+#: jetpack_vendor/automattic/jetpack-password-checker/src/class-password-checker.php:235
+msgid "This password is too easy to guess: you can improve it by mixing both letters and numbers."
+msgstr "Det här lösenordet är för enkelt att gissa: du kan förbättra det genom att använda både bokstäver och siffror."
+
+#: jetpack_vendor/automattic/jetpack-password-checker/src/class-password-checker.php:240
+msgid "This password is too easy to guess: you can improve it by including special characters such as !#=?*&."
+msgstr "Det här lösenordet är för enkelt att gissa: du kan förbättra det genom att lägga till specialtecken, t.ex. !#=?*&."
+
+#: jetpack_vendor/automattic/jetpack-password-checker/src/class-password-checker.php:248
+msgid "This is a very common password. Choose something that will be harder for others to guess."
+msgstr "Detta är ett mycket vanligt lösenord. Välj något som är svårare för andra att gissa sig till."
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:465
+msgid "Valid user is required."
+msgstr "Giltig användare obligatoriskt."
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:476
+msgid "A non-empty nonce must be supplied."
+msgstr "En nonce som inte är tom måste tillhandahållas."
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:500
+msgid "Failed to fetch user token from WordPress.com."
+msgstr "Kunde inte hämta användartoken från WordPress.com."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:1005
+msgid "New owner is not connected"
+msgstr "Den nya ägaren är inte ansluten"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:1025
+msgid "Could not confirm new owner."
+msgstr "Det gick inte att bekräfta den nya ägaren."
+
+#. translators: %s is UTC offset, e.g. "+1"
+#: jetpack_vendor/automattic/jetpack-sync/src/class-functions.php:540
+msgid "UTC%s"
+msgstr "UTC %s"
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:284
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:385
+msgid "Valid user is required"
+msgstr "Giltig användare krävs."
+
+#. translators: "%s" is the name of a paramter. It can be either "secret_1" or
+#. "state".
+#: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:187
+#: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:206
+msgid "The required \"%s\" parameter is missing."
+msgstr "Den obligatoriska parametern ”%s” saknas."
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:321
+msgid "There was an issue validating this request."
+msgstr "Ett problem uppstod när denna begäran skulle bekräftas."
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:530
+msgid "The required \"local_user\" parameter is missing."
+msgstr "Den obligatoriska parametern ”local_user” saknas."
+
+#: jetpack_vendor/automattic/jetpack-sync/src/modules/class-plugins.php:241
+msgid "Unknown Plugin Update Failure"
+msgstr "Okänt fel vid tilläggsuppdatering"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-product.php:707
+#: jetpack_vendor/automattic/jetpack-plugins-installer/src/class-plugins-installer.php:74
+msgid "You are not allowed to install plugins on this site."
+msgstr "Du har inte behörighet att installera tillägg på denna webbplats."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-product.php:579
+#: jetpack_vendor/automattic/jetpack-plugins-installer/src/class-plugins-installer.php:53
+msgid "You are not allowed to activate plugins on this site."
+msgstr "Du har inte behörighet att aktivera tillägg på denna webbplats."
+
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-endpoints.php:350
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-endpoints.php:385
+#: src/class-plan.php:84
+msgid "Unable to fetch the requested data."
+msgstr "Det gick inte att hämta begärda data."
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:342
+msgid "There was an unspecified error registering the site"
+msgstr "Ett ospecificerat fel uppstod vid registrering av webbplatsen"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:1394
+msgid "PHP's XML extension is not available. Jetpack requires the XML extension to communicate with WordPress.com. Please contact your hosting provider to enable PHP's XML extension."
+msgstr "PHP:s XML-tillägg är inte tillgängligt. Jetpack måste har XML-tillägget för att kommunicera med WordPress.com. Kontakta ditt webbhotell för att aktivera PHP:s XML-tillägg."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-authentication.php:138
+msgid "This request method is not supported."
+msgstr "Denna metod för begäran stöds inte."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-authentication.php:146
+msgid "This request method does not support body parameters."
+msgstr "Denna metod för begäran stöder inte parametrar för body."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-authentication.php:180
+msgid "The request is not signed correctly."
+msgstr "Begäran inte korrekt signerad."
+
+#. translators: %d is an integer indicating the number of minutes.
+#: jetpack_vendor/automattic/jetpack-sync/src/class-actions.php:666
+msgid "Every %d minutes"
+msgstr "Var %d minut"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-actions.php:562
+msgid "Sync has been blocked from WordPress.com because it would cause an identity crisis"
+msgstr "Synkronisering har blockerats från WordPress.com eftersom det skulle orsaka en identitetskris"
+
+#. translators: %s: URL to parse.
+#: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-identity-crisis.php:482
+msgid "Cannot parse URL %s"
+msgstr "Kan inte tolka URL %s"
+
+#: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-identity-crisis.php:270
+msgid "Jetpack Safe Mode"
+msgstr "Jetpack säkert läge"
+
+#: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-rest-endpoints.php:129
+msgid "Could not confirm safe mode."
+msgstr "Kunde inte bekräfta säkert läge."
+
+#: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-rest-endpoints.php:146
+msgid "Could not delete sync error option."
+msgstr "Kunde inte ta bort sync error-alternativ."
+
+#: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-rest-endpoints.php:160
+msgid "Could not confirm migration."
+msgstr "Kunde inte bekräfta migrering."
+
+#: src/class-site-health.php:69
+msgid "Security"
+msgstr "Säkerhet"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:56
+#: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-rest-endpoints.php:220
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-endpoints.php:37
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:818
+msgid ""
+"You do not have the correct user permissions to perform this action.\n"
+"\t\t\tPlease contact your site admin if you think this is a mistake."
+msgstr ""
+"Du har inte de rätta behörigheterna för att utföra denna åtgärd.\n"
+"\t\t\tKontakta webbplatsens administratör om du anser att detta är ett misstag."
+
+#. translators: %s: The literal parameter name. Should not be translated.
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-endpoints.php:237
+msgid "%s must be a string."
+msgstr "%s måste vara en sträng."
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-actions.php:664
+msgid "Every minute"
+msgstr "Varje minut"
+
+#. translators: %s is an error message string
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:1415
+msgid "Error Details: Jetpack ID is empty. Do not publicly post this error message! %s"
+msgstr "Feldetaljer: Jetpack-ID:t är tomt. Publicera inte det här felmeddelandet! %s"
+
+#. translators: %s is an error message string
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:1422
+msgid "Error Details: Jetpack ID is not a scalar. Do not publicly post this error message! %s"
+msgstr "Feldetaljer: Jetpack-ID:t är inte en skalär. Publicera inte det här felmeddelandet! %s"
+
+#. translators: %s is an error message string
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:1429
+msgid "Error Details: Jetpack ID begins with a numeral. Do not publicly post this error message! %s"
+msgstr "Feldetaljer: Jetpack-ID:t börjar med en siffra. Publicera inte det här felmeddelandet! %s"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2369
+msgid "The WP.com user ID of the connected user"
+msgstr "Användar-ID:t för WP.com för den anslutna användaren"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2374
+msgid "The WP.com username of the connected user"
+msgstr "Användarnamnet för WP.com för den anslutna användaren"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2379
+msgid "The WP.com user email of the connected user"
+msgstr "Användarens e-postadress för WP.com för den anslutna användaren"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2384
+msgid "The number of sites of the connected WP.com user"
+msgstr "Antalet webbplatser som tillhör den anslutna WP.com-användaren"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2406
+msgid "Jetpack Plugin Version"
+msgstr "Jetpack-tilläggets version"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2412
+msgid "The Client ID/WP.com Blog ID of this site"
+msgstr "Klientens ID/blogg-ID på WP.com för den här webbplatsen"
+
+#: jetpack_vendor/automattic/jetpack-plugins-installer/src/class-plugins-installer.php:95
+msgid "There was an error installing your plugin"
+msgstr "Det var fel när ditt tillägg installerades"
+
+#: jetpack_vendor/automattic/jetpack-plugins-installer/src/class-plugins-installer.php:101
+msgid "An unknown error occurred during installation"
+msgstr "Ett okänt fel uppstod under installationen"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-initializer.php:96
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-initializer.php:97
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-product.php:646
+msgid "My Jetpack"
+msgstr "Mitt Jetpack"
+
+#. translators: %s is a command like "prompt"
+#: jetpack_vendor/automattic/jetpack-connection/src/class-heartbeat.php:236
+msgid "%s is not a valid command."
+msgstr "%s är inte ett giltigt kommando."
+
+#. translators: Error description string.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2561
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:225
+msgid "Error Details: %s"
+msgstr "Feldetaljer: %s"
+
+#. translators: %1$s is a domain name.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2196
+msgid "Domain `%1$s` just failed is_usable_domain check as it is empty."
+msgstr "Domänen \"%1$s\" klarade inte kontrollen is_usable_domain eftersom den är tom."
+
+#. translators: %1$s is a domain name.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2229
+msgid "Domain `%1$s` just failed is_usable_domain check as it is in the forbidden array."
+msgstr "Domänen \"%1$s\" klarade inte kontrollen is_usable_domain eftersom den befinner sig i en förbjuden array."
+
+#. translators: %1$s is a domain name.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2244
+msgid "Domain `%1$s` just failed is_usable_domain check as it uses an invalid top level domain."
+msgstr "Domänen \"%1$s\" klarade inte kontrollen is_usable_domain eftersom den befinner sig i en ogiltig toppdomän."
+
+#. translators: %1$s is a domain name.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2259
+msgid "Domain `%1$s` just failed is_usable_domain check as it is a subdomain of WordPress.com."
+msgstr "Domänen \"%1$s\" klarade inte kontrollen is_usable_domain eftersom den är en underdomän till WordPress.com."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:270
+msgid "Is connection owner"
+msgstr "Är anslutningens ägare"
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:452
+msgid "Jetpack is already connected."
+msgstr "Jetpack är redan ansluten."
+
+#: src/class-site-health.php:87
+msgid "Jetpack Protect detected the following security threats in your site:"
+msgstr "Jetpack Protect upptäckte följande säkerhetshot på din webbplats:"
+
+#. Description of the plugin
+#: jetpack-protect.php
+msgid "Security tools that keep your site safe and sound, from posts to plugins."
+msgstr "Säkerhetsverktyg som håller din webbplats säker och stabil, från inlägg till tillägg."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-search.php:125
+msgid "Instant search and indexing"
+msgstr "Omedelbar sökning och indexering"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:987
+msgid "New owner is not admin"
+msgstr "Ny ägare är inte admin"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-search.php:127
+msgid "Supports 38 languages"
+msgstr "Stöder 38 språk"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-videopress.php:116
+msgctxt "VideoPress Product Feature"
+msgid "Ad-free and customizable player"
+msgstr "Annonsfri och anpassningsbar spelare"

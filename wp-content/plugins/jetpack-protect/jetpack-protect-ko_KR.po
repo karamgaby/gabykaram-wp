@@ -1,0 +1,1768 @@
+# Translation of Plugins - Jetpack Protect - Stable (latest release) in Korean
+# This file is distributed under the same license as the Plugins - Jetpack Protect - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-05-22 07:38:26+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ko_KR\n"
+"Project-Id-Version: Plugins - Jetpack Protect - Stable (latest release)\n"
+
+#. translators: %d is a numeric HTTP error code
+#: jetpack_vendor/automattic/jetpack-boost-core/src/lib/class-utils.php:132
+msgid "HTTP %d while communicating with WordPress.com"
+msgstr "WordPress.com과 통신하는 동안 HTTP %d입니다."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-social.php:89
+msgid "Auto-publish to social media"
+msgstr "소셜 미디어에 자동 게시"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-search.php:106
+msgid "Custom instant site search"
+msgstr "맞춤형 즉시 사이트 검색"
+
+#: jetpack_vendor/automattic/jetpack-boost-speed-score/src/class-speed-score-request.php:262
+msgid "Invalid response from WPCOM API while polling for speed scores"
+msgstr "속도 점수를 폴링하는 동안 WPCOM API의 응답이 잘못됨"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-crm.php:80
+msgid "Nurture your contacts to grow your business"
+msgstr "비즈니스 성장을 위한 연락처 육성"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:88
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-scan.php:60
+msgid "Powerful, automated site security"
+msgstr "강력하고 자동화된 사이트 보안"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:85
+msgid "Speed up your site in seconds"
+msgstr "몇 초 만에 사이트 속도 향상"
+
+#: jetpack_vendor/automattic/jetpack-boost-speed-score/src/class-speed-score.php:136
+msgid "The url parameter is required"
+msgstr "URL 매개변수가 필요합니다."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:162
+msgid "2%"
+msgstr "2%"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:158
+msgid "10%"
+msgstr "10%"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-jetpack-manage.php:47
+msgid "Jetpack Manage"
+msgstr "젯팩 관리"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-jetpack-manage.php:48
+msgctxt "product name shown in menu"
+msgid "Jetpack Manage"
+msgstr "젯팩 관리"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:167
+msgid "Jetpack Blocks"
+msgstr "젯팩 블록"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:234
+msgid ""
+"<p>WordAds adds advertisements to your website. Start earning from your website traffic.</p>\n"
+"                        <p>Over 50 internet advertisers — including Google AdSense & Adx, AppNexus, Amazon A9, AOL Marketplace, Yahoo, Criteo, and more — bid to display ads in WordAds spots.</p>"
+msgstr ""
+"<p>WordAds는 웹사이트에 광고를 추가합니다. 웹사이트 트래픽으로 수익을 창출하세요.</p>↵\n"
+"                        <p>Google 애드센스 및 애드엑스, 앱넥서스, 아마존 A9, AOL 마켓플레이스, 야후, 크리테오 등 50개 이상의 인터넷 광고업체가 WordAds 스팟에 광고를 게재하기 위해 입찰합니다.</p>"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:169
+msgid "Jetpack has over 40 Gutenberg blocks to help you with your content creation, such as displaying your podcasts, showing different content to repeat visitors, creating contact forms and many more."
+msgstr "젯팩에는 팟캐스트 표시, 반복 방문자에게 다양한 콘텐츠 표시, 연락처 양식 생성 등 콘텐츠 제작에 도움이 되는 40개 이상의 구텐베르크 블록이 있습니다."
+
+#. translators: number of requests
+#. translators: %d is the number of requests.
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:112
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:117
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:274
+msgid "Up to %d requests per month"
+msgstr "월 최대 %d건의 요청"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:182
+msgid "Lock your content behind a paid content block. To access the content, readers will need to pay a one-time fee or a recurring subscription."
+msgstr "유료 콘텐츠 블록으로 콘텐츠를 잠급니다. 독자가 콘텐츠에 액세스하려면 일회성 요금 또는 정기 구독을 결제해야 합니다."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:195
+msgid "Add a Paywall to your content which lets your visitors read a section of your content before being asked to subscribe to continue reading."
+msgstr "콘텐츠에 페이월을 추가하여 방문자가 콘텐츠의 섹션을 읽은 후 계속 읽으려면 구독을 요청할 수 있도록 합니다."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:138
+msgid "100 subscribers"
+msgstr "구독자 100명"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:221
+msgid "Accept payment with PayPal for simple payments like eBooks, courses and more."
+msgstr "전자책, 강좌 등의 간편 결제를 위해 PayPal로 결제를 수락하세요."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-stats.php:116
+msgid "Access to upcoming advanced features"
+msgstr "곧 출시될 고급 기능에 액세스"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-activitylog.php:49
+msgid "Activity Log"
+msgstr "활동 로그"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:269
+msgid "Adaptive tone adjustment"
+msgstr "적응형 톤 조정"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-stats.php:118
+msgid "Commercial use"
+msgstr "상업적 사용"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:369
+#: jetpack_vendor/automattic/jetpack-my-jetpack/build/index.js:62
+msgid "Contact Us"
+msgstr "문의하기"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:102
+msgid "Create content that stands out"
+msgstr "눈에 띄는 콘텐츠 만들기"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:92
+msgid "Create, grow, and monetize your audience with powerful tools for creators."
+msgstr "크리에이터를 위한 강력한 도구로 오디언스를 만들고, 성장시키고, 수익을 창출하세요."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:83
+msgid "Create, grow, and monetize your audience"
+msgstr "오디언스를 만들고, 성장시키고, 수익 창출하기"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-stats.php:114
+msgid "Detailed statistics about links leading to your site"
+msgstr "사이트로 연결되는 링크에 대한 상세 통계"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-stats.php:115
+msgid "GDPR compliant"
+msgstr "GDPR 준수"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:103
+msgid "Grow your subscribers through our creator network and tools"
+msgstr "크리에이터 네트워크와 도구를 통해 구독자를 늘리세요."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:130
+msgid "Import a CSV file of your existing subscribers to be sent your Newsletter."
+msgstr "뉴스레터를 보낼 기존 구독자의 CSV 파일을 가져옵니다."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:128
+msgid "Import subscribers"
+msgstr "구독자 가져오기"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:104
+msgid "Monetize your online presence and earn from your website"
+msgstr "온라인에서 수익을 창출하고 웹사이트에서 수익을 창출하세요."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:206
+msgid "Newsletter"
+msgstr "뉴스레터"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:180
+msgid "Paid content gating"
+msgstr "유료 콘텐츠 게이팅"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:219
+msgid "Pay with PayPal"
+msgstr "PayPal로 결제"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:193
+msgid "Paywall access"
+msgstr "페이월 액세스"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:267
+msgid "Prompt based content generation"
+msgstr "프롬프트 기반 콘텐츠 생성"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-stats.php:112
+msgid "Real-time data on visitors"
+msgstr "방문자에 대한 실시간 데이터"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:208
+msgid "Start a Newsletter by sending your content as an email newsletter direct to your fans email inboxes."
+msgstr "팬의 이메일 받은 편지함으로 직접 콘텐츠를 이메일 뉴스레터로 전송하여 뉴스레터를 시작하세요."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:270
+msgid "Superior spelling and grammar correction"
+msgstr "뛰어난 맞춤법 및 문법 교정"
+
+#: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-rest-endpoints.php:316
+msgid "The endpoint is not available on connected sites."
+msgstr "연결된 사이트에서는 엔드포인트를 사용할 수 없습니다."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:231
+msgid "The most advanced AI technology Jetpack has to offer."
+msgstr "젯팩이 제공하는 가장 진보된 AI 기술."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:271
+msgid "Title & summary generation"
+msgstr "제목 및 요약 생성"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-stats.php:113
+msgid "Traffic stats and trends for post and pages"
+msgstr "글 및 페이지에 대한 트래픽 통계 및 트렌드"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:147
+msgid "Transaction fees"
+msgstr "거래 수수료"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:142
+msgid "Unlimited subscribers"
+msgstr "무제한 구독자"
+
+#: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-rest-endpoints.php:100
+msgid "URL secret to compare to the ones stored in the database."
+msgstr "데이터베이스에 저장된 것과 비교할 URL 비밀 번호를 입력하세요."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:232
+msgid "WordAds"
+msgstr "워드광고"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-backup.php:96
+msgid "Your site is not backed up"
+msgstr "사이트가 백업되지 않았습니다."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:233
+msgid "Upgrade and increase the amount of your available monthly requests to continue using the most advanced AI technology Jetpack has to offer."
+msgstr "젯팩이 제공하는 최첨단 AI 기술을 계속 사용하려면 월별 사용 가능한 요청량을 업그레이드하고 늘리세요."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:149
+msgid ""
+"<p>Fees are only collected when you accept payments.</p>\n"
+"                        <p>Fees are based on the Jetpack plan you have and are calculated as a percentage of your revenue from 10% on the Free plan to 2% on the Creator plan (plus Stripe fees).</p>"
+msgstr ""
+"<p>수수료는 결제를 수락할 때만 징수됩니다.</p>↵\n"
+"                        <p>수수료는 사용 중인 젯팩 요금제를 기준으로 무료 요금제의 경우 10%에서 크리에이터 요금제의 경우 2%(스트라이프 수수료 포함)까지 수익의 백분율로 계산됩니다.</p>"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-activitylog.php:50
+msgctxt "product name shown in menu"
+msgid "Activity Log"
+msgstr "활동 로그"
+
+#: jetpack_vendor/automattic/jetpack-jitm/src/class-jitm.php:190
+msgid "Settings"
+msgstr "설정"
+
+#. translators: %1$s is a domain name.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2283
+msgid "IP address `%1$s` just failed is_usable_domain check as it is in the private network."
+msgstr "IP 주소 `%1$s`가 사설 네트워크에 있기 때문에 is_usable_domain 확인에 실패했습니다."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:259
+msgid "Generate text, tables, lists, and forms"
+msgstr "텍스트, 표, 목록 및 양식 생성"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:261
+msgid "Get feedback about your post"
+msgstr "글에 대한 피드백 받기"
+
+#: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-url-secret.php:92
+msgid "Unable to save new URL secret"
+msgstr "새 URL 비밀글을 저장할 수 없음"
+
+#: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-rest-endpoints.php:252
+msgid "URL secret does not exist."
+msgstr "URL 비밀번호가 존재하지 않습니다."
+
+#: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-rest-endpoints.php:301
+msgid "You do not have the correct user permissions to perform this action."
+msgstr "이 작업을 수행할 수 있는 올바른 사용자 권한이 없습니다."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:370
+#: jetpack_vendor/automattic/jetpack-my-jetpack/build/index.js:18
+msgid "Upgrade"
+msgstr "업그레이드"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:219
+msgid "Image CDN"
+msgstr "이미지 CDN"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:221
+msgid "Deliver images from Jetpack's Content Delivery Network. Automatically resizes your images to an appropriate size, converts them to modern efficient formats like WebP, and serves them from a worldwide network of servers."
+msgstr "젯팩의 콘텐츠 전송 네트워크에서 이미지를 전송하세요. 이미지 크기를 적절한 크기로 자동 조정하고 WebP와 같은 효율적인 최신 포맷으로 변환하여 전 세계 서버 네트워크에서 이미지를 제공합니다."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:234
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:248
+msgid ""
+"<p>Paid customers get dedicated email support from our world-class Happiness Engineers to help with any issue.</p>\n"
+"\t\t\t\t\t\t <p>All other questions are handled by our team as quickly as we are able to go through the WordPress support forum.</p>"
+msgstr ""
+"<p>유료 고객은 세계 최고 수준의 해피니스 엔지니어의 전담 이메일 지원을 통해 모든 문제를 해결할 수 있습니다.</p>↵\n"
+"→ → → → → → <p>그 외의 모든 질문은 워드프레스 지원 포럼을 통해 최대한 신속하게 처리됩니다.</p>"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:132
+msgid "Move important styling information to the start of the page, which helps pages display your content sooner, so your users don’t have to wait for the entire page to load. Commonly referred to as Critical CSS."
+msgstr "중요한 스타일링 정보를 페이지 시작 부분으로 이동하면 페이지에 콘텐츠가 더 빨리 표시되므로 사용자가 전체 페이지가 로드될 때까지 기다릴 필요가 없습니다. 일반적으로 중요 CSS라고 합니다."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:162
+msgid ""
+"<p>It’s essential to regenerate Critical CSS to optimize your site speed whenever your HTML or CSS structure changes. Being on top of this can be tedious and time-consuming.</p>\n"
+"\t\t\t\t\t\t\t\t <p>Boost’s cloud service can automatically detect when your site needs the Critical CSS regenerated, and perform this function behind the scenes without requiring you to monitor it manually.</p>"
+msgstr ""
+"<p>HTML 또는 CSS 구조가 변경될 때마다 사이트 속도를 최적화하려면 중요한 CSS를 다시 생성해야 합니다. 이 작업은 지루하고 시간이 많이 소요될 수 있습니다.</p>↵\n"
+"→ → → → → → → <p>부스트의 클라우드 서비스는 사이트에서 중요 CSS를 다시 생성해야 하는 시기를 자동으로 감지하여 사용자가 수동으로 모니터링할 필요 없이 백그라운드에서 이 기능을 수행합니다.</p>"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:143
+msgid ""
+"<p>To enhance the speed of your site, with this plan you will need to optimize CSS by using the Manual Critical CSS generation feature whenever you:</p>\n"
+"\t\t\t\t\t\t\t\t<ul>\n"
+"\t\t\t\t\t\t\t\t\t<li>Make theme changes.</li>\n"
+"\t\t\t\t\t\t\t\t\t<li>Write a new post/page.</li>\n"
+"\t\t\t\t\t\t\t\t\t<li>Edit a post/page.</li>\n"
+"\t\t\t\t\t\t\t\t\t<li>Activate, deactivate, or update plugins that impact your site layout or HTML structure.</li>\n"
+"\t\t\t\t\t\t\t\t\t<li>Change settings of plugins that impact your site layout or HTML structure.</li>\n"
+"\t\t\t\t\t\t\t\t\t<li>Upgrade your WordPress version if the new release includes core CSS changes.</li>\n"
+"\t\t\t\t\t\t\t\t</ul>"
+msgstr ""
+"<p>이 요금제를 사용하면 사이트 속도를 향상시키기 위해 다음과 같은 경우 수동 중요 CSS 생성 기능을 사용하여 CSS를 최적화해야 합니다.</p>↵\n"
+"→ → → → → → → → <ul>↵\n"
+"→ → → → → → → → <li>테마 변경하기.</li>↵\n"
+"→ → → → → → → → <li>새 글/페이지 작성하기.</li>↵\n"
+"→ → → → → → → → <li>글/페이지 편집하기.</li>↵\n"
+"→ → → → → → → → <li>사이트 레이아웃 또는 HTML 구조에 영향을 주는 플러그인 활성화, 비활성화 또는 업데이트.</li>↵\n"
+"→ → → → → → → → <li>사이트 레이아웃 또는 HTML 구조에 영향을 미치는 플러그인의 설정을 변경합니다.</li>↵\n"
+"→ → → → → → → → <li>새 릴리스에 핵심 CSS 변경 사항이 포함된 경우 워드프레스 버전 업그레이드.</li>↵\n"
+"→ → → → → → → </ul>"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:208
+msgid "Discover and fix images with a suboptimal resolution, aspect ratio, or file size, improving user experience and page speed."
+msgstr "해상도, 종횡비 또는 파일 크기가 최적이 아닌 이미지를 발견하고 수정하여 사용자 경험과 페이지 속도를 개선하세요."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:230
+msgid "Jetpack AI Assistant brings the power of AI right into your WordPress editor, letting your content creation soar to new heights."
+msgstr "젯팩 AI 어시스턴트는 AI의 강력한 기능을 워드프레스 편집기에 바로 적용하여 콘텐츠 제작의 수준을 한 단계 끌어올립니다."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:258
+msgid "Artificial intelligence chatbot"
+msgstr "인공 지능 챗봇"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:161
+msgid "Automatic Critical CSS regeneration"
+msgstr "중요 CSS 자동 재생성"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:159
+msgid "Automatically updated"
+msgstr "자동 업데이트됨"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:232
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-creator.php:246
+msgid "Dedicated email support"
+msgstr "전용 이메일 지원"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:172
+msgid "Defer non-essential JavaScript"
+msgstr "필수적이지 않은 자바스크립트 연기"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-starter.php:57
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-starter.php:66
+msgid "Essential security tools: real-time backups and comment spam protection."
+msgstr "필수 보안 도구: 실시간 백업 및 댓글 스팸 방지."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:268
+msgid "Generate text, tables, and lists"
+msgstr "텍스트, 표, 목록 생성"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:206
+msgid "Image guide"
+msgstr "이미지 가이드"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:191
+msgid "Improve page loading speed by only loading images when they are required."
+msgstr "이미지가 필요할 때만 로드하여 페이지 로딩 속도를 개선하세요."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:189
+msgid "Lazy image loading"
+msgstr "지연 이미지 로딩"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:142
+msgid "Manual Critical CSS regeneration"
+msgstr "수동 중요 CSS 재생성"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:140
+msgid "Must be done manually"
+msgstr "수동으로 수행해야 함"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:130
+msgid "Optimize CSS Loading"
+msgstr "CSS 로딩 최적화"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:272
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-stats.php:117
+msgid "Priority support"
+msgstr "우선 지원"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:260
+msgid "Refine the tone and content to your liking"
+msgstr "원하는 대로 톤과 콘텐츠 다듬기"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:174
+msgid "Run non-essential JavaScript after the page has loaded so that styles and images can load more quickly."
+msgstr "스타일과 이미지를 더 빠르게 로드할 수 있도록 페이지가 로드된 후 필수적이지 않은 JavaScript를 실행하세요."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-jetpack-ai.php:262
+msgid "Seamless WordPress editor integration"
+msgstr "원활한 워드프레스 편집기 통합"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-stats.php:93
+msgid "Simple, yet powerful analytics"
+msgstr "간단하지만 강력한 분석"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-stats.php:102
+msgid "With Jetpack Stats, you don’t need to be a data scientist to see how your site is performing."
+msgstr "젯팩 통계를 사용하면 데이터 과학자가 아니어도 사이트의 실적을 확인할 수 있습니다."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-starter.php:78
+msgctxt "Starter Product Feature"
+msgid "Comment & form spam protection"
+msgstr "댓글 및 양식 스팸 방지"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-starter.php:77
+msgctxt "Starter Product Feature"
+msgid "One-click fixes for most threats"
+msgstr "대부분의 위협에 대한 원클릭 수정"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-starter.php:76
+msgctxt "Starter Product Feature"
+msgid "Real-time cloud backups with 1GB storage"
+msgstr "1GB 스토리지로 실시간 클라우드 백업"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:192
+#: build/index.js:22
+msgid "Automatic protection and rule updates"
+msgstr "자동 보호 및 규칙 업데이트"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:188
+#: build/index.js:22
+msgid "Manual rules only"
+msgstr "수동 규칙만"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:184
+#: build/index.js:22
+msgid "Web Application Firewall"
+msgstr "웹 애플리케이션 방화벽"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-rest-controller.php:159
+msgid "Brute force protection could not be deactivated."
+msgstr "무차별 대입 공격 방지를 비활성화할 수 없습니다."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-rest-controller.php:158
+msgid "Brute force protection could not be activated."
+msgstr "무차별 대입 공격 방지를 활성화할 수 없습니다."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:337
+msgid "Brute Force Protection cannot keep your site secure"
+msgstr "무차별 대입 공격 방지에서 사이트를 안전하게 유지할 수 없습니다."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:197
+#: build/index.js:22
+msgid "Brute force protection"
+msgstr "무차별 대입 보호"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:353
+msgid "https://jetpack.com/support/multisite-protect"
+msgstr "https://jetpack.com/support/multisite-protect"
+
+#. translators: %s is HTML markup, for a help icon.
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:762
+msgid "%s Get help unlocking your site"
+msgstr "%s 사이트 잠금 해제 도움말"
+
+#. translators: %s is HTML markup, for a back icon.
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:749
+msgid "%s Back"
+msgstr "%s 뒤로"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:444
+msgid "Send email"
+msgstr "이메일 보내기"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:441
+msgid "Your email"
+msgstr "이메일"
+
+#. translators: the IP address that was flagged.
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:426
+msgid "<p>Your IP address <code>%2$s</code> has been flagged for potential security violations. You can unlock your login by sending yourself a special link via email. <a href=\"%3$s\">Learn More</a></p>"
+msgstr "<p>사용하시는 IP 주소(<code>%2$s</code>)가 잠재적인 보안 위반으로 표시되었습니다. 이메일로 특수한 링크를 보내면 로그인 잠금을 해제하실 수 있습니다. <a href=\"%3$s\">더 알아보기</a></p>"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:371
+msgid "Oops, we were unable to send a recovery email. Try again."
+msgstr "복구 이메일을 보내드릴 수 없습니다. 다시 시도해 주세요."
+
+#. translators: email address the recovery instructions were sent to.
+#. translators: the email address the recovery email was sent to.
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:369
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:415
+msgid "Recovery instructions were sent to %s. Check your inbox!"
+msgstr "복구 지침을 %s(으)로 보내드렸습니다. 받은 편지함을 확인하세요!"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:347
+msgid "Oops, we couldn't find a user with that email. Please try again!"
+msgstr "해당 이메일의 사용자를 찾을 수 없습니다. 다시 시도하세요."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:290
+msgid "Oops, we couldn't validate the recovery token."
+msgstr "복구 토큰을 확인할 수 없습니다."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:387
+msgid "Jetpack has locked your site's login page."
+msgstr "젯팩 프로젝트에서 회원님 사이트의 로그인 페이지를 잠갔습니다."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:342
+msgid "Oops, looks like that's not the right email address. Please try again!"
+msgstr "죄송합니다. 이메일 주소가 유효하지 않습니다. 다시 시도하세요."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:307
+msgid "You successfully logged out."
+msgstr "로그아웃했습니다."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-blocked-login-page.php:217
+msgid "The recovery token is not valid for this user."
+msgstr "복구 토큰이 이 사용자에게 유효하지 않습니다."
+
+#. translators: variable is the IP address that was flagged.
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:875
+msgid "Your IP (%1$s) has been flagged for potential security violations."
+msgstr "사용하시는 IP(%1$s)가 잠재적인 보안 위반으로 표시되었습니다."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:956
+msgid "There was an error contacting Jetpack servers."
+msgstr "젯팩 서버에 연결하는 도중 오류가 발생했습니다."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:952
+msgid "No API key"
+msgstr "API 키 없음"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:948
+msgid "Your API key is invalid"
+msgstr "API 키가 잘못되었습니다."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:878
+msgid "Login Blocked by Jetpack"
+msgstr "젯팩에서 차단한 로그인입니다"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:485
+msgid "No reply from Jetpack servers"
+msgstr "젯팩 서버에서 응답이 없습니다"
+
+#. Translators: The xml error code, and the xml error message.
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:476
+msgid "Error connecting to WordPress.com. Code: %1$s, %2$s"
+msgstr "WordPress.com에 연결하는 도중 오류가 발생했습니다. 코드: %1$s, %2$s"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:447
+msgid "Your main blog is not connected to WordPress.com. Please connect to get an API key."
+msgstr "메인 블로그가 WordPress.com에 연결되지 않았습니다. 연결하여 API 키를 받으세요."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:351
+msgid "View Network Admin"
+msgstr "네트워크 관리자 보기"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-shared-functions.php:189
+msgid "Only super admins can edit the global allow list"
+msgstr "최고 관리자만 전역 허용 목록 편집 가능"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-shared-functions.php:186
+msgid "Cannot use global flag on non-multisites"
+msgstr "멀티사이트가 아닌 사이트에서 글로벌 플래그를 사용할 수 없음"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-shared-functions.php:183
+msgid "Expecting an array"
+msgstr "어레이 예상"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-math-fallback.php:167
+msgid "Prove your humanity"
+msgstr "실제 사용자임을 증명"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-math-fallback.php:104
+msgid "Continue &rarr;"
+msgstr "계속 &rarr;"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-math-fallback.php:98
+msgid "Your answer was incorrect, please try again."
+msgstr "답이 틀렸습니다. 다시 시도하세요."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-math-fallback.php:96
+msgid "Please solve this math problem to prove that you are not a bot. Once you solve it, you will need to log in again."
+msgstr "이 수학 문제를 풀어야 봇이 아니라는 것이 증명됩니다. 이 문제를 푼 다음 다시 로그인해야 합니다."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-math-fallback.php:73
+msgid "<strong>You failed to correctly answer the math problem.</strong> This is used to combat spam when Jetpack’s Brute Force Attack Protection API is unavailable. Please use your browser’s back button to return to the login form, press the \"refresh\" button to generate a new math problem, and try to log in again."
+msgstr "<strong>수학 문제에 올바르게 답변하지 못했습니다.</strong> 젯팩의 무차별 대입 공격 방지 API를 사용할 수 없을 때 스팸 차단에 사용됩니다. 브라우저의 뒤로 버튼을 사용하여 로그인 양식으로 돌아가서 \"새로 고침\" 버튼을 눌러 새로운 수학 문제를 생성하고 다시 로그인해 보세요."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/brute-force-protection/class-shared-functions.php:220
+msgid "One of your IP addresses was not valid."
+msgstr "IP 주소 중 하나가 올바르지 않습니다."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:354
+msgid "Learn More"
+msgstr "더 알아보기"
+
+#. Translators: placeholder is a plugin name (Jetpack Protect or Jetpack).
+#: jetpack_vendor/automattic/jetpack-waf/src/class-brute-force-protection.php:343
+msgid "Thanks for activating the Brute Force Protection feature! To start protecting your whole WordPress Multisite Network, please network activate the %1$s plugin. Due to the way logins are handled on WordPress Multisite Networks, %1$s must be network activated in order for the Brute Force Protection feature to work properly."
+msgstr "무차별 암호 대입 보호 기능을 활성화해 주셔서 감사합니다! 전체 워드프레스 멀티사이트 네트워크 보호를 시작하려면 %1$s 플러그인을 네트워크에서 활성화하세요. 워드프레스 멀티사이트 네트워크에서 로그인이 처리되는 방식 때문에 무차별 암호 대입 보호 기능이 제대로 작동하려면 %1$s가 네트워크에 활성화되어 있어야 합니다."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-rest-controller.php:82
+msgid "Rules updated succesfully"
+msgstr "규칙 업데이트됨"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:170
+msgid "Something went wrong. Please try again."
+msgstr "문제가 발생했습니다. 다시 시도하세요."
+
+#: src/class-rest-controller.php:378
+msgid "An error occured disabling the firewall."
+msgstr "방화벽을 비활성화하는 동안 오류가 발생했습니다."
+
+#: src/class-rest-controller.php:390
+msgid "An error occured enabling the firewall."
+msgstr "방화벽을 활성화하는 동안 오류가 발생했습니다."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2636
+msgid "Sorry, something is wrong with your Jetpack connection."
+msgstr "죄송합니다. 젯팩 연결에 문제가 있습니다."
+
+#. translators: %1$s is the name of the mode that was just switched to.
+#: jetpack_vendor/automattic/jetpack-waf/src/class-waf-cli.php:161
+msgid "Jetpack WAF rules successfully created to: \"%1$s\"."
+msgstr "젯팩 WAF 규칙이 \"%1$s\"에 생성되었습니다."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-waf-cli.php:118
+msgid "Jetpack WAF has successfully been setup."
+msgstr "젯팩 WAF가 설정되었습니다."
+
+#. translators: %1$s is the unexpected error message.
+#: jetpack_vendor/automattic/jetpack-waf/src/class-waf-cli.php:112
+#: jetpack_vendor/automattic/jetpack-waf/src/class-waf-cli.php:152
+msgid "Jetpack WAF rules file failed to generate: %1$s"
+msgstr "젯팩 WAF 규칙 파일(%1$s)을 생성하지 못했습니다."
+
+#. translators: %1$s is the name of the mode that the waf is currently running
+#. in.
+#: jetpack_vendor/automattic/jetpack-waf/src/class-waf-cli.php:75
+msgid "Jetpack WAF is running in \"%1$s\" mode."
+msgstr "젯팩 WAF가 \"%1$s\" 모드에서 실행 중입니다."
+
+#. translators: %1$s is the name of the mode that was just switched to.
+#: jetpack_vendor/automattic/jetpack-waf/src/class-waf-cli.php:67
+msgid "Jetpack WAF mode switched to \"%1$s\"."
+msgstr "젯팩 WAF 모드가 \"%1$s\"(으)로 전환되었습니다."
+
+#. translators: %1$s is the mode that was actually found. Also note that the
+#. expected "silent" and "normal" are hard-coded strings and must therefore
+#. stay the same in any translation.
+#: jetpack_vendor/automattic/jetpack-waf/src/class-waf-cli.php:44
+msgid "Invalid mode: %1$s. Expected \"silent\" or \"normal\"."
+msgstr "유효하지 않은 모드(%1$s)입니다. \"silent\" 또는 \"normal\"이 예상되었습니다."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-waf-cli.php:36
+msgid "Only one mode may be specified."
+msgstr "하나의 모드만 지정할 수 있습니다."
+
+#. translators: %1$s is the unexpected error message.
+#: jetpack_vendor/automattic/jetpack-waf/src/class-waf-cli.php:58
+msgid "Unable to generate waf bootstrap - standalone mode may not work properly: %1$s"
+msgstr "Waf 부트스트랩을 생성할 수 없음 - 독립 실행형 모드가 제대로 작동하지 않을 수 있음: %1$s"
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-waf-cli.php:134
+msgid "Jetpack WAF has been deactivated."
+msgstr "젯팩 WAF가 비활성화되었습니다."
+
+#: jetpack_vendor/automattic/jetpack-waf/src/class-waf-cli.php:131
+msgid "Jetpack WAF failed to fully deactivate."
+msgstr "젯팩 WAF가 완전히 비활성화되지 않았습니다."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-security.php:57
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-security.php:66
+msgid "Comprehensive site security, including VaultPress Backup, Scan, and Akismet Anti-spam."
+msgstr "VaultPress Backup, Scan 및 Akismet Anti-spam을 포함한 포괄적인 사이트 보안입니다."
+
+#: jetpack_vendor/automattic/jetpack-admin-ui/src/class-admin-menu.php:61
+msgid "Akismet Anti-spam"
+msgstr "Akismet Anti-spam"
+
+#. Author URI of the plugin
+#: jetpack-protect.php
+msgid "https://jetpack.com/protect/"
+msgstr "https://jetpack.com/protect/"
+
+#. Author of the plugin
+#: jetpack-protect.php
+msgid "Automattic - Jetpack Security team"
+msgstr "Automattic - 젯팩 보안팀"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:225
+#: build/index.js:22
+msgid "Severity labels"
+msgstr "심각도 레이블"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:211
+#: build/index.js:22
+msgid "One-click auto fixes"
+msgstr "원클릭 자동 수정"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:204
+#: build/index.js:22
+msgid "Access to scan on Cloud"
+msgstr "클라우드에서 접근하여 검사"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:179
+#: build/index.js:22
+msgid "Plus on-demand manual scans"
+msgstr "추가 주문형 수동 검사"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:174
+#: build/index.js:22
+msgid "Daily automated scans"
+msgstr "매일 자동 검사"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:169
+#: build/index.js:22
+msgid "Line by line malware scanning"
+msgstr "한 줄씩 악성코드 검사"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:165
+#: build/index.js:22
+msgid "Check items against database"
+msgstr "데이터베이스에 대한 항목 확인"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:161
+#: build/index.js:22
+msgid "Scan for threats and vulnerabilities"
+msgstr "위협 및 취약성 검사"
+
+#: jetpack_vendor/automattic/jetpack-transport-helper/src/class-rest-controller.php:91
+msgid "You are not allowed to perform this action."
+msgstr "이 작업을 수행하실 수 없습니다."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:218
+#: build/index.js:22
+msgid "Notifications"
+msgstr "알림"
+
+#. translators: $d is the number of threats found.
+#: src/class-site-health.php:86
+msgid "Your site is affected by %d security threat"
+msgid_plural "Your site is affected by %d security threats"
+msgstr[0] "사이트가 %d 보안 위협의 영향을 받습니다."
+
+#: jetpack_vendor/automattic/jetpack-transport-helper/src/class-rest-controller.php:49
+msgid "base64 encoded Helper Script body."
+msgstr "base64로 인코딩된 헬퍼 스크립트 본문."
+
+#: jetpack_vendor/automattic/jetpack-transport-helper/src/class-rest-controller.php:121
+msgid "Helper Script body must be base64 encoded"
+msgstr "헬퍼 스크립트 본문은 base64로 인코딩되어야 합니다."
+
+#: src/class-site-health.php:66
+msgid "No known threats found"
+msgstr "알려진 위협이 발견되지 않았습니다."
+
+#: jetpack_vendor/automattic/jetpack-transport-helper/src/class-rest-controller.php:68
+msgid "Path to Helper Script"
+msgstr "헬퍼 스크립트 경로"
+
+#. translators: %d is the number of threats found.
+#: src/class-jetpack-protect.php:319
+msgid "%d threat found by Jetpack Protect"
+msgid_plural "%d threats found by Jetpack Protect"
+msgstr[0] "젯팩 프로텍트에서 발견한 %d 위협"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-backup.php:130
+msgctxt "Backup Product Disclaimer"
+msgid "* Subject to your usage and storage limit."
+msgstr "* 사용량 및 저장 공간 제한이 적용됩니다."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-backup.php:131
+msgctxt "Backup Product Disclaimer"
+msgid "Learn more"
+msgstr "더 알아보기"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:203
+msgid "Every Jetpack site needs at least one connected admin for the features to work properly. Please connect to your WordPress.com account via the button below. Once you connect, you may refresh this page to see an option to change the connection owner."
+msgstr "기능이 제대로 작동하려면 모든 젯팩 사이트에 연결된 관리자가 한 명 이상 있어야 합니다. 아래 버튼을 눌러 워드프레스닷컴 계정에 연결하세요. 연결되면 이 페이지를 새로 고쳐 연결 소유자를 변경하는 옵션을 표시할 수 있습니다."
+
+#. translators: URL to Jetpack support doc regarding the primary user.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:213
+msgid "<a href='%s' target='_blank' rel='noopener noreferrer'>Learn more</a> about the connection owner and what will break if you do not have one."
+msgstr "연결 소유자란 무엇이고 연결 소유자가 없는 경우 무엇이 차단되는지 <a href='%s' target='_blank' rel='noopener noreferrer'>자세히 알아보세요</a>."
+
+#. translators: URL to contact Jetpack support.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:229
+msgid "As always, feel free to <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">contact our support team</a> if you have any questions."
+msgstr "언제든지 질문이 있으면 <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">지원팀에 문의</a>하세요."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:125
+msgid "You can choose to transfer connection ownership to one of these already-connected admins:"
+msgstr "연결 소유권을 이미 연결된 다음 관리자 중 하나에 이전할 수 있습니다."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:143
+msgid "Set new connection owner"
+msgstr "새 연결 소유자 설정"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:116
+msgid "Important notice about your Jetpack connection:"
+msgstr "젯팩 연결에 대한 중요한 알림:"
+
+#. translators: WordPress User, if available.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:119
+msgid "Warning! You are about to delete the Jetpack connection owner (%s) for this site, which may cause some of your Jetpack features to stop working."
+msgstr "경고! 이 사이트의 젯팩 연결 소유자(%s)를 삭제하려는 중입니다. 일부 젯팩 기능이 작동하지 않을 수 있습니다."
+
+#: jetpack_vendor/automattic/jetpack-jitm/src/class-jitm.php:189
+msgid "Activating"
+msgstr "활성화 중"
+
+#: jetpack_vendor/automattic/jetpack-jitm/src/class-post-connection-jitm.php:59
+msgid "New free service: Show USPS shipping rates on your store! Added bonus: print shipping labels without leaving WooCommerce."
+msgstr "새 무료 서비스: 스토어에 USPS 배송비를 표시하세요! 추가 보너스: 우커머스를 나가지 않고 배송 레이블을 인쇄합니다."
+
+#: jetpack_vendor/automattic/jetpack-jitm/src/class-post-connection-jitm.php:62
+msgid "New free service: Show Canada Post shipping rates on your store!"
+msgstr "새 무료 서비스: 스토어에 캐나다 우체국 배송비를 표시하세요!"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:187
+msgid "Success!"
+msgstr "성공!"
+
+#: jetpack_vendor/automattic/jetpack-jitm/src/class-jitm.php:188
+msgid "Activated"
+msgstr "활성화됨"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-connection-notice.php:206
+msgid "Connect to WordPress.com"
+msgstr "WordPress.com 연결하기"
+
+#: jetpack_vendor/automattic/jetpack-jitm/src/class-jitm.php:187
+#: jetpack_vendor/automattic/jetpack-my-jetpack/build/index.js:12
+#: jetpack_vendor/automattic/jetpack-my-jetpack/build/index.js:18
+msgid "Activate"
+msgstr "활성화"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-social.php:98
+msgid "Promote your content on social media by automatically publishing when you publish on your site."
+msgstr "사이트에서 발행할 때 자동으로 발행하여 소셜 미디어에서 콘텐츠를 홍보하세요."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-social.php:108
+msgid "Post to social networks"
+msgstr "소셜 네트워크에 공개"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-social.php:109
+msgid "Schedule publishing"
+msgstr "발행 예약"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-social.php:110
+msgid "Supports the major social networks"
+msgstr "주요 소셜 네트워크 지원"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-scan.php:82
+msgctxt "Scan Product Feature"
+msgid "Access to latest Firewall rules"
+msgstr "최신 방화벽 규칙에 접근"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:97
+msgid "Protect your site and scan for security vulnerabilities listed in our database."
+msgstr "사이트를 보호하고 데이터베이스 목록에 있는 보안 취약성을 스캔하세요."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:107
+msgid "Over 20,000 listed vulnerabilities"
+msgstr "20,000개 이상 취약점 목록 제공"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:108
+msgid "Daily automatic scans"
+msgstr "매일 자동 스캔"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:109
+msgid "Check plugin and theme version status"
+msgstr "플러그인 및 테마 버전 상태 확인"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-protect.php:110
+msgid "Easy to navigate and use"
+msgstr "쉽게 탐색하고 사용"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-product.php:647
+msgid "My Jetpack dashboard"
+msgstr "내 젯팩 알림판"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-hybrid-product.php:83
+msgid "Activation failed. Plugin is not installed"
+msgstr "활성화되지 않았습니다. 플러그인이 설치되지 않았습니다."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-wpcom-products.php:78
+msgid "Unable to fetch the products list from WordPress.com"
+msgstr "워드프레스닷컴에서 상품 목록을 가져올 수 없음"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-crm.php:89
+msgid "All of your contacts in one place. Build better relationships with your customers and clients."
+msgstr "모든 연락처가 한곳에 배치됩니다. 고객 및 클라이언트와 더 좋은 관계를 형성하세요."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-crm.php:99
+msgid "Manage unlimited contacts"
+msgstr "무제한 연락처 관리"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-crm.php:100
+msgid "Manage billing and create invoices"
+msgstr "청구 관리 및 청구서 생성"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-crm.php:101
+msgid "Fully integrated with WordPress & WooCommerce"
+msgstr "워드프레스 및 우커머스와 완전히 통합됨"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-crm.php:102
+msgid "Infinitely customizable with integrations and extensions"
+msgstr "통합과 확장을 통해 무한정 사용자 정의 가능"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-security.php:76
+msgctxt "Security Product Feature"
+msgid "Real-time cloud backups with 10GB storage"
+msgstr "10GB 저장 공간으로 실시간 클라우드 백업"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-security.php:77
+msgctxt "Security Product Feature"
+msgid "Automated real-time malware scan"
+msgstr "자동화된 실시간 악성코드 검사"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-security.php:78
+msgctxt "Security Product Feature"
+msgid "One-click fixes for most threats"
+msgstr "대다수 위협을 클릭 한 번으로 해결"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-security.php:79
+msgctxt "Security Product Feature"
+msgid "Comment & form spam protection"
+msgstr "댓글과 양식 스팸 방지"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:94
+msgid "Jetpack Boost gives your site the same performance advantages as the world’s leading websites, no developer required."
+msgstr "젯팩 부스트에서는 전 세계 유수의 웹사이트와 동일한 성능 이점이 사이트에 제공됩니다. 개발자가 필요 없습니다."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:104
+msgid "Check your site performance"
+msgstr "사이트 성능 확인"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:105
+msgid "Enable improvements in one click"
+msgstr "클릭 한 번으로 개선 사항 활성화"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-boost.php:106
+msgid "Standalone free plugin for those focused on speed"
+msgstr "속도를 중시하는 사용자를 위한 독립형 무료 플러그인"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-search.php:125
+msgid "Instant search and indexing"
+msgstr "빠른 검색 및 색인화"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-search.php:126
+msgid "Powerful filtering"
+msgstr "매우 효과적인 필터링"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-search.php:128
+msgid "Spelling correction"
+msgstr "맞춤법 교정"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-rest-products.php:183
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-rest-products.php:210
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-rest-products.php:236
+msgid "The product class handler is not implemented"
+msgstr "상품 클래스가 구현되지 않았습니다."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-module-product.php:109
+msgid "Error activating Jetpack plugin"
+msgstr "젯팩 플러그인 활성화 오류"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-hybrid-product.php:118
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-hybrid-product.php:147
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-module-product.php:115
+msgid "Error activating Jetpack module"
+msgstr "젯팩 모듈 활성화 오류"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-products.php:131
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-rest-products.php:34
+msgid "Product slug"
+msgstr "상품 슬러그"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-products.php:138
+msgid "Production action to execute"
+msgstr "실행할 제작 작업"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-anti-spam.php:77
+msgid "Stop comment and form spam"
+msgstr "댓글과 양식의 스팸 방지"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-backup.php:93
+msgid "Save every change"
+msgstr "모든 변경 사항 저장"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-extras.php:65
+msgid "Basic tools for a successful site"
+msgstr "성공적인 사이트를 위한 기본 도구"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-videopress.php:95
+msgid "High quality, ad-free video"
+msgstr "광고 없는 고품질 비디오"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-rest-products.php:127
+msgid "The product argument must be a string."
+msgstr "상품 인수는 문자열이어야 합니다."
+
+#. translators: 1: wp_default_scripts. 2: Name of the domain being aliased.
+#: jetpack_vendor/automattic/jetpack-assets/src/class-assets.php:571
+msgid "Textdomain aliases should be registered before the %1$s hook. This notice was triggered by the %2$s domain."
+msgstr "Textdomain 별칭은 %1$s 훅 전에 등록해야 합니다. 이 공지는 %2$s 도메인에 의해 트리거되었습니다."
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:297
+msgid "The required \"nonce\" parameter is missing."
+msgstr "필수 \"nonce\" 파라미터가 없습니다."
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:238
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:301
+msgid "If text fields should be converted to latin1 in checksum calculation."
+msgstr "체크섬 계산에서 텍스트 필드를 latin1으로 변환해야 하는 경우입니다."
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:256
+msgid "Column mappings"
+msgstr "열 매핑"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:266
+msgid "Number of histogram buckets."
+msgstr "히스토그램 버킷 수입니다."
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:271
+msgid "Start ID for the histogram"
+msgstr "히스토그램 시작 ID"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:276
+msgid "End ID for the histogram"
+msgstr "히스토그램 종료 ID"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:281
+msgid "Strip non-ascii characters?"
+msgstr "ASCII 문자가 아니면 제거할까요?"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:286
+msgid "Shared Salt to use when generating checksum"
+msgstr "체크섬 생성 시 사용할 공유 솔트"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:291
+msgid "Should only range endges be returned"
+msgstr "범위 경계만 반환되어야 함"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:296
+msgid "Do we want the checksum or object ids."
+msgstr "체크섬 ID 또는 개체 ID가 필요합니다."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tracking.php:85
+msgid "No valid event name or type."
+msgstr "유효한 이벤트 이름 또는 유형이 없습니다."
+
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-licensing.php:170
+msgid "Jetpack doesn't have a connected owner."
+msgstr "연결된 소유자가 젯팩에 없습니다."
+
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-licensing.php:180
+msgid "License attach request failed."
+msgstr "라이선스 연결 요청에 실패했습니다."
+
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-licensing.php:211
+msgid "Failed to attach your Jetpack license(s). Please try reconnecting Jetpack."
+msgstr "젯팩 라이선스를 연결할 수 없습니다. 젯팩에 다시 연결을 시도하세요."
+
+#. translators: %s is a comma-separated list of license keys.
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-licensing.php:230
+msgid "The following Jetpack licenses are invalid, already in use, or revoked: %s"
+msgstr "다음 젯팩 라이선스는 유효하지 않거나, 이미 사용 중이거나, 취소되었습니다. %s"
+
+#: jetpack_vendor/automattic/jetpack-password-checker/src/class-password-checker.php:254
+msgid "Your password is too weak: Looks like you are including easy to guess information about yourself. Try something a little more unique."
+msgstr "비밀번호가 너무 취약합니다. 회원님과 관련해 추측하기 쉬운 정보가 포함된 것 같습니다. 보다 고유한 비밀번호를 만드세요."
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-actions.php:494
+msgid "Sync has been aborted because the IXR client is missing."
+msgstr "IXR 클라이언트가 누락되어 동기화가 중단되었습니다."
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:43
+msgid "Data Modules that should be included in Full Sync"
+msgstr "전체 동기화에 포함되어야 하는 데이터 모듈"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:48
+msgid "User IDs to include in Full Sync or \"initial\""
+msgstr "전체 동기화 또는 '이니셜'에 포함할 사용자 ID"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:52
+msgid "Post IDs to include in Full Sync"
+msgstr "전체 동기화에 포함할 글 ID"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:57
+msgid "Comment IDs to include in Full Sync"
+msgstr "전체 동기화에 포함할 댓글 ID"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:75
+msgid "Comma seperated list of additional fields that should be included in status."
+msgstr "상태에 포함되어야 하는 추가 필드의 쉼표로 구분된 목록입니다."
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:93
+msgid "New Sync health status"
+msgstr "새 동기화 상태"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:129
+msgid "Name of Sync module"
+msgstr "동기화 모듈의 이름"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:134
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:261
+msgid "Object Type"
+msgstr "개체 유형"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:139
+msgid "Objects Identifiers"
+msgstr "개체 식별자"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:157
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:197
+msgid "Name of Sync queue."
+msgstr "동기화 대기열의 이름입니다."
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:215
+msgid "Name of Sync module."
+msgstr "동기화 모듈의 이름입니다."
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:220
+msgid "Size of batches"
+msgstr "배치 크기"
+
+#. translators: "%s" is the name of a paramter. It can be either "secret_1" or
+#. "state".
+#: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:196
+#: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:215
+msgid "The required \"%s\" parameter is malformed."
+msgstr "필수 \"%s\" 파라미터가 비정상적입니다."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:223
+msgid "Verification secrets not found"
+msgstr "확인 비밀이 없습니다."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:231
+msgid "Verification took too long"
+msgstr "확인하는 데 너무 오래 걸립니다."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:239
+msgid "Verification secrets are empty"
+msgstr "확인 비밀이 비어 있습니다."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:250
+msgid "Verification secrets are incomplete"
+msgstr "확인 비밀이 불완전합니다."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:258
+msgid "Secret mismatch"
+msgstr "비밀 불일치"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:381
+msgid "No user tokens found"
+msgstr "사용자 토큰 없음"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:386
+msgid "No primary user defined"
+msgstr "정의된 기본 사용자 없음"
+
+#. translators: %s is the user ID.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:391
+msgid "No token for user %d"
+msgstr "사용자 %d의 토큰 없음"
+
+#. translators: %s is the user ID.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:396
+msgid "Token for user %d is malformed"
+msgstr "사용자 %d의 토큰이 비정상적입니다."
+
+#. translators: %1$d is the ID of the requested user. %2$d is the user ID found
+#. in the token.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:400
+msgid "Requesting user_id %1$d does not match token user_id %2$d"
+msgstr "user_id %1$d 요청이 토큰 user_id %2$d과(와) 일치하지 않습니다."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:431
+msgid "No blog token found"
+msgstr "블로그 토큰 없음"
+
+#. translators: %d is the user ID.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:458
+msgid "Invalid token for user %d"
+msgstr "유효하지 않은 사용자 토큰 %d"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:460
+msgid "Invalid blog token"
+msgstr "유효하지 않은 블로그 토큰"
+
+#. translators: %s is the full datetime of the last heart beat e.g. 2020-01-01
+#. 12:21:23
+#: jetpack_vendor/automattic/jetpack-connection/src/class-heartbeat.php:256
+msgid "Last heartbeat sent at: %s"
+msgstr "마지막으로 하트비트를 보낸 시각: %s"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:1121
+msgid "Jetpack experienced an issue trying to save options (cannot_save_secrets). We suggest that you contact your hosting provider, and ask them for help checking that the options table is writable on your site."
+msgstr "젯팩에서 옵션 저장을 시도하는 중 문제가 발생했습니다(cannot_save_secrets). 호스팅 공급업체에 연락하여 회원님의 사이트에서 옵션 테이블을 작성할 수 있는지 확인하는 도움말을 문의하시기 바랍니다."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:1824
+msgid "Invalid Registration State"
+msgstr "유효하지 않은 등록 상태"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-plugin-storage.php:142
+msgid "You cannot call this method until Jetpack Config is configured"
+msgstr "젯팩 구성이 구성될 때까지 이 방법을 호출할 수 없습니다."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-authentication.php:125
+msgid "The request method is missing."
+msgstr "요청 방법이 누락되었습니다."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:152
+msgid "Set to false will trigger the site to disconnect."
+msgstr "false로 설정하면 사이트 연결 해제가 트리거됩니다."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:157
+msgid "The isActive argument should be set to false."
+msgstr "isActive 인수가 false로 설정되어야 합니다."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:218
+msgid "Indicates where the registration action was triggered for tracking/segmentation purposes"
+msgstr "추적/세분화를 목적으로 등록 작업이 트리거된 위치를 나타냅니다."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:222
+msgid "The registration nonce"
+msgstr "등록 임시값"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:227
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:248
+#: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-rest-endpoints.php:61
+msgid "URI of the admin page where the user should be redirected after connection flow"
+msgstr "연결 흐름 이후 사용자가 리디렉션되어야 하는 관리자 페이지의 URI"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:231
+msgid "Indicates from what plugin the request is coming from"
+msgstr "요청이 발생하는 플러그인 표시"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:265
+msgid "New user token"
+msgstr "새 사용자 토큰"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:270
+msgid "Is connection owner"
+msgstr "연결 소유자임"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:288
+msgid "New owner"
+msgstr "새 소유자"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:873
+msgid "Invalid user token is provided"
+msgstr "유효하지 않은 사용자 토큰이 제공되었습니다."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:879
+msgid "Invalid user id is provided"
+msgstr "유효하지 않은 사용자 ID가 제공되었습니다."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:885
+msgid "Site is not connected"
+msgstr "사이트가 연결되지 않았습니다."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:928
+msgid "Failed to disconnect the site as it appears already disconnected."
+msgstr "사이트 연결이 이미 해제된 것으로 나타나서 연결을 해제하지 못했습니다."
+
+#. translators: %s is the script handle.
+#: jetpack_vendor/automattic/jetpack-assets/src/class-assets.php:405
+msgid "Script \"%s\" depends on wp-i18n but does not specify \"textdomain\""
+msgstr "\"%s\" 스크립트는 wp-i18n에 따라 다르지만 이를 통해 \"textdomain\"이 지정되지는 않습니다."
+
+#. translators: %1$s is a PHP class name.
+#: jetpack_vendor/automattic/jetpack-config/src/class-config.php:188
+msgid "Unable to load class %1$s. Please add the package that contains it using composer and make sure you are requiring the Jetpack autoloader"
+msgstr "%1$s 클래스를 로드할 수 없습니다. 작성 도구를 사용하여 이 클래스가 포함된 패키지를 추가하고 젯팩 오토로더가 필요한지 확인하세요."
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:367
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:425
+msgid "Blog is already registered"
+msgstr "블로그가 이미 등록되었습니다."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-error-handler.php:727
+msgid "Your connection with WordPress.com seems to be broken. If you're experiencing issues, please try reconnecting."
+msgstr "워드프레스닷컴과 연결이 끊어진 것 같습니다. 문제가 발생하면 다시 연결해 보세요."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:997
+msgid "New owner is same as existing owner"
+msgstr "새 소유자가 기존 소유자와 같음"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-backup.php:117
+msgctxt "Backup Product Feature"
+msgid "30-day archive & activity log*"
+msgstr "30일 아카이브 및 활동 로그*"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-backup.php:115
+msgctxt "Backup Product Feature"
+msgid "Real-time cloud backups"
+msgstr "실시간 클라우드 백업"
+
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-endpoints.php:405
+msgid "Missing parameter \"last_detached_count\"."
+msgstr "\"last_detached_count\" 파라미터가 없습니다."
+
+#. translators: %s: The literal parameter name. Should not be translated.
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-endpoints.php:260
+msgid "%s must be a non-negative integer."
+msgstr "%s은(는) 음수가 아닌 정수여야 합니다."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-videopress.php:114
+msgctxt "VideoPress Product Feature"
+msgid "1TB of storage"
+msgstr "저장 공간 1TB"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-videopress.php:115
+msgctxt "VideoPress Product Feature"
+msgid "Built into WordPress editor"
+msgstr "워드프레스 편집기에 구축됨"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-videopress.php:117
+msgctxt "VideoPress Product Feature"
+msgid "Unlimited users"
+msgstr "무제한 사용자"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-search.php:115
+msgid "Help your site visitors find answers instantly so they keep reading and buying. Great for sites with a lot of content."
+msgstr "사이트 방문자가 계속 읽으면서 구매할 수 있도록 답변을 즉시 찾는 데 도움이 됩니다. 콘텐츠가 많은 사이트에 적합합니다."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-anti-spam.php:86
+msgid "Save time and get better responses by automatically blocking spam from your comments and forms."
+msgstr "댓글과 양식의 스팸을 자동으로 차단하여 시간을 절약하고 방문자와 더 활발히 소통하세요."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-anti-spam.php:96
+msgctxt "Anti-Spam Product Feature"
+msgid "Comment and form spam protection"
+msgstr "댓글과 양식 스팸 방지"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-anti-spam.php:97
+msgctxt "Anti-Spam Product Feature"
+msgid "Block spam without CAPTCHAs"
+msgstr "CAPTCHA 없이 스팸 차단"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-anti-spam.php:98
+msgctxt "Anti-Spam Product Feature"
+msgid "Advanced stats"
+msgstr "고급 통계"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-backup.php:105
+msgid "Never lose a word, image, page, or time worrying about your site with automated backups & one-click restores."
+msgstr "자동 백업과 원클릭 복원 덕분에 이미지나 페이지뿐 아니라 단어 하나 놓치는 일 없으니 사이트를 걱정할 일이 없습니다."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-backup.php:118
+msgctxt "Backup Product Feature"
+msgid "One-click restores"
+msgstr "원클릭 복원"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-backup.php:116
+msgctxt "Backup Product Feature"
+msgid "10GB of backup storage"
+msgstr "백업 저장 공간 10GB"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-scan.php:69
+msgid "Automatic scanning and one-click fixes keep your site one step ahead of security threats and malware."
+msgstr "자동 검사와 원클릭 수정을 통해 사이트의 보안 위협과 악성코드를 예방합니다."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-scan.php:79
+msgctxt "Scan Product Feature"
+msgid "Automated daily scanning"
+msgstr "자동화된 매일 검사"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-scan.php:80
+msgctxt "Scan Product Feature"
+msgid "One-click fixes for most issues"
+msgstr "대다수 문제를 클릭 한 번으로 해결"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-scan.php:81
+msgctxt "Scan Product Feature"
+msgid "Instant email notifications"
+msgstr "빠른 이메일 알림"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-extras.php:74
+msgid "Secure and speed up your site for free with Jetpack's powerful WordPress tools."
+msgstr "젯팩의 강력한 워드프레스 도구를 통해 무료로 사이트의 안전을 유지하고 속도를 높이세요."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-extras.php:84
+msgid "Measure your impact with beautiful stats"
+msgstr "아름다운 통계로 영향력 측정"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-extras.php:85
+msgid "Speed up your site with optimized images"
+msgstr "최적화된 이미지로 사이트 속도 향상"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-extras.php:86
+msgid "Protect your site against bot attacks"
+msgstr "봇 공격으로부터 사이트 보호"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-extras.php:87
+msgid "Get notifications if your site goes offline"
+msgstr "사이트가 오프라인으로 전환되면 알림 받기"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-extras.php:88
+msgid "Enhance your site with dozens of other features"
+msgstr "기타 수십 가지 기능으로 사이트 보강"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-videopress.php:104
+msgid "High-quality, ad-free video built specifically for WordPress."
+msgstr "워드프레스 전용으로 구축된 광고 없는 고화질 비디오입니다."
+
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-endpoints.php:316
+msgid "Could not set this license key. Please try again."
+msgstr "이 라이선스 키를 설정할 수 없습니다. 다시 시도하세요."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tracking.php:78
+msgid "You aren’t authorized to do that."
+msgstr "이 작업을 수행할 권한이 없습니다."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:795
+msgid "Unable to verify your request."
+msgstr "요청을 확인할 수 없습니다."
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:162
+msgid "Invalid user identifier."
+msgstr "사용자 ID가 유효하지 않습니다."
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:175
+msgid "User not found."
+msgstr "사용자가 없습니다."
+
+#: jetpack_vendor/automattic/jetpack-password-checker/src/class-password-checker.php:217
+msgid "Passwords may not contain the character \"\\\"."
+msgstr "비밀번호에는 \"\\\" 문자를 사용할 수 없습니다."
+
+#. translators: %d is a number of characters in the password.
+#: jetpack_vendor/automattic/jetpack-password-checker/src/class-password-checker.php:224
+msgid "Password must be at least %d characters."
+msgstr "비밀번호는 %d자 이상이어야 합니다."
+
+#: jetpack_vendor/automattic/jetpack-password-checker/src/class-password-checker.php:230
+msgid "This password is too easy to guess: you can improve it by adding additional uppercase letters, lowercase letters, or numbers."
+msgstr "이 비밀번호는 예측하기 너무 쉽습니다. 대문자, 소문자 또는 숫자를 추가하여 강도를 높일 수 있습니다."
+
+#: jetpack_vendor/automattic/jetpack-password-checker/src/class-password-checker.php:235
+msgid "This password is too easy to guess: you can improve it by mixing both letters and numbers."
+msgstr "이 비밀번호는 예측하기 너무 쉽습니다. 숫자와 영문자를 혼합하면 더욱 강력한 암호를 만들 수 있습니다."
+
+#: jetpack_vendor/automattic/jetpack-password-checker/src/class-password-checker.php:240
+msgid "This password is too easy to guess: you can improve it by including special characters such as !#=?*&."
+msgstr "이 비밀번호는 예측하기 너무 쉽습니다. 특수 문자(!#=?*&)를 넣으면 더욱 강력한 암호를 만들 수 있습니다."
+
+#: jetpack_vendor/automattic/jetpack-password-checker/src/class-password-checker.php:248
+msgid "This is a very common password. Choose something that will be harder for others to guess."
+msgstr "너무 흔한 비밀번호입니다. 추측하기 어려운 비밀번호를 설정하세요."
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:452
+msgid "Jetpack is already connected."
+msgstr "젯팩이 이미 연결되었습니다."
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:465
+msgid "Valid user is required."
+msgstr "유효한 사용자는 필수입니다."
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:476
+msgid "A non-empty nonce must be supplied."
+msgstr "비어 있지 않은 nonce가 제공되어야 합니다."
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:500
+msgid "Failed to fetch user token from WordPress.com."
+msgstr "워드프레스닷컴에서 사용자 토큰을 가져오지 못했습니다."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:987
+msgid "New owner is not admin"
+msgstr "새 소유자가 관리자가 아닙니다."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:1005
+msgid "New owner is not connected"
+msgstr "새 소유자가 연결되어 있지 않습니다."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:1025
+msgid "Could not confirm new owner."
+msgstr "새 소유자를 확인할 수 없습니다."
+
+#. translators: %s is UTC offset, e.g. "+1"
+#: jetpack_vendor/automattic/jetpack-sync/src/class-functions.php:540
+msgid "UTC%s"
+msgstr "UTC%s"
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:284
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:385
+msgid "Valid user is required"
+msgstr "유효한 사용자는 필수입니다."
+
+#. translators: "%s" is the name of a paramter. It can be either "secret_1" or
+#. "state".
+#: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:187
+#: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:206
+msgid "The required \"%s\" parameter is missing."
+msgstr "필수 \"%s\" 파라미터가 누락되었습니다."
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:321
+msgid "There was an issue validating this request."
+msgstr "이 요청을 확인하는 데 문제가 있었습니다."
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:530
+msgid "The required \"local_user\" parameter is missing."
+msgstr "필수 \"local_user\" 파라미터가 없습니다."
+
+#: jetpack_vendor/automattic/jetpack-sync/src/modules/class-plugins.php:241
+msgid "Unknown Plugin Update Failure"
+msgstr "알 수 없는 플러그인 업데이트 실패"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-product.php:707
+#: jetpack_vendor/automattic/jetpack-plugins-installer/src/class-plugins-installer.php:74
+msgid "You are not allowed to install plugins on this site."
+msgstr "이 사이트에서 플러그인을 설치할 권한이 없습니다."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-product.php:579
+#: jetpack_vendor/automattic/jetpack-plugins-installer/src/class-plugins-installer.php:53
+msgid "You are not allowed to activate plugins on this site."
+msgstr "이 사이트에서 플러그인을 활성화할 권한이 없습니다."
+
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-endpoints.php:350
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-endpoints.php:385
+#: src/class-plan.php:84
+msgid "Unable to fetch the requested data."
+msgstr "요청한 데이터를 가져올 수 없습니다."
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-rest-purchases.php:48
+msgid "Your site is not connected to Jetpack."
+msgstr "이 사이트는 젯팩과 연결되어 있지 않습니다."
+
+#: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:342
+msgid "There was an unspecified error registering the site"
+msgstr "사이트를 등록하는 동안 알 수 없는 오류가 발생했습니다."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:1394
+msgid "PHP's XML extension is not available. Jetpack requires the XML extension to communicate with WordPress.com. Please contact your hosting provider to enable PHP's XML extension."
+msgstr "PHP의 XML 확장자를 사용할 수 없습니다. 젯팩을 사용하려면 워드프레스닷컴과 통신할 XML 확장자가 필요합니다. PHP의 XML 확장자를 사용하려면 호스팅 공급업체에 문의하세요."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-authentication.php:138
+msgid "This request method is not supported."
+msgstr "이 요청 메서드는 지원되지 않습니다."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-authentication.php:146
+msgid "This request method does not support body parameters."
+msgstr "이 요청 메서드는 본문 파라미터를 지원하지 않습니다."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-authentication.php:180
+msgid "The request is not signed correctly."
+msgstr "요청이 올바르게 서명되지 않았습니다."
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-actions.php:562
+msgid "Sync has been blocked from WordPress.com because it would cause an identity crisis"
+msgstr "ID 충돌이 발생할 수 있어 워드프레스닷컴에서 동기화가 차단되었습니다."
+
+#. translators: %s: URL to parse.
+#: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-identity-crisis.php:482
+msgid "Cannot parse URL %s"
+msgstr "URL %s을(를) 구문 분석할 수 없습니다."
+
+#: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-identity-crisis.php:270
+msgid "Jetpack Safe Mode"
+msgstr "젯팩 안전 모드"
+
+#: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-rest-endpoints.php:129
+msgid "Could not confirm safe mode."
+msgstr "안전 모드를 확인할 수 없습니다."
+
+#: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-rest-endpoints.php:146
+msgid "Could not delete sync error option."
+msgstr "동기화 오류 옵션을 삭제할 수 없습니다."
+
+#: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-rest-endpoints.php:160
+msgid "Could not confirm migration."
+msgstr "마이그레이션을 확인할 수 없습니다."
+
+#: src/class-site-health.php:69
+msgid "Security"
+msgstr "보안"
+
+#: jetpack-protect.php:129
+msgid "Dashboard"
+msgstr "알림판"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-rest-connector.php:56
+#: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-rest-endpoints.php:220
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-endpoints.php:37
+#: jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php:818
+msgid ""
+"You do not have the correct user permissions to perform this action.\n"
+"\t\t\tPlease contact your site admin if you think this is a mistake."
+msgstr ""
+"이 작업을 수행할 올바른 사용자 권한이 없습니다.\n"
+"\t\t\t이것이 실수라고 생각되면 사이트 관리자에게 문의하세요."
+
+#. translators: %s: The literal parameter name. Should not be translated.
+#: jetpack_vendor/automattic/jetpack-licensing/src/class-endpoints.php:237
+msgid "%s must be a string."
+msgstr "%s은(는) 문자열이어야 합니다."
+
+#. translators: %s is an error message string
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:1415
+msgid "Error Details: Jetpack ID is empty. Do not publicly post this error message! %s"
+msgstr "에러 상세: 젯팩 아이디가 비어있습니다. 이 에러 메시지를 공개적으로 발행하지 마세요! %s"
+
+#. translators: %s is an error message string
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:1422
+msgid "Error Details: Jetpack ID is not a scalar. Do not publicly post this error message! %s"
+msgstr "에러 상세: 젯팩 아이디가 스칼라입니다. 이 에러 메시지를 공개적으로 발생하지 마세요! %s"
+
+#. translators: %s is an error message string
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:1429
+msgid "Error Details: Jetpack ID begins with a numeral. Do not publicly post this error message! %s"
+msgstr "에러 상세: 젯팩 아이디가 숫자로 시작합니다. 이 에러 메시지를 공개적으로 발생하지 마세요! %s"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2369
+msgid "The WP.com user ID of the connected user"
+msgstr "연결된 사용자의 WP.com 사용자 ID"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2374
+msgid "The WP.com username of the connected user"
+msgstr "연결된 사용자의 WP.com 사용자명"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2379
+msgid "The WP.com user email of the connected user"
+msgstr "연결된 사용자의 WP.com 사용자 이메일"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2384
+msgid "The number of sites of the connected WP.com user"
+msgstr "연결된 사용자의 WP.com 사이트 수"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2406
+msgid "Jetpack Plugin Version"
+msgstr "젯팩 플러그인 버전"
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2412
+msgid "The Client ID/WP.com Blog ID of this site"
+msgstr "이 사이트의 클라이언트 ID/WP.com 블로그 아이디"
+
+#: jetpack_vendor/automattic/jetpack-plugins-installer/src/class-plugins-installer.php:95
+msgid "There was an error installing your plugin"
+msgstr "플러그인 설치 시 에러가 발생했습니다"
+
+#: jetpack_vendor/automattic/jetpack-plugins-installer/src/class-plugins-installer.php:101
+msgid "An unknown error occurred during installation"
+msgstr "설치 시 알 수 없는 에러가 발생했습니다"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-initializer.php:96
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/class-initializer.php:97
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-product.php:646
+msgid "My Jetpack"
+msgstr "내 젯팩"
+
+#. translators: %s is a command like "prompt"
+#: jetpack_vendor/automattic/jetpack-connection/src/class-heartbeat.php:236
+msgid "%s is not a valid command."
+msgstr "%s는 유효한 명령이 아닙니다."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:132
+msgid "An administrator for this blog must set up the Jetpack connection."
+msgstr "이 블로그이 관리자가 젯팩 연결을 설정해야합니다."
+
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:137
+msgid "You need to register your Jetpack before connecting it."
+msgstr "연결하기 전에 젯팩을 등록해야합니다."
+
+#. translators: Error description string.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2561
+#: jetpack_vendor/automattic/jetpack-connection/src/class-tokens.php:225
+msgid "Error Details: %s"
+msgstr "에러 상세: %s"
+
+#. translators: %1$s is a domain name.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2196
+msgid "Domain `%1$s` just failed is_usable_domain check as it is empty."
+msgstr "`%1$s` 도메인은 비어 있기 때문에 is_usable_domain 검사에 실패했습니다."
+
+#. translators: %1$s is a domain name.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2229
+msgid "Domain `%1$s` just failed is_usable_domain check as it is in the forbidden array."
+msgstr "`%1$s` 도메인은 금지된 어레이에 있기 때문에 is_usable_domain 검사에 실패했습니다."
+
+#. translators: %1$s is a domain name.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2244
+msgid "Domain `%1$s` just failed is_usable_domain check as it uses an invalid top level domain."
+msgstr "`%1$s` 도메인은 잘못된 최상위 도메인을 사용하기 때문에 is_usable_domain 검사에 실패했습니다."
+
+#. translators: %1$s is a domain name.
+#: jetpack_vendor/automattic/jetpack-connection/src/class-manager.php:2259
+msgid "Domain `%1$s` just failed is_usable_domain check as it is a subdomain of WordPress.com."
+msgstr "`%1$s` 도메인은 워드프레스닷컴의 하위 도메인이기 때문에 is_usable_domain 검사에 실패했습니다."
+
+#: src/class-jetpack-protect.php:146
+msgctxt "The Jetpack Protect product name, without the Jetpack prefix"
+msgid "Protect"
+msgstr "보호"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-search.php:127
+msgid "Supports 38 languages"
+msgstr "38개 언어 지원"
+
+#: jetpack_vendor/automattic/jetpack-my-jetpack/src/products/class-videopress.php:116
+msgctxt "VideoPress Product Feature"
+msgid "Ad-free and customizable player"
+msgstr "광고가 없고 사용자 정의 가능한 플레이어"
+
+#: jetpack_vendor/automattic/jetpack-sync/src/class-actions.php:664
+msgid "Every minute"
+msgstr "매분마다"
+
+#. translators: %d is an integer indicating the number of minutes.
+#: jetpack_vendor/automattic/jetpack-sync/src/class-actions.php:666
+msgid "Every %d minutes"
+msgstr "%d 분마다"
+
+#. translators: Link to Jetpack Protect.
+#: src/class-site-health.php:99
+msgid "See <a href=\"%s\">Protect overview page</a> for more information."
+msgstr "자세한 내용은 <a href=\"%s\">보호 개요 페이지</a>를 참조하세요."
+
+#. Plugin URI of the plugin
+#: jetpack-protect.php
+msgid "https://wordpress.org/plugins/jetpack-protect"
+msgstr "https://wordpress.org/plugins/jetpack-protect"
+
+#: jetpack-protect.php:55
+msgid "Error loading autoloader file for Jetpack Protect plugin"
+msgstr "젯팩 프로텍트 플러그인용 자동 로더 파일 로드 중 오류 발생"
+
+#: src/class-site-health.php:39
+msgid "Jetpack Protect checks"
+msgstr "젯팩 프로텍트 검사"
+
+#: src/class-site-health.php:87
+msgid "Jetpack Protect detected the following security threats in your site:"
+msgstr "젯팩 프로텍트가 사이트에서 다음과 같은 보안 위협을 감지했습니다:"
+
+#. Description of the plugin
+#: jetpack-protect.php
+msgid "Security tools that keep your site safe and sound, from posts to plugins."
+msgstr "글부터 플러그인까지 사이트를 안전하게 보호하는 보안 도구."
+
+#. Plugin Name of the plugin
+#: jetpack-protect.php src/class-jetpack-protect.php:152 build/index.js:10
+#: build/index.js:20
+msgid "Jetpack Protect"
+msgstr "젯팩 프로텍트"
+
+#: src/class-site-health.php:74
+msgid "Jetpack Protect did not find any known threats in your site. Threats can be exploited by hackers and cause harm to your website."
+msgstr "젯팩 프로텍트가 사이트에서 알려진 위협을 발견하지 못했습니다. 위협은 해커에 의해 악용되어 웹사이트에 해를 끼칠 수 있습니다."
+
+#. translators: Placeholder is a link to a support document.
+#: jetpack-protect.php:83
+msgid "Your installation of Jetpack Protect is incomplete. If you installed Jetpack Protect from GitHub, please refer to <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">this document</a> to set up your development environment. Jetpack Protect must have Composer dependencies installed and built via the build command."
+msgstr ""
+"젯팩 프로텍트 설치가 완료되지 않았습니다. GitHub에서 젯팩 프로텍트를 설치한 경우 <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">이 문서</a>를 참조하여 개발 환경을 설정하세요. 젯팩 프로텍트에는 Composer 종속성이 설치되어 있어야 하며 빌드 명령을 통해 빌드해야 합니다.\n"
+"댓글"
