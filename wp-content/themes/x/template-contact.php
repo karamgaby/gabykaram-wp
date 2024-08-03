@@ -13,7 +13,7 @@ $contact_list    = $contact_section['contact_info'];
 $cf7_id          = $contact_section['contact_form'][0];
 ?>
 
-  <div class="container py-5">
+  <div class="py-5">
     <?php
     ContactSection::render( array(
       'title'        => $title,
