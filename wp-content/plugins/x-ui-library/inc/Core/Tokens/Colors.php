@@ -41,8 +41,9 @@ class Colors extends AbstractTokens {
             "white-grey-300" => "#E5E5E5",
             "black" => "#000000",
             "white" => "#FFFFFF",
-            "error" => "#C6000C",
+            "system-error" => "#C6000C",
             "transparent" => "transparent",
+            "system-green" => "#086030",
         ],
     ]);
   }

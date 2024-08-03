@@ -86,7 +86,7 @@ if ($has_image && !empty($image_desktop_width)) {
                         <?php
                     endif;
                     ?>
-                    <div class="text-image-link-section__content x-typography-body-1 x-typography-md-subtitle-1">
+                    <div class="text-image-link-section__content x-typography-body-1 x-typography-md-quote">
                         <?= $content ?>
                     </div>
                     <?php

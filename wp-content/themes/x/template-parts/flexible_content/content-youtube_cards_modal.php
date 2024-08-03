@@ -43,7 +43,7 @@ unset($attr['class']);
                 $card_id = 'modal-card-' . $section_index . '-' . $counter;
                 ?>
                 <div class="col-24 col-md-8">
-                    <div class="youtube-modal-card" tabindex="0" data-bs-toggle="modal" data-bs-target="#<?= $card_id ?>">
+                    <a class="youtube-modal-card" data-fancybox href="<?= $video_src; ?>&autoplay=1">
 
                         <div class="youtube-modal-card__title">
                             <?= $title ?>
@@ -56,26 +56,7 @@ unset($attr['class']);
                                 'id' => $card['image']
                             ]) ?>
                         </div>
-                    </div>
-
-                    <!-- Modal -->
-                    <div class="youtube-card-modal modal fade" id="<?= $card_id ?>" tabindex="-1"
-                        aria-labelledby="<?= $card_id ?>Label" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="youtube-modal-card">
-
-                                    <div class="youtube-modal-card__title" id="<?= $card_id ?>Label">
-                                        <?= $title ?>
-                                    </div>
-                                    <div class="youtube-modal-card__description">
-                                        <?= $description ?>
-                                    </div>
-                                    <iframe data-src="<?= $video_src; ?>&autoplay=1" allow="autoplay"></iframe>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    </a>
                 </div>
                 <?php
                 $counter++;

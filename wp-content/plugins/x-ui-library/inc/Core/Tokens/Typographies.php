@@ -67,7 +67,7 @@ class Typographies extends AbstractTokens {
                 "fontSize" => "1.125rem",
                 "fontWeight" => "600",
                 "letterSpacing" => "0.5px",
-                "lineHeight" => "100%",
+                "lineHeight" => "140%",
                 "textTransform" => "none",
                 "textDecoration" => "none",
             ],
@@ -145,7 +145,7 @@ class Typographies extends AbstractTokens {
             ],
             "link" => [
                 "fontFamily" => "Outfit",
-                "fontSize" => "1rem",
+                "fontSize" => "1.5rem",
                 "fontWeight" => "500",
                 "letterSpacing" => "0.5px",
                 "lineHeight" => "100%",

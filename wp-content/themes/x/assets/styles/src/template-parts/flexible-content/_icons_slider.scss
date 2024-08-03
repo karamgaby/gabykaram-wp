@@ -1,4 +1,5 @@
 .icons-slides {
+    width: calc(100% + var(--container-padding));
     &:not(.swiper-initialized ) {
         .swiper-wrapper {
             display: flex;

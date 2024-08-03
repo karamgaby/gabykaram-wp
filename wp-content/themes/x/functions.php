@@ -1,4 +1,5 @@
 <?php
+use X_UI\Core\Tokens\Grid as GridTokens;
 
 if (!defined('STAGE_ZERO_VERSION')) {
   $theme = wp_get_theme();
@@ -76,6 +77,7 @@ function acf_modifify_flexible_content_global_spacing_options($field)
   $grid_tokens = X_UI\Core\Tokens\Grid::getInstance();
   $spacing = $grid_tokens->getMeta('spacing');
   $choices = $field['choices'];
+  $choices['custom'] = 'Custom';
   foreach ($spacing as $key => $value) {
     $choices[$key] = sprintf('%s => (%s) 1 rem = 16px', $key, $value);
   }
@@ -87,7 +89,9 @@ function acf_modifify_flexible_content_global_spacing_options($field)
 }
 
 add_filter('acf/prepare_field/name=desktop_top_spacing', 'acf_modifify_flexible_content_global_spacing_options');
+add_filter('acf/prepare_field/name=desktop_bottom_spacing', 'acf_modifify_flexible_content_global_spacing_options');
 add_filter('acf/prepare_field/name=mobile_top_spacing', 'acf_modifify_flexible_content_global_spacing_options');
+add_filter('acf/prepare_field/name=mobile_bottom_spacing', 'acf_modifify_flexible_content_global_spacing_options');
 
 
 function acf_modifify_flexible_color_options($field)
@@ -205,3 +209,84 @@ function parent_menu_item_rule_match($match, $rule, $options)
 
   return $match;
 }
+
+function custom_acf_css()
+{
+  if (function_exists('get_field')) {
+    $custom_css = '';
+    $grid_tokens = GridTokens::getInstance();
+    $breakpoints = $grid_tokens->getMeta('breakpoints');
+    $md_breakpoint = $breakpoints['md'];
+    $md_min_width = intval($md_breakpoint['minWidth']);
+    $mobile_max_width = $md_min_width - 1;
+    if (have_rows('flexible_content')):
+      $counter = 0;
+      // Loop through rows.
+      while (have_rows('flexible_content')):
+        the_row();
+        $row_layout = get_row_layout();
+        $advanced_settings = get_sub_field('advanced_settings');
+        $uniq_section_id = $row_layout . '-' . $counter;
+        $desktop_top_spacing = $advanced_settings ? $advanced_settings['desktop_top_spacing'] : null;
+        $desktop_top_custom_spacing = $advanced_settings ? $advanced_settings['desktop_top_custom_spacing'] : null;
+        $desktop_bottom_spacing = $advanced_settings ? $advanced_settings['desktop_bottom_spacing'] : null;
+        $desktop_bottom_custom_spacing = $advanced_settings ? $advanced_settings['desktop_bottom_custom_spacing'] : null;
+        $mobile_top_spacing = $advanced_settings ? $advanced_settings['mobile_top_spacing'] : null;
+        $mobile_tob_custom_spacing = $advanced_settings ? $advanced_settings['mobile_tob_custom_spacing'] : null;
+        $mobile_bottom_spacing = $advanced_settings ? $advanced_settings['mobile_bottom_spacing'] : null;
+        $mobile_bottom_custom_spacing = $advanced_settings ? $advanced_settings['mobile_bottom_custom_spacing'] : null;
+
+        $custom_css .= '@media all and (max-width: ' . $mobile_max_width . 'px) {';
+        $custom_css .= "[data-section-id='{$uniq_section_id}'] {";
+
+        if (!empty($mobile_top_spacing) && $mobile_top_spacing === 'custom' && !empty($mobile_tob_custom_spacing)) {
+          $ren_val = intval($mobile_tob_custom_spacing) / 16;
+          $custom_css .= " margin-top: {$ren_val}rem  !important; ";
+        }
+        if ($mobile_bottom_spacing === 'custom' && !empty($mobile_bottom_custom_spacing)) {
+          $rem_val = intval($mobile_bottom_custom_spacing) / 16;
+          $custom_css .= " margin-bottom: {$rem_val}rem  !important; ";
+        }
+
+        $custom_css .= '}';
+        $custom_css .= '}';
+
+        $custom_css .= '@media all and (min-width: ' . $md_min_width . 'px) {';
+        $custom_css .= "[data-section-id='{$uniq_section_id}'] {";
+        if (!empty($desktop_top_spacing) && $desktop_top_spacing === 'custom' && !empty($desktop_top_custom_spacing)) {
+          $ren_val = intval($desktop_top_custom_spacing) / 16;
+          $custom_css .= " margin-top: {$ren_val}rem  !important; ";
+        }
+        if ($desktop_bottom_spacing === 'custom' && !empty($desktop_bottom_custom_spacing)) {
+          $rem_val = intval($desktop_bottom_custom_spacing) / 16;
+      
+          $custom_css .= " margin-bottom: {$rem_val}rem !important; ";
+          if ($desktop_bottom_spacing === 'custom') {
+
+            // die(var_dump([
+            //   'desktop_bottom_spacing' => $desktop_bottom_spacing,
+            //   'custom_css'=> $custom_css,
+            //   'desktop_bottom_custom_spacing' => $desktop_bottom_custom_spacing,
+            //   'mobile_top_spacing' => $mobile_top_spacing,
+            //   'mobile_top_custom_spacing' => $mobile_tob_custom_spacing,
+            //   'mobile_bottom_spacing' => $mobile_bottom_spacing,
+            //   'mobile_bottom_custom_spacing' => $mobile_bottom_custom_spacing,
+            // ]));
+          }
+        }
+
+        $custom_css .= '}';
+        $custom_css .= '}';
+        $counter++;
+      endwhile;
+    endif;
+
+
+    if ($custom_css) {
+      file_put_contents(__DIR__ . '/custom-style.css', $custom_css);
+      wp_enqueue_style('custom-style', get_stylesheet_uri(), ['x-style']);
+      wp_add_inline_style('custom-style', $custom_css);
+    }
+  }
+}
+add_action('wp_enqueue_scripts', 'custom_acf_css');

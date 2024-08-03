@@ -10,6 +10,7 @@
     padding: getSpacing(5) getSpacing(2);
     overflow: hidden;
     cursor: pointer;
+    text-decoration: none;
     &__title {
         @include ps-typography(h3);
         color: getColor(mate-black-500);
@@ -20,17 +21,5 @@
     }
     .modal-card__image {
         aspect-ratio: 16/9;
-    }
-}
-.youtube-card-modal{
-    min-width: min(toRem(954), 75vw);
-    .modal-dialog{
-        background: getColor(white);
-        border-radius: getBorderRadius(5);
-        overflow: hidden;
-    }
-    .fluid-width-video-wrapper {
-        aspect-ratio: 16 / 9;
-
     }
 }

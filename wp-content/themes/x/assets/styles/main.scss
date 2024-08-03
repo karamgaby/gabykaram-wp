@@ -53,7 +53,7 @@ body.page-template-template-flexible-content {
     flex-direction: column;
     gap: 6rem;
     padding-top: 4rem;
-    padding-bottom: 6rem;
+    padding-bottom: 5rem;
     @include media-breakpoint-smaller(md) {
       gap: 3rem;
       padding-top: 3rem;
@@ -89,9 +89,6 @@ html, body {
     height: 80%;
   }
 
-}
-body.page-id-45.page-template-template-flexible-content article {
-  padding-bottom: 0;
 }
 
 @media all and (max-width: 773px) {

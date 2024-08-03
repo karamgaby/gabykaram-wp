@@ -13,19 +13,38 @@ if (have_rows('flexible_content')):
     );
     $advanced_settings = get_sub_field('advanced_settings');
     $section_id = $advanced_settings ? $advanced_settings['section_id'] : null;
-    $mobile_top_spacing = $advanced_settings ? $advanced_settings['mobile_top_spacing'] : null;
+    $uniq_section_id = $row_layout . '-' . $counter;
     $desktop_top_spacing = $advanced_settings ? $advanced_settings['desktop_top_spacing'] : null;
+    $desktop_top_custom_spacing = $advanced_settings ? $advanced_settings['desktop_top_custom_spacing'] : null;
+    $desktop_bottom_spacing = $advanced_settings ? $advanced_settings['desktop_bottom_spacing'] : null;
+    $desktop_bottom_custom_spacing = $advanced_settings ? $advanced_settings['desktop_bottom_custom_spacing'] : null;
+    $mobile_top_spacing = $advanced_settings ? $advanced_settings['mobile_top_spacing'] : null;
+    $mobile_tob_custom_spacing = $advanced_settings ? $advanced_settings['mobile_tob_custom_spacing'] : null;
+    $mobile_bottom_spacing = $advanced_settings ? $advanced_settings['mobile_bottom_spacing'] : null;
+    $mobile_bottom_custom_spacing = $advanced_settings ? $advanced_settings['mobile_bottom_custom_spacing'] : null;
     if (!empty($section_id)) {
       $args['attr']['id'] = $section_id;
     }
-    if (!empty($mobile_top_spacing) && $mobile_top_spacing !== 'default') {
+    if (!empty($uniq_section_id)) {
+      $args['attr']['data-section-id'] = $uniq_section_id;
+    }
+    if (!empty($mobile_top_spacing) && $mobile_top_spacing !== 'default' && $mobile_top_spacing !== 'custom') {
       $args['attr']['class'][] = 'mt-' . $mobile_top_spacing;
       if (empty($desktop_top_spacing) || $desktop_top_spacing === 'default') {
         $args['attr']['class'][] = 'mt-md-0';
       }
     }
-    if (!empty($desktop_top_spacing) && $desktop_top_spacing !== 'default') {
+    if (!empty($mobile_bottom_spacing) && $mobile_bottom_spacing !== 'default' && $mobile_bottom_spacing !== 'custom') {
+      $args['attr']['class'][] = 'mb-' . $mobile_bottom_spacing;
+      if (empty($desktop_bottom_spacing) || $desktop_bottom_spacing === 'default') {
+        $args['attr']['class'][] = 'mb-md-0';
+      }
+    }
+    if (!empty($desktop_top_spacing) && $desktop_top_spacing !== 'default' && $desktop_top_spacing !== 'custom') {
       $args['attr']['class'][] = 'mt-md-' . $desktop_top_spacing;
+    }
+    if (!empty($desktop_bottom_spacing) && $desktop_bottom_spacing !== 'default' && $desktop_bottom_spacing !== 'custom') {
+      $args['attr']['class'][] = 'mb-md-' . $desktop_bottom_spacing;
     }
     if ($row_layout === 'pictures_slider_section') {
       $args['title'] = get_sub_field('title');
@@ -65,6 +84,7 @@ if (have_rows('flexible_content')):
     }
     if ($row_layout === 'title_section') {
       $args['title'] = get_sub_field('title');
+      $args['scroll_to_id'] = get_sub_field('scroll_to_id');
     }
     if ($row_layout === 'background_cta_banner') {
       $args['title'] = get_sub_field('title');

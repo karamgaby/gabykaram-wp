@@ -64,10 +64,6 @@ $classes = implode( ' ', $classes );
                   SVGComponent::render( array(
                     'name'             => $icon_name,
                     'size'             => 'small',
-                    'size_breakpoints' => [
-                      'sm' => 'small',
-                      'md' => 'medium'
-                    ],
                     'attr'             => [
                       'class' => 'contact-list-item__icon__icon',
                     ]
@@ -82,7 +78,7 @@ $classes = implode( ' ', $classes );
                 <?php
                 else:
                   ?>
-                  <span class="x-typography-md-subtitle-1 x-typography-subtitle-2 "><?= $text ?></span>
+                  <span class="x-typography-md-quote x-typography-subtitle-2 "><?= $text ?></span>
                 <?php
                 endif;
                 ?>

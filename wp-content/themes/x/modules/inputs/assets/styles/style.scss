@@ -41,14 +41,14 @@
       &::placeholder,
       &:not(:placeholder-shown):not(:focus):not(:focus-visible):not(:disabled),
       &:disabled {
-        outline-color: getColor(error) !important;
+        outline-color: getColor(system-error) !important;
       }
-      outline-color: getColor(error) !important;
+      outline-color: getColor(system-error) !important;
 
     }
     .ps-input-message {
       display: flex !important;
-      color: getColor(error) !important;
+      color: getColor(system-error) !important;
       padding-top: 4px;
     }
   }

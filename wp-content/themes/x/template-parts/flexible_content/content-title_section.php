@@ -6,11 +6,12 @@ if (!isset($args)) {
 $args = wp_parse_args(
     $args,
     array(
-        'quote' => '',
-        'author' => '',
+        'title' => '',
+        'scroll_to_id' => '',
     )
 );
 $title = $args['title'];
+$scroll_to_id = $args['scroll_to_id'];
 if (!isset($args['attr']) || !is_array($args['attr'])) {
     $args['attr'] = [];
 }
@@ -29,6 +30,12 @@ unset($attr['class']);
             <div class="col-24 col-md-16 d-flex flex-column gap-2  align-items-center justify-content-center">
                 <h2 class="title-section__title"><?= $title ?></h2>
                 <?php
+                if (!empty($scroll_to_id)):
+                    ?>
+                    <a href="#<?= $scroll_to_id ?>" class="title-section__scroll-to-link">
+                        <span class="visually-hidden">Scroll to</span>
+                        <?php
+                endif;
                 X_UI\Modules\Svg\Component::render(
                     array(
                         'name' => 'chevrons-down',
@@ -42,6 +49,11 @@ unset($attr['class']);
                         ]
                     )
                 );
+                if (!empty($scroll_to_id)):
+                    ?>
+                    </a>
+                    <?php
+                endif;
                 ?>
             </div>
         </div>
