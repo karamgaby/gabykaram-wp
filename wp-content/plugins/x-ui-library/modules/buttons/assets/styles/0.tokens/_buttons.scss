@@ -1,5 +1,6 @@
 $x_buttons: (
 	primary-standard: (
+		label: Primary Standard,
 		default: (
 			textStyle: button-standard,
 			bgColor: medium-turquoise-500,
@@ -17,6 +18,7 @@ $x_buttons: (
 		),
 	),
 	icon-left: (
+		label: Icon Left,
 		hasIcon: true,
 		iconPosition: start,
 		default: (
@@ -38,6 +40,7 @@ $x_buttons: (
 		),
 	),
 	primary-outlined: (
+		label: Primary Outlined,
 		default: (
 			textStyle: button-standard,
 			bgColor: transparent,
@@ -63,6 +66,7 @@ $x_buttons: (
 		),
 	),
 	icon-left-outlined: (
+		label: Icon Left Outlined,
 		hasIcon: true,
 		iconPosition: start,
 		default: (
@@ -92,6 +96,7 @@ $x_buttons: (
 		),
 	),
 	icon-right: (
+		label: Icon Right,
 		hasIcon: true,
 		iconPosition: end,
 		default: (
@@ -113,6 +118,7 @@ $x_buttons: (
 		),
 	),
 	icon-right-outlined: (
+		label: Icon Right Outlined,
 		hasIcon: true,
 		iconPosition: end,
 		default: (
@@ -142,6 +148,7 @@ $x_buttons: (
 		),
 	),
 	light: (
+		label: Light,
 		default: (
 			textStyle: button-standard,
 			bgColor: white-white-50,
@@ -159,6 +166,7 @@ $x_buttons: (
 		),
 	),
 	secondary-outlined: (
+		label: Secondary Outlined,
 		default: (
 			textStyle: button-standard,
 			bgColor: transparent,
@@ -184,6 +192,7 @@ $x_buttons: (
 		),
 	),
 	icon-right-secondary: (
+		label: Icon Right Secondary,
 		hasIcon: true,
 		iconPosition: end,
 		default: (
@@ -213,6 +222,7 @@ $x_buttons: (
 		),
 	),
 	icon-left-secondary: (
+		label: Icon Left Secondary,
 		hasIcon: true,
 		iconPosition: start,
 		default: (
@@ -242,6 +252,7 @@ $x_buttons: (
 		),
 	),
 	text-only: (
+		label: Text Only,
 		default: (
 			textStyle: button-standard,
 			bgColor: transparent,
@@ -260,6 +271,7 @@ $x_buttons: (
 		),
 	),
 	text-only-active: (
+		label: Text Only Active,
 		default: (
 			textStyle: button-standard,
 			bgColor: transparent,
@@ -278,6 +290,7 @@ $x_buttons: (
 		),
 	),
 	icon-right-text: (
+		label: Icon Right Text,
 		hasIcon: true,
 		iconPosition: end,
 		default: (
@@ -300,6 +313,7 @@ $x_buttons: (
 		),
 	),
 	icon-left-text: (
+		label: Icon Left Text,
 		hasIcon: true,
 		iconPosition: start,
 		default: (

@@ -10,8 +10,7 @@
 
       const checkbox = parent.querySelector('input[type="checkbox"]');
 
-      if (parent.classList.contains('invert') && checkbox.checked
-        || !parent.classList.contains('invert') && !checkbox.checked) {
+      if (parent.classList.contains('invert') && checkbox.checked || !parent.classList.contains('invert') && !checkbox.checked) {
         accepted = false;
       }
     });

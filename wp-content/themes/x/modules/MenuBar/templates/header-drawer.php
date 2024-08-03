@@ -8,10 +8,6 @@ if ( ! isset( $data ) ) {
   return;
 }
 $menu_location = $data->menu_location;
-$componentTokens       = Tokens::getInstance();
-$mobileTokens          = $componentTokens->getMeta( 'mobile' );
-$menu_btn_style        = $mobileTokens['button_style'];
-$active_menu_btn_style = $mobileTokens['active_button_style'];
 $menu_items = Menu::get_location_menu_items($menu_location);
 ?>
 <div class="x-header-drawer offcanvas-js offcanvas offcanvas-end" data-bs-custom-class="beautifier" tabindex="-1"
@@ -22,6 +18,8 @@ $menu_items = Menu::get_location_menu_items($menu_location);
       <?php
       foreach ($menu_items as $menu_item) :
         $is_active = $menu_item->current;
+        $menu_btn_style = get_field('button_style', $menu_item->ID);
+        $active_menu_btn_style = get_field('active_button_style', $menu_item->ID);
         $title = apply_filters( 'the_title', $menu_item->title, $menu_item->ID );
         $title = apply_filters( 'nav_menu_item_title', $title, $menu_item, [
           'theme_location' => $menu_location

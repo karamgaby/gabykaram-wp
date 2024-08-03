@@ -9,14 +9,6 @@ document.addEventListener('DOMContentLoaded', function() {
       offCanvas.hide();
     })
   })
-  const menuBarMobile__toggle = document.querySelectorAll('.menuBarMobile__toggle');
-
-  menuBarMobile__toggle.forEach(toggle => {
-    toggle.addEventListener('click', () => {
-      console.log(1)
-      console.log(1)
-    })
-  })
   const offcanvasElementList = document.querySelectorAll('.offcanvas-js')
   const offcanvasList = [...offcanvasElementList].map(offcanvasEl => {
     const offCanvas =  new bootstrap.Offcanvas(offcanvasEl);

@@ -98,11 +98,12 @@ function acf_modifify_flexible_color_options($field)
 
   foreach ($colors as $key => $colorHex) {
     ob_start();
-    
+
     ?>
-    <div class="d-inline-flex" style="display: inline-flex !important; gap: 8px; align-items: center; justify-content: center;">
-      <span>Color: <?= $key?></span>
-      <div style="width: 32px; height: 32px; display: block; background-color: <?= $colorHex?>"></div>
+    <div class="d-inline-flex"
+      style="display: inline-flex !important; gap: 8px; align-items: center; justify-content: center;">
+      <span>Color: <?= $key ?></span>
+      <div style="width: 32px; height: 32px; display: block; background-color: <?= $colorHex ?>"></div>
     </div>
     <?php
     $choice_label = ob_get_clean();
@@ -125,10 +126,11 @@ function acf_modifify_flexible_content_typography_options($field)
 
   foreach ($typographies as $key => $typography) {
     ob_start();
-    
+
     ?>
-    <div class="d-inline-flex" style="display: inline-flex !important; gap: 8px; align-items: center; justify-content: center;">
-      <span>Typographies: <?= $key?></span>
+    <div class="d-inline-flex"
+      style="display: inline-flex !important; gap: 8px; align-items: center; justify-content: center;">
+      <span>Typographies: <?= $key ?></span>
     </div>
     <?php
     $choice_label = ob_get_clean();
@@ -155,3 +157,51 @@ function customize_acf_wysiwyg_toolbars($toolbars)
   return $toolbars;
 }
 add_filter('acf/fields/wysiwyg/toolbars', 'customize_acf_wysiwyg_toolbars');
+
+
+
+// ACF Location Rules
+add_filter('acf/location/rule_types', 'add_parent_menu_item_location_rule');
+function add_parent_menu_item_location_rule($choices)
+{
+  $choices['Menu']['parent_menu_item'] = 'Parent Menu Item';
+  return $choices;
+}
+
+add_filter('acf/location/rule_values/parent_menu_item', 'parent_menu_item_rule_values');
+function parent_menu_item_rule_values($choices)
+{
+  $choices['is_parent'] = 'Is Parent';
+  $choices['is_child'] = 'Is Child';
+  return $choices;
+}
+
+add_filter('acf/location/rule_match/parent_menu_item', 'parent_menu_item_rule_match', 10, 3);
+function parent_menu_item_rule_match($match, $rule, $options)
+{
+  if (!isset($options['nav_menu_item'])) {
+    return false;
+  }
+
+  $nav_menu_item_id = $options['nav_menu_item_id'];
+
+  // var_dump($options);
+  // If $nav_menu_item_id is not a number, return false
+  if (!is_numeric($nav_menu_item_id)) {
+    return false;
+  }
+
+  // Get the menu item's parent ID
+  $menu_item_parent = get_post_meta($nav_menu_item_id, '_menu_item_menu_item_parent', true);
+
+  // Check if it's a parent (no parent ID) or child
+  $is_parent = empty($menu_item_parent);
+
+  if ($rule['value'] == 'is_parent') {
+    $match = $is_parent;
+  } elseif ($rule['value'] == 'is_child') {
+    $match = !$is_parent;
+  }
+
+  return $match;
+}

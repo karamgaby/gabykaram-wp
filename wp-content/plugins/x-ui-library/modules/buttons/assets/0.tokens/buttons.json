@@ -1,6 +1,7 @@
 {
   "buttons": {
     "primary-standard": {
+      "label": "Primary Standard",
       "default": {
         "textStyle": "button-standard",
         "bgColor": "medium-turquoise-500",
@@ -18,6 +19,7 @@
       }
     },
     "icon-left": {
+      "label": "Icon Left",
       "hasIcon": true,
       "iconPosition": "start",
       "default": {
@@ -39,6 +41,7 @@
       }
     },
     "primary-outlined": {
+      "label": "Primary Outlined",
       "default": {
         "textStyle": "button-standard",
         "bgColor": "transparent",
@@ -64,6 +67,7 @@
       }
     },
     "icon-left-outlined": {
+      "label": "Icon Left Outlined",
       "hasIcon": true,
       "iconPosition": "start",
       "default": {
@@ -93,6 +97,7 @@
       }
     },
     "icon-right": {
+      "label": "Icon Right",
       "hasIcon": true,
       "iconPosition": "end",
       "default": {
@@ -114,6 +119,7 @@
       }
     },
     "icon-right-outlined": {
+      "label": "Icon Right Outlined",
       "hasIcon": true,
       "iconPosition": "end",
       "default": {
@@ -142,7 +148,8 @@
         }
       }
     },
-    "light":  {
+    "light": {
+      "label": "Light",
       "default": {
         "textStyle": "button-standard",
         "bgColor": "white-white-50",
@@ -160,6 +167,7 @@
       }
     },
     "secondary-outlined": {
+      "label": "Secondary Outlined",
       "default": {
         "textStyle": "button-standard",
         "bgColor": "transparent",
@@ -185,6 +193,7 @@
       }
     },
     "icon-right-secondary": {
+      "label": "Icon Right Secondary",
       "hasIcon": true,
       "iconPosition": "end",
       "default": {
@@ -214,6 +223,7 @@
       }
     },
     "icon-left-secondary": {
+      "label": "Icon Left Secondary",
       "hasIcon": true,
       "iconPosition": "start",
       "default": {
@@ -243,6 +253,7 @@
       }
     },
     "text-only": {
+      "label": "Text Only",
       "default": {
         "textStyle": "button-standard",
         "bgColor": "transparent",
@@ -261,6 +272,7 @@
       }
     },
     "text-only-active": {
+      "label": "Text Only Active",
       "default": {
         "textStyle": "button-standard",
         "bgColor": "transparent",
@@ -279,6 +291,7 @@
       }
     },
     "icon-right-text": {
+      "label": "Icon Right Text",
       "hasIcon": true,
       "iconPosition": "end",
       "default": {
@@ -301,6 +314,7 @@
       }
     },
     "icon-left-text": {
+      "label": "Icon Left Text",
       "hasIcon": true,
       "iconPosition": "start",
       "default": {

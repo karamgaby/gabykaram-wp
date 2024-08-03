@@ -9,6 +9,7 @@ class Tokens extends AbstractTokens {
     parent::__construct([
         "buttons" => [
             "primary-standard" => [
+                "label" => "Primary Standard",
                 "default" => [
                     "textStyle" => "button-standard",
                     "bgColor" => "medium-turquoise-500",
@@ -26,6 +27,7 @@ class Tokens extends AbstractTokens {
                 ],
             ],
             "icon-left" => [
+                "label" => "Icon Left",
                 "hasIcon" => "true",
                 "iconPosition" => "start",
                 "default" => [
@@ -47,6 +49,7 @@ class Tokens extends AbstractTokens {
                 ],
             ],
             "primary-outlined" => [
+                "label" => "Primary Outlined",
                 "default" => [
                     "textStyle" => "button-standard",
                     "bgColor" => "transparent",
@@ -72,6 +75,7 @@ class Tokens extends AbstractTokens {
                 ],
             ],
             "icon-left-outlined" => [
+                "label" => "Icon Left Outlined",
                 "hasIcon" => "true",
                 "iconPosition" => "start",
                 "default" => [
@@ -101,6 +105,7 @@ class Tokens extends AbstractTokens {
                 ],
             ],
             "icon-right" => [
+                "label" => "Icon Right",
                 "hasIcon" => "true",
                 "iconPosition" => "end",
                 "default" => [
@@ -122,6 +127,7 @@ class Tokens extends AbstractTokens {
                 ],
             ],
             "icon-right-outlined" => [
+                "label" => "Icon Right Outlined",
                 "hasIcon" => "true",
                 "iconPosition" => "end",
                 "default" => [
@@ -151,6 +157,7 @@ class Tokens extends AbstractTokens {
                 ],
             ],
             "light" => [
+                "label" => "Light",
                 "default" => [
                     "textStyle" => "button-standard",
                     "bgColor" => "white-white-50",
@@ -168,6 +175,7 @@ class Tokens extends AbstractTokens {
                 ],
             ],
             "secondary-outlined" => [
+                "label" => "Secondary Outlined",
                 "default" => [
                     "textStyle" => "button-standard",
                     "bgColor" => "transparent",
@@ -193,6 +201,7 @@ class Tokens extends AbstractTokens {
                 ],
             ],
             "icon-right-secondary" => [
+                "label" => "Icon Right Secondary",
                 "hasIcon" => "true",
                 "iconPosition" => "end",
                 "default" => [
@@ -222,6 +231,7 @@ class Tokens extends AbstractTokens {
                 ],
             ],
             "icon-left-secondary" => [
+                "label" => "Icon Left Secondary",
                 "hasIcon" => "true",
                 "iconPosition" => "start",
                 "default" => [
@@ -251,6 +261,7 @@ class Tokens extends AbstractTokens {
                 ],
             ],
             "text-only" => [
+                "label" => "Text Only",
                 "default" => [
                     "textStyle" => "button-standard",
                     "bgColor" => "transparent",
@@ -269,6 +280,7 @@ class Tokens extends AbstractTokens {
                 ],
             ],
             "text-only-active" => [
+                "label" => "Text Only Active",
                 "default" => [
                     "textStyle" => "button-standard",
                     "bgColor" => "transparent",
@@ -287,6 +299,7 @@ class Tokens extends AbstractTokens {
                 ],
             ],
             "icon-right-text" => [
+                "label" => "Icon Right Text",
                 "hasIcon" => "true",
                 "iconPosition" => "end",
                 "default" => [
@@ -309,6 +322,7 @@ class Tokens extends AbstractTokens {
                 ],
             ],
             "icon-left-text" => [
+                "label" => "Icon Left Text",
                 "hasIcon" => "true",
                 "iconPosition" => "start",
                 "default" => [
