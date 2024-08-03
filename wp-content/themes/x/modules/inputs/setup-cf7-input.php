@@ -17,8 +17,9 @@ add_action( 'wpcf7_init', 'x_wpcf7_add_form_tag_text', 10, 0 );
 /**
  * Returns a class names list for a form-tag of the specified type.
  *
- * @param string $type Form-tag type.
+ * @param string $type            Form-tag type.
  * @param string $default_classes Optional default classes.
+ *
  * @return string Whitespace-separated list of class names.
  */
 function x_wpcf7_form_controls_class( $type, $default_classes = '' ) {
@@ -61,6 +62,7 @@ function x_wpcf7_text_form_tag_handler( $tag ) {
   $validation_error = wpcf7_get_validation_error( $tag->name );
 
   $class = x_wpcf7_form_controls_class( $tag->type, 'wpcf7-text' );
+  $label_text = null;
 
   if ( in_array( $tag->basetype, array( 'x_email', 'x_url', 'x_tel' ) ) ) {
     $validate_as = match ( $tag->basetype ) {
@@ -69,7 +71,7 @@ function x_wpcf7_text_form_tag_handler( $tag ) {
       "x_tel" => 'tel',
       default => null,
     };
-    if($validate_as) {
+    if ( $validate_as ) {
       $class .= ' x_inputs-wpcf7-validates-as-' . $validate_as;
     }
   }
@@ -119,6 +121,25 @@ function x_wpcf7_text_form_tag_handler( $tag ) {
     $value               = '';
   }
 
+  if ( $tag->has_option( 'jsonData' ) ) {
+    try {
+      $data  = json_decode( $value );
+      $value = '';
+      if ( ! empty( $data->placeholder ) ) {
+        $atts['placeholder'] = $data->placeholder;
+      }
+      if ( ! empty( $data->label ) ) {
+        $label_text = $data->label;
+      }
+
+      if ( ! empty( $data->value ) ) {
+        $value = $data->value;
+      }
+
+    } catch ( Exception $exception ) {
+
+    }
+  }
   $value = $tag->get_default_option( $value );
 
   $value = wpcf7_get_hangover( $tag->name, $value );
@@ -133,15 +154,18 @@ function x_wpcf7_text_form_tag_handler( $tag ) {
   $atts['type']  = $input_type;
   $atts['name']  = $tag->name;
 
-  return InputComponent::get(
-    array(
-      'input_attr' => $atts,
-      'attr'       => [
-        'data-name' => $tag->name,
-        'class' => 'x_inputs-wpcf7-form-control-wrap'
-      ]
-    )
+  $input_comp_attr = array(
+    'input_attr' => $atts,
+    'attr'       => [
+      'data-name' => $tag->name,
+      'class'     => 'x_inputs-wpcf7-form-control-wrap'
+    ]
   );
+  if ( ! empty( $label_text ) ):
+    $input_comp_attr['label_text'] = $label_text;
+  endif;
+
+  return InputComponent::get( $input_comp_attr );
 }
 
 

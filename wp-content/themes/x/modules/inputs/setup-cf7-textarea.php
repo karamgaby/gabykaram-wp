@@ -55,7 +55,7 @@ function x_wpcf7_textarea_form_tag_handler( $tag ) {
   $validation_error = wpcf7_get_validation_error( $tag->name );
 
   $class = x_wpcf7_form_textarea_controls_class( $tag->type );
-
+  $label_text = null;
   if ( $validation_error ) {
     $class .= ' x_inputs-wpcf7-not-valid';
   }
@@ -103,7 +103,25 @@ function x_wpcf7_textarea_form_tag_handler( $tag ) {
     $atts['placeholder'] = $value;
     $value               = '';
   }
+  if ( $tag->has_option( 'jsonData' ) ) {
+    try {
+      $data  = json_decode( $value );
+      $value = '';
+      if ( ! empty( $data->placeholder ) ) {
+        $atts['placeholder'] = $data->placeholder;
+      }
+      if ( ! empty( $data->label ) ) {
+        $label_text = $data->label;
+      }
 
+      if ( ! empty( $data->value ) ) {
+        $value = $data->value;
+      }
+
+    } catch ( Exception $exception ) {
+
+    }
+  }
   $value = $tag->get_default_option( $value );
 
   $value = wpcf7_get_hangover( $tag->name, $value );
@@ -112,15 +130,17 @@ function x_wpcf7_textarea_form_tag_handler( $tag ) {
   $atts['type'] = 'textarea';
   $atts['value'] = $value;
 
-  return InputComponent::get(
-    array(
-      'input_attr' => $atts,
-      'attr'       => [
-        'data-name' => $tag->name,
-        'class' => 'x_inputs-wpcf7-form-control-wrap'
-      ]
-    )
+  $input_comp_attr =  array(
+    'input_attr' => $atts,
+    'attr'       => [
+      'data-name' => $tag->name,
+      'class' => 'x_inputs-wpcf7-form-control-wrap'
+    ]
   );
+  if ( ! empty( $label_text ) ):
+    $input_comp_attr['label_text'] = $label_text;
+  endif;
+  return InputComponent::get($input_comp_attr);
 }
 
 

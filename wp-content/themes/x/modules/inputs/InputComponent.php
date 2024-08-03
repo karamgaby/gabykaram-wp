@@ -32,7 +32,7 @@ class InputComponent extends AbstractComponent {
       <?php
       if ( ! empty( $data['label_text'] ) ) :
         ?>
-        <label class="ps-input-label-text mb-12 ps-typography-input_label" for="<?= $data['input_attr']['id'] ?>">
+        <label class="ps-input-label-text mb-1 x-typography-input-text x-color-mate-black-400" for="<?= $data['input_attr']['id'] ?>">
           <?= $data['label_text'] ?>
         </label>
       <?php
