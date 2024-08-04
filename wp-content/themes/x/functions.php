@@ -259,7 +259,7 @@ function custom_acf_css()
         }
         if ($desktop_bottom_spacing === 'custom' && !empty($desktop_bottom_custom_spacing)) {
           $rem_val = intval($desktop_bottom_custom_spacing) / 16;
-      
+
           $custom_css .= " margin-bottom: {$rem_val}rem !important; ";
           if ($desktop_bottom_spacing === 'custom') {
 

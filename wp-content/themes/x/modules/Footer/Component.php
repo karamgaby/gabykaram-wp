@@ -37,7 +37,7 @@ class Component extends AbstractComponent
     ?>
     <footer <?php parent::render_attributes($data['attr']); ?>>
       <?php
-     
+
       ?>
       <div class="container">
         <div class="row site-footer__container">
@@ -113,7 +113,7 @@ class Component extends AbstractComponent
 
                       ?>
                       <<?= $html_tag ?> class="site-footer__contact__item"
-                        <?= AbstractComponent::render_attributes($attr) ?>>
+                        <?php AbstractComponent::render_attributes($attr) ?>>
                         <?php
                         if (!empty($item['type'])):
                           ?>
@@ -154,7 +154,7 @@ class Component extends AbstractComponent
                           <?php
                         endif;
                         ?>
-                        <span class="site-footer__contact__item__content"></span>
+                        <span class="site-footer__contact__item__content">
                         <?= $item['content']; ?>
                         </span>
                         </<?= $html_tag ?>>
