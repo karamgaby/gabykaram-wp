@@ -283,7 +283,6 @@ function custom_acf_css()
 
 
     if ($custom_css) {
-      file_put_contents(__DIR__ . '/custom-style.css', $custom_css);
       wp_enqueue_style('custom-style', get_stylesheet_uri(), ['x-style']);
       wp_add_inline_style('custom-style', $custom_css);
     }

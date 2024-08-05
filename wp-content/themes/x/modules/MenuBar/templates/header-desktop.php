@@ -16,7 +16,7 @@ $menu_items = Menu::get_location_menu_items($menu_location);
 ?>
 
 <div class="menuBarDesktop">
-  <div class="menuBarDesktop__container py-2 d-flex justify-content-between">
+  <div class="menuBarDesktop__container container py-2 d-flex justify-content-between">
     <?php
     Image::render( array(
       'id'   => $logo_id,

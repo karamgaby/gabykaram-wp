@@ -26,7 +26,7 @@ use X_Modules\MenuBar\Component as MenuBar;
 <div id="page" class="site js-page">
 
   <?php
-  $site_icon_id = (int) get_option( 'site_icon' );
+  $site_icon_id = (int) get_option( 'site_logo' );
 
   AccessibilitySkipToContent::render();
   MenuBar::render(
