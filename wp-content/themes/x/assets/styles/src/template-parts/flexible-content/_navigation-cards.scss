@@ -14,12 +14,58 @@
     &__cards-row {
         row-gap: getSpacing(3);
     }
-    &__card {
-        position: relative;
-        width: 100%; /* or any other desired width */
-        padding-top: calc(287 / 561 * 100%);
-        border-radius: getBorderRadius(3);
-        overflow: hidden;
+    @include media-breakpoint-down(md) {
+        &__title {
+            @include ps-typography(h5);
+        }
+    }
+}
+
+.navigation-card {
+    position: relative;
+    width: 100%; /* or any other desired width */
+    padding-top: calc(287 / 561 * 100%);
+    border-radius: getBorderRadius(3);
+    overflow: hidden;
+    display: flex;
+    $component: &;
+    &--even {
+        #{$component}__front {
+            justify-content: flex-start;
+        }
+        #{$component}__back {
+            justify-content: flex-start;
+            &__btn {
+                left: 24px;
+                right: auto;
+            }
+        }
+    }
+    &--odd {
+        #{$component}__front {
+            justify-content: flex-end;
+            &__btn {
+                flex-direction: row-reverse;
+            }
+        }
+        #{$component}__back {
+            justify-content: flex-end;
+            &__btn {
+                right: 24px;
+                left: auto;
+            }
+        }
+    }
+  
+    &__front {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: flex-end;
+        padding: 24px;
         &__image {
             position: absolute;
             top: 0;
@@ -28,30 +74,50 @@
             height: 100%;
         }
         &__btn {
-            position: absolute;
-            bottom: 0;
-            right: 0;
-            left: 0;
-            top: 0;
+            z-index: 2;
             display: flex;
             justify-content: center;
             align-items: center;
-            .x-btn {
-                margin-top: 25%;
-                background: getColor(white-white-50) !important;
+            gap: getSpacing(2);
+            &__title {
+                color: var(--navigation-card-text-color);
+                @include ps-typography(h3);
+                display: flex;
+            }
+        }
+    }
+    &__back {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        padding: 24px;
+        background-color: var(--navigation-card-hover-bg-color);
+        z-index: 3;
+        &__btn {
+            z-index: 2;
+            display: flex;
+            position: absolute;
+            bottom: 24px;
+            right: 24px;
+        }
+        &__content {
+            width: max(calc(67% + 48px), 320px);
+            margin: auto;
+            text-align: center;
+        }
+    }
+    @include media-breakpoint-greater(md) {
+        &:hover, &:focus {
+            #{$component}__back {
+                display: flex;
             }
         }
     }
     @include media-breakpoint-down(md) {
-        &__title {
-            @include ps-typography(h5);
-        }
-        &__card {
-            &__btn {
-                .x-btn {
-                    background: getColor(yellow-gold-500) !important;
-                }
-            }
-        }
     }
 }

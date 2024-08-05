@@ -7,7 +7,7 @@ class Tokens extends AbstractTokens {
   private static $instance = null;
   private function __construct() {
     parent::__construct([
-        "bgColor" => "mate-black-900",
+        "bgColor" => "mate-black-800",
         "titleColor" => "yellow-gold-300",
         "textColor" => "white-white-50",
     ]);

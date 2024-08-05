@@ -87,7 +87,8 @@ class Component extends AbstractComponent
         if (!!$has_icon && $icon_position === 'end') {
           Svg::render(
             array(
-              'name' => $icon
+              'name' => $icon,
+              'size' => $data['style'] === 'icon-only' ? 'large' : 'small'
             ));
         }
         ?>

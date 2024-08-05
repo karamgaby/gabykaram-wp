@@ -1,3 +1,9 @@
 .text-image-link-section {
     z-index: 1;
+    &__image {
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
 }

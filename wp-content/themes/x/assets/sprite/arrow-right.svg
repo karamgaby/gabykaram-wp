@@ -4,37 +4,28 @@
    viewBox="0 0 48 48"
    version="1.1"
    id="svg5"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <g
-     filter="url(#filter0_dd_521_4326)"
+     filter="url(#filter0_dd_62_27874)"
      id="g1"
      transform="translate(-12,-2)">
-    <path
-       d="M 36,2 C 22.704013,2 12,12.704013 12,26 12,39.295987 22.704013,50 36,50 49.295987,50 60,39.295987 60,26 60,12.704013 49.295987,2 36,2 Z"
-       style="fill:url(#linearGradient6)"
-       id="path6" />
-    <path
-       style="stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none"
-       d="m 35.292969,11.292969 a 1,1 0 0 0 0,1.414062 L 47.585937,25 H 22 a 1,1 0 0 0 -1,1 1,1 0 0 0 1,1 H 47.585937 L 35.292969,39.292969 a 1,1 0 0 0 0,1.414062 1,1 0 0 0 1.414062,0 l 14,-14 A 1,1 0 0 0 50.923828,26.382812 1,1 0 0 0 51,26 1,1 0 0 0 50.923828,25.617187 1,1 0 0 0 50.707031,25.292969 l -14,-14 a 1,1 0 0 0 -1.414062,0 z"
-       id="path1" />
+    <g
+       id="g7">
+      <path
+         d="M 36,2 C 22.70404,2 12,12.70404 12,26 12,39.29596 22.70404,50 36,50 49.29596,50 60,39.29596 60,26 60,12.70404 49.29596,2 36,2 Z m 0.002,9.001953 c 0.260613,4.95e-4 0.515622,0.102107 0.705078,0.291016 l 14,14 c 0.09284,0.0928 0.166512,0.202964 0.216797,0.324218 C 50.974117,25.73855 51.000001,25.868631 51,26 c 10e-7,0.131369 -0.02588,0.26145 -0.07617,0.382812 -0.05029,0.121255 -0.123952,0.231423 -0.216797,0.324219 l -14,14 c -0.390506,0.390423 -1.023556,0.390423 -1.414062,0 -0.390423,-0.390506 -0.390423,-1.023556 0,-1.414062 L 47.585937,27 H 22 c -0.552284,0 -1,-0.447716 -1,-1 0,-0.552284 0.447716,-1 1,-1 H 47.585937 L 35.292969,12.707031 c -0.390423,-0.390506 -0.390423,-1.023556 0,-1.414062 0.124499,-0.123898 0.279436,-0.212818 0.449218,-0.257813 0.08615,-0.02308 0.172895,-0.03337 0.259766,-0.0332 z"
+         style="fill:#f9f9f9"
+         id="path7" />
+      <path
+         d="m 35.742187,11.035156 a 1,1 0 0 0 -0.449218,0.257813 1,1 0 0 0 0,1.414062 L 47.585937,25 H 22 a 1,1 0 0 0 -1,1 1,1 0 0 0 1,1 H 47.585937 L 35.292969,39.292969 a 1,1 0 0 0 0,1.414062 1,1 0 0 0 1.414062,0 l 14,-14 A 1,1 0 0 0 50.923828,26.382812 1,1 0 0 0 51,26 1,1 0 0 0 50.923828,25.617187 1,1 0 0 0 50.707031,25.292969 l -14,-14 a 1,1 0 0 0 -0.964844,-0.257813 z"
+         style="stroke-linecap:round;stroke-linejoin:round"
+         id="path6" />
+    </g>
   </g>
   <defs
      id="defs5">
-    <linearGradient
-       id="linearGradient5">
-      <stop
-         style="stop-color:#f9f9f9;stop-opacity:1;"
-         offset="0"
-         id="stop5" />
-      <stop
-         style="stop-color:#f9f9f9;stop-opacity:0;"
-         offset="1"
-         id="stop6" />
-    </linearGradient>
     <filter
-       id="filter0_dd_521_4326"
+       id="filter0_dd_62_27874"
        x="0"
        y="0"
        width="72"
@@ -55,7 +46,7 @@
          radius="3"
          operator="erode"
          in="SourceAlpha"
-         result="effect1_dropShadow_521_4326"
+         result="effect1_dropShadow_62_27874"
          id="feMorphology1" />
       <feOffset
          dy="10"
@@ -74,7 +65,7 @@
       <feBlend
          mode="normal"
          in2="BackgroundImageFix"
-         result="effect1_dropShadow_521_4326"
+         result="effect1_dropShadow_62_27874"
          id="feBlend2" />
       <feColorMatrix
          in="SourceAlpha"
@@ -98,23 +89,15 @@
          id="feColorMatrix4" />
       <feBlend
          mode="normal"
-         in2="effect1_dropShadow_521_4326"
-         result="effect2_dropShadow_521_4326"
+         in2="effect1_dropShadow_62_27874"
+         result="effect2_dropShadow_62_27874"
          id="feBlend4" />
       <feBlend
          mode="normal"
          in="SourceGraphic"
-         in2="effect2_dropShadow_521_4326"
+         in2="effect2_dropShadow_62_27874"
          result="shape"
          id="feBlend5" />
     </filter>
-    <linearGradient
-       xlink:href="#linearGradient5"
-       id="linearGradient6"
-       x1="12"
-       y1="26"
-       x2="60"
-       y2="26"
-       gradientUnits="userSpaceOnUse" />
   </defs>
 </svg>

@@ -72,7 +72,19 @@ abstract class AbstractComponent {
     foreach ( $attr as $key => $value ) {
 
       if ( is_array( $value ) ) {
-        $value = implode( ' ', $value );
+       if ( $key === 'style' ) {
+					if(is_array($value)) {
+						$style_values = array();
+						foreach ( $value as $style_key => $style_value ) {
+							$style_values[] = esc_attr( $style_key ) . ': ' . esc_attr( $style_value );
+						}
+						$value = implode( '; ', $style_values );
+					} else {
+						$value = esc_attr( $value );
+					}
+				} else {
+					$value = implode( ' ', $value );
+				}
       }
       if ( false !== $value && '' !== $value && is_scalar( $value ) ) {
         if ( $key === 'disabled' ) {
