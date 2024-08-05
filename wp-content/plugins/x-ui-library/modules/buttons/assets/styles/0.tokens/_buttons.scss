@@ -335,4 +335,29 @@ $x_buttons: (
 			),
 		),
 	),
+	icon-only: (
+		label: Icon Only,
+		hasIcon: only,
+		icon: arrow-right,
+		iconPosition: start,
+		default: (
+			textStyle: button-standard,
+			bgColor: transparent,
+			textColor: mate-black-900,
+			padding: 0.25rem,
+			iconFillColor: black,
+			borderRadius: 50%,
+			filter: drop-shadow(0px 10px 15px rgba(0, 0, 0, 0.10)) drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.05)),
+		),
+		hover: (
+			iconFillColor: orange-700,
+		),
+		disabled: (
+			textColor: mate-black-200,
+			iconFillColor: mate-black-200,
+			outline: (
+				color: mate-black-200,
+			),
+		),
+	),
 );

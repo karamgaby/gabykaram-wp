@@ -62,8 +62,9 @@ get_header(); ?>
       $buttons       = $buttonsTokens->getMeta( 'buttons' );
 
       foreach ( $buttons as $style => $button ) {
-        $hasIcon      = ! empty( $button['hasIcon'] );
+        $hasIcon      = ! empty( $button['hasIcon'] ) ? $button['hasIcon'] : 'false';
         $iconPosition = $button['iconPosition'] ?? '';
+        $icon = $button['icon'] ?? null;
         ?>
         <div class="row mt-2">
           <div class="col">
@@ -74,6 +75,7 @@ get_header(); ?>
               'style'         => $style,
               'has_icon'      => $hasIcon,
               'icon_position' => $iconPosition,
+              'icon' => $icon
             ) );
             ?>
           </div>
@@ -85,6 +87,7 @@ get_header(); ?>
               'style'         => $style,
               'has_icon'      => $hasIcon,
               'icon_position' => $iconPosition,
+              // 'icon' => $icon,
               'attr'          => [
                 'disabled' => true,
               ]

@@ -11,7 +11,7 @@ use X_UI\Core\AbstractComponent;
  * X_SVG::render(['name' => 'plus']);
  */
 class Component extends AbstractComponent {
-  protected static array $sizes = array( 'auto', 'small', 'medium', 'xlarge' );
+  protected static array $sizes = array( 'auto', 'small', 'medium', 'large', 'xlarge' );
 
   protected static function get_data_placeholders(): array {
     $default_breakpoints_attr = parent::get_default_breakpoints_attr();

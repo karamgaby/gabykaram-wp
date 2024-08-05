@@ -62,7 +62,7 @@ unset($attr['class']);
                                 'style' => 'icon-right',
                                 'as'=> 'a',
                                 'icon' => 'play',
-                                'has_icon' => true,
+                                'has_icon' => 'true',
                                 'icon_position' => 'end',
                                 'attr' => [
                                     'class' => 'd-md-none'
@@ -84,7 +84,7 @@ unset($attr['class']);
                                     'style' => 'icon-right',
                                     'as' => 'a',
                                     'icon' => 'play-circle',
-                                    'has_icon' => true,
+                                    'has_icon' => 'true',
                                     'icon_position' => 'end',
                                     'attr' => [
                                         'class' => 'd-none d-md-inline-flex'

@@ -29,7 +29,7 @@ unset($attr['class']);
 ?>
 <section class="navigation-cards-section <?= implode(' ', $class) ?>" <?php \X_UI\Core\AbstractComponent::render_attributes($attr); ?>>
     <div class="container">
-        <div class="row gap-3 gap-md-5">
+        <div class="row gap-3 gap-md-5 justify-content-center">
             <div class="col-24 col-lg-14">
                 <h2 class="navigation-cards-section__title"><?= $title ?></h2>
             </div>
@@ -62,7 +62,7 @@ unset($attr['class']);
                                                 'style' => $index % 2 === 0 ? 'icon-left' : 'icon-right',
                                                 'as' => 'a',
                                                 'icon' => $index % 2 === 0 ? 'chevron-left' : 'chevron-right',
-                                                'has_icon' => true,
+                                                'has_icon' => 'true',
                                                 'icon_position' => $index % 2 === 0 ? 'start' : 'end',
                                                 'attr' => [
                                                     'class' => 'd-none d-md-inline-flex'

@@ -20,7 +20,7 @@
     },
     "icon-left": {
       "label": "Icon Left",
-      "hasIcon": true,
+      "hasIcon": "true",
       "iconPosition": "start",
       "default": {
         "textStyle": "button-standard",
@@ -68,7 +68,7 @@
     },
     "icon-left-outlined": {
       "label": "Icon Left Outlined",
-      "hasIcon": true,
+      "hasIcon": "true",
       "iconPosition": "start",
       "default": {
         "textStyle": "button-standard",
@@ -98,7 +98,7 @@
     },
     "icon-right": {
       "label": "Icon Right",
-      "hasIcon": true,
+      "hasIcon": "true",
       "iconPosition": "end",
       "default": {
         "textStyle": "button-standard",
@@ -120,7 +120,7 @@
     },
     "icon-right-outlined": {
       "label": "Icon Right Outlined",
-      "hasIcon": true,
+      "hasIcon": "true",
       "iconPosition": "end",
       "default": {
         "textStyle": "button-standard",
@@ -194,7 +194,7 @@
     },
     "icon-right-secondary": {
       "label": "Icon Right Secondary",
-      "hasIcon": true,
+      "hasIcon": "true",
       "iconPosition": "end",
       "default": {
         "textStyle": "button-standard",
@@ -224,7 +224,7 @@
     },
     "icon-left-secondary": {
       "label": "Icon Left Secondary",
-      "hasIcon": true,
+      "hasIcon": "true",
       "iconPosition": "start",
       "default": {
         "textStyle": "button-standard",
@@ -292,7 +292,7 @@
     },
     "icon-right-text": {
       "label": "Icon Right Text",
-      "hasIcon": true,
+      "hasIcon": "true",
       "iconPosition": "end",
       "default": {
         "textStyle": "button-standard",
@@ -315,7 +315,7 @@
     },
     "icon-left-text": {
       "label": "Icon Left Text",
-      "hasIcon": true,
+      "hasIcon": "true",
       "iconPosition": "start",
       "default": {
         "textStyle": "button-standard",
@@ -324,6 +324,31 @@
         "padding": "0.75rem 1rem",
         "iconFillColor": "black",
         "borderRadius": "0.75rem"
+      },
+      "hover": {
+        "iconFillColor": "orange-700"
+      },
+      "disabled": {
+        "textColor": "mate-black-200",
+        "iconFillColor": "mate-black-200",
+        "outline": {
+          "color": "mate-black-200"
+        }
+      }
+    },
+    "icon-only": {
+      "label": "Icon Only",
+      "hasIcon": "only",
+      "icon": "arrow-right",
+      "iconPosition": "start",
+      "default": {
+        "textStyle": "button-standard",
+        "bgColor": "transparent",
+        "textColor": "mate-black-900",
+        "padding": "0.25rem",
+        "iconFillColor": "black",
+        "borderRadius": "50%",
+        "filter": "drop-shadow(0px 10px 15px rgba(0, 0, 0, 0.10)) drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.05))"
       },
       "hover": {
         "iconFillColor": "orange-700"

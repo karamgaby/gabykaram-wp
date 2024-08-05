@@ -36,7 +36,8 @@
     "@fancyapps/ui": "^5.0.36",
     "bootstrap": "5.2.3",
     "css-vars-ponyfill": "^2.4.0",
-    "fitvids": "^2.1.1"
+    "fitvids": "^2.1.1",
+    "svgo": "^3.3.2"
   },
   "checkIfNeededAsDependencies": {
     "breakpoint-sass": "^2.7.1",

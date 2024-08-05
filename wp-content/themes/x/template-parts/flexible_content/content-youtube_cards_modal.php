@@ -1,7 +1,6 @@
 <?php
 "use strict";
 use X_UI\Modules\Image\Component as Image;
-use X_UI\Modules\Buttons\Component as Button;
 
 if (!isset($args)) {
     return;

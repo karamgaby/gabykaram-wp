@@ -38,7 +38,7 @@ unset($attr['class']);
                             'url' => $cta['url'],
                             'target' => $cta['target'],
                             'icon' => 'pencil',
-                            'has_icon' => true,
+                            'has_icon' => 'true',
                             'icon_position' => 'end',
                             'attr' => array(
                                 'class' => 'w-100 w-md-auto'

@@ -100,7 +100,7 @@ unset($attr['class']);
                                                 'style' => 'icon-right',
                                                 'as'=> 'a',
                                                 'icon' => 'whatsapp',
-                                                'has_icon' => true,
+                                                'has_icon' => 'true',
                                                 'icon_position' => 'end',
                                                 'attr' => [
                                                     'class' => 'w-100'

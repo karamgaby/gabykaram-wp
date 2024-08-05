@@ -4,6 +4,7 @@
   $textStyle: map-get($settings, textStyle);
   $outline: map-get($settings, outline);
   $bgColor: map-get($settings, bgColor);
+  $filter: map-get($settings, filter);
   $textColor: map-get($settings, textColor);
   $borderRadius: map-get($settings, borderRadius);
   $padding: map-get($settings, padding);
@@ -25,6 +26,9 @@
     @include ps-typography($textStyle);
   }
 
+  @if ($filter) {
+    filter: $filter;
+  }
   @if ($outline) {
     $outlineStyle: map-get($outline, style);
     $outlineWidth: map-get($outline, width);

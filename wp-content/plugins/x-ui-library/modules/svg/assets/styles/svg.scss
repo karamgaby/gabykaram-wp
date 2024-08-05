@@ -19,6 +19,10 @@
     width: 2rem;
     height: 2rem;
   }
+  &.x-icon-size-large {
+    width: 3rem;
+    height: 3rem;
+  }
   &.x-icon-size-xlarge {
     width: 15rem;
     height: 15rem;
@@ -34,6 +38,10 @@
       &.x-icon-size#{$infix}-medium {
         width: 2rem;
         height: 2rem;
+      }
+      &.x-icon-size#{$infix}-large {
+        width: 3rem;
+        height: 3rem;
       }
       &.x-icon-size#{$infix}-xlarge {
         width: 15rem;
