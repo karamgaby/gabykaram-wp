@@ -27,6 +27,7 @@
             object-fit: cover;
         }
     }
+    
     &__content {
         display: flex;
         flex-direction: column;
@@ -34,7 +35,7 @@
     }
     &__title {
         @include ps-typography(h5);
-        color: getColor(black);
+        color: getColor(black-900);
     }
 
     &__price {
@@ -43,7 +44,7 @@
         gap: toRem(4);
         @include ps-typography(body-2);
         .x-coworking-card__price__icon {
-            fill: getColor(black);
+            fill: getColor(black-900);
         }
     }
     &__description {

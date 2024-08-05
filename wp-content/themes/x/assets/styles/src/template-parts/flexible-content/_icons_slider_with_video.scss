@@ -10,15 +10,10 @@
         @include ps-typography(h2);
         color: getColor(white-white-50);
         text-align: center;
-        &__part-1 {
-        }
-
-        &__part-2 {
-        }
     }
     &__content {
         @include ps-typography(subtitle-1);
-        color: getColor(black);
+        color: getColor(black-900);
         text-align: center;
     }
     &__separator {
@@ -44,8 +39,6 @@
             @include ps-typography(h3);
             color: getColor(mate-black-500);
             text-align: left;
-            &__part-1 {
-            }
 
             &__part-2 {
                 display: flex;
@@ -59,12 +52,6 @@
         .video-section {
             margin: 0;
             position: relative;
-            padding-top: calc(42% - 48px);
-            a {
-                position: absolute;
-                top: 0;
-                left: 0;
-            }
         }
     }
 }

@@ -55,11 +55,11 @@
         }
         &__title {
             @include ps-typography(h5);
-            color: getColor(black);
+            color: getColor(black-900);
         }
         &__description {
             @include ps-typography(body-2);
-            color: getColor(black);
+            color: getColor(black-900);
             padding-top: getSpacing(1);
             padding-bottom: getSpacing(1);
             max-width: 70%;

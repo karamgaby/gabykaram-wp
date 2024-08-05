@@ -4,7 +4,7 @@
         @include ps-typography(h3);
     }
     &__icon {
-        fill: getColor('mate-black-900');
+        fill: getColor('mate-black-800');
     }
 
     @include media-breakpoint-up(md) {

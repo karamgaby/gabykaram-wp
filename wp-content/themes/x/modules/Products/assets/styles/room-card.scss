@@ -24,11 +24,11 @@
     }
     &__title {
         @include ps-typography(h5);
-        color: getColor(black);
+        color: getColor(black-900);
     }
     &__category {
         @include ps-typography(body-3);
-        color: getColor(black);
+        color: getColor(black-900);
         margin-top: getSpacing(1);
         padding-top: getSpacing(1);
         padding-bottom: getSpacing(1);
@@ -40,7 +40,7 @@
         align-items: center;
         margin-top: getSpacing(3);
         @include ps-typography(body-2);
-        color: getColor(black);
+        color: getColor(black-900);
     }
     .x-room-card__specification-item {
         display: inline-flex;
@@ -48,7 +48,7 @@
         gap: toRem(4);
         align-items: center;
         .x-room-card__specification-item__icon {
-            fill: getColor(black);
+            fill: getColor(black-900);
         }
         .x-room-card__specification-item__title {
             display: inline-flex;
@@ -58,7 +58,7 @@
         padding-top: getSpacing(1);
         padding-bottom: getSpacing(1);
         @include ps-typography(body-2);
-        color: getColor(black);
+        color: getColor(black-900);
         margin-top: getSpacing(3);
     }
 

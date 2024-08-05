@@ -2,7 +2,7 @@
     background-color: getColor(orange-500);
     &__title {
         @include ps-typography(h4);
-        color: getColor(mate-black-900);
+        color: getColor(mate-black-800);
         text-align: center;
         max-width: toRem(450);
     }

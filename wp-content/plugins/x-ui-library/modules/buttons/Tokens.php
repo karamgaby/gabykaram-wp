@@ -13,7 +13,7 @@ class Tokens extends AbstractTokens {
                 "default" => [
                     "textStyle" => "button-standard",
                     "bgColor" => "medium-turquoise-500",
-                    "textColor" => "mate-black-900",
+                    "textColor" => "mate-black-800",
                     "padding" => "0.75rem 1rem",
                     "borderRadius" => "0.75rem",
                     "outline" => null,
@@ -33,11 +33,11 @@ class Tokens extends AbstractTokens {
                 "default" => [
                     "textStyle" => "button-standard",
                     "bgColor" => "medium-turquoise-500",
-                    "textColor" => "mate-black-900",
+                    "textColor" => "mate-black-800",
                     "padding" => "0.75rem 1rem",
                     "borderRadius" => "0.75rem",
                     "outline" => null,
-                    "iconFillColor" => "black",
+                    "iconFillColor" => "black-900",
                 ],
                 "hover" => [
                     "bgColor" => "medium-turquoise-400",
@@ -53,7 +53,7 @@ class Tokens extends AbstractTokens {
                 "default" => [
                     "textStyle" => "button-standard",
                     "bgColor" => "transparent",
-                    "textColor" => "mate-black-900",
+                    "textColor" => "mate-black-800",
                     "padding" => "0.75rem 1rem",
                     "borderRadius" => "0.75rem",
                     "outline" => [
@@ -81,10 +81,10 @@ class Tokens extends AbstractTokens {
                 "default" => [
                     "textStyle" => "button-standard",
                     "bgColor" => "transparent",
-                    "textColor" => "mate-black-900",
+                    "textColor" => "mate-black-800",
                     "padding" => "0.75rem 1rem",
                     "borderRadius" => "0.75rem",
-                    "iconFillColor" => "black",
+                    "iconFillColor" => "black-900",
                     "outline" => [
                         "style" => "solid",
                         "width" => "0.125rem",
@@ -111,11 +111,11 @@ class Tokens extends AbstractTokens {
                 "default" => [
                     "textStyle" => "button-standard",
                     "bgColor" => "medium-turquoise-500",
-                    "textColor" => "mate-black-900",
+                    "textColor" => "mate-black-800",
                     "padding" => "0.75rem 1rem",
                     "borderRadius" => "0.75rem",
                     "outline" => null,
-                    "iconFillColor" => "black",
+                    "iconFillColor" => "black-900",
                 ],
                 "hover" => [
                     "bgColor" => "medium-turquoise-400",
@@ -133,10 +133,10 @@ class Tokens extends AbstractTokens {
                 "default" => [
                     "textStyle" => "button-standard",
                     "bgColor" => "transparent",
-                    "textColor" => "mate-black-900",
+                    "textColor" => "mate-black-800",
                     "padding" => "0.75rem 1rem",
                     "borderRadius" => "0.75rem",
-                    "iconFillColor" => "black",
+                    "iconFillColor" => "black-900",
                     "outline" => [
                         "style" => "solid",
                         "width" => "0.125rem",
@@ -161,7 +161,7 @@ class Tokens extends AbstractTokens {
                 "default" => [
                     "textStyle" => "button-standard",
                     "bgColor" => "white-white-50",
-                    "textColor" => "mate-black-900",
+                    "textColor" => "mate-black-800",
                     "padding" => "0.75rem 1rem",
                     "borderRadius" => "0.75rem",
                     "outline" => null,
@@ -179,7 +179,7 @@ class Tokens extends AbstractTokens {
                 "default" => [
                     "textStyle" => "button-standard",
                     "bgColor" => "transparent",
-                    "textColor" => "mate-black-900",
+                    "textColor" => "mate-black-800",
                     "padding" => "0.75rem 1rem",
                     "borderRadius" => "0.75rem",
                     "outline" => [
@@ -207,10 +207,10 @@ class Tokens extends AbstractTokens {
                 "default" => [
                     "textStyle" => "button-standard",
                     "bgColor" => "transparent",
-                    "textColor" => "mate-black-900",
+                    "textColor" => "mate-black-800",
                     "padding" => "0.75rem 1rem",
                     "borderRadius" => "0.75rem",
-                    "iconFillColor" => "black",
+                    "iconFillColor" => "black-900",
                     "outline" => [
                         "style" => "solid",
                         "width" => "0.125rem",
@@ -237,10 +237,10 @@ class Tokens extends AbstractTokens {
                 "default" => [
                     "textStyle" => "button-standard",
                     "bgColor" => "transparent",
-                    "textColor" => "mate-black-900",
+                    "textColor" => "mate-black-800",
                     "padding" => "0.75rem 1rem",
                     "borderRadius" => "0.75rem",
-                    "iconFillColor" => "black",
+                    "iconFillColor" => "black-900",
                     "outline" => [
                         "style" => "solid",
                         "width" => "0.125rem",
@@ -265,7 +265,7 @@ class Tokens extends AbstractTokens {
                 "default" => [
                     "textStyle" => "button-standard",
                     "bgColor" => "transparent",
-                    "textColor" => "mate-black-900",
+                    "textColor" => "mate-black-800",
                     "padding" => "0.75rem 1rem",
                     "borderRadius" => "0.75rem",
                 ],
@@ -289,7 +289,7 @@ class Tokens extends AbstractTokens {
                     "borderRadius" => "0.75rem",
                 ],
                 "hover" => [
-                    "textColor" => "mate-black-900",
+                    "textColor" => "mate-black-800",
                 ],
                 "disabled" => [
                     "textColor" => "mate-black-200",
@@ -305,9 +305,9 @@ class Tokens extends AbstractTokens {
                 "default" => [
                     "textStyle" => "button-standard",
                     "bgColor" => "transparent",
-                    "textColor" => "mate-black-900",
+                    "textColor" => "mate-black-800",
                     "padding" => "0.75rem 1rem",
-                    "iconFillColor" => "black",
+                    "iconFillColor" => "black-900",
                     "borderRadius" => "0.75rem",
                 ],
                 "hover" => [
@@ -328,9 +328,9 @@ class Tokens extends AbstractTokens {
                 "default" => [
                     "textStyle" => "button-standard",
                     "bgColor" => "transparent",
-                    "textColor" => "mate-black-900",
+                    "textColor" => "mate-black-800",
                     "padding" => "0.75rem 1rem",
-                    "iconFillColor" => "black",
+                    "iconFillColor" => "black-900",
                     "borderRadius" => "0.75rem",
                 ],
                 "hover" => [
@@ -352,9 +352,9 @@ class Tokens extends AbstractTokens {
                 "default" => [
                     "textStyle" => "button-standard",
                     "bgColor" => "transparent",
-                    "textColor" => "mate-black-900",
+                    "textColor" => "mate-black-800",
                     "padding" => "0.25rem",
-                    "iconFillColor" => "black",
+                    "iconFillColor" => "black-900",
                     "borderRadius" => "50%",
                     "filter" => "drop-shadow(0px 10px 15px rgba(0, 0, 0, 0.10)) drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.05))",
                 ],

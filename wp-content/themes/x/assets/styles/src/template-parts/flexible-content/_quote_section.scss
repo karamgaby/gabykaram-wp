@@ -13,7 +13,7 @@
     blockquote:before {
         content: "“";
         @include ps-typography(h1);
-        color: getColor(black);
+        color: getColor(black-900);
         position: absolute;
         bottom: calc(100% - 40px);
     }
@@ -29,7 +29,7 @@
 
     blockquote {
         @include ps-typography("subtitle-1");
-        color: getColor("mate-black-900");
+        color: getColor("mate-black-800");
         position: relative;
         margin: 0;
         padding: 0;
@@ -38,7 +38,7 @@
     .quote-author {
         margin-top: 1.5rem;
         @include ps-typography("subtitle-1");
-        color: getColor("mate-black-900");
+        color: getColor("mate-black-800");
     }
 
     @include media-breakpoint-smaller(md) {

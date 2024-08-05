@@ -23,7 +23,7 @@ $classes = implode( ' ', $classes );
 <section class="contact-section container <?= $classes ?>" <?php AbstractComponent::render_attributes( $attr ); ?>>
   <div class="row">
     <div class="col-md-12 col-24">
-      <h1 class="x-color-mate-black-900 x-typography-md-h1 x-typography-h4 text-center text-md-start"><?= $title ?></h1>
+      <h1 class="x-color-mate-black-800 x-typography-md-h1 x-typography-h4 text-center text-md-start"><?= $title ?></h1>
       <div class="contact-section__image mt-3 d-md-none">
         <?php
         X_UI\Modules\Image\Component::render( array(
@@ -38,7 +38,7 @@ $classes = implode( ' ', $classes );
       if ( count( $contact_list ) > 0 ):
         ?>
         <div class="d-flex justify-content-between justify-content-md-start mt-3">
-          <div class="contact-section__contact-list x-color-mate-black-900 d-inline-flex mx-auto mx-md-0  gap-1 flex-column">
+          <div class="contact-section__contact-list x-color-mate-black-800 d-inline-flex mx-auto mx-md-0  gap-1 flex-column">
             <?php
             foreach ( $contact_list as $contact ) :
               $icon_type = $contact['icon_type'];
@@ -91,7 +91,7 @@ $classes = implode( ' ', $classes );
       <?php
       endif;
       ?>
-      <h2 class="x-typography-h4 x-color-mate-black-900 mt-4">
+      <h2 class="x-typography-h4 x-color-mate-black-800 mt-4">
         <?= $subtitle ?>
       </h2>
       <div class="contact-section__contact-form mt-2">
