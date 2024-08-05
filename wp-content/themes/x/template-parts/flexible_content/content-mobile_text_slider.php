@@ -31,7 +31,7 @@ $attr = wp_parse_args(
 $class = $attr['class'];
 unset($attr['class']);
 ?>
-<section class="mobile-text-slider-section d-md-none <?= implode(' ', $class) ?>" <?php \X_UI\Core\AbstractComponent::render_attributes($attr); ?>>
+<section class="mobile-text-slider-section <?= implode(' ', $class) ?>" <?php \X_UI\Core\AbstractComponent::render_attributes($attr); ?>>
     <div class="sliding-words-slider swiper">
         <div class="swiper-wrapper">
             <?php
