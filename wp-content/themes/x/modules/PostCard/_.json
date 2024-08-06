@@ -1,0 +1,35 @@
+{
+    "moduleKey": "PostCard",
+    "meta": {
+      "title": "Post Card",
+      "version": "1.0.0"
+    },
+    "tokens": {
+      "path": "tokens.json",
+      "scssOutput": "_tokens.scss",
+      "phpOutput": "Tokens.php",
+      "namespace": "X_Modules\\PostCard",
+      "isGroup": false
+    },
+    "dependencies": ["image", "buttons"],
+    "php": {
+      "inc": [
+        "Tokens.php",
+        "Component.php",
+        "setup.php"
+      ]
+    },
+    "css": {
+      "main.css": [
+      ],
+      "admin.css": [],
+      "editor-gutenberg.css": [
+      ]
+    },
+    "js": {
+      "main.js": [
+      ],
+      "editor-gutenberg.js": []
+    }
+  }
+  

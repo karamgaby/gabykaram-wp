@@ -25,7 +25,7 @@ class Colors extends AbstractTokens {
             "yellow-gold-700" => "#FEBE00",
             "mate-black-800" => "#1F1F1F",
             "mate-black-500" => "#3C3C3B",
-            "mate-black-400" => "#2D2D2C",
+            "mate-black-400" => "#6D6D6B",
             "mate-black-200" => "#ACACAB",
             "mate-black-50" => "#D0D0CF",
             "orange-500" => "#EA8E12",

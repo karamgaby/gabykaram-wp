@@ -22,12 +22,16 @@
 @import "../../modules/PictureCards/assets/styles/style";
 @import "../../modules/Products/assets/styles/room-card";
 @import "../../modules/Products/assets/styles/coworking-card";
+@import "../../modules/PostCard/assets/styles/style";
 @import "../../node_modules/@fancyapps/ui/dist/fancybox/fancybox";
 
 html, body {
   width: 100%;
   overflow-x: hidden;
 }
+
+@import "src/template-parts/common/page-hero-section";
+
 @import "src/template-parts/flexible-content/pictures_sliders_section";
 @import "src/template-parts/flexible-content/text-image-link";
 @import "src/template-parts/flexible-content/text_gallery_section";
@@ -46,6 +50,15 @@ html, body {
 @import "src/template-parts/flexible-content/icons_slider_with_video";
 @import "src/template-parts/flexible-content/open-positions";
 @import "src/template-parts/flexible-content/youtube-card-modal";
+
+
+@import "src/template-parts/posts-archive/content-intro-section";
+@import "src/template-parts/posts-archive/content-search-bar";
+
+.content-section {
+  @import "src/template-parts/common/gutenberg";
+
+}
 body.page-template-template-flexible-content {
   background: #FFFFFF;
   article {

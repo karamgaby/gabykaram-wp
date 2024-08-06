@@ -9,8 +9,6 @@ $maxWidth: map-get($x_desktop, 'maxWidth');
   background: getColor($header_bg_color);
   box-shadow: getShadow($shadow);
   width: 100%;
-  .menuBarDesktop__container {
-  }
   .menuBarDesktop__site-logo {
     height: 40px;
     width: auto;

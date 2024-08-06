@@ -97,6 +97,8 @@
                             "choices": {
                                 "phone": "phone",
                                 "email": "email",
+                                "x": "X/Twitter",
+                                "github": "Github",
                                 "location": "location"
                             },
                             "default_value": "phone",

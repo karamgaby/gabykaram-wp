@@ -14,17 +14,20 @@ use X_UI\Core\AbstractComponent;
  * 'src' => 'path to image'
  * ]);
  */
-class Component extends AbstractComponent {
+class Component extends AbstractComponent
+{
 
-  protected static function get_data_placeholders(): array {
+  protected static function get_data_placeholders(): array
+  {
     return array(
       // required
-      'id'       => null,
-      'size'     => 'full',
+      'id' => null,
+      'size' => 'full',
       // optional
-      'attr'     => array(),
-      'alt'      => '',
-      'loading'  => 'lazy',
+      'src' => null,
+      'attr' => array(),
+      'alt' => '',
+      'loading' => 'lazy',
       'decoding' => 'async',
 
     );
@@ -33,14 +36,15 @@ class Component extends AbstractComponent {
   /**
    * Image markup
    */
-  public static function frontend( $data ) {
+  public static function frontend($data)
+  {
     $attr = $data['attr'];
-    $alt  = $attr['alt'];
-    $src  = $attr['src'];
-    unset( $attr['src'] );
-    unset( $attr['alt'] );
+    $alt = $attr['alt'];
+    $src = $attr['src'];
+    unset($attr['src']);
+    unset($attr['alt']);
     ?>
-    <img alt="<?= $alt ?>" src="<?= $src ?>" <?php parent::render_attributes( $data['attr'] ); ?> />
+    <img alt="<?= $alt ?>" src="<?= $src ?>" <?php parent::render_attributes($data['attr']); ?> />
     <?php
   }
 
@@ -49,73 +53,82 @@ class Component extends AbstractComponent {
    *
    * @param array $args
    */
-  public static function backend( $args = array() ) {
-    if ( empty( $args['id'] ) ) {
-      return parent::error( 'Missing attachment_id ($args[\'id\'])' );
+  public static function backend($args = array())
+  {
+    if (empty($args['id']) && empty($args['src'])) {
+      return parent::error('Missing image id and src, id is primary and src is secondary ($args[\'id\'] or $args[\'src\'])');
     }
-    // fetch attachment metadata from database
-    $image = wp_get_attachment_metadata( $args['id'] );
+    if (empty($args['id']) && (empty($args['attr']['width']) || empty($args['attr']['height']))) {
+      return parent::error('Missing image width and height, width and height are required when src is used ($args[\'attr\'][\'width\'] and $args[\'attr\'][\'height\'])');
+    }
+    if (!empty($args['id'])) {
+      // fetch attachment metadata from database
+      $image = wp_get_attachment_metadata($args['id']);
 
-    // possible invalid image
-    if ( empty( $image ) || is_wp_error( $image ) ) {
+      // possible invalid image
+      if (empty($image) || is_wp_error($image)) {
 
-      // check if its svg that is missing meta data
-      $file = get_attached_file( $args['id'] );
-      if ( empty( $file ) || ! strstr( $file, '.svg' ) ) {
-        return parent::error( 'Invalid attachment for X_Image' );
+        // check if its svg that is missing meta data
+        $file = get_attached_file($args['id']);
+        if (empty($file) || !strstr($file, '.svg')) {
+          return parent::error('Invalid attachment for X_Image');
+        }
+
       }
 
-    }
 
+      // image has valid meta data
+      if (!empty($image)) {
+        // get WP generated image sizes
+        $generated_sizes = $image['sizes'];
+        $generated_sizes['full'] = [
+          'width' => $image['width'],
+          'height' => $image['height'],
+        ];
+        // get desired sizes for image
+        $registered_sizes = apply_filters('theme_image_sizing', []);
+        if (isset($registered_sizes[$args['size']])) {
+          $desired_sizes = $registered_sizes[$args['size']];
+        } else {
+          return parent::error('Requested size not found ' . $args['size']);
+        }
 
-    // image has valid meta data
-    if ( ! empty( $image ) ) {
-      // get WP generated image sizes
-      $generated_sizes = $image['sizes'];
-      $generated_sizes['full'] = [
-        'width'  => $image['width'],
-        'height' => $image['height'],
-      ];
-      // get desired sizes for image
-      $registered_sizes = apply_filters('theme_image_sizing', []);
-      if (isset($registered_sizes[$args['size']])) {
-        $desired_sizes = $registered_sizes[$args['size']];
+        // figure out which desired sizes are possible
+        $possible_sizes = self::get_possible_image_sizes($desired_sizes, $generated_sizes);
+
+        if (empty($possible_sizes)) {
+          return parent::error('No possible sizes');
+        }
+
+        // src
+        $args['attr']['src'] = self::get_image_url($args['id'], $possible_sizes['primary']);
+
+        // width
+        $args['attr']['width'] = $generated_sizes[$possible_sizes['primary']]['width'];
+
+        // height
+        $args['attr']['height'] = $generated_sizes[$possible_sizes['primary']]['height'];
+
+        // srcset
+        $srcset = [];
+        foreach ($possible_sizes['supporting'] as $key => $possible_size) {
+          $srcset[] = self::get_image_url($args['id'], $possible_size) . ' ' . $generated_sizes[$possible_size]['width'] . 'w';
+        }
+        if (!empty($srcset)) {
+          $args['attr']['srcset'] = implode(', ', $srcset);
+          $args['attr']['sizes'] = $desired_sizes['sizes'];
+        }
       } else {
-        return parent::error('Requested size not found ' . $args['size']);
+        // no meta data
+        $args['attr']['src'] = wp_get_attachment_url($args['id']);
+      }
+      // load alt text if deosn't exist
+      if (empty($args['alt'])) {
+        $args['alt'] = get_post_meta($args['id'], '_wp_attachment_image_alt', true);
       }
 
-      // figure out which desired sizes are possible
-      $possible_sizes = self::get_possible_image_sizes($desired_sizes, $generated_sizes);
-
-      if (empty($possible_sizes)) {
-        return parent::error('No possible sizes');
-      }
-
-      // src
-      $args['attr']['src'] = self::get_image_url($args['id'], $possible_sizes['primary']);
-
-      // width
-      $args['attr']['width'] = $generated_sizes[$possible_sizes['primary']]['width'];
-
-      // height
-      $args['attr']['height'] = $generated_sizes[$possible_sizes['primary']]['height'];
-
-      // srcset
-      $srcset = [];
-      foreach ($possible_sizes['supporting'] as $key => $possible_size) {
-        $srcset[] = self::get_image_url($args['id'], $possible_size) . ' ' . $generated_sizes[$possible_size]['width'] . 'w';
-      }
-      if (!empty($srcset)) {
-        $args['attr']['srcset'] = implode(', ', $srcset);
-        $args['attr']['sizes'] = $desired_sizes['sizes'];
-      }
     } else {
-      // no meta data
-      $args['attr']['src'] = wp_get_attachment_url( $args['id'] );
-    }
-    // load alt text if deosn't exist
-    if (empty($args['alt'])) {
-      $args['alt'] = get_post_meta($args['id'], '_wp_attachment_image_alt', true);
+			$args['attr']['src'] = $args['src'];
     }
 
     // alt
@@ -132,7 +145,13 @@ class Component extends AbstractComponent {
     if (!isset($args['attr']['decoding'])) {
       $args['attr']['decoding'] = $args['decoding'];
     }
-
+    if (!isset($args['attr']['class'])){
+			$args['attr']['class'] = [];
+		} else if(is_string( $args['attr']['class'])) {
+			$args['attr']['class'] = array( $args['attr']['class']);
+		}
+  
+		// $args['attr']['class'][] = 'lazy';
     return $args;
   }
 
@@ -144,7 +163,8 @@ class Component extends AbstractComponent {
    *
    * @return array list of possible image sizes from desired sizes
    */
-  public static function get_possible_image_sizes($desired_sizes, $generated_sizes) {
+  public static function get_possible_image_sizes($desired_sizes, $generated_sizes)
+  {
 
     $real_sizes = [];
 
@@ -191,11 +211,12 @@ class Component extends AbstractComponent {
    *
    * @return string URL
    */
-  public static function get_image_url( $attachment_id, $size ) {
+  public static function get_image_url($attachment_id, $size)
+  {
 
     $image_url = '';
-    $image_src = wp_get_attachment_image_src( $attachment_id, $size );
-    if ( ! empty( $image_src ) && ! is_wp_error( $image_src ) ) {
+    $image_src = wp_get_attachment_image_src($attachment_id, $size);
+    if (!empty($image_src) && !is_wp_error($image_src)) {
       $image_url = $image_src[0];
     }
 

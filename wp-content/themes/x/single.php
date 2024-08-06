@@ -1,4 +1,6 @@
 <?php
+use X_UI\Modules\Image\Component as Image;
+
 /**
  * The template for displaying all single posts.
  *
@@ -7,44 +9,31 @@
  * @package x
  */
 
-get_header(); ?>
-
-  <div id="primary" class="primary primary--single">
-
-    <?php while (have_posts()) : the_post(); ?>
-
-      <article id="post-<?php the_ID(); ?>" <?php post_class('entry entry--post'); ?>>
-
-        <div class="entry__header <?php echo has_post_thumbnail() ? 'entry__header--has-media' : 'entry__header--no-media'; ?>">
-          <?php if (has_post_thumbnail()) : ?>
-            <div class="entry__media">
-              <?php
-                X_Image::render([
-                  'id'    => get_post_thumbnail_id(),
-                  'size'  => 'large',
-                ]);
-              ?>
+ get_header();
+ ?>
+     <main id="primary" class="single-blog" itemscope itemtype="https://schema.org/Article">
+       <?php
+       get_template_part( 'template-parts/single-post/content','page-hero-section');
+       ?>
+     <section class="container  pt-4 pb-3 py-lg-4">
+            <div class="row justify-content-center">
+              <div class="col-24 col-md-16 content-section">
+                 <?php
+                 while ( have_posts()):
+                   the_post();
+                   the_content();
+                 endwhile;
+                 ?>
+              </div>
             </div>
-          <?php endif; ?>
-          <h1 class="entry__title"><?php the_title(); ?></h1>
-          <div class="entry__meta"><?php echo x_get_posted_on(); ?></div>
-        </div>
-
-        <div class="entry__content blocks">
-          <?php the_content(); ?>
-        </div>
-
-        <?php if (has_action('theme_entry_footer')) : ?>
-          <footer class="entry__footer">
-            <?php do_action('theme_entry_footer', get_the_ID()); ?>
-          </footer>
-        <?php endif; ?>
-
-      </article>
-
-    <?php endwhile; ?>
-
-  </div><!-- #primary -->
-
-<?php
-get_footer();
+     </section>
+     </main>
+     <!-- <aside>
+         <?php
+        //  get_template_part( 'template-parts/single-post/content', 'related-post' );
+         ?>
+     </aside> -->
+ 
+ <?php
+ get_footer();
+ 

@@ -1,0 +1,26 @@
+.page-hero-section {
+    .page-hero-section-title {
+        position: relative;
+        z-index: 1;
+        .page-hero-section-icon {
+            position: absolute;
+            right: calc(100% - 90px);
+            z-index: -1;
+            top: -45px;
+            width: 159px;
+            height: 179px;
+        }
+    }
+}
+@include media-breakpoint-down(md) {
+    .page-hero-section {
+        .page-hero-section-title {
+            .page-hero-section-icon {
+                right: calc(100% - 65px);
+                width: 127px;
+                height: 142.97px;
+            }
+        }
+    }
+
+}

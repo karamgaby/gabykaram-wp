@@ -12,4 +12,9 @@ class Config {
     $breakpoints = $gridInstance->getMeta('breakpoints');
     return array_keys($breakpoints);
   }
+  public static function get_grid_breakpoints() {
+    $gridInstance = Grid::getInstance();
+    $breakpoints = $gridInstance->getMeta('breakpoints');
+    return array_keys($breakpoints);
+  }
 }

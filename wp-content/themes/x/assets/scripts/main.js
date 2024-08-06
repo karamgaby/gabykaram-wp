@@ -33,6 +33,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
   setupGalleryFancyBox();
   setupIconsSlider();
   setupWordsSlider();
+  handleBackToBlogsButton();
   const modals = document.querySelectorAll('.youtube-card-modal');
 
   modals.forEach(modal => {
@@ -66,7 +67,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
   }
   function setupWordsSlider() {
     if (document.querySelectorAll('.sliding-words-slider').length > 0) {
-// @todo replace with bxskuder Better transition https://bxslider.com/options
+      // @todo replace with bxskuder Better transition https://bxslider.com/options
       const swiper = new Swiper(".sliding-words-slider", {
         slidesPerView: 'auto',
         spaceBetween: remToPx(1.5),
@@ -111,6 +112,21 @@ document.addEventListener('DOMContentLoaded', (event) => {
       backFocus: false,
       hideScrollbar: false,
       Hash: false,
+    });
+  }
+  function handleBackToBlogsButton() {
+    const blog_page_url = x_theme_script_vars.blog_page_url;
+    const site_domain = x_theme_script_vars.site_domain;
+
+    document.querySelectorAll('.back-to-blogs-page').forEach(button => {
+      button.addEventListener('click', function () {
+        const referrerDomain = document.referrer.split('/')[2];
+        if (referrerDomain === site_domain && document.referrer.split('/')[3] !== undefined && document.referrer.split('/')[3] === blog_page_url.split('/')[3]) {
+          window.history.back();
+        } else {
+          window.location.href = blog_page_url;
+        }
+      });
     });
   }
 });

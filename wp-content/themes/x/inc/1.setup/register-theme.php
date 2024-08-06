@@ -106,8 +106,8 @@ function x_scripts() {
   );
 
   wp_localize_script(
-    'storker_theme-js',
-    'storker_theme_script_vars',
+    'x-js',
+    'x_theme_script_vars',
     array(
       'ajax_url'      => admin_url( 'admin-ajax.php' ),
       'rest_url'      => get_rest_url(),

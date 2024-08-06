@@ -26,7 +26,16 @@ add_action( 'wp_enqueue_scripts', function () {
     x_last_edited('js'),
     true
   );
-
+  wp_localize_script(
+    'x-js',
+    'x_theme_script_vars',
+    array(
+      'ajax_url'      => admin_url( 'admin-ajax.php' ),
+      'rest_url'      => get_rest_url(),
+      'site_domain'   => $_SERVER['SERVER_NAME'],
+      'blog_page_url' => get_post_type_archive_link( 'post' ),
+    )
+  );
   // comments
   if (is_singular() && comments_open() && get_option('thread_comments')) {
     wp_enqueue_script('comment-reply');

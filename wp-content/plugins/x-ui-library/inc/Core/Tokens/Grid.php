@@ -58,6 +58,7 @@ class Grid extends AbstractTokens {
             "6" => "4rem",
             "7" => "6rem",
             "8" => "10rem",
+            "6_5" => "5rem",
         ],
         "border-radius" => [
             "1" => "0.5rem",
