@@ -17,14 +17,16 @@ $menu_items = Menu::get_location_menu_items($menu_location);
 
 <div class="menuBarDesktop">
   <div class="menuBarDesktop__container container py-2 d-flex justify-content-between">
-    <?php
-    Image::render( array(
-      'id'   => $logo_id,
-      'attr' => [
-        'class' => 'menuBarDesktop__site-logo'
-      ]
-    ) );
-    ?>
+    <a href="<?php echo esc_url(home_url()); ?>">
+      <?php
+      Image::render( array(
+        'id'   => $logo_id,
+        'attr' => [
+          'class' => 'menuBarDesktop__site-logo'
+        ]
+      ) );
+      ?>
+    </a>
     <nav>
       <div class="d-flex gap-1" role="list">
         <?php
