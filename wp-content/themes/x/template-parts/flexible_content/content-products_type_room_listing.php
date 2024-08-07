@@ -7,8 +7,7 @@ if (!isset($args)) {
 $args = wp_parse_args(
     $args,
     array(
-        'quote' => '',
-        'author' => '',
+        'products' => [],
     )
 );
 $products = $args['products'];

@@ -1,7 +1,9 @@
 .pictures-slider-section {
-
   .pictures-slides {
-    width: calc(100% + var(--container-padding));
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: calc(100% + 50 * var(--container-padding));
+    position: relative;
     &:not(.swiper-initialized) {
       .swiper-wrapper {
         display: flex;
@@ -14,6 +16,5 @@
     .space-slide {
       width: var(--container-padding);
     }
-
   }
 }

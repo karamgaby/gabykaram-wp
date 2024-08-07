@@ -3,7 +3,7 @@
     position: relative;
     border-radius: 1rem;
     overflow: hidden;
-    height: 320px;
+    min-height: 320px;
     &--full-height {
       height: 100%;
     }
@@ -13,7 +13,7 @@
       bottom: 0;
       height: 100%;
       width: 100%;
-      object-fit: cover;
+      object-fit: contain;
     }
   }
   .contact-list-item {

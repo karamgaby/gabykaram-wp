@@ -1,0 +1,26 @@
+{
+    "moduleKey": "CaseStudies",
+    "meta": {
+      "title": "Case Studies",
+      "version": "1.0.0"
+    },
+    "dependencies": ["image"],
+    "php": {
+      "inc": [
+        "setup.php"
+      ]
+    },
+    "css": {
+      "main.css": [
+      ],
+      "admin.css": [],
+      "editor-gutenberg.css": [
+      ]
+    },
+    "js": {
+      "main.js": [
+      ],
+      "editor-gutenberg.js": []
+    }
+  }
+  

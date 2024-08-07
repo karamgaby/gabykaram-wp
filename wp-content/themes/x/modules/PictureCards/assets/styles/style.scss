@@ -2,14 +2,15 @@
   position: relative;
   border-radius: 1rem;
   overflow: hidden;
+  box-shadow: getShadow(clear);
   &--desktop {
     height: toRem(476.61);
     width: toRem(365);
     .picture-cards-picture-only {
       &__title {
-        top: toRem(214);
+        bottom: toRem(252);
         right: toRem(40);
-        width: toRem(210);
+        min-width: toRem(210);
         @include ps-typography(h5);
       }
     }
@@ -19,9 +20,9 @@
     width: toRem(242);
     .picture-cards-picture-only {
       &__title {
-        top: toRem(124);
+        bottom: toRem(160);
         right: toRem(24);
-        width: toRem(140);
+        min-width: toRem(140);
         @include ps-typography(button-standard);
       }
     }
@@ -43,7 +44,7 @@
     position: absolute;
     transform-origin: 100% 0;
     transform: rotate(-90deg);
-
+    box-shadow: getShadow(clear);
     text-align: center;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
@@ -52,6 +53,8 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    padding-left: 4px;
+    padding-right: 4px;
   }
 }
 

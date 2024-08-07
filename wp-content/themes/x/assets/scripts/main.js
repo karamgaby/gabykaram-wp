@@ -51,12 +51,14 @@ document.addEventListener('DOMContentLoaded', (event) => {
   });
   function setupIconsSlider() {
     if (document.querySelectorAll('.icons-slides').length > 0) {
-
       const swiper = new Swiper(".icons-slides", {
         slidesPerView: 'auto',
         spaceBetween: remToPx(1.5),
         freeMode: true,
         centerInsufficientSlides: true,
+        grabCursor: true,
+        loop: true,
+        longSwipes: false,
       });
       window.addEventListener('resize', function () {
         swiper.params.spaceBetween = remToPx(1.5);
@@ -94,6 +96,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
         slidesPerView: 'auto',
         spaceBetween: remToPx(1),
         freeMode: true,
+        grabCursor: true,
+        loop: true,
+        longSwipes: false,
       });
 
       window.addEventListener('resize', function () {

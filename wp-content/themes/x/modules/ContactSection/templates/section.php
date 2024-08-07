@@ -23,24 +23,13 @@ $classes = implode(' ', $classes);
 <section class="contact-section container <?= $classes ?>" <?php AbstractComponent::render_attributes($attr); ?>>
   <div class="row">
     <div class="col-md-12 col-24">
-      <h1 class="x-color-mate-black-800 x-typography-md-h1 x-typography-h4 text-center text-md-start"><?= $title ?></h1>
-      <div class="contact-section__image mt-3 d-md-none">
-        <?php
-        X_UI\Modules\Image\Component::render(
-          array(
-            'id' => $image_id,
-            'attr' => [
-              'class' => ''
-            ]
-          ));
-        ?>
-      </div>
+      <h1 class="x-color-mate-black-800 x-typography-md-h1 x-typography-h4"><?= $title ?></h1>
       <?php
       if (count($contact_list) > 0):
         ?>
-        <div class="d-flex justify-content-between justify-content-md-start mt-3">
+        <div class="d-flex mt-3">
           <div
-            class="contact-section__contact-list x-color-mate-black-800 d-inline-flex mx-auto mx-md-0  gap-1 flex-column">
+            class="contact-section__contact-list x-color-mate-black-800 d-inline-flex gap-1 flex-column">
             <?php
             foreach ($contact_list as $contact):
               $icon_type = $contact['icon_type'];

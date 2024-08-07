@@ -74,7 +74,7 @@ unset($attr['class']);
             <div class="video-section">
                     <a data-fancybox href="<?= $video_src; ?>" class="m-auto">
                         <div class="video-overlay">
-                            <img class="video-overlay-cover b-lazy" src="<?= $video_cover_image['url'] ?>"
+                            <img class="video-overlay-cover w-100 b-lazy" src="<?= $video_cover_image['url'] ?>"
                                 alt="<?= $video_cover_image['alt'] ?>" title="<?= $video_cover_image['title'] ?>">
                         </div>
                     </a>

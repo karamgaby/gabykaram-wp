@@ -93,6 +93,9 @@ if (have_rows('flexible_content')):
     if ($row_layout === 'products_type_room_listing') {
       $args['products'] = get_sub_field('products');
     }
+    if ($row_layout === 'case_studies_listing') {
+      $args['projects'] = get_sub_field('case_studies');
+    }
     if ($row_layout === 'colored_title') {
       $args['title'] = get_sub_field('title');
     }

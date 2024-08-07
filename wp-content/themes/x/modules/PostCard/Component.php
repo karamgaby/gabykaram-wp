@@ -40,22 +40,27 @@ class Component extends AbstractComponent
                     <?php
                 endif;
                 ?>
-
-                <span class="ps-card-action">
-                    <?php
-                    $button_attr = array_merge(
-                        array(
-                            'as' => 'button',
-                            'title' => $data['type'] === 'post' ? 'Read more' : 'Explore',
-                            'attr' => [
-                                'type' => 'button',
-                            ]
-                        ),
-                        $data['button_attr']
-                    );
-                    Button::render($button_attr);
+                <?php
+                if ($data['has_button']):
                     ?>
-                </span>
+                    <span class="ps-card-action">
+                        <?php
+                        $button_attr = array_merge(
+                            array(
+                                'as' => 'button',
+                                'title' => $data['type'] === 'post' ? 'Read more' : 'Explore',
+                                'attr' => [
+                                    'type' => 'button',
+                                ]
+                            ),
+                            $data['button_attr']
+                        );
+                        Button::render($button_attr);
+                        ?>
+                    </span>
+                    <?php
+                endif;
+                ?>
             </div>
         </<?= $html_tag ?>>
 
@@ -78,6 +83,7 @@ class Component extends AbstractComponent
             'post_layout' => self::$post_layouts[0],
             'post_layout_breakpoints' => $default_breakpoints_attr,
             'button_attr' => [],
+            'has_button' => true
         ];
         $args = wp_parse_args($args, $placeholders);
         if (!in_array($args['type'], self::$types)) {
@@ -90,10 +96,11 @@ class Component extends AbstractComponent
         }
         foreach ($args['post_layout_breakpoints'] as $post_layout_breakpoint_key => $value) {
             if (!empty($value) && !in_array($post_layout_breakpoint_key, Config::get_grid_breakpoints_keys(), true)) {
-                return parent::error('Wrong card post_layout_breakpoints format ($args[\'post_layout_breakpoints\']) should be an array with keys: ' . implode(
-                    ', ',
-                    Config::get_grid_breakpoints_keys()
-                )
+                return parent::error(
+                    'Wrong card post_layout_breakpoints format ($args[\'post_layout_breakpoints\']) should be an array with keys: ' . implode(
+                        ', ',
+                        Config::get_grid_breakpoints_keys()
+                    )
                 );
             } elseif (!empty($value) && !in_array($value, self::$post_layouts, true)) {
                 return parent::error('Wrong card post_layout_breakpoints ($args[\'post_layout_breakpoints\'][\'' . $post_layout_breakpoint_key . '\'])');
@@ -103,7 +110,7 @@ class Component extends AbstractComponent
             return parent::error('Missing card image id and src, id is primary and src is secondary ($args[\'card_image\'][\'id\'] or $args[\'card_image\'][\'src\'])');
         }
         if (empty($args['title'])) {
-            return parent::error('Missing card title ($args[\'type\'])');
+            return parent::error('Missing card title ($args[\'title\'])');
         }
         if (!in_array($args['html_tag'], self::$wrapper_html_tags, true)) {
             return parent::error('Wrong card wrapper html tag ($args[\'variant\'])');

@@ -1297,6 +1297,71 @@
                     "min": "",
                     "max": ""
                 },
+                "layout_676de1ec88450": {
+                    "key": "layout_676de1ec88450",
+                    "name": "case_studies_listing",
+                    "label": "Case Studies Listing",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_667de21588455",
+                            "label": "Case Studies",
+                            "name": "case_studies",
+                            "aria-label": "",
+                            "type": "relationship",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "post_type": [
+                                "case-studies"
+                            ],
+                            "post_status": [
+                                "publish"
+                            ],
+                            "taxonomy": [],
+                            "filters": [
+                                "search"
+                            ],
+                            "return_format": "id",
+                            "min": "",
+                            "max": "",
+                            "elements": [
+                                "featured_image"
+                            ],
+                            "bidirectional": 0,
+                            "bidirectional_target": []
+                        },
+                        {
+                            "key": "field_667de1ec88454",
+                            "label": "Advanced Settings",
+                            "name": "advanced_settings",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_666d594532854"
+                            ],
+                            "display": "group",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
                 "layout_666e086cfc2b8": {
                     "key": "layout_666e086cfc2b8",
                     "name": "colored_title",
@@ -2058,6 +2123,7 @@
                                         "id": ""
                                     },
                                     "layout": "block",
+                                    "parent_repeater": "field_66704f032d4f5",
                                     "sub_fields": [
                                         {
                                             "key": "field_66b0a326a5c76",
@@ -2099,8 +2165,7 @@
                                             "prepend": "",
                                             "append": ""
                                         }
-                                    ],
-                                    "parent_repeater": "field_66704f032d4f5"
+                                    ]
                                 }
                             ]
                         },
@@ -2268,6 +2333,7 @@
                                     "collapsed": "field_66709c94ba796",
                                     "button_label": "Add Row",
                                     "rows_per_page": 20,
+                                    "parent_repeater": "field_66709c59ba793",
                                     "sub_fields": [
                                         {
                                             "key": "field_66709c94ba796",
@@ -2358,8 +2424,7 @@
                                             "append": "",
                                             "parent_repeater": "field_66709c8bba795"
                                         }
-                                    ],
-                                    "parent_repeater": "field_66709c59ba793"
+                                    ]
                                 }
                             ]
                         },
@@ -2556,5 +2621,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1722852340
+    "modified": 1722990391
 }

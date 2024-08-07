@@ -174,6 +174,7 @@
                     grid-template-columns: 1fr 1fr;
                     border: none;
                     padding: 0;
+                    min-height: 320px;
                     &:focus-visible {
                         .ps-card-meta {
                             border-color: #{getColor(mate-black-200)};;
@@ -182,6 +183,11 @@
                     &:hover {
                         .ps-card-meta {
                             border-color: #{getColor(mate-black-500)};;
+                        }
+                        .ps-card-image {
+                            img {
+                                object-position: 0 100%;
+                            }
                         }
                     }
                     .ps-card-title {
@@ -196,6 +202,8 @@
                         img {
                             border-radius: 8px 0 0 8px;
                             overflow: hidden;
+                            // height: auto;
+                            transition: object-position 2.5s ease-out;
                         }
                     }
                     .ps-card-meta {
