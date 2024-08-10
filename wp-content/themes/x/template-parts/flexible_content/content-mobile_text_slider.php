@@ -40,8 +40,8 @@ unset($attr['class']);
                 ?>
                 <div class="word-slide swiper-slide">
                     <?= $word; ?>
+                    <div class="dot-slide"><span class="dot"></span></div>
                 </div>
-                <div class="swiper-slide dot-slide"><span class="dot"></span></div>
                 <?php
             }
             ?>

@@ -78,14 +78,15 @@ $typeMap = [
                             <a href="<?= $link['url'] ?>" target="<?= $link['target'] ?>"
                                 class="navigation-card navigation-card--<?= $index % 2 === 0 ? 'even' : 'odd' ?>" <?php AbstractComponent::render_attributes($card_attr); ?>>
                                 <div class="navigation-card__front">
+                                    <div class="navigation-card__front__bg-overlay"></div>
                                     <?php
                                     Image::render([
                                         'id' => $image['ID'],
                                         'attr' => [
                                             'class' => 'navigation-card__front__image'
                                         ]
-                                    ]);
-                                    ?>
+                                        ]);
+                                        ?>
                                     <div class="navigation-card__front__btn">
                                         <?php
                                         Button::render(
@@ -99,7 +100,7 @@ $typeMap = [
                                         );
                                         ?>
                                         <span
-                                            class="navigation-card__front__btn__title x-typography-h3"><?= $link['title'] ?></span>
+                                            class="navigation-card__front__btn__title"><?= $link['title'] ?></span>
                                     </div>
                                 </div>
                                 <div class="navigation-card__back">

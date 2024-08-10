@@ -3,7 +3,6 @@
     z-index: 0;
     overflow: hidden;
     .sliding-words-slider {
-        margin-top: -1rem;
         .swiper-wrapper {
             display: flex;
             align-items: center;
@@ -14,17 +13,19 @@
             display: inline-flex;
             align-items: center;
             width: max-content;
-        }
-        .dot-slide {
-            display: inline-flex;
-            align-items: center;
-            width: max-content;
-            .dot {
-                width: 10px;
-                height: 10px;
-                background-color: getColor(mate-black-50);
-                border-radius: 50%;
+            .dot-slide {
+                display: inline-flex;
+                align-items: center;
+                width: max-content;
+                margin-left: 1.5rem;
+                .dot {
+                    width: 10px;
+                    height: 10px;
+                    background-color: getColor(mate-black-50);
+                    border-radius: 50%;
+                }
             }
         }
+      
     }
 }

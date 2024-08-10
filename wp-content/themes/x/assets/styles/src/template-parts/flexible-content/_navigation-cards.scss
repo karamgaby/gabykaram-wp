@@ -66,22 +66,33 @@
         display: flex;
         align-items: flex-end;
         padding: 24px;
+        &__bg-overlay{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+            opacity: 0.125;
+            z-index: 3;
+        }
         &__image {
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
+            z-index: 2;
         }
         &__btn {
-            z-index: 2;
+            z-index: 4;
             display: flex;
             justify-content: center;
             align-items: center;
             gap: getSpacing(2);
             &__title {
                 color: var(--navigation-card-text-color);
-                @include ps-typography(h3);
+                @include ps-typography(h4);
                 display: flex;
             }
         }
@@ -112,6 +123,13 @@
         }
     }
     @include media-breakpoint-greater(md) {
+        #{$component}__front {
+            &__btn {
+                &__title {
+                    @include ps-typography(h3);
+                }
+            }
+        }
         &:hover, &:focus {
             #{$component}__back {
                 display: flex;

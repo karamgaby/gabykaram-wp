@@ -17,7 +17,7 @@ $menu_items = Menu::get_location_menu_items($menu_location);
     <div class="d-flex flex-column gap-1" role="list">
       <?php
       foreach ($menu_items as $menu_item) :
-        $is_active = $menu_item->current;
+        $is_active = $menu_item->current || $menu_item->current_page_parent;
         $menu_btn_style = get_field('button_style', $menu_item->ID);
         $active_menu_btn_style = get_field('active_button_style', $menu_item->ID);
         $title = apply_filters( 'the_title', $menu_item->title, $menu_item->ID );

@@ -75,12 +75,14 @@ document.addEventListener('DOMContentLoaded', (event) => {
         spaceBetween: remToPx(1.5),
         freeMode: true,
         loop: true,
-        speed: 2000,
+        speed: 1200,
+        centerInsufficientSlides: true,
+        grabCursor: true,
         autoplay: {
-          delay: 0.1,
-          // delay: 1200,
-          disableOnInteraction: false,
-          waitForTransition: false,
+          // delay: 0.1,
+          delay: 1200,
+          disableOnInteraction: true,
+          waitForTransition: true,
 
         },
       });
