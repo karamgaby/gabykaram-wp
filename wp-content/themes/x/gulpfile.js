@@ -1,11 +1,11 @@
 /**
  * Configuration for Gulp. Based largely on Sage by Roots.
  */
-const {enabled, path} = require('./gulp/config');
-const {updateTimestamp} = require('./gulp/helpers/update-timeStamp');
-const {cssTasks} = require('./gulp/tasks/css');
-const {jsTasks} = require('./gulp/tasks/js');
-const {tokensTasks} = require('./gulp/tasks/tokens');
+const { enabled, path } = require('./gulp/config');
+const { updateTimestamp } = require('./gulp/helpers/update-timeStamp');
+const { cssTasks } = require('./gulp/tasks/css');
+const { jsTasks } = require('./gulp/tasks/js');
+const { tokensTasks } = require('./gulp/tasks/tokens');
 
 /**
  * Site config
@@ -162,7 +162,7 @@ gulp.task('styles', () => {
 
     // merge
     merged.add(
-      gulp.src(asset.globs, {base: 'styles'})
+      gulp.src(asset.globs, { base: 'styles' })
         .pipe(cssTasksInstance)
     );
   }
@@ -171,7 +171,7 @@ gulp.task('styles', () => {
       console.log(err.message);
     })
     .pipe(gulp.dest(path.styles.dist))
-    .pipe(gulpif(!argv.q, browsersync.stream({match: '**/*.css'})))
+    .pipe(gulpif(!argv.q, browsersync.stream({ match: '**/*.css' })))
 });
 
 /**
@@ -189,7 +189,7 @@ gulp.task('scripts', () => {
     const jsTasksInstance = jsTasks(asset.name);
     //merge
     merged.add(
-      gulp.src(asset.globs, {base: 'scripts'})
+      gulp.src(asset.globs, { base: 'scripts' })
         .pipe(jsTasksInstance)
     );
   }
@@ -198,7 +198,7 @@ gulp.task('scripts', () => {
       console.log(err.message);
     })
     .pipe(gulp.dest(path.scripts.dist))
-    .pipe(gulpif(!argv.q, browsersync.stream({match: '**/*.js'})));
+    .pipe(gulpif(!argv.q, browsersync.stream({ match: '**/*.js' })));
 });
 
 
@@ -222,7 +222,7 @@ gulp.task('images', async () => {
       imagemin.default({
         progressive: true,
         interlaced: true,
-        svgoPlugins: [{removeUnknownsAndDefaults: false}, {cleanupIDs: false}, {removeDimensions: true}]
+        svgoPlugins: [{ removeUnknownsAndDefaults: false }, { cleanupIDs: false }, { removeDimensions: true }]
       })
     )
 
@@ -251,14 +251,14 @@ gulp.task('svgstore', async () => {
   // Get names of icons in /assets/sprite/ directory for later name comparison
   await fs.promises.readdir(path.sprite.source).then(
     files => files.forEach(file => spriteSources.push(path.sprite.source + file)),
-    err => console.error({err})
+    err => console.error({ err })
   );
 
   await fs.promises.readdir(pluginPath).then(
     files => {
       files.forEach(file => spriteSources.push(pluginPath + file))
     },
-    err => console.error('svgPlugin error', {err})
+    err => console.error('svgPlugin error', { err })
   );
 
   // Add module sprites to spriteSources if icon with the same name is not found
@@ -297,7 +297,7 @@ gulp.task('svgstore', async () => {
   }
   return gulp.src(Object.keys(spriteFilenameReference))
     // rename SVG IDs by "icon-filename"
-    .pipe(rename({prefix: 'icon-'}))
+    .pipe(rename({ prefix: 'icon-' }))
     // optimize SVG
     .pipe(imagemin.default([
       imagemin.svgo({
@@ -315,7 +315,7 @@ gulp.task('svgstore', async () => {
             params: {
               currentColor: true
             }
-          }
+          },
         ]
       })
     ]))
@@ -409,8 +409,8 @@ gulp.task('watch', () => {
   });
 
   gulp.watch([
-      path.modules.source + '*',
-    ],
+    path.modules.source + '*',
+  ],
     gulp.task('default')
   )
 });
