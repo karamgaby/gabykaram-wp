@@ -42,7 +42,7 @@ class Component extends AbstractComponent
       ?>
       <div class="container">
         <div class="row site-footer__container">
-          <div class="col-24 col-lg-10 offset-lg-2 mb-3 mb-lg-0">
+          <div class="col-24 col-lg-10 mb-3 mb-lg-0">
             <div class="site-footer__about-section d-flex gap-3 align-items-center">
               <div class="site-footer__logo">
                 <?php
@@ -229,7 +229,41 @@ class Component extends AbstractComponent
 
 
       </div>
+      <div class="webring">
+        <div class="container">
+          <div class="webring__wrapper">
+            <p class="webring__title">A proud member of "Batata Harra" Webring</p>
+            <p class="webring__controls">
+              <a title="Visit georgesdib.io" aria-label="visit Georges Dib Dot Com" class="text-decoration-none p-1"
+                href="https://georgesdib.io">
+                <?php
+                Icon::render([
+                  'name' => 'chevron-left',
+                  'attr' => [
+                    'class' => 'icon-chevron-left'
+                  ]
+                ]);
+                ?>
+              </a>
+              <span title="webring" class="webring-icon">⭕</span>
+              <a title="Visit abouhanna.com" aria-label="visit Abou Hanna Dot Com" class="text-decoration-none p-1"
+                href="https://abouhanna.com">
+                <?php
+                Icon::render([
+                  'name' => 'chevron-right',
+                  'attr' => [
+                    'class' => 'icon-chevron-right'
+                  ]
+                ]);
+                ?>
+              </a>
+            </p>
+          </div>
+        </div>
+
+      </div>
     </footer>
+
     <?php
   }
 

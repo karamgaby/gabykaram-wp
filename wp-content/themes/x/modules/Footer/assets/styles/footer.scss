@@ -25,7 +25,6 @@
     display: flex;
     flex-direction: row;
     gap: getSpacing(2);
-    justify-content: space-between;
   }
   &__about {
     max-width: toRem(315);
@@ -87,5 +86,16 @@
       padding-right: getSpacing(6);
       padding-left: getSpacing(6);
     }
+  }
+}
+.webring {
+  margin-top: 60px;
+  &__wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  &__title {
+      @include ps-typography(h5);
   }
 }
