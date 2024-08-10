@@ -1,7 +1,7 @@
 {
   "typographies": {
     "h1": {
-      "fontFamily": "Outfit",
+      "fontFamily": "IBM Plex Sans",
       "fontSize": "4rem",
       "fontWeight": 700,
       "letterSpacing": "0.5px",
@@ -10,7 +10,7 @@
       "textDecoration": "none"
     },
     "h2": {
-      "fontFamily": "Outfit",
+      "fontFamily": "IBM Plex Sans",
       "fontSize": "4rem",
       "fontWeight": 600,
       "letterSpacing": "0.5px",
@@ -19,7 +19,7 @@
       "textDecoration": "none"
     },
     "h3": {
-      "fontFamily": "Outfit",
+      "fontFamily": "IBM Plex Sans",
       "fontSize": "3rem",
       "fontWeight": 600,
       "letterSpacing": "0.5px",
@@ -28,7 +28,7 @@
       "textDecoration": "none"
     },
     "h4": {
-      "fontFamily": "Outfit",
+      "fontFamily": "IBM Plex Sans",
       "fontSize": "2.25rem",
       "fontWeight": 700,
       "letterSpacing": "0.5px",
@@ -37,7 +37,7 @@
       "textDecoration": "none"
     },
     "h5": {
-      "fontFamily": "Outfit",
+      "fontFamily": "IBM Plex Sans",
       "fontSize": "1.5rem",
       "fontWeight": 700,
       "letterSpacing": "0.5px",
@@ -46,7 +46,7 @@
       "textDecoration": "none"
     },
     "subtitle-1": {
-      "fontFamily": "Outfit",
+      "fontFamily": "IBM Plex Sans",
       "fontSize": "1.5rem",
       "fontWeight": 400,
       "letterSpacing": "0.5px",
@@ -55,7 +55,7 @@
       "textDecoration": "none"
     },
     "subtitle-2": {
-      "fontFamily": "Outfit",
+      "fontFamily": "IBM Plex Sans",
       "fontSize": "1.125rem",
       "fontWeight": 600,
       "letterSpacing": "0.5px",
@@ -64,7 +64,7 @@
       "textDecoration": "none"
     },
     "body-1": {
-      "fontFamily": "Outfit",
+      "fontFamily": "IBM Plex Sans",
       "fontSize": "1rem",
       "fontWeight": 400,
       "letterSpacing": "0.5px",
@@ -73,7 +73,7 @@
       "textDecoration": "none"
     },
     "body-1-bold": {
-      "fontFamily": "Outfit",
+      "fontFamily": "IBM Plex Sans",
       "fontSize": "1rem",
       "fontWeight": 700,
       "letterSpacing": "0.15000000596046448px",
@@ -82,7 +82,7 @@
       "textDecoration": "none"
     },
     "body-2": {
-      "fontFamily": "Outfit",
+      "fontFamily": "IBM Plex Sans",
       "fontSize": "0.875rem",
       "fontWeight": 400,
       "letterSpacing": "0.5px",
@@ -91,7 +91,7 @@
       "textDecoration": "none"
     },
     "body-3": {
-      "fontFamily": "Outfit",
+      "fontFamily": "IBM Plex Sans",
       "fontSize": "0.875rem",
       "fontWeight": 600,
       "letterSpacing": "0.5px",
@@ -100,7 +100,7 @@
       "textDecoration": "none"
     },
     "paragraph": {
-      "fontFamily": "Outfit",
+      "fontFamily": "IBM Plex Sans",
       "fontSize": "1rem",
       "fontWeight": 400,
       "letterSpacing": "0.5px",
@@ -109,7 +109,7 @@
       "textDecoration": "none"
     },
     "button-standard": {
-      "fontFamily": "Outfit",
+      "fontFamily": "IBM Plex Sans",
       "fontSize": "1rem",
       "fontWeight": 600,
       "letterSpacing": "0.5px",
@@ -118,7 +118,7 @@
       "textDecoration": "none"
     },
     "button-medium": {
-      "fontFamily": "Outfit",
+      "fontFamily": "IBM Plex Sans",
       "fontSize": "0.875rem",
       "fontWeight": 500,
       "letterSpacing": "0.5px",
@@ -127,7 +127,7 @@
       "textDecoration": "none"
     },
     "link-lg": {
-      "fontFamily": "Outfit",
+      "fontFamily": "IBM Plex Sans",
       "fontSize": "1.5rem",
       "fontWeight": 500,
       "letterSpacing": "0.5px",
@@ -136,7 +136,7 @@
       "textDecoration": "underline"
     },
     "link": {
-      "fontFamily": "Outfit",
+      "fontFamily": "IBM Plex Sans",
       "fontSize": "1.5rem",
       "fontWeight": 500,
       "letterSpacing": "0.5px",
@@ -145,7 +145,7 @@
       "textDecoration": "underline"
     },
     "input-text": {
-      "fontFamily": "Outfit",
+      "fontFamily": "IBM Plex Sans",
       "fontSize": "0.875rem",
       "fontWeight": 400,
       "letterSpacing": "0.5px",
@@ -154,7 +154,7 @@
       "textDecoration": "none"
     },
     "input-label": {
-      "fontFamily": "Outfit",
+      "fontFamily": "IBM Plex Sans",
       "fontSize": "0.75rem",
       "fontWeight": 300,
       "letterSpacing": "0.5px",
@@ -163,7 +163,7 @@
       "textDecoration": "none"
     },
     "badge": {
-      "fontFamily": "Outfit",
+      "fontFamily": "IBM Plex Sans",
       "fontSize": "0.75rem",
       "fontWeight": 500,
       "letterSpacing": "0.5px",
@@ -172,7 +172,7 @@
       "textDecoration": "none"
     },
     "quote": {
-      "fontFamily": "Outfit",
+      "fontFamily": "IBM Plex Sans",
       "fontSize": "1.5rem",
       "fontWeight": 400,
       "letterSpacing": "0.5px",
