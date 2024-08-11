@@ -7,7 +7,16 @@
  html {
   -webkit-text-size-adjust: 100%;
 }
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
 
+html, body {
+  background-color: #ffffff;
+  height: auto;
+  min-height: 100vh;
+}
 
 // Remove the margin in all browsers.
 body {

@@ -25,11 +25,6 @@
 @import "../../modules/PostCard/assets/styles/style";
 @import "../../node_modules/@fancyapps/ui/dist/fancybox/fancybox";
 
-html, body {
-  width: 100%;
-  overflow-x: hidden;
-}
-
 @import "src/template-parts/common/page-hero-section";
 
 @import "src/template-parts/flexible-content/pictures_sliders_section";
@@ -73,10 +68,6 @@ body.page-template-template-flexible-content {
       padding-bottom: 3rem;
     }
   }
-}
-html, body {
-  background-color: #ffffff;
-  height: 100%;
 }
 #page {
   display: grid;
