@@ -43,22 +43,22 @@
 .x-menu-bar-slide-up {
   .x-menuBar {
     top: -100%;
-    animation: slideUp 1.2s forwards;
+    animation: slideUp 0.9s forwards;
   }
 }
 .x-menu-bar-slide-down {
   .x-menuBar {
-    top: calc(0px - 2 * var(--x-header-height));
+    top: calc(0px - 1 * var(--x-header-height));
     /*animation: slideDown 2s forwards;
     */
-    animation: slideUpReverse 1.2s linear forwards;
+    animation: slideUpReverse 0.9s linear forwards;
   }
 }
 .x-menuBar {
   position: relative;
   display: flex;
-  -webkit-animation: slide-top 1.2s reverse forwards;
-  animation: slide-top 1.2s reverse forwards;
+  -webkit-animation: slide-top 0.9s reverse forwards;
+  animation: slide-top 0.9s reverse forwards;
   .x-menuBar__desktop {
     display: flex;
     width: 100%;
@@ -85,7 +85,7 @@
 
 @keyframes slideUpReverse {
   from {
-      top: calc(0px - 2 * var(--x-header-height));
+      top: calc(0px - 1 * var(--x-header-height));
   }
   to {
       top: 0;
