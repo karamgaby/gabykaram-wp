@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       X UI Library
  * Description:       Core component system library
- * Version:           0.0.1
+ * Version:           0.2
  * Requires at least: 5.7
  * Requires PHP:      8.0
  * Author:            Gaby Karam
