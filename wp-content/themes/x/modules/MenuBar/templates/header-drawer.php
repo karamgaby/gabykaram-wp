@@ -2,7 +2,6 @@
 
 use X_UI\Core\AbstractComponent;
 use X_UI\Core\Menu;
-use X_Modules\MenuBar\Tokens;
 use X_UI\Modules\Buttons\Component as Button;
 if ( ! isset( $data ) ) {
   return;
@@ -10,7 +9,7 @@ if ( ! isset( $data ) ) {
 $menu_location = $data->menu_location;
 $menu_items = Menu::get_location_menu_items($menu_location);
 ?>
-<div class="x-header-drawer offcanvas-js offcanvas offcanvas-end" data-bs-custom-class="beautifier" tabindex="-1"
+<div class="x-header-drawer offcanvas-js offcanvas offcanvas-end" data-bs-custom-class="beautifier" tabindex="-1"  data-bs-scroll="true" data-bs-backdrop="false"
      id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
 
   <nav>

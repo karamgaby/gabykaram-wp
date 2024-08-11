@@ -4,6 +4,9 @@ $bg_color: map-get($x_drawer, 'bg_color');
 $shadow: map-get($x_drawer, 'shadow');
 $maxWidth: map-get($x_drawer, 'maxWidth');
 
+.offcanvas-backdrop.show {
+  background-color: transparent;
+}
 .offcanvas-backdrop.x-header-drawer-visible {
   background-color: transparent;
 }
@@ -20,7 +23,7 @@ $maxWidth: map-get($x_drawer, 'maxWidth');
     right: 0;
     width: max-content;
     max-height: calc(100vh - (var(--header-height) + 24px));
-    overflow-y: scroll;
+    overflow-y: auto;
   }
 }
 

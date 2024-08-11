@@ -2,15 +2,63 @@
  # Button block and X_Button component
 ========================================================================== */
 
-@import '../../../../assets/styles/utils.scss';
+@import "../../../../assets/styles/utils.scss";
 /* Component
 ----------------------------------------------- */
 
 @import "0.tokens/tokens";
-
-
+@keyframes slideInFromLeft {
+  0% {
+      transform: scale(0);
+      opacity: 0;
+  }
+  100% {
+      transform: scale(1);
+      opacity: 1;
+  }
+}
+@keyframes slide-top {
+  0% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+  }
+  50% {
+      -webkit-transform: translateY(-100%);
+      transform: translateY(-100%);
+  }
+  100% {
+      -webkit-transform: translateY(-100%);
+      transform: translateY(-100%);
+  }
+}
+.x-menu-bar-enable-sticky-header {
+  .x-menuBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+  }
+}
+.x-menu-bar-slide-up {
+  .x-menuBar {
+    top: -100%;
+    animation: slideUp 1.2s forwards;
+  }
+}
+.x-menu-bar-slide-down {
+  .x-menuBar {
+    top: calc(0px - 2 * var(--x-header-height));
+    /*animation: slideDown 2s forwards;
+    */
+    animation: slideUpReverse 1.2s linear forwards;
+  }
+}
 .x-menuBar {
+  position: relative;
   display: flex;
+  -webkit-animation: slide-top 1.2s reverse forwards;
+  animation: slide-top 1.2s reverse forwards;
   .x-menuBar__desktop {
     display: flex;
     width: 100%;
@@ -34,3 +82,42 @@
 @import "desktopMenuBar";
 @import "mobileMenuBar";
 @import "headerDrawer";
+
+@keyframes slideUpReverse {
+  from {
+      top: calc(0px - 2 * var(--x-header-height));
+  }
+  to {
+      top: 0;
+  }
+}
+@keyframes slideUp {
+  0% {
+      background: transparent;
+      top: 0;
+  }
+  25% {
+      top: -20%;
+  }
+  50% {
+      top: -40%;
+  }
+  75% {
+      top: -60%;
+  }
+  100% {
+      background: transparent;
+      top: -100%;
+  }
+}
+@keyframes shrink {
+  0% {
+      transform: scale(1);
+  }
+  65% {
+      transform: scale(0.75);
+  }
+  100% {
+      transform: scale(1);
+  }
+}
