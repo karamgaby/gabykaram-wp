@@ -1,6 +1,6 @@
 <?php
 "use strict";
-
+use X_Modules\VideoPlyr\Component as VideoPlyrComponent;
 if (!isset($args)) {
     return;
 }
@@ -11,8 +11,6 @@ $content = $args['content'];
 $icons = $args['icons'];
 $video_cover_image = $args['video_cover_image'];
 $youtube_video_url = $args['youtube_video_url'];
-preg_match('/src="(.+?)"/', $youtube_video_url, $matches);
-$video_src = $matches[1];
 $attr = wp_parse_args(
     $args['attr'],
     array(
@@ -52,7 +50,7 @@ unset($attr['class']);
                                     ]
                                 )
                                     ?>
-                                <div class="icon-title x-typography-subtitle-1">
+                                <div class="icon-title x-typography-quote x-typography-lg-subtitle-2">
                                     <?php echo $icon_content ?>
                                 </div>
                             </div>
@@ -71,14 +69,15 @@ unset($attr['class']);
                 <hr class="icons-slider-with-video-section__separator">
             </div>
             <div class="col-24">
-            <div class="video-section">
-                    <a data-fancybox href="<?= $video_src; ?>" class="m-auto">
-                        <div class="video-overlay">
-                            <img class="video-overlay-cover w-100 b-lazy" src="<?= $video_cover_image['url'] ?>"
-                                alt="<?= $video_cover_image['alt'] ?>" title="<?= $video_cover_image['title'] ?>">
-                        </div>
-                    </a>
+                <div class="video-section">
+                    <?php
+                    VideoPlyrComponent::render([
+                        'video_src' => $youtube_video_url,
+                        'cover_image' => $video_cover_image,
+                    ]);
+                    ?>
                 </div>
+
             </div>
         </div>
     </div>

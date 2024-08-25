@@ -12,7 +12,6 @@ $title = $data->title;
 $subtitle = $data->subtitle;
 $contact_list = $data->contact_list;
 $cf7_id = $data->cf7_id;
-//var_dump($data);
 $attr = $data->attr;
 $classes = $attr['class'];
 unset($attr['class']);

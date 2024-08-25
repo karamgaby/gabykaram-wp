@@ -74,7 +74,7 @@ if (have_rows('flexible_content')):
     if ($row_layout === 'video_cta') {
       $args['show_video_on_top_on_mobile'] = get_sub_field('show_video_on_top_on_mobile');
       $args['video_cover_image'] = get_sub_field('video_cover_image');
-      $args['youtube_video_url'] = get_sub_field('youtube_video_url');
+      $args['youtube_video_url'] = get_sub_field('youtube_video_url', false);
       $args['content'] = get_sub_field('content');
       $args['content_color'] = get_sub_field('content_color');
       $args['bold_content_color'] = get_sub_field('bold_content_color');
@@ -129,7 +129,7 @@ if (have_rows('flexible_content')):
       $args['title_first_part'] = get_sub_field('title_first_part');
       $args['title_second_part'] = get_sub_field('title_second_part');
       $args['content'] = get_sub_field('content');
-      $args['youtube_video_url'] = get_sub_field('youtube_video_url');
+      $args['youtube_video_url'] = get_sub_field('youtube_video_url', false);
       $args['video_cover_image'] = get_sub_field('video_cover_image');
       $args['icons'] = get_sub_field('icons');
     }

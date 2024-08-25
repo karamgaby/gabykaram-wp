@@ -2,7 +2,10 @@
   .pictures-slides {
     padding-top: 4px;
     padding-bottom: 4px;
-    width: calc(100% + 50 * var(--container-padding));
+    width: 100%;
+    max-width: 100vw;
+    position: relative;
+    overflow: visible;
     position: relative;
     &:not(.swiper-initialized) {
       .swiper-wrapper {
@@ -13,8 +16,25 @@
     .picture-slide {
       width: max-content;
     }
-    .space-slide {
-      width: var(--container-padding);
+    .pictures-slider-button-prev {
+      position: absolute;
+      z-index: 10;
+      left: 0;
+      top: 48px;
+    }
+    .pictures-slider-button-next {
+      position: absolute;
+      z-index: 10;
+      right: 0;
+      top: 48px;
+    }
+    @include media-breakpoint-down(md) {
+      .pictures-slider-button-prev {
+        top: 24px;
+      }
+      .pictures-slider-button-next {
+        top: 24px;
+      }
     }
   }
 }

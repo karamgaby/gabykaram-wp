@@ -1,0 +1,7 @@
+.coworking-products-section {
+    @include media-breakpoint-greater(md) {
+        &__cta {
+            max-width: 328px;
+        }
+    }
+}

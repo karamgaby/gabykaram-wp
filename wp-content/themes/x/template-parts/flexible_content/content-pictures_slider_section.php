@@ -1,6 +1,7 @@
 <?php
 "use strict";
 use X_Modules\PictureCards\Component as PictureCards;
+use X_UI\Modules\Buttons\Component as Button;
 
 if (!isset($args)) {
   return;
@@ -12,9 +13,11 @@ $pictures = $args['pictures'];
 $has_button_on_mobile = $args['has_button_on_mobile'] ?? false;
 $button_link_plus_text = $args['button_link_plus_text'] ?? null;
 $switch_image_on_top_on_mobile = $args['switch_image_on_top_on_mobile'] ?? false;
-$attr = wp_parse_args($args['attr'], array(
-  'class' => [],
-)
+$attr = wp_parse_args(
+  $args['attr'],
+  array(
+    'class' => [],
+  )
 );
 $class = $attr['class'];
 unset($attr['class']);
@@ -41,12 +44,8 @@ unset($attr['class']);
         endif;
         ?>
       </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row">
       <div class="col-24 <?= $switch_image_on_top_on_mobile ? 'order-1 order-md-2' : '' ?>">
-        <div class="pictures-slides swiper <?= !$switch_image_on_top_on_mobile ? 'mt-3 ' : 'mt-md-6' ?>">
+        <div class="pictures-slides swiper <?= !$switch_image_on_top_on_mobile ? 'mt-3 mt-md-6 ' : 'mt-md-6' ?>">
           <div class="swiper-wrapper">
             <?php
             foreach ($pictures as $picture):
@@ -64,7 +63,8 @@ unset($attr['class']);
                     'attr' => [
                       'class' => 'd-none d-md-flex'
                     ]
-                  ));
+                  )
+                );
 
                 PictureCards::render(
                   array(
@@ -75,17 +75,43 @@ unset($attr['class']);
                     'attr' => [
                       'class' => 'd-flex d-md-none'
                     ]
-                  ));
+                  )
+                );
                 ?>
               </div>
 
               <?php
             endforeach;
             ?>
-            <div class="space-slide swiper-slide">
-            </div>
           </div>
+          <?php
+          Button::render(
+            array(
+              'title' => 'Previous',
+              'style' => 'icon-only',
+              'as' => 'button',
+              'icon' => 'arrow-left',
+              'has_icon' => 'only',
+              'attr' => [
+                'class' => 'pictures-slider-button-prev'
+              ]
+            )
+          );
 
+          Button::render(
+            array(
+              'title' => 'Next',
+              'style' => 'icon-only',
+              'as' => 'button',
+              'icon' => 'arrow-right',
+              'has_icon' => 'only',
+              'attr' => [
+                'class' => 'pictures-slider-button-next'
+              ]
+            )
+          );
+
+          ?>
         </div>
       </div>
     </div>

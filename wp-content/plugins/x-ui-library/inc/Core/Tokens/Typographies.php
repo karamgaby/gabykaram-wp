@@ -122,7 +122,7 @@ class Typographies extends AbstractTokens {
                 "fontWeight" => "600",
                 "letterSpacing" => "0.5px",
                 "lineHeight" => "100%",
-                "textTransform" => "none",
+                "textTransform" => "capitalize",
                 "textDecoration" => "none",
             ],
             "button-medium" => [
@@ -131,7 +131,7 @@ class Typographies extends AbstractTokens {
                 "fontWeight" => "500",
                 "letterSpacing" => "0.5px",
                 "lineHeight" => "100%",
-                "textTransform" => "none",
+                "textTransform" => "capitalize",
                 "textDecoration" => "none",
             ],
             "link-lg" => [

@@ -12,7 +12,7 @@
         text-align: center;
     }
     &__content {
-        @include ps-typography(subtitle-1);
+        @include ps-typography(quote);
         color: getColor(black-900);
         text-align: center;
     }
@@ -48,6 +48,7 @@
         }
         &__content {
             text-align: left;
+            @include ps-typography(body-1);
         }
         .video-section {
             margin: 0;

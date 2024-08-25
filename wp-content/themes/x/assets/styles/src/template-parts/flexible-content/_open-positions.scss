@@ -8,17 +8,17 @@
         @include ps-typography(h3);
         color: getColor(mate-black-500);
     }
-    &__position-type__title {
-        @include ps-typography(h4);
-        color: getColor(medium-turquoise-600);
-        strong {
-            color: getColor(orange-700);
-        }
-    }
     &__position-type {
         display: flex;
         flex-direction: column;
         gap: getSpacing(3);
+        &__title {
+            @include ps-typography(h4);
+            color: getColor(medium-turquoise-600);
+            strong {
+                color: getColor(orange-700);
+            }
+        }
     }
     &__positions {
         display: flex;
@@ -95,6 +95,13 @@
         }
         &__title {
             @include ps-typography(h4);
+        }
+
+        &__position-type {
+            &__title {
+                @include ps-typography(h5);
+                text-align: center;
+            }
         }
     }
 }

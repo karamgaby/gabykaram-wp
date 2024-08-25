@@ -45,7 +45,7 @@ const cssTasks = (filename) => {
     // minify
     .pipe(cleancss, {})
     // build sourcemaps
-    .pipe(function() {
+    .pipe(function () {
       return gulpif(enabled.maps, sourcemaps.write('.', {
         sourceRoot: path.styles.source
       }));

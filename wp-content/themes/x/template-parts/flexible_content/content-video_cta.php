@@ -1,6 +1,7 @@
 <?php
 "use strict";
 use X_UI\Core\Tokens\Colors;
+use X_Modules\VideoPlyr\Component as VideoPlyrComponent;
 
 $colorsTokens = Colors::getInstance();
 $colors = $colorsTokens->getMeta('colors');
@@ -17,8 +18,6 @@ $args = wp_parse_args(
 $show_video_on_top_on_mobile = isset($args['show_video_on_top_on_mobile']) ? $args['show_video_on_top_on_mobile']: false;
 $video_cover_image = $args['video_cover_image'];
 $youtube_video_url = $args['youtube_video_url'];
-preg_match('/src="(.+?)"/', $youtube_video_url, $matches);
-$video_src = $matches[1];
 $content = $args['content'];
 $content_color = $args['content_color'];
 $bold_content_color = $args['bold_content_color'];
@@ -42,12 +41,12 @@ unset($attr['class']);
         <div class="row gy-3 ">
             <div class="col-24 col-md-14 <?= $show_video_on_top_on_mobile ? '' : 'order-1 order-md-0'; ?>">
                 <div class="video-section">
-                    <a data-fancybox href="<?= $video_src; ?>" class="m-auto">
-                        <div class="video-overlay">
-                            <img class="video-overlay-cover b-lazy" src="<?= $video_cover_image['url'] ?>"
-                                alt="<?= $video_cover_image['alt'] ?>" title="<?= $video_cover_image['title'] ?>">
-                        </div>
-                    </a>
+                    <?php
+                    VideoPlyrComponent::render([
+                        'video_src' => $youtube_video_url,
+                        'cover_image' => $video_cover_image,
+                    ]);
+                    ?>
                 </div>
             </div>
             <div class="col-24 col-md-10">

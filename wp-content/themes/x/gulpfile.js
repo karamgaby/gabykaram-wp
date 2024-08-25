@@ -379,7 +379,6 @@ gulp.task('watch', () => {
         whitelist: ['/wp-admin/admin-ajax.php'],
         blacklist: ['/wp-admin/**']
       },
-      open: 'local'
     });
   }
 

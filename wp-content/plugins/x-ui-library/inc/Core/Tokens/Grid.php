@@ -47,7 +47,7 @@ class Grid extends AbstractTokens {
                 "gutter" => "48px",
                 "margin" => "320px",
                 "baseFontSize" => "24px",
-                "maxWidth" => "2400px",
+                "maxWidth" => "1920px",
             ],
         ],
         "spacing" => [

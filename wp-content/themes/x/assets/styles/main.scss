@@ -10,6 +10,7 @@
 ----------------------------------------------- */
 
 @import "libraries/swiper-bundle.min";
+@import "libraries/fancybox";
 @import "../../../../plugins/x-ui-library/assets/styles/src/1.design-system/index";
 @import "../../../../plugins/x-ui-library/assets/styles/src/3.library/bootstrap/bootstrap";
 @import "../../../../plugins/x-ui-library/modules/svg/assets/styles/svg";
@@ -22,9 +23,8 @@
 @import "../../modules/PictureCards/assets/styles/style";
 @import "../../modules/Products/assets/styles/room-card";
 @import "../../modules/Products/assets/styles/coworking-card";
+@import "../../modules/VideoPlyr/assets/styles/styles";
 @import "../../modules/PostCard/assets/styles/style";
-@import "../../node_modules/@fancyapps/ui/dist/fancybox/fancybox";
-
 @import "src/template-parts/common/page-hero-section";
 
 @import "src/template-parts/flexible-content/pictures_sliders_section";
@@ -45,7 +45,7 @@
 @import "src/template-parts/flexible-content/icons_slider_with_video";
 @import "src/template-parts/flexible-content/open-positions";
 @import "src/template-parts/flexible-content/youtube-card-modal";
-
+@import "src/template-parts/flexible-content/coworking-products-section";
 
 @import "src/template-parts/posts-archive/content-intro-section";
 @import "src/template-parts/posts-archive/content-search-bar";
@@ -68,6 +68,14 @@ body.page-template-template-flexible-content {
       padding-bottom: 3rem;
     }
   }
+}
+// @todo move this out of here
+html, body {
+  background-color: #ffffff;
+  min-height: 100vh;
+  height: auto;
+  width: 100%;
+  overflow-x: hidden;
 }
 #page {
   display: grid;

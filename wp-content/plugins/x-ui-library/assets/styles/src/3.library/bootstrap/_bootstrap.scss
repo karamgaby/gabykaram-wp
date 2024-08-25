@@ -73,13 +73,15 @@
       @include media-breakpoint-up($breakpoint) {
         $margin: map-get($map, margin);
         .container {
+          --container-max-width: calc(100vw);
           max-width: calc(100vw);
         }
       }
     } @else {
       @include media-breakpoint-up($breakpoint) {
         .container {
-          max-width: min($max-width, 100vw);
+          --container-max-width: min(#{$max-width}, 100vw);
+          max-width: min(#{$max-width}, 100vw);
         }
       }
     }

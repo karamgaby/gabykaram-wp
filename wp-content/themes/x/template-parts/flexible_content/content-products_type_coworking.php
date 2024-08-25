@@ -31,10 +31,10 @@ unset($attr['class']);
 <section class="coworking-products-section <?= implode(' ', $class) ?>" <?php \X_UI\Core\AbstractComponent::render_attributes($attr); ?>>
     <div class="container">
         <div class="row row-gap-3">
-            <div class="col-24 col-md-12">
-                <div class="row row row-gap-3">
+            <div class="col-24 col-md-12 order-1 order-md-0">
+                <div class="row row-gap-3">
                     <?php foreach ($products as $product_id): ?>
-                        <div class="col-24 col-md-12">
+                        <div class="col-24 col-lg-12">
                             <?php
                             $featured_image_id = get_post_thumbnail_id($product_id);
                             if (empty($featured_image_id)) {
@@ -69,7 +69,7 @@ unset($attr['class']);
                     <?php endforeach; ?>
                 </div>
             </div>
-            <div class="col-24 col-md-10 offset-md-2">
+            <div class="col-24 col-md-10 offset-md-2 order-0 order-md-1 d-flex justify-content-center">
                 <div class="d-flex flex-column justify-content-center gap-3">
                     <h2 class="x-typography-h4 x-typography-md-h2 "><?= $title ?></h2>
                     <div class="x-typography-body-1 x-typography-md-subtitle-1 "><?= $content ?></div>
@@ -83,7 +83,7 @@ unset($attr['class']);
                                 'style' => 'primary-standard',
                                 'as' => 'a',
                                 'attr' => [
-                                    'class' => ''
+                                    'class' => 'w-100'
                                 ]
                             )
                         );

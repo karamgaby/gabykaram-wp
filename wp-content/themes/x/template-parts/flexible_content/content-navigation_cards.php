@@ -52,7 +52,7 @@ $typeMap = [
 <section class="navigation-cards-section <?= implode(' ', $class) ?>" <?php AbstractComponent::render_attributes($attr); ?>>
     <div class="container">
         <div class="row gap-3 gap-md-5 justify-content-center">
-            <div class="col-24 col-lg-14">
+            <div class="col-24 col-lg-12">
                 <h2 class="navigation-cards-section__title"><?= $title ?></h2>
             </div>
             <div class="col-24">

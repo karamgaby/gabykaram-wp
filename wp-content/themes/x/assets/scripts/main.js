@@ -58,6 +58,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
         centerInsufficientSlides: true,
         grabCursor: true,
         loop: true,
+        autoplay: {
+          delay: 4000,
+          disableOnInteraction: true,
+        },
         longSwipes: false,
       });
       window.addEventListener('resize', function () {
@@ -78,13 +82,14 @@ document.addEventListener('DOMContentLoaded', (event) => {
         speed: 1200,
         centerInsufficientSlides: true,
         grabCursor: true,
+        // slidesOffsetAfter: remToPx(30),
         autoplay: {
           // delay: 0.1,
           delay: 1200,
           disableOnInteraction: true,
           waitForTransition: true,
 
-        },
+        }
       });
       window.addEventListener('resize', function () {
         swiper.params.spaceBetween = remToPx(1.5);
@@ -99,8 +104,19 @@ document.addEventListener('DOMContentLoaded', (event) => {
         spaceBetween: remToPx(1),
         freeMode: true,
         grabCursor: true,
-        loop: true,
-        longSwipes: false,
+        // loop: true,
+        // rewind: true,
+        // loopAdditionalSlides: 100,
+        longSwipes: true,
+        autoplay: {
+          delay: 4000,
+          disableOnInteraction: true,
+        },
+        navigation: {
+          enabled: true,
+          prevEl: '.pictures-slider-button-prev',
+          nextEl: '.pictures-slider-button-next',
+        }
       });
 
       window.addEventListener('resize', function () {

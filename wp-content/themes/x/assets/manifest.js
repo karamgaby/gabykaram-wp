@@ -7,7 +7,7 @@ module.exports = {
   /**
    * URL for BrowserSync to mirror
    */
-  devUrl: () => "http://gabykaram.local/",
+  devUrl: () => "https://gabykaram.local",
 
   /**
    * JS files
@@ -38,12 +38,14 @@ module.exports = {
 
         // vanilla js version of fitvids, that makes iframe videos responsice (https://www.npmjs.com/package/fitvids)
         "node_modules/fitvids/dist/fitvids.min.js",
-        "node_modules/@fancyapps/ui/dist/fancybox/fancybox.umd.js",
+        // "node_modules/@fancyapps/ui/dist/fancybox/fancybox.umd.js",
+        "assets/scripts/lib/fancybox.js",
 
         // project specific js
         // "assets/scripts/lib/in-viewport.js",
         "assets/scripts/lib/blocks.js",
         "assets/scripts/lib/swiper.min.js",
+        "modules/VideoPlyr/assets/scripts/video.js",
         "modules/MenuBar/assets/scripts/menu.js",
         "assets/scripts/main.js"
 
@@ -54,6 +56,9 @@ module.exports = {
 
         "assets/scripts/editor-gutenberg.js"
 
+      ],
+      "plyr.polyfilled.js": [
+        "modules/VideoPlyr/assets/scripts/lib/plyr.js",
       ]
 
     }
@@ -94,7 +99,9 @@ module.exports = {
       "main.css": [
         "assets/styles/main.scss"
       ],
-
+      "plyr.css": [
+        "modules/VideoPlyr/assets/styles/lib/plyr.min.css"
+      ],
       "editor-gutenberg.css": [
         "assets/styles/editor-gutenberg.scss"
       ],

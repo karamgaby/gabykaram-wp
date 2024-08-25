@@ -31,7 +31,6 @@ div#wpcal_user_app.narrow {
             }
           }
         }
-
       }
       .event-type-duration {
         display: flex;
@@ -71,12 +70,12 @@ div#wpcal_user_app.narrow {
   }
 }
 
-div#wpcal_user_app.extended, div#wpcal_user_app.wide {
+div#wpcal_user_app.extended,
+div#wpcal_user_app.wide {
   > div {
     width: 100%;
   }
   #wpcal-widget .widget-main {
-
     &.state-form {
       .event-preset-cont {
         width: 40%;
@@ -109,7 +108,6 @@ div#wpcal_user_app.extended, div#wpcal_user_app.wide {
       .event-preset-cont {
         width: 40%;
         padding: 3rem 1.5rem 3rem 3rem;
-
       }
       .event-time-col-cont {
         width: 40%;
@@ -126,11 +124,9 @@ div#wpcal_user_app.extended, div#wpcal_user_app.wide {
         .event-preset-cont {
           width: 100%;
           padding: 3rem 1.5rem 0 3rem;
-
         }
         .event-time-col-cont {
           width: 40%;
-
         }
         .event-date-col {
           width: 60%;
@@ -160,7 +156,6 @@ div#wpcal_user_app {
     * {
       font-family: inherit !important;
     }
-
 
     .event-type-name {
       @include ps-typography(h5);
@@ -233,7 +228,6 @@ div#wpcal_user_app {
               background-color: getColor(mate-black-400);
               color: getColor(white-white-50);
               width: 100%;
-
             }
             button {
               color: getColor(white-white-50);
@@ -284,7 +278,6 @@ div#wpcal_user_app {
         .vc-weeks {
           padding: 0;
           .vc-grid-cell:first-child {
-
           }
         }
         .vc-highlights + .vc-day-content {
@@ -383,6 +376,101 @@ div#wpcal_user_app {
       }
     }
   }
-
 }
+div#wpcal_user_app {
+  #wpcal-widget .widget-main.state-confirmation .confimation-confirmed {
+    color: getColor(medium-turquoise-500);
+  }
+  #wpcal-widget .widget-main.state-form .event-form .confirmed-timing {
+    color: getColor(mate-black-800);
+  }
+  #wpcal-widget button.wpc-btn.primary,
+  button.wpc-btn.primary {
+    background-color: getColor(medium-turquoise-500);
+    @include ps-typography(button-standard);
+    color: getColor(mate-black-800);
+    border-radius: 12px;
+    &:hover {
+      background-color: getColor(medium-turquoise-400);
+    }
+    &:disabled {
+      background-color: getColor(white-grey-300);
+      color: getColor(mate-black-200);
+    }
+  }
+  #wpcal-widget .event-form .wpc-form .wpc-form-row label.wpc-label {
+    @include ps-typography(input-text);
+    padding: 0;
+    margin-bottom: toRem(8);
+  }
+  #wpcal-widget .widget-main.state-form,
+  #wpcal-widget .scheduled-invitee-trial form {
+    .wpc-form-row {
+      margin-bottom: toRem(16);
+      textarea,
+      input[type="tel"],
+      input[type="text"],
+      input[type="email"] {
+        border: none !important;
+        outline: getColor(mate-black-400) solid 0.125rem !important;
+        outline-offset: -0.125rem !important;
+        border-radius: 8px !important;
+        color: getColor(mate-black-400) !important;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+        min-height: 40px;
+        width: -webkit-fill-available;
+        background-color: transparent;
+        @include ps-typography(input-text);
+        &::placeholder {
+          color: getColor(mate-black-400) !important;
+        }
+        &:focus,
+        &:focus-visible {
+          outline-color: getColor(orange-700) !important;
+        }
+        &:not(:empty):not(:focus):not(:focus-visible):not(:disabled) {
+          outline-color: getColor(orange-700) !important;
+        }
+        &:disabled {
+          color: getColor(mate-black-200) !important;
+          outline-color: getColor(mate-black-200) !important;
+          &::placeholder {
+            color: getColor(mate-black-200) !important;
+          }
+        }
+      }
+      .wpc-form-error-msg {
+        display: none !important;
+        @include ps-typography(input-text);
+      }
+      &.has-error {
+        textarea,
+        input[type="tel"],
+        input[type="text"],
+        input[type="email"] {
+          &::placeholder,
+          &:not(:placeholder-shown):not(:focus):not(:focus-visible):not(:disabled),
+          &:disabled {
+            outline-color: getColor(system-error) !important;
+          }
+          outline-color: getColor(system-error) !important;
+        }
+        .wpc-form-error-msg {
+          display: flex !important;
+          color: getColor(system-error) !important;
+          padding-top: 4px;
+        }
+      }
+    }
+  }
 
+  #wpcal-widget .widget-main.state-form input[type="email"],
+  #wpcal-widget .widget-main.state-form input[type="tel"],
+  #wpcal-widget .widget-main.state-form input[type="text"],
+  #wpcal-widget .widget-main.state-form textarea,
+  #wpcal_user_app textarea {
+  }
+}

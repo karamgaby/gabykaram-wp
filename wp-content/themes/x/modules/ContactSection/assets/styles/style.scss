@@ -3,7 +3,7 @@
     position: relative;
     border-radius: 1rem;
     overflow: hidden;
-    min-height: 320px;
+    min-height: toRem(320);
     &--full-height {
       height: 100%;
     }

@@ -7,6 +7,8 @@
     padding: getSpacing(3);
     border-radius: getBorderRadius(3);
     overflow: hidden;
+    background: getColor(white-grey-100);
+    min-width: toRem(280);
     &--style-outdoor {
         &__content {
             padding-top: toRem(16);

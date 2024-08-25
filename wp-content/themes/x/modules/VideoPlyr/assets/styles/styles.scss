@@ -1,0 +1,78 @@
+.x-video-plyr {
+    cursor: pointer;
+}
+.x-video-fancybox-container.fancybox__container {
+    z-index: 9999999;
+    .carousel__button.is-close {
+        background-color: getColor(white-white-50);
+        border-radius: 50%;
+        overflow: hidden;
+        display: flex;
+        border: 0;
+        padding: 12px;
+        width: auto;
+        height: auto;
+        top: -64px;
+        color: getColor(black-900);
+        svg {
+            filter: inherit;
+        }
+    }
+
+    .fancybox__content {
+        padding: 0 !important;
+        background-color: transparent !important;
+        .container {
+            padding: 0 !important;
+            max-height: 100%;
+            .plyr {
+                height: 100%;
+                --plyr-control-spacing: 16px;
+                --plyr-range-thumb-active-shadow-width: 4px;
+                --plyr-range-thumb-height: 24px;
+                .plyr__controls {
+                    container-type: inline-size;
+                    container-name: videoPlyr;
+                    .plyr__controls__item {
+                        margin-left: 24px;
+                        padding-left: 8px;
+                        &.plyr__control {
+                            padding: 12px;
+                        }
+                        &.plyr__volume {
+                            min-width: 160px;
+                        }
+                        &.plyr__time {
+                            min-height: 32px;
+                            display: flex;
+                            align-items: center;
+                        }
+                        .plyr__progress__buffer {
+                        }
+                        svg {
+                            width: 20px;
+                            height: 20px;
+                        }
+                    }
+
+                    @container videoPlyr (width < 700px) {
+                        .plyr__volume {
+                            display: none;
+                        }
+                    }
+                    @container videoPlyr (width < 500px) {
+                        .plyr__time {
+                            display: none;
+                        }
+                        .plyr__menu {
+                            display: none;
+                        }
+                        .plyr__progress__container {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
