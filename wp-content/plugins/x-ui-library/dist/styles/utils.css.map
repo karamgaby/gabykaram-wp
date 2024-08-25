@@ -1,1 +1,1 @@
-{"version":3,"sources":["../assets/styles/utils.scss"],"names":[],"mappings":"AAAA;iDAAA","file":"utils.css","sourcesContent":["/* Utils\n----------------------------------------------- */\n\n//@import \"src/utils/env\";\n//@import \"src/utils/mixins\";\n"],"sourceRoot":"assets/styles/"}
+{"version":3,"sources":[],"names":[],"mappings":"","file":"utils.css","sourcesContent":[],"sourceRoot":"assets/styles/"}
